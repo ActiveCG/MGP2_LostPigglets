@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" SchemaVersion="72">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test_Event" ID="{D6E1D1AF-BDB8-4F83-BA34-F9CEAEF790FC}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6A4B6EEC-668B-4B2E-9FB9-C31BD1050ED9}" ShortID="232032923" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E75BAFD9-EF7F-4630-8614-97C2A9D2EEEF}" Global="false">
+									<ObjectRef Name="Wooden Staff" ID="{3B849615-06B0-441D-9759-8912003295F8}" WorkUnitID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
