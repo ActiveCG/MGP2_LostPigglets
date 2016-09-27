@@ -10,21 +10,17 @@ public class ProjectBuilder {
 	//static string path = "C:/Builds";
 
 	static string APP_NAME = "LostPigglets";
-	static string TARGET_DIR = "C:/Users/dadiu/Google Drive/QA - MGP II/MGP2Builds";
+	static string baseFolder = "C:/Users/dadiu/Google Drive/QA - MGP II/MGP2Builds";
+	string buildFolder = System.DateTime.Now.ToString ("dd-MM-yy HH.mm.ss");
 
 
 	public static void BuildProject(){
-		performAndroidBuild ();
-		//string[] scenes = FindEnabledEditorScenes(); //["Scenes/Lake Scene.unity", "Scenes/game over.unity", "Scenes/you win.unity"];
-		//Directory.CreateDirectory(path);
-		//string BuildFolder = System.Diagnostics.Process.Start (Directory.GetCurrentDirectory() + "/" + BuildFolder + "/");
-	}
-
-	static void performAndroidBuild(){
-		//Set the path to the Android SDK on the machine, since Unity cannot retain the state properly
-		//AndroidSDKFolder.Path = "${ANDROID_HOME}";
-		string target_dir = APP_NAME + ".apk";
-		GenericBuild(SCENES, TARGET_DIR + "/" + target_dir, BuildTarget.Android,BuildOptions.None);
+		Directory.CreateDirectory(baseFolder + "/" + buildFolder);
+		//build apk
+		string target_dir = buildFolder + "/" + APP_NAME + ".apk";
+		GenericBuild(SCENES, baseFolder + "/" + target_dir, BuildTarget.Android,BuildOptions.None);
+		//copy unity's log file
+		FileUtil.CopyFileOrDirectory("C:/Users/dadiu/AppData/Local/Unity/Editor/Editor.log", baseFolder + "/" + buildFolder + "/log.txt");
 	}
 
 
