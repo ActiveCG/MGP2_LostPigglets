@@ -6,9 +6,13 @@ public class CameraScript : MonoBehaviour
 
     //Variable for the player
     //We need this so that the camera knows where the player is
-    public Transform player;
+    Transform player;
     public Vector3 cameraOffset;
 
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+    }
 
     // Update is called once per frame
     void Update()
