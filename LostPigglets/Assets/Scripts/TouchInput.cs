@@ -8,9 +8,13 @@ public class TouchInput : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.touchCount > 0) 
-		{
-			move (Input.GetTouch (0).position);
-		}
+
+        if (move != null)
+        {
+            if (Input.touchCount > 0)
+            {
+                move(Input.GetTouch(0).position);
+            }
+        }
 	}
 }
