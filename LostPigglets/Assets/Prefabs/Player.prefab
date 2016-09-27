@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010072814946}
   - 33: {fileID: 33000011453154360}
-  - 65: {fileID: 65000012049676900}
   - 23: {fileID: 23000013577792400}
   m_Layer: 0
   m_Name: eye
@@ -44,6 +43,7 @@ GameObject:
   - 114: {fileID: 114000013917236404}
   - 114: {fileID: 114000011334071340}
   - 54: {fileID: 54000013363042432}
+  - 114: {fileID: 114000014215944228}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -60,7 +60,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010977993876}
   - 33: {fileID: 33000010228174920}
-  - 65: {fileID: 65000012874127322}
   - 23: {fileID: 23000011388157332}
   m_Layer: 0
   m_Name: eye
@@ -102,8 +101,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013944407680}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 16.01, y: 0.38, z: -10.62}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000010072814946}
@@ -233,30 +232,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65000012049676900
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012772379528}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65000012874127322
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014115933666}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65000012927560430
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -321,3 +296,14 @@ MonoBehaviour:
   isEnvironmentAware: 1
   listenerMask: 1
   isStaticObject: 0
+--- !u!114 &114000014215944228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013944407680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40566536dffd18f4789f03903d95dbe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
