@@ -13,6 +13,7 @@ public class MonsterDestroying : MonoBehaviour {
     void Destroy()
     {
         gameObject.SetActive(false);
+        gameObject.transform.SetParent(SpawnEnemies.current.poolParent.transform);
     }
 
     void OnDisable()

@@ -255,12 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68ea1ce95d448945a9efdda2980c803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPlaces:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  spawnPlaces: []
   pooledAmount: 4
 --- !u!114 &114000013885245646
 MonoBehaviour:
