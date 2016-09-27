@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012920314196}
+  - 114: {fileID: 114000011613683324}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -194,6 +195,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129779e130a82df4fa19d425cc26f957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114000011613683324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010267975110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c13b3b8b2599d43a8c7b5d1ecd16e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 62a8098dc248cb4bac25386730d99496
+  bankName: Main
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!114 &114000013885245646
 MonoBehaviour:
   m_ObjectHideFlags: 1
