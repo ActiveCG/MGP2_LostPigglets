@@ -174,6 +174,31 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc055808086c4f4428f0e86083534221, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &640204190 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000013574000410, guid: cc055808086c4f4428f0e86083534221,
+    type: 2}
+  m_PrefabInternal: {fileID: 640204189}
+--- !u!4 &640204191 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000012795631956, guid: cc055808086c4f4428f0e86083534221,
+    type: 2}
+  m_PrefabInternal: {fileID: 640204189}
+--- !u!4 &640204192 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000012449693216, guid: cc055808086c4f4428f0e86083534221,
+    type: 2}
+  m_PrefabInternal: {fileID: 640204189}
+--- !u!4 &640204193 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000010234812580, guid: cc055808086c4f4428f0e86083534221,
+    type: 2}
+  m_PrefabInternal: {fileID: 640204189}
+--- !u!4 &640204194 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000013152097262, guid: cc055808086c4f4428f0e86083534221,
+    type: 2}
+  m_PrefabInternal: {fileID: 640204189}
 --- !u!1 &893097747
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +385,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013308315508, guid: 87faded5c5dbd9040a36cbdcc39302bb,
+        type: 2}
+      propertyPath: spawnPlaces.Array.data[0]
+      value: 
+      objectReference: {fileID: 640204194}
+    - target: {fileID: 114000013308315508, guid: 87faded5c5dbd9040a36cbdcc39302bb,
+        type: 2}
+      propertyPath: spawnPlaces.Array.data[1]
+      value: 
+      objectReference: {fileID: 640204193}
+    - target: {fileID: 114000013308315508, guid: 87faded5c5dbd9040a36cbdcc39302bb,
+        type: 2}
+      propertyPath: spawnPlaces.Array.data[2]
+      value: 
+      objectReference: {fileID: 640204192}
+    - target: {fileID: 114000013308315508, guid: 87faded5c5dbd9040a36cbdcc39302bb,
+        type: 2}
+      propertyPath: spawnPlaces.Array.data[3]
+      value: 
+      objectReference: {fileID: 640204191}
+    - target: {fileID: 114000013308315508, guid: 87faded5c5dbd9040a36cbdcc39302bb,
+        type: 2}
+      propertyPath: spawnPlaces.Array.data[4]
+      value: 
+      objectReference: {fileID: 640204190}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87faded5c5dbd9040a36cbdcc39302bb, type: 2}
   m_IsPrefabParent: 0
