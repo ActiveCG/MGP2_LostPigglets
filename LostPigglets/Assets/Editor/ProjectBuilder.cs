@@ -11,7 +11,7 @@ public class ProjectBuilder {
 
 	static string APP_NAME = "LostPigglets";
 	static string baseFolder = "C:/Users/dadiu/Google Drive/QA - MGP II/MGP2Builds";
-	string buildFolder = System.DateTime.Now.ToString ("dd-MM-yy HH.mm.ss");
+	static string buildFolder = System.DateTime.Now.ToString ("dd-MM-yy HH.mm.ss");
 
 
 	public static void BuildProject(){
