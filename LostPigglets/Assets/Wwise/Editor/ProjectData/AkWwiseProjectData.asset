@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{AE936EB8-4FCF-42E2-A49B-60BB6E504622}'
-    m_lastTimePsrt1: 1614125910
-    m_lastTimePart2: -1999378780
+    m_lastTimePsrt1: 290790965
+    m_lastTimePart2: -1999378775
     List:
     - Name: Test_Event
       Path: Default Work Unit\Test_Event
@@ -33,29 +33,29 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{96432EA4-40EB-4F09-9064-D2E40404F219}'
-    m_lastTimePsrt1: 1614285919
-    m_lastTimePart2: -1999378780
+    m_lastTimePsrt1: 291491005
+    m_lastTimePart2: -1999378775
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6A230CD1-5340-40C0-A8FC-8C6ADAF272A8}'
-    m_lastTimePsrt1: 1619216201
-    m_lastTimePart2: -1999378780
+    m_lastTimePsrt1: 346184134
+    m_lastTimePart2: -1999378775
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FFAE86F2-91D0-4DE7-83F0-30ADE822EDF8}'
-    m_lastTimePsrt1: 1619226202
-    m_lastTimePart2: -1999378780
+    m_lastTimePsrt1: 346204135
+    m_lastTimePart2: -1999378775
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{84C905D1-D522-4453-8F77-058F077A2B3C}'
-    m_lastTimePsrt1: 1619206201
-    m_lastTimePart2: -1999378780
+    m_lastTimePsrt1: 346154132
+    m_lastTimePart2: -1999378775
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -66,12 +66,7 @@ MonoBehaviour:
         ObjectType: 7
       ID: -1133058374
       Guid: 62a8098dc248cb4bac25386730d99496
-  ExpandedItems:
-  - /Team 1 - MGP-2
-  - /Team 1 - MGP-2/Events
-  - /Team 1 - MGP-2/Events/Default Work Unit
-  - /Team 1 - MGP-2/SoundBanks
-  - /Team 1 - MGP-2/SoundBanks/Default Work Unit
+  ExpandedItems: []
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
