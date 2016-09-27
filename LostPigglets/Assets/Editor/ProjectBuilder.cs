@@ -10,7 +10,7 @@ public class ProjectBuilder {
 	//static string path = "C:/Builds";
 
 	static string APP_NAME = "LostPigglets";
-	static string TARGET_DIR = "C:\Users\dadiu\Google Drive\QA - MGP II";
+	static string TARGET_DIR = "C:/Users/dadiu/Google Drive/QA - MGP II/MGP2Builds";
 
 
 	public static void BuildProject(){
