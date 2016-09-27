@@ -1399,7 +1399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f53699aac0c87f9448a41d0490c41ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPlaces: []
+  enemy: {fileID: 1000010112326358, guid: 732e1d8c3d16ed04d841ccb9e9dffaa7, type: 2}
 --- !u!114 &114000012210303524
 MonoBehaviour:
   m_ObjectHideFlags: 1
