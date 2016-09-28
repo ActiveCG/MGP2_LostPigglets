@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011452064528}
   - 114: {fileID: 114000013308315508}
+  - 114: {fileID: 114000011230021458}
   m_Layer: 0
   m_Name: MonsterManager
   m_TagString: Untagged
@@ -186,17 +187,32 @@ MonoBehaviour:
   playerHealth: 0
   playerSpeed: 0
   piggletsInGame: 3
+--- !u!114 &114000011230021458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011992503328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1b6d06fb774a749b398063d3ec3b11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightTimer: 1
+  cdTimer: 8
+  monsterStunTime: 2
 --- !u!114 &114000011586531204
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012768797780}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 129779e130a82df4fa19d425cc26f957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tapTime: 0.2
   plane: {fileID: 0}
 --- !u!114 &114000013160568396
 MonoBehaviour:
@@ -228,8 +244,10 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012768797780}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54c7c2d99c988284fa1f581d2b240a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tapTime: 0.2
+  plane: {fileID: 0}

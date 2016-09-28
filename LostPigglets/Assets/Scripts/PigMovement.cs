@@ -17,12 +17,12 @@ public class PigMovement : MonoBehaviour
     {
         current = this;
 		moved = false;
+        nav = GetComponent<NavMeshAgent>();
     }
 
     void Start()
     {
         pigRB = gameObject.GetComponent<Rigidbody>();
-        nav = GetComponent<NavMeshAgent>();
     }
 
     void OnEnable()
