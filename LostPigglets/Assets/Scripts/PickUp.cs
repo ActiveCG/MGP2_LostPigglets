@@ -17,7 +17,7 @@ public class PickUp : MonoBehaviour {
 
 			//check whther all pigglets collected
 			if (piggletsCollected == PlayerStats.playerStatsCurrent.piggletsInGame) {
-				SceneController.current.Win ();
+				GameManager.instance.Win ();
 			}
 		}
 	}

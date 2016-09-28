@@ -11,22 +11,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1000012174415878}
   m_IsPrefabParent: 1
---- !u!1 &1000010267975110
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 4000012920314196}
-  - 114: {fileID: 114000011613683324}
-  m_Layer: 0
-  m_Name: SoundManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1000011992503328
 GameObject:
   m_ObjectHideFlags: 0
@@ -51,6 +35,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000010000717646}
+  - 114: {fileID: 114000013160568396}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -107,22 +92,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1000013129834554
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 4000010655738856}
-  - 114: {fileID: 114000010074774590}
-  m_Layer: 0
-  m_Name: SceneManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &4000010000717646
 Transform:
   m_ObjectHideFlags: 1
@@ -136,25 +105,10 @@ Transform:
   m_Children:
   - {fileID: 4000011178321816}
   - {fileID: 4000011209908238}
-  - {fileID: 4000012920314196}
   - {fileID: 4000013440942388}
-  - {fileID: 4000010655738856}
   - {fileID: 4000011452064528}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!4 &4000010655738856
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013129834554}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4000010000717646}
-  m_RootOrder: 4
 --- !u!4 &4000011178321816
 Transform:
   m_ObjectHideFlags: 1
@@ -193,20 +147,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000010000717646}
-  m_RootOrder: 5
---- !u!4 &4000012920314196
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010267975110}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4000010000717646}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!4 &4000013440942388
 Transform:
   m_ObjectHideFlags: 1
@@ -219,7 +160,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000010000717646}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!114 &114000010065618978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -229,17 +170,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a081f54cd62e9d4aa75fd5e67ea4e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114000010074774590
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013129834554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1c5a553f339c7a46a93e98faf3bfb0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114000010082586802
@@ -268,25 +198,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plane: {fileID: 0}
---- !u!114 &114000011613683324
+--- !u!114 &114000013160568396
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010267975110}
+  m_GameObject: {fileID: 1000012174415878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70c13b3b8b2599d43a8c7b5d1ecd16e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3697fb42e22128f41845ec9cc32d1885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  valueGuid: 62a8098dc248cb4bac25386730d99496
-  bankName: Main
-  loadAsynchronous: 0
-  decodeBank: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
 --- !u!114 &114000013308315508
 MonoBehaviour:
   m_ObjectHideFlags: 1
