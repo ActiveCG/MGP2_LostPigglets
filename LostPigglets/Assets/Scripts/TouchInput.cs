@@ -34,7 +34,7 @@ public class TouchInput : MonoBehaviour
         ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         if (plane.Raycast(ray, out hit, Mathf.Infinity))
         {
-			GameManager.instance.move(hit.point); //move(hit.point);
+            GameManager.instance.move(hit.point);
         }
     }
 
@@ -43,7 +43,7 @@ public class TouchInput : MonoBehaviour
         ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         if (groundPlane.Raycast(ray, out distance))
         {
-			GameManager.instance.rotate(ray.GetPoint(distance)); //rotate(ray.GetPoint(distance));
+            GameManager.instance.rotate(ray.GetPoint(distance));
         }
     }
 

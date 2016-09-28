@@ -6,7 +6,7 @@ public class PigMovement : MonoBehaviour
     public Vector3 playerOffset = new Vector3(0, 0.5f, 0);
     public float rotSpeed = 3f; //Manager
 
-    private Rigidbody pigRB;
+    public Rigidbody pigRB;
 
 	private bool moved = false;
 
@@ -41,7 +41,10 @@ public class PigMovement : MonoBehaviour
 
     void Movement(Vector3 position)
     {
-        nav.SetDestination(position);
+        if (nav.enabled)
+        {
+            nav.SetDestination(position);
+        }
     }
 
     void Rotate(Vector3 position)
