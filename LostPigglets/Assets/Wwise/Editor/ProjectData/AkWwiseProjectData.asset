@@ -16,26 +16,79 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{AE936EB8-4FCF-42E2-A49B-60BB6E504622}'
-    m_lastTimePsrt1: -1841683576
-    m_lastTimePart2: -1999378913
+    m_lastTimePsrt1: 1021608682
+    m_lastTimePart2: -1999378575
     List:
-    - Name: Test_Event
-      Path: Default Work Unit\Test_Event
+    - Name: Monster_Swim_Start
+      Path: Default Work Unit\Monster_Swim_Start
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test_Event
+      - ElementName: Monster_Swim_Start
         ObjectType: 3
-      ID: -36314244
-      Guid: afd1e1d6b8bd834fba34f9ceaef790fc
+      ID: 1632505953
+      Guid: 190fcbc679cc344b86a77525e103ad14
+      maxAttenuation: 0
+    - Name: Monster_Swim_Stop
+      Path: Default Work Unit\Monster_Swim_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Monster_Swim_Stop
+        ObjectType: 3
+      ID: -833268837
+      Guid: 018188d2d3410a47bae02fba16fe86d6
+      maxAttenuation: 0
+    - Name: Pig_Swim_Start
+      Path: Default Work Unit\Pig_Swim_Start
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pig_Swim_Start
+        ObjectType: 3
+      ID: 1548288955
+      Guid: cd4b5c9a033bbe449be2cb1cdc9f23a4
+      maxAttenuation: 0
+    - Name: Pig_Swim_Stop
+      Path: Default Work Unit\Pig_Swim_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pig_Swim_Stop
+        ObjectType: 3
+      ID: 1750874649
+      Guid: 34a3b2e7ab62d141a5a26b06d170037e
+      maxAttenuation: 0
+    - Name: Piglet_Oink
+      Path: Default Work Unit\Piglet_Oink
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Piglet_Oink
+        ObjectType: 3
+      ID: -258959464
+      Guid: 8f46cf9d8d6c794aa2a5e57eb45ec2d4
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{96432EA4-40EB-4F09-9064-D2E40404F219}'
-    m_lastTimePsrt1: -1841343556
-    m_lastTimePart2: -1999378913
-    List: []
+    m_lastTimePsrt1: 1021628683
+    m_lastTimePart2: -1999378575
+    List:
+    - Name: Reverb
+      Path: Default Work Unit\Master Audio Bus\Environmental\Reverb
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environmental
+        ObjectType: 2
+      - ElementName: Reverb
+        ObjectType: 1
+      ID: 348963605
+      Guid: dc655b5b2f3e424a89eaa7b6d9ac6262
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -54,8 +107,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{84C905D1-D522-4453-8F77-058F077A2B3C}'
-    m_lastTimePsrt1: -1832183032
-    m_lastTimePart2: -1999378913
+    m_lastTimePsrt1: 1025958931
+    m_lastTimePart2: -1999378575
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -70,8 +123,6 @@ MonoBehaviour:
   - /Team 1 - MGP-2
   - /Team 1 - MGP-2/Events
   - /Team 1 - MGP-2/Events/Default Work Unit
-  - /Team 1 - MGP-2/SoundBanks
-  - /Team 1 - MGP-2/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

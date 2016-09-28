@@ -1,10 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4258653052	Test_Event			\Default Work Unit\Test_Event	
+	1548288955	Pig_Swim_Start			\Default Work Unit\Pig_Swim_Start	
+	1632505953	Monster_Swim_Start			\Default Work Unit\Monster_Swim_Start	
+	1750874649	Pig_Swim_Stop			\Default Work Unit\Pig_Swim_Stop	
+	3461698459	Monster_Swim_Stop			\Default Work Unit\Monster_Swim_Stop	
+	4036007832	Piglet_Oink			\Default Work Unit\Piglet_Oink	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	1029930033	SS_Air_Fury			\Factory SoundSeed Air Game Syncs\SS_Air_Fury	
 	3074696722	SS_Air_Size			\Factory SoundSeed Air Game Syncs\SS_Air_Size	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	761686719	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Wooden Staff\SoundSeed Woosh	
+	663911219	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Default Work Unit\Pig Swim Temp\SoundSeed Wind	
+	665485202	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Default Work Unit\Monster Swim Temp\SoundSeed Wind	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	467650273	Piglet Oink Temp	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Piglet Oink Temp_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink Temp		585792
 
