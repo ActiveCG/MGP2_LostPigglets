@@ -59,7 +59,7 @@ public class AudioManager : MonoBehaviour {
 		AkSoundEngine.RenderAudio ();
 	}
 
-	void PlayerSwimStop(){
+	void PlayerSwimStop(Vector3 position){
 		if (isPlayerSwimming == false)
 			return;
 		AkSoundEngine.PostEvent (playerSwimStop, GameManager.instance.player);

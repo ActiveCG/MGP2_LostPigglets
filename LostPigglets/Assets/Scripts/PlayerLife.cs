@@ -18,7 +18,7 @@ public class PlayerLife : MonoBehaviour {
 	}
 
 	void Die(){
-		GameManager.instance.notMoving ();
+		GameManager.instance.notMoving (transform.position);
 		GameManager.instance.GameOver ();
 	}
 }

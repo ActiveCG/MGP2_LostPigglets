@@ -54,7 +54,7 @@ public class PigMovement : MonoBehaviour
 	void Update(){
 		if ((moved == true && nav.enabled == true && nav.remainingDistance < 0.06f)
 			|| nav.enabled == false) {
-			GameManager.instance.notMoving ();
+			GameManager.instance.notMoving (transform.position);
 			moved = false;
 		} else {
 			moved = true;
