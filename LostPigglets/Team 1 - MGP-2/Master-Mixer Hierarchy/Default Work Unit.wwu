@@ -3,7 +3,24 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{96432EA4-40EB-4F09-9064-D2E40404F219}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Environmental" ID="{8400E440-EBB4-4AE2-8D4D-3322C30D3145}">
+							<ChildrenList>
+								<AuxBus Name="Reverb" ID="{5B5B65DC-3E2F-4A42-89EA-A7B6D9AC6262}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<Bus Name="SFX" ID="{409D5B48-DF43-46F6-9965-C3AA13E082C3}"/>
+								<Bus Name="Ambience" ID="{875642DF-6CB2-40E0-B574-6D6F9E899F10}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="UI" ID="{0D9CBBDD-BBEC-451E-A8C4-63B5190ACAEB}"/>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>
