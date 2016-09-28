@@ -257,8 +257,8 @@ Rigidbody:
   m_GameObject: {fileID: 1000013944407680}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 5
+  m_AngularDrag: 50
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -323,6 +323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerOffset: {x: 0, y: 0.5, z: 0}
   rotSpeed: 3
+  pigRB: {fileID: 0}
   nav: {fileID: 0}
 --- !u!114 &114000011032030272
 MonoBehaviour:
@@ -347,6 +348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 405e623c9944ad541811b681c7cf99f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pleaseCharge: 0
+  chargeSpeed: 1000
+  initialSpeed: 0
 --- !u!114 &114000012688584658
 MonoBehaviour:
   m_ObjectHideFlags: 1
