@@ -2,10 +2,10 @@
 using System.Collections;
 public class TouchInput : MonoBehaviour
 {
-    public delegate void MovementInput(Vector3 position);
+    //public delegate void MovementInput(Vector3 position);
 
-    public static event MovementInput move;
-    public static event MovementInput rotate;
+    //public static event MovementInput move;
+    //public static event MovementInput rotate;
 
     private float timer;
     private float distance;
@@ -30,10 +30,11 @@ public class TouchInput : MonoBehaviour
 
     void Moving()
     {
+        print("Ok");
         ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         if (plane.Raycast(ray, out hit, Mathf.Infinity))
         {
-            move(hit.point);
+            GameManager.instance.move(hit.point);
         }
     }
 
@@ -42,13 +43,15 @@ public class TouchInput : MonoBehaviour
         ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         if (groundPlane.Raycast(ray, out distance))
         {
-            rotate(ray.GetPoint(distance));
+            GameManager.instance.rotate(ray.GetPoint(distance));
         }
     }
+
     void GetInput()
     {
         if (Input.touchCount > 0)
         {
+            
 
             if (Input.GetTouch(0).phase == TouchPhase.Moved)
             {
@@ -59,12 +62,13 @@ public class TouchInput : MonoBehaviour
 
             if (Input.GetTouch(0).phase == TouchPhase.Ended && timer < tapTime)
             {
-                PigMovement.current.nav.enabled = true;
+               // PigMovement.current.nav.enabled = true;
                 Moving();
             }
 
             if (Input.GetTouch(0).phase == TouchPhase.Ended)
             {
+                PigMovement.current.nav.enabled = true;
                 timer = 0;
             }
         }

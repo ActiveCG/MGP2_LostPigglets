@@ -2,10 +2,10 @@
 using System.Collections;
 public class KeyboardInput : MonoBehaviour
 {
-    public delegate void MovementInput(Vector3 position);
+    //public delegate void MovementInput(Vector3 position);
 
-    public static event MovementInput move;
-    public static event MovementInput rotate;
+    //public static event MovementInput move;
+    //public static event MovementInput rotate;
 
     private float timer;
     private float distance;
@@ -33,7 +33,8 @@ public class KeyboardInput : MonoBehaviour
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (plane.Raycast(ray, out hit, Mathf.Infinity))
         {
-            move(hit.point);
+            //move(hit.point);
+			GameManager.instance.move(hit.point);
         }
     }
 
@@ -42,7 +43,8 @@ public class KeyboardInput : MonoBehaviour
         ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         if (groundPlane.Raycast(ray, out distance))
         {
-            rotate(ray.GetPoint(distance));
+            //rotate(ray.GetPoint(distance));
+			GameManager.instance.rotate(ray.GetPoint(distance));
         }
     }
     void GetInput()
