@@ -60,6 +60,24 @@ public class GameManager {
 	}
 
 	//delegates
+	//**** player ****
+	public delegate void MovementInput(Vector3 position);
+	public event MovementInput OnPlayerMove;
+	public void move(Vector3 position) {
+		OnPlayerMove (position);
+	}
+	public event MovementInput OnPlayerRotate;
+	public void rotate(Vector3 position) {
+		OnPlayerRotate (position);
+	}
+
+	public delegate void PlayerNotMoving();
+	public event PlayerNotMoving OnPlayerNotMoving;
+	public void notMoving() {
+		OnPlayerNotMoving ();
+	}
+
+	//**** monsters ****
 	public delegate void MonsterAttackAction(GameObject monster);
 	public event MonsterAttackAction OnMonsterAttack;
 	public void MonsterAttacks(GameObject monster) {

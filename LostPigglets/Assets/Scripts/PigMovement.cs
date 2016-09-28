@@ -8,12 +8,15 @@ public class PigMovement : MonoBehaviour
 
     private Rigidbody pigRB;
 
+	private bool moved = false;
+
     [HideInInspector]
     public NavMeshAgent nav;
 
     void Awake()
     {
         current = this;
+		moved = false;
     }
 
     void Start()
@@ -24,16 +27,16 @@ public class PigMovement : MonoBehaviour
 
     void OnEnable()
     {
-        KeyboardInput.move += Movement;
-        TouchInput.move += Movement;
-        TouchInput.rotate += Rotate;
+		GameManager.instance.OnPlayerMove += Movement; //KeyboardInput.move += Movement;
+        //TouchInput.move += Movement;
+		GameManager.instance.OnPlayerRotate += Rotate; //TouchInput.rotate += Rotate;
     }
 
     void OnDisable()
     {
-        KeyboardInput.move -= Movement;
-        TouchInput.move -= Movement;
-        TouchInput.rotate -= Rotate;
+		GameManager.instance.OnPlayerMove -= Movement; //KeyboardInput.move -= Movement;
+        //TouchInput.move -= Movement;
+		GameManager.instance.OnPlayerRotate -= Rotate; //TouchInput.rotate -= Rotate;
     }
 
     void Movement(Vector3 position)
@@ -46,4 +49,15 @@ public class PigMovement : MonoBehaviour
         Quaternion targetRotation = Quaternion.LookRotation((position + playerOffset) - transform.position);
         pigRB.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotSpeed * Time.deltaTime);
     }
+
+	//check whether player is not moving *****SHOULD BE IMPROVED, NO SOUND ON ROTATION!!!!!!!!!!!!
+	void Update(){
+		if ((moved == true && nav.enabled == true && nav.remainingDistance < 0.06f)
+			|| nav.enabled == false) {
+			GameManager.instance.notMoving ();
+			moved = false;
+		} else {
+			moved = true;
+		}
+	}
 }
