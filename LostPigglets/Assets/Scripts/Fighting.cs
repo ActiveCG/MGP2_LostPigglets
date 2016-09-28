@@ -7,8 +7,9 @@ public class Fighting : MonoBehaviour {
     float angle;
 
     Light spotlight;
-
     Vector3 direction;
+
+
 
     void Start()
     {
@@ -31,7 +32,7 @@ public class Fighting : MonoBehaviour {
         {
             direction = (col[i].gameObject.transform.position - transform.position).normalized;
             angle = Vector3.Angle(transform.forward, direction);
-            Debug.Log(angle);
+            //Debug.Log(angle);
             if (angle < spotlight.spotAngle / 2f)
             {
                 MonsterDestroying.current.Destroy(col[i].gameObject);
