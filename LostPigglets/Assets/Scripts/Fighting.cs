@@ -29,6 +29,7 @@ public class Fighting : MonoBehaviour
     {
         for (int i = 0; i < col.Length; i++)
         {
+            //Charge.instance.Charging();
             direction = (col[i].gameObject.transform.position - transform.position).normalized;
             angle = Vector3.Angle(transform.forward, direction);
             //Debug.Log(angle);
