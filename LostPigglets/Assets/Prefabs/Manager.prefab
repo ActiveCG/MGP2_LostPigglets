@@ -51,6 +51,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000010000717646}
+  - 114: {fileID: 114000013160568396}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -287,6 +288,17 @@ MonoBehaviour:
   decodeBank: 0
   saveDecodedBank: 0
   unloadTriggerList: 958ca0ea
+--- !u!114 &114000013160568396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012174415878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3697fb42e22128f41845ec9cc32d1885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000013308315508
 MonoBehaviour:
   m_ObjectHideFlags: 1
