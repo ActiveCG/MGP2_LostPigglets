@@ -30,6 +30,7 @@ public class TouchInput : MonoBehaviour
 
     void Moving()
     {
+        print("Ok");
         ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         if (plane.Raycast(ray, out hit, Mathf.Infinity))
         {
@@ -45,10 +46,12 @@ public class TouchInput : MonoBehaviour
             rotate(ray.GetPoint(distance));
         }
     }
+
     void GetInput()
     {
         if (Input.touchCount > 0)
         {
+            
 
             if (Input.GetTouch(0).phase == TouchPhase.Moved)
             {
@@ -59,12 +62,13 @@ public class TouchInput : MonoBehaviour
 
             if (Input.GetTouch(0).phase == TouchPhase.Ended && timer < tapTime)
             {
-                PigMovement.current.nav.enabled = true;
+               // PigMovement.current.nav.enabled = true;
                 Moving();
             }
 
             if (Input.GetTouch(0).phase == TouchPhase.Ended)
             {
+                PigMovement.current.nav.enabled = true;
                 timer = 0;
             }
         }

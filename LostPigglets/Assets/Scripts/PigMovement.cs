@@ -6,7 +6,8 @@ public class PigMovement : MonoBehaviour
     public Vector3 playerOffset = new Vector3(0, 0.5f, 0);
     public float rotSpeed = 3f; //Manager
 
-    private Rigidbody pigRB;
+    [HideInInspector]
+    public Rigidbody pigRB;
 
     [HideInInspector]
     public NavMeshAgent nav;
@@ -14,12 +15,13 @@ public class PigMovement : MonoBehaviour
     void Awake()
     {
         current = this;
+        nav = GetComponent<NavMeshAgent>();
     }
 
     void Start()
     {
-        pigRB = gameObject.GetComponent<Rigidbody>();
-        nav = GetComponent<NavMeshAgent>();
+        pigRB = GetComponent<Rigidbody>();
+        
     }
 
     void OnEnable()
@@ -38,7 +40,10 @@ public class PigMovement : MonoBehaviour
 
     void Movement(Vector3 position)
     {
-        nav.SetDestination(position);
+        if(nav.enabled)
+        {
+            nav.SetDestination(position);
+        }
     }
 
     void Rotate(Vector3 position)
