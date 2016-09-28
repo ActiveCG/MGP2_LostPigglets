@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
 	<RootPaths>
-		<ProjectRoot>C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\.cache\Windows\</SourceFilesRoot>
+		<ProjectRoot>C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>C:\Users\MGP2_LostPigglets\LostPigglets\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,8 +21,18 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4258653052" Name="Test_Event" ObjectPath="\Events\Default Work Unit\Test_Event"/>
+				<Event Id="1632505953" Name="Monster_Swim_Start" ObjectPath="\Events\Default Work Unit\Monster_Swim_Start" MaxAttenuation="60.000000"/>
+				<Event Id="3461698459" Name="Monster_Swim_Stop" ObjectPath="\Events\Default Work Unit\Monster_Swim_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="1548288955" Name="Pig_Swim_Start" ObjectPath="\Events\Default Work Unit\Pig_Swim_Start"/>
+				<Event Id="1750874649" Name="Pig_Swim_Stop" ObjectPath="\Events\Default Work Unit\Pig_Swim_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="4036007832" Name="Piglet_Oink" ObjectPath="\Events\Default Work Unit\Piglet_Oink" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="467650273" Language="SFX">
+					<ShortName>Piglet Oink Temp.wav</ShortName>
+					<Path>SFX\Piglet Oink Temp_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
