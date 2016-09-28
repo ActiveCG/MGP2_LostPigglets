@@ -5,6 +5,7 @@ public class PlayerLife : MonoBehaviour {
 
 	void OnEnable () {
 		GameManager.instance.OnMonsterAttack += TakeDamage;
+
 	}
 	
 	void OnDisable() {
@@ -17,6 +18,7 @@ public class PlayerLife : MonoBehaviour {
 	}
 
 	void Die(){
+		GameManager.instance.notMoving (transform.position);
 		GameManager.instance.GameOver ();
 	}
 }
