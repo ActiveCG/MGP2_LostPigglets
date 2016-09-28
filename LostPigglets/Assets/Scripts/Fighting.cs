@@ -14,21 +14,28 @@ public class Fighting : MonoBehaviour {
     {
         spotlight = GetComponentInChildren<Light>();
     }
+
+
 	
 	void Update () {
 
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, collisionRadius, 1 << LayerMask.NameToLayer("Enemy"));
-        int i = 0;
-        while (i < hitColliders.Length)
+        Fight(hitColliders);
+    }
+
+
+
+    void Fight(Collider[] col)
+    {
+        for(int i=0; i < col.Length; i++)
         {
-            direction = (hitColliders[i].gameObject.transform.position - transform.position).normalized;
+            direction = (col[i].gameObject.transform.position - transform.position).normalized;
             angle = Vector3.Angle(transform.forward, direction);
-            //Debug.Log(angle);
-            if (angle < spotlight.spotAngle)
+            Debug.Log(angle);
+            if (angle < spotlight.spotAngle / 2f)
             {
-                MonsterDestroying.current.Destroy(hitColliders[i].gameObject);
+                MonsterDestroying.current.Destroy(col[i].gameObject);
             }
-            i++;
         }
     }
 }
