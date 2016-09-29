@@ -134,6 +134,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Menu_Button" ID="{9694A634-551C-46E7-8BD6-01E82C5174CB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3DA5A4A3-2873-43A9-988E-40ED01707938}" ShortID="396686357" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{43575B02-87C1-426C-8CEC-02626B9A7C54}" Global="false">
+									<ObjectRef Name="Water Drop_20" ID="{FCF502B9-B263-4940-AC07-E83FE2F50BCF}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

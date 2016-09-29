@@ -23,6 +23,7 @@
 			<IncludedEvents>
 				<Event Id="1496310610" Name="Ambience_Play" ObjectPath="\Events\Default Work Unit\Ambience_Play"/>
 				<Event Id="3166394572" Name="Ambience_Stop" ObjectPath="\Events\Default Work Unit\Ambience_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="938529747" Name="Menu_Button" ObjectPath="\Events\Default Work Unit\Menu_Button"/>
 				<Event Id="1632505953" Name="Monster_Swim_Start" ObjectPath="\Events\Default Work Unit\Monster_Swim_Start" MaxAttenuation="60.000000"/>
 				<Event Id="3461698459" Name="Monster_Swim_Stop" ObjectPath="\Events\Default Work Unit\Monster_Swim_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="2522003227" Name="Pig_Squeal" ObjectPath="\Events\Default Work Unit\Pig_Squeal"/>
