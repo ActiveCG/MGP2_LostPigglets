@@ -57,25 +57,39 @@ public class AudioManager : MonoBehaviour {
 		PlaySound (playerSwimStart, GameManager.instance.player);
 		isPlayerSwimming = true;
 	}
-
 	void PlayerSwimStop(Vector3 position){
 		if (isPlayerSwimming == false)
 			return;
 		PlaySound (playerSwimStop, GameManager.instance.player);
 		isPlayerSwimming = false;
 	}
-
-	void PickUpObject(GameObject pickedObject) {
+	void PlayerDamagedPlay(int health) {
+		PlaySound (playerDamaged, GameManager.instance.player);
+	}
+	void PlayerDeathPlay(int health) {
+		PlaySound (playerDeath, GameManager.instance.player);
+	}
+	void PickUpObjectPlay(GameObject pickedObject) {
 		PlaySound (playerPickUp, pickedObject);
+	}
+
+	//*********** Pigglet ****************
+	void PiggletOinkPlay(GameObject pigglet){
+		PlaySound (oink, pigglet);
 	}
 
 	//*********** Monster ****************
 	void MonsterSwimPlay(GameObject monster){
+		if (monster.GetComponent<MoveEnemies>().isSwimming == true)
+			return;
 		PlaySound (monsterSwimStart, monster);
+		monster.GetComponent<MoveEnemies> ().isSwimming = true;
 	}
-
 	void MonsterSwimStop(GameObject monster){
+		if (monster.GetComponent<MoveEnemies>().isSwimming == false)
+			return;
 		PlaySound (monsterSwimStop, monster);
+		monster.GetComponent<MoveEnemies> ().isSwimming = false;
 	}
 	void MonsterAttackPlay(GameObject monster){
 		PlaySound (monsterAttack, monster);
@@ -102,9 +116,16 @@ public class AudioManager : MonoBehaviour {
 		//player events
 		GameManager.instance.OnPlayerMove += PlayerSwimPlay;
 		GameManager.instance.OnPlayerNotMoving += PlayerSwimStop;
-		GameManager.instance.OnPickUp += PickUpObject;
+		GameManager.instance.OnPlayerDamage += PlayerDamagedPlay;
+		GameManager.instance.OnPlayerDeath += PlayerDeathPlay;
+		GameManager.instance.OnPickUp += PickUpObjectPlay;
+
+		//piglet events
+		GameManager.instance.OnPigletOink += PiggletOinkPlay;
 
 		//monster events
+		GameManager.instance.OnMonsterMove += MonsterSwimPlay;
+		GameManager.instance.OnMonsterNotMoving += MonsterSwimStop;
 		GameManager.instance.OnMonsterAttack += MonsterAttackPlay;
 	}
 
@@ -112,9 +133,16 @@ public class AudioManager : MonoBehaviour {
 		//player events
 		GameManager.instance.OnPlayerMove -= PlayerSwimPlay;
 		GameManager.instance.OnPlayerNotMoving -= PlayerSwimStop;
-		GameManager.instance.OnPickUp -= PickUpObject;
+		GameManager.instance.OnPlayerDamage -= PlayerDamagedPlay;
+		GameManager.instance.OnPlayerDeath -= PlayerDeathPlay;
+		GameManager.instance.OnPickUp -= PickUpObjectPlay;
+
+		//piglet events
+		GameManager.instance.OnPigletOink -= PiggletOinkPlay;
 
 		//monster events
+		GameManager.instance.OnMonsterMove -= MonsterSwimPlay;
+		GameManager.instance.OnMonsterNotMoving -= MonsterSwimStop;
 		GameManager.instance.OnMonsterAttack -= MonsterAttackPlay;
 	}
 

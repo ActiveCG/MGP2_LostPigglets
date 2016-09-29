@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerStats : MonoBehaviour {
 
-	public static PlayerStats playerStatsCurrent;
+	public static PlayerStats instance;
 
 	public float playerHealth;
 	public float playerSpeed;
@@ -12,7 +12,7 @@ public class PlayerStats : MonoBehaviour {
 
 	void Awake()
     {
-		playerStatsCurrent = this;
+		instance = this;
 	}
 
 }

@@ -18,7 +18,8 @@ public class MonsterDestroying : MonoBehaviour {
 
     public void Destroy(GameObject obj)
     {
-        obj.SetActive(false);
+		GameManager.instance.monsterNotMoving (obj); //monster stops swimming
+		obj.SetActive(false);
         obj.transform.SetParent(SpawnEnemies.current.poolParent.transform);
     }
 
