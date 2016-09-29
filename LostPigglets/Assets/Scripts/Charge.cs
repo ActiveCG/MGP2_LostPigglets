@@ -8,20 +8,14 @@ public class Charge : MonoBehaviour {
     int countTouch = 0;
     float timer = 0;
     bool startCount = false;
-    public bool pleaseCharge = false;
     public float chargeSpeed;
-    [HideInInspector]
-    public float initialSpeed;
+    public float doubleTapTime = 1f;
 
     void Awake()
     {
         instance = this;
     }
 
-    void Start()
-    {
-       initialSpeed = PigMovement.current.nav.speed;
-    }
 
     void Update()
     {
@@ -44,17 +38,15 @@ public class Charge : MonoBehaviour {
         
         countTouch++;
         startCount = true;
-        if(countTouch == 2 && timer < 1f)
+        if(countTouch == 2 && timer < doubleTapTime)
         {
 
             //PigMovement.current.nav.Stop();
             PigMovement.current.nav.enabled = false;
             Debug.Log("I am in");
-            pleaseCharge = true;
             countTouch = 0;
             startCount = false;
             timer = 0;
-            //PigMovement.current.nav.speed = chargeSpeed;
             
             PigMovement.current.pigRB.AddForce(transform.forward * chargeSpeed);
         }
@@ -64,8 +56,6 @@ public class Charge : MonoBehaviour {
             countTouch = 0;
             startCount = false;
             timer = 0;
-            //pleaseCharge = false;
-            //PigMovement.current.nav.speed = initialSpeed;
         }
     }
 }

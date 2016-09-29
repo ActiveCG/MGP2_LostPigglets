@@ -30,7 +30,6 @@ public class TouchInput : MonoBehaviour
 
     void Moving()
     {
-        print("Ok");
         ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         if (plane.Raycast(ray, out hit, Mathf.Infinity))
         {
