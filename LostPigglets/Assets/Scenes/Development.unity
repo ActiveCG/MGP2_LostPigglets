@@ -483,6 +483,11 @@ Prefab:
       propertyPath: playerOffset.y
       value: 7.5
       objectReference: {fileID: 0}
+    - target: {fileID: 95000012090908978, guid: 56fd4acb24fca454887b98d1532e5878,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9cd39531f7586c54294cf5b88a4d182d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56fd4acb24fca454887b98d1532e5878, type: 2}
   m_IsPrefabParent: 0
