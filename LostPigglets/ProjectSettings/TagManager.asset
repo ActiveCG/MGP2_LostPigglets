@@ -8,6 +8,8 @@ TagManager:
   - Pigglet
   - Enemy
   - Plane
+  - Terain
+  - Walls
   layers:
   - Default
   - TransparentFX
