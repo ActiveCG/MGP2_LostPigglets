@@ -8,6 +8,13 @@
 						<Bus Name="Environmental" ID="{8400E440-EBB4-4AE2-8D4D-3322C30D3145}">
 							<ChildrenList>
 								<AuxBus Name="Reverb" ID="{5B5B65DC-3E2F-4A42-89EA-A7B6D9AC6262}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 											<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>

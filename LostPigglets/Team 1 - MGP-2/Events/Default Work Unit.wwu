@@ -8,7 +8,7 @@
 						<Action Name="Play" ID="{FBC22338-A763-4F29-A64C-6D0E4AE86CCB}" ShortID="1016488307" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{62D83711-8959-46C8-BE62-1CCDFD155A0F}" Global="false">
-									<ObjectRef Name="Piglet Oink Temp" ID="{BBE8DF7A-91F3-487A-86FF-A3584F9EDB1C}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+									<ObjectRef Name="Piglet Oink" ID="{C9E9B73B-BA8A-4C6A-93C1-BC2713AFD1AA}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -65,6 +65,28 @@
 							<ElementList>
 								<Element ID="{E58A50D6-AE8B-4C6A-ADBA-915F09935878}" Global="false">
 									<ObjectRef Name="Monster Swim Temp" ID="{54AB0E46-7E94-44EE-BEBE-C204E7BEAB04}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Piglet_Grunt" ID="{B934AE76-FF4A-4758-8E7F-6DE347D801BD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4B14506E-3EE6-4030-AE88-2C7164238DB9}" ShortID="826928543" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FD35465C-02B0-4D0C-BAA2-483209FE086C}" Global="false">
+									<ObjectRef Name="Piglet Grunt" ID="{662AF215-1819-4FB4-AEF4-32AD6B711768}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pig_Squeal" ID="{F5BF2B30-9B66-4F27-AF34-E48F45459CC3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{138056E2-CF99-4BCE-A533-ABF33D2BA526}" ShortID="657683526" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B257ADDE-5C23-456A-A0F2-4BDB6FB04691}" Global="false">
+									<ObjectRef Name="Pig Squeal" ID="{D965B1B1-F61C-49E6-97CA-F288778099FA}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>
