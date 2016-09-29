@@ -2158,8 +2158,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013944407680}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.01, y: 0.38, z: -13.66}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 1500, y: 7.5, z: 2900}
   m_LocalScale: {x: 2.6, y: 2.6, z: 2.6}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_Children:
@@ -3037,7 +3037,7 @@ Animator:
   m_GameObject: {fileID: 1000010024856018}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 79f84ec5c043d854db23c23a3b265bfc, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9cd39531f7586c54294cf5b88a4d182d, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3131,7 +3131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chargeSpeed: 1000
-  doubleTapTime: 1
+  doubleTapTime: 0.5
 --- !u!114 &114000012636578102
 MonoBehaviour:
   m_ObjectHideFlags: 1
