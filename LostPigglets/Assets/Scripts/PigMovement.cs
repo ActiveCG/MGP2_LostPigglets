@@ -3,7 +3,7 @@ using System.Collections;
 public class PigMovement : MonoBehaviour
 {
     public static PigMovement current;
-    public Vector3 playerOffset = new Vector3(0, 0.5f, 0);
+    public Vector3 playerOffset = new Vector3(0, 7.5f, 0);
     public float rotSpeed = 3f; //Manager
 
     public Rigidbody pigRB;
