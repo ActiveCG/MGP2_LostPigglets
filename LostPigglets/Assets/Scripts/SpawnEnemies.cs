@@ -20,9 +20,13 @@ public class SpawnEnemies : MonoBehaviour {
 
     List<GameObject> enemies;
 
-    void Start()
+    void Awake()
     {
         current = this;
+    }
+
+    void Start()
+    {
         poolParent = new GameObject(); //spawn an empty gameobject at 0,0,0
         poolParent.name = "EnemyPool";
         enemies = new List<GameObject>();

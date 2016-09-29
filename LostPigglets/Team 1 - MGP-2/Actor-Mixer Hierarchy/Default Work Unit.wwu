@@ -1,6 +1,1116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1E05EB27-2453-4135-8A8C-04850AE903D8}" SchemaVersion="72">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{1E05EB27-2453-4135-8A8C-04850AE903D8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1E05EB27-2453-4135-8A8C-04850AE903D8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Pig Swim Temp" ID="{29FEC2A8-F8A9-49B4-B41A-D372FA6CDD76}" ShortID="628233747" Type="SoundFX">
+					<Comment>Waterfall ambient noise, from a gargantuan chute to a fountain-sized fall.</Comment>
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>55</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>35</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-300</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Spatialization" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{409D5B48-DF43-46F6-9965-C3AA13E082C3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{5B5B65DC-3E2F-4A42-89EA-A7B6D9AC6262}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="SoundSeed Wind" ID="{A79542A4-0B98-40C7-AD2A-37383AA36A4C}" ShortID="663911219" PluginName="SoundSeed Air/SoundSeed Wind" CompanyID="0" PluginID="119">
+							<PropertyList>
+								<Property Name="FrequencyScale" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{DD0CE636-1C99-4465-855D-07F8660B555E}" ShortID="732942137">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}" WorkUnitID="{3B167755-FB42-458B-98BF-96F557AFB3B9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{44823C9A-2D81-439A-BA42-B06F28867B99}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>1.84389</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="GainOffset" Type="Real32" Value="-1.9">
+									<RTPCList>
+										<RTPC Name="" ID="{CB94B776-A1F3-45A2-9104-C7803A22415C}" ShortID="801201025">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}" WorkUnitID="{3B167755-FB42-458B-98BF-96F557AFB3B9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{94D4E108-FBFD-4522-BCA1-31D725BC1E97}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4.0467</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>14.82275</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Gustiness" Type="Real32" Value="0.8"/>
+								<Property Name="Variability" Type="Real32" Value="0.2"/>
+								<Property Name="VelocityDynamicRange" Type="Real32" Value="0.75"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<PluginData/>
+							<PluginInnerObjectList>
+								<List Name="Deflectors">
+									<PluginInnerObject Name="" ID="{12D168EE-EBC2-4F34-820D-9643F407A79D}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="60"/>
+											<Property Name="Gain" Type="Real32" Value="7"/>
+											<Property Name="PanX" Type="Real64" Value="-19.7014925373134"/>
+											<Property Name="PanY" Type="Real64" Value="2.9940119760479"/>
+											<Property Name="QFactor" Type="Real32" Value="0.25"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{8C27ADA0-5484-452D-8EB5-0F0A64924FEA}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="93"/>
+											<Property Name="PanX" Type="Real64" Value="-15.5223880597015"/>
+											<Property Name="PanY" Type="Real64" Value="-3.59281437125749"/>
+											<Property Name="QFactor" Type="Real32" Value="0.63"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{9C1383F7-7067-445B-815A-527700F1DC25}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="203"/>
+											<Property Name="Gain" Type="Real32" Value="4"/>
+											<Property Name="PanX" Type="Real64" Value="-16.1194029850746"/>
+											<Property Name="PanY" Type="Real64" Value="8.38323353293413"/>
+											<Property Name="QFactor" Type="Real32" Value="0.76"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{6F9B97EC-293B-4BD3-A6ED-1059086A04B4}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="1789"/>
+											<Property Name="Gain" Type="Real32" Value="-15"/>
+											<Property Name="PanX" Type="Real64" Value="-11.9402985074627"/>
+											<Property Name="PanY" Type="Real64" Value="13.7724550898204"/>
+											<Property Name="QFactor" Type="Real32" Value="0.14"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{2E3D6ADA-11CE-4EBF-AA9E-1A25DBF3A89E}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="70"/>
+											<Property Name="Gain" Type="Real32" Value="6"/>
+											<Property Name="PanX" Type="Real64" Value="20.2985074626866"/>
+											<Property Name="PanY" Type="Real64" Value="3.59281437125747"/>
+											<Property Name="QFactor" Type="Real32" Value="0.25"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{5E6250C1-E21D-41DD-AAB1-53268B9FFACA}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="87"/>
+											<Property Name="PanX" Type="Real64" Value="16.1194029850746"/>
+											<Property Name="PanY" Type="Real64" Value="-5.38922155688622"/>
+											<Property Name="QFactor" Type="Real32" Value="0.54"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{D7B97AB8-E310-480B-87A6-9F55597ACD81}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="195"/>
+											<Property Name="Gain" Type="Real32" Value="6"/>
+											<Property Name="PanX" Type="Real64" Value="23.2835820895522"/>
+											<Property Name="PanY" Type="Real64" Value="-4.79041916167666"/>
+											<Property Name="QFactor" Type="Real32" Value="0.67"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{15EDE0D0-5F7D-4FC4-972A-75F98728FAFD}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="1901"/>
+											<Property Name="Gain" Type="Real32" Value="-10"/>
+											<Property Name="PanX" Type="Real64" Value="19.1044776119403"/>
+											<Property Name="PanY" Type="Real64" Value="10.1796407185629"/>
+											<Property Name="QFactor" Type="Real32" Value="0.1"/>
+										</PropertyList>
+									</PluginInnerObject>
+								</List>
+							</PluginInnerObjectList>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SoundSeed Wind" ID="{A79542A4-0B98-40C7-AD2A-37383AA36A4C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Monster Swim Temp" ID="{54AB0E46-7E94-44EE-BEBE-C204E7BEAB04}" ShortID="603281896" Type="SoundFX">
+					<Comment>Waterfall ambient noise, from a gargantuan chute to a fountain-sized fall.</Comment>
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>55</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>35</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>900</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Monster_Distance" ID="{0F26F4DF-EDC6-4D29-8C32-EDA0100CD202}" WorkUnitID="{72D111BF-C128-479F-A968-D18A3E67A8D3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{409D5B48-DF43-46F6-9965-C3AA13E082C3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{5B5B65DC-3E2F-4A42-89EA-A7B6D9AC6262}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="SoundSeed Wind" ID="{F898808D-EB8F-4067-89FB-8CE1820D2061}" ShortID="665485202" PluginName="SoundSeed Air/SoundSeed Wind" CompanyID="0" PluginID="119">
+							<PropertyList>
+								<Property Name="FrequencyScale" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{6081FA43-C50B-4898-86B0-D3D76E398DA4}" ShortID="838108323">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}" WorkUnitID="{3B167755-FB42-458B-98BF-96F557AFB3B9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D5B36304-23BA-4F21-808B-7C226390D546}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>1.84389</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-1</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="GainOffset" Type="Real32" Value="-1.9">
+									<RTPCList>
+										<RTPC Name="" ID="{46011C40-40B2-408D-B5E2-1C9EC2A6C9EE}" ShortID="660441717">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}" WorkUnitID="{3B167755-FB42-458B-98BF-96F557AFB3B9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{94875C0F-C816-4033-8819-13E565C97BF0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4.0467</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>14.82275</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Gustiness" Type="Real32" Value="0.8"/>
+								<Property Name="Variability" Type="Real32" Value="0.2"/>
+								<Property Name="VelocityDynamicRange" Type="Real32" Value="0.75"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<PluginData/>
+							<PluginInnerObjectList>
+								<List Name="Deflectors">
+									<PluginInnerObject Name="" ID="{DD8E431F-26C1-4746-9DBB-AD0D29A6E2A9}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="60"/>
+											<Property Name="Gain" Type="Real32" Value="7"/>
+											<Property Name="PanX" Type="Real64" Value="-19.7014925373134"/>
+											<Property Name="PanY" Type="Real64" Value="2.9940119760479"/>
+											<Property Name="QFactor" Type="Real32" Value="0.25"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{2FD611A8-2460-47C0-91FE-FE948C94ACD7}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="93"/>
+											<Property Name="PanX" Type="Real64" Value="-15.5223880597015"/>
+											<Property Name="PanY" Type="Real64" Value="-3.59281437125749"/>
+											<Property Name="QFactor" Type="Real32" Value="0.63"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{1A820364-0993-434B-ADDB-FEDA8F6CFFE0}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="203"/>
+											<Property Name="Gain" Type="Real32" Value="4"/>
+											<Property Name="PanX" Type="Real64" Value="-16.1194029850746"/>
+											<Property Name="PanY" Type="Real64" Value="8.38323353293413"/>
+											<Property Name="QFactor" Type="Real32" Value="0.76"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{D503B704-751A-4A4A-AFCF-1BD6429241E4}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="1789"/>
+											<Property Name="Gain" Type="Real32" Value="-15"/>
+											<Property Name="PanX" Type="Real64" Value="-11.9402985074627"/>
+											<Property Name="PanY" Type="Real64" Value="13.7724550898204"/>
+											<Property Name="QFactor" Type="Real32" Value="0.14"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{31430D14-E9D4-49B5-AAA5-D66AE52FC51B}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="70"/>
+											<Property Name="Gain" Type="Real32" Value="6"/>
+											<Property Name="PanX" Type="Real64" Value="20.2985074626866"/>
+											<Property Name="PanY" Type="Real64" Value="3.59281437125747"/>
+											<Property Name="QFactor" Type="Real32" Value="0.25"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{69DBDA62-2F17-48F7-BDF7-CE16F1ED079E}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="87"/>
+											<Property Name="PanX" Type="Real64" Value="16.1194029850746"/>
+											<Property Name="PanY" Type="Real64" Value="-5.38922155688622"/>
+											<Property Name="QFactor" Type="Real32" Value="0.54"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{4FCA705C-5B05-4F11-8BF8-33C0F796DBFC}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="195"/>
+											<Property Name="Gain" Type="Real32" Value="6"/>
+											<Property Name="PanX" Type="Real64" Value="23.2835820895522"/>
+											<Property Name="PanY" Type="Real64" Value="-4.79041916167666"/>
+											<Property Name="QFactor" Type="Real32" Value="0.67"/>
+										</PropertyList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{F90AF294-1E87-4FFA-90B6-9734D5F754A3}" PluginName="Deflector" CompanyID="0" PluginID="121">
+										<PropertyList>
+											<Property Name="Frequency" Type="Real32" Value="1901"/>
+											<Property Name="Gain" Type="Real32" Value="-10"/>
+											<Property Name="PanX" Type="Real64" Value="19.1044776119403"/>
+											<Property Name="PanY" Type="Real64" Value="10.1796407185629"/>
+											<Property Name="QFactor" Type="Real32" Value="0.1"/>
+										</PropertyList>
+									</PluginInnerObject>
+								</List>
+							</PluginInnerObjectList>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SoundSeed Wind" ID="{F898808D-EB8F-4067-89FB-8CE1820D2061}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Pig Squeal" ID="{D965B1B1-F61C-49E6-97CA-F288778099FA}" ShortID="829603666">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9C4EE73E-3A68-404F-9D06-505B4F37B999}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{409D5B48-DF43-46F6-9965-C3AA13E082C3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{5B5B65DC-3E2F-4A42-89EA-A7B6D9AC6262}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pig Squeal" ID="{06A7F8F8-E09D-4141-8A0B-49C64B8C67C1}" ShortID="47612849" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal" ID="{72343DDD-233B-4498-99E3-CC2C9C3706C2}" ShortID="1052571594">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal" ID="{72343DDD-233B-4498-99E3-CC2C9C3706C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_1" ID="{CC66F266-CC28-41D3-99C6-24F4292EBE4E}" ShortID="405429190" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_1" ID="{63C8F6A7-5AA6-4729-B70C-900B4A1A0D9F}" ShortID="91881920">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_1" ID="{63C8F6A7-5AA6-4729-B70C-900B4A1A0D9F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_2" ID="{9D6F2CAB-67CE-4E4C-A50E-4F08E24FD4C9}" ShortID="101328271" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_2" ID="{F255703C-0FD8-4850-877B-99F71A58D82A}" ShortID="201720044">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_2" ID="{F255703C-0FD8-4850-877B-99F71A58D82A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_3" ID="{D9831237-2E4E-4A76-909A-7E392B26A7DD}" ShortID="998620955" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_3" ID="{A624E2C3-689D-411C-8463-CE0BA3BC49F9}" ShortID="618103567">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_3" ID="{A624E2C3-689D-411C-8463-CE0BA3BC49F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_4" ID="{80037EA6-763D-4B12-8957-AF7746835136}" ShortID="830832871" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_4" ID="{4012F423-75AD-4D52-9D26-034FCADBC028}" ShortID="280780108">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_4" ID="{4012F423-75AD-4D52-9D26-034FCADBC028}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_5" ID="{92D62538-52D0-4DEA-B4BB-5E77BBC86417}" ShortID="424900911" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_5" ID="{C6630882-6868-44C7-8604-7DA3DCDEFB38}" ShortID="372074762">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_5" ID="{C6630882-6868-44C7-8604-7DA3DCDEFB38}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_6" ID="{720EFA00-3ABE-4D68-8685-B5CB61BC16D3}" ShortID="592977900" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_6" ID="{6966C65A-1073-4FB9-8BE2-BBC7C7FF2970}" ShortID="300654096">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_6" ID="{6966C65A-1073-4FB9-8BE2-BBC7C7FF2970}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_7" ID="{EAB77760-31CD-4019-B708-1D2C997F98B9}" ShortID="939994250" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_7" ID="{9D7354C4-BD15-43DD-872C-59A3906A29D3}" ShortID="490274137">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_7" ID="{9D7354C4-BD15-43DD-872C-59A3906A29D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_8" ID="{90AE95F8-D56A-41F5-B486-ADBE240A463A}" ShortID="153789043" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_8" ID="{C26BD1E5-CD59-48E3-9350-EC53DADF5E68}" ShortID="117339204">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_8" ID="{C26BD1E5-CD59-48E3-9350-EC53DADF5E68}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_9" ID="{E03C2447-9807-4861-A633-34556C1B96FF}" ShortID="387159493" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_9" ID="{9B0FDD53-06CA-4CE4-9D40-B4F5927E8BA7}" ShortID="258290485">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_9.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_9" ID="{9B0FDD53-06CA-4CE4-9D40-B4F5927E8BA7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_10" ID="{B4445904-DC8C-40BC-93C8-AE4E6CD2C4D3}" ShortID="1050143023" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_10" ID="{FB6D1F80-CA6C-4327-86B5-B35F38DE87BD}" ShortID="24194782">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_10.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_10" ID="{FB6D1F80-CA6C-4327-86B5-B35F38DE87BD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_11" ID="{A137BCCA-94CA-4A95-B0AA-355BA116C0D1}" ShortID="589854903" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_11" ID="{89E19C2D-DBE8-42B1-90B1-B5EAED789117}" ShortID="389814778">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_11.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_11" ID="{89E19C2D-DBE8-42B1-90B1-B5EAED789117}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_12" ID="{4F49F108-5282-4A6C-B2F4-B2F9ACEEBA37}" ShortID="274319762" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_12" ID="{6634A03D-6D1D-4DCC-97E8-41BB2E590DE2}" ShortID="98314906">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_12.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_12" ID="{6634A03D-6D1D-4DCC-97E8-41BB2E590DE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pig Squeal_13" ID="{C5C54672-1D0B-4B0A-8E31-31515C98957C}" ShortID="674080900" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pig Squeal_13" ID="{6647E137-795A-4E47-89B7-A7106BFE455D}" ShortID="1019371492">
+									<Language>SFX</Language>
+									<AudioFile>Pig Squeal_13.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pig Squeal_13" ID="{6647E137-795A-4E47-89B7-A7106BFE455D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Piglet Grunt" ID="{662AF215-1819-4FB4-AEF4-32AD6B711768}" ShortID="22635390">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>150</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B6E12ED5-E40B-47AC-B407-22CE6900C2C9}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Piglet_Distance" ID="{89C8256D-A1D7-4E51-B82C-5D115C0851DA}" WorkUnitID="{72D111BF-C128-479F-A968-D18A3E67A8D3}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{409D5B48-DF43-46F6-9965-C3AA13E082C3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{5B5B65DC-3E2F-4A42-89EA-A7B6D9AC6262}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Piglet Grunt" ID="{5EF2184E-52C0-44AC-B54C-49F687E7780B}" ShortID="976144271" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt" ID="{2C9BFAC0-1A60-49A8-8DE3-F3CA8584F094}" ShortID="367240828">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt" ID="{2C9BFAC0-1A60-49A8-8DE3-F3CA8584F094}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Grunt_1" ID="{C558140A-60E1-4F4F-9AAE-5A0FA0F6C94C}" ShortID="229538137" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt_1" ID="{27F225CB-D184-4A52-A45C-48D69CF819F3}" ShortID="178309760">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt_1" ID="{27F225CB-D184-4A52-A45C-48D69CF819F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Grunt_2" ID="{CBC2B82E-7B24-4639-A524-D2D383A66683}" ShortID="690944170" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt_2" ID="{A2051190-54FC-4572-882C-A772383322E8}" ShortID="172806222">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt_2" ID="{A2051190-54FC-4572-882C-A772383322E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Grunt_3" ID="{4D02A649-DC13-4FDE-98BF-3C710698AAE7}" ShortID="275833472" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt_3" ID="{A5808865-0B48-4731-8040-3CFF983EABE5}" ShortID="145541140">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt_3" ID="{A5808865-0B48-4731-8040-3CFF983EABE5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Grunt_4" ID="{854B53F1-B1DD-45EA-8CAC-8226025D014D}" ShortID="658402764" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt_4" ID="{B405CD58-CFC5-4299-9919-61D7747BDC4A}" ShortID="778128938">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt_4" ID="{B405CD58-CFC5-4299-9919-61D7747BDC4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Grunt_5" ID="{D817D5CF-2A86-42E5-8CB7-F0020E0F0B1E}" ShortID="564073830" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt_5" ID="{E4FFCC42-097F-4CD3-BAFE-00E87DE28046}" ShortID="581616497">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt_5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt_5" ID="{E4FFCC42-097F-4CD3-BAFE-00E87DE28046}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Grunt_6" ID="{2049C950-7BD9-4F4E-BB8E-5FB02E57B5B3}" ShortID="895330076" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt_6" ID="{2733EB19-C22F-44B0-B395-18922FB91C58}" ShortID="888290984">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt_6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt_6" ID="{2733EB19-C22F-44B0-B395-18922FB91C58}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Grunt_7" ID="{247F9072-849F-4511-B900-121B036226DD}" ShortID="48428274" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt_7" ID="{D7BD727C-DE17-4851-B01E-E850A78BB655}" ShortID="777465957">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt_7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt_7" ID="{D7BD727C-DE17-4851-B01E-E850A78BB655}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Grunt_8" ID="{594D36BD-D51A-4711-9F65-991454BBFA23}" ShortID="1000793178" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Grunt_8" ID="{D25EB9CF-E2D8-4E93-83C4-38B5FFFBA8C5}" ShortID="889288471">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Grunt_8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Grunt_8" ID="{D25EB9CF-E2D8-4E93-83C4-38B5FFFBA8C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Piglet Oink" ID="{C9E9B73B-BA8A-4C6A-93C1-BC2713AFD1AA}" ShortID="486268971">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>250</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{43B68197-6963-4F7B-BC98-186AFB829AC7}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Piglet_Distance" ID="{89C8256D-A1D7-4E51-B82C-5D115C0851DA}" WorkUnitID="{72D111BF-C128-479F-A968-D18A3E67A8D3}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{409D5B48-DF43-46F6-9965-C3AA13E082C3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{5B5B65DC-3E2F-4A42-89EA-A7B6D9AC6262}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Piglet Oink Bubble" ID="{6F05443E-816B-4E61-8474-141A3A507816}" ShortID="89173338" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble" ID="{92B3CBAA-BF0F-4C56-AF9D-28A6C5D2D685}" ShortID="340566772">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble" ID="{92B3CBAA-BF0F-4C56-AF9D-28A6C5D2D685}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Oink Bubble_1" ID="{6699CF5E-6113-4FD9-9F30-E6488A6AEF5A}" ShortID="271098545" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble_1" ID="{C50A0C9A-5D3B-4F82-9E5F-978255BA93F4}" ShortID="555880611">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble_1" ID="{C50A0C9A-5D3B-4F82-9E5F-978255BA93F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Oink Bubble_2" ID="{195FC2AC-F4A5-4DF5-A19A-EE48A8D452C0}" ShortID="869596869" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble_2" ID="{CAE817D2-D169-46C2-877B-0D4C7890633E}" ShortID="623803512">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble_2" ID="{CAE817D2-D169-46C2-877B-0D4C7890633E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Oink Bubble_3" ID="{53F6EA4D-69B3-4C59-AED7-E790F2F4E953}" ShortID="576324923" Type="SoundFX">
+							<ExcludedPlatformList>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble_3" ID="{5F5CDF7D-B2A9-48AB-A23A-75A5766BB346}" ShortID="26525294">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble_3" ID="{5F5CDF7D-B2A9-48AB-A23A-75A5766BB346}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Oink Bubble_4" ID="{520286D6-2BF8-483B-BDD8-E529414DB0D0}" ShortID="713368378" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble_4" ID="{0854B6D9-8EE8-4193-BADD-D65D893E9C4A}" ShortID="532198382">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble_4" ID="{0854B6D9-8EE8-4193-BADD-D65D893E9C4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Oink Bubble_5" ID="{2BB22BF2-B2F0-42D1-98C1-F5D5E5C51C2B}" ShortID="680516641" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble_5" ID="{CAE1D171-1A1A-4B9D-A605-7A3D1E11F1E7}" ShortID="493937495">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble_5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble_5" ID="{CAE1D171-1A1A-4B9D-A605-7A3D1E11F1E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Oink Bubble_6" ID="{466AF004-F248-44AB-AD5E-470A1B575291}" ShortID="973413745" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble_6" ID="{566B04B9-5675-4E4F-9C4D-2AAD70459DD2}" ShortID="725028944">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble_6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble_6" ID="{566B04B9-5675-4E4F-9C4D-2AAD70459DD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Oink Bubble_7" ID="{078DA60A-60BE-46C5-BA44-80F18176DEFF}" ShortID="109593460" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble_7" ID="{AD9961B3-BCF2-4EEA-BD32-07148250D5F7}" ShortID="1050011013">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble_7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble_7" ID="{AD9961B3-BCF2-4EEA-BD32-07148250D5F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Piglet Oink Bubble_8" ID="{CFC00192-0D99-4913-BB22-D1E93F13D652}" ShortID="247233714" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{06D927EF-CCE0-4F5C-AF39-299D88949DA4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{96432EA4-40EB-4F09-9064-D2E40404F219}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Piglet Oink Bubble_8" ID="{C1DFDC23-8154-47D4-9BB3-BA69450ECFE0}" ShortID="387188291">
+									<Language>SFX</Language>
+									<AudioFile>Piglet Oink Bubble_8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Piglet Oink Bubble_8" ID="{C1DFDC23-8154-47D4-9BB3-BA69450ECFE0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

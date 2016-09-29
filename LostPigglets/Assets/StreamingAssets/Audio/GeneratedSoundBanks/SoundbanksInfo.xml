@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
 	<RootPaths>
-		<ProjectRoot>C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\.cache\Windows\</SourceFilesRoot>
+		<ProjectRoot>C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>C:\Users\MGP2_LostPigglets\LostPigglets\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,8 +21,144 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4258653052" Name="Test_Event" ObjectPath="\Events\Default Work Unit\Test_Event"/>
+				<Event Id="1632505953" Name="Monster_Swim_Start" ObjectPath="\Events\Default Work Unit\Monster_Swim_Start" MaxAttenuation="60.000000"/>
+				<Event Id="3461698459" Name="Monster_Swim_Stop" ObjectPath="\Events\Default Work Unit\Monster_Swim_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="2522003227" Name="Pig_Squeal" ObjectPath="\Events\Default Work Unit\Pig_Squeal"/>
+				<Event Id="1548288955" Name="Pig_Swim_Start" ObjectPath="\Events\Default Work Unit\Pig_Swim_Start"/>
+				<Event Id="1750874649" Name="Pig_Swim_Stop" ObjectPath="\Events\Default Work Unit\Pig_Swim_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="3456914341" Name="Piglet_Grunt" ObjectPath="\Events\Default Work Unit\Piglet_Grunt" MaxAttenuation="100.000000"/>
+				<Event Id="4036007832" Name="Piglet_Oink" ObjectPath="\Events\Default Work Unit\Piglet_Oink" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="24194782" Language="SFX">
+					<ShortName>Pig Squeal_10.wav</ShortName>
+					<Path>SFX\Pig Squeal_10_9E69E797.wem</Path>
+				</File>
+				<File Id="26525294" Language="SFX">
+					<ShortName>Piglet Oink Bubble_3.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_3_9E69E797.wem</Path>
+				</File>
+				<File Id="91881920" Language="SFX">
+					<ShortName>Pig Squeal_1.wav</ShortName>
+					<Path>SFX\Pig Squeal_1_9E69E797.wem</Path>
+				</File>
+				<File Id="98314906" Language="SFX">
+					<ShortName>Pig Squeal_12.wav</ShortName>
+					<Path>SFX\Pig Squeal_12_9E69E797.wem</Path>
+				</File>
+				<File Id="117339204" Language="SFX">
+					<ShortName>Pig Squeal_8.wav</ShortName>
+					<Path>SFX\Pig Squeal_8_9E69E797.wem</Path>
+				</File>
+				<File Id="145541140" Language="SFX">
+					<ShortName>Piglet Grunt_3.wav</ShortName>
+					<Path>SFX\Piglet Grunt_3_9E69E797.wem</Path>
+				</File>
+				<File Id="172806222" Language="SFX">
+					<ShortName>Piglet Grunt_2.wav</ShortName>
+					<Path>SFX\Piglet Grunt_2_9E69E797.wem</Path>
+				</File>
+				<File Id="178309760" Language="SFX">
+					<ShortName>Piglet Grunt_1.wav</ShortName>
+					<Path>SFX\Piglet Grunt_1_9E69E797.wem</Path>
+				</File>
+				<File Id="201720044" Language="SFX">
+					<ShortName>Pig Squeal_2.wav</ShortName>
+					<Path>SFX\Pig Squeal_2_9E69E797.wem</Path>
+				</File>
+				<File Id="258290485" Language="SFX">
+					<ShortName>Pig Squeal_9.wav</ShortName>
+					<Path>SFX\Pig Squeal_9_9E69E797.wem</Path>
+				</File>
+				<File Id="280780108" Language="SFX">
+					<ShortName>Pig Squeal_4.wav</ShortName>
+					<Path>SFX\Pig Squeal_4_9E69E797.wem</Path>
+				</File>
+				<File Id="300654096" Language="SFX">
+					<ShortName>Pig Squeal_6.wav</ShortName>
+					<Path>SFX\Pig Squeal_6_9E69E797.wem</Path>
+				</File>
+				<File Id="340566772" Language="SFX">
+					<ShortName>Piglet Oink Bubble.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_9E69E797.wem</Path>
+				</File>
+				<File Id="367240828" Language="SFX">
+					<ShortName>Piglet Grunt.wav</ShortName>
+					<Path>SFX\Piglet Grunt_9E69E797.wem</Path>
+				</File>
+				<File Id="372074762" Language="SFX">
+					<ShortName>Pig Squeal_5.wav</ShortName>
+					<Path>SFX\Pig Squeal_5_9E69E797.wem</Path>
+				</File>
+				<File Id="387188291" Language="SFX">
+					<ShortName>Piglet Oink Bubble_8.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_8_9E69E797.wem</Path>
+				</File>
+				<File Id="389814778" Language="SFX">
+					<ShortName>Pig Squeal_11.wav</ShortName>
+					<Path>SFX\Pig Squeal_11_9E69E797.wem</Path>
+				</File>
+				<File Id="490274137" Language="SFX">
+					<ShortName>Pig Squeal_7.wav</ShortName>
+					<Path>SFX\Pig Squeal_7_9E69E797.wem</Path>
+				</File>
+				<File Id="493937495" Language="SFX">
+					<ShortName>Piglet Oink Bubble_5.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_5_9E69E797.wem</Path>
+				</File>
+				<File Id="532198382" Language="SFX">
+					<ShortName>Piglet Oink Bubble_4.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_4_9E69E797.wem</Path>
+				</File>
+				<File Id="555880611" Language="SFX">
+					<ShortName>Piglet Oink Bubble_1.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_1_9E69E797.wem</Path>
+				</File>
+				<File Id="581616497" Language="SFX">
+					<ShortName>Piglet Grunt_5.wav</ShortName>
+					<Path>SFX\Piglet Grunt_5_9E69E797.wem</Path>
+				</File>
+				<File Id="618103567" Language="SFX">
+					<ShortName>Pig Squeal_3.wav</ShortName>
+					<Path>SFX\Pig Squeal_3_9E69E797.wem</Path>
+				</File>
+				<File Id="623803512" Language="SFX">
+					<ShortName>Piglet Oink Bubble_2.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_2_9E69E797.wem</Path>
+				</File>
+				<File Id="725028944" Language="SFX">
+					<ShortName>Piglet Oink Bubble_6.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_6_9E69E797.wem</Path>
+				</File>
+				<File Id="777465957" Language="SFX">
+					<ShortName>Piglet Grunt_7.wav</ShortName>
+					<Path>SFX\Piglet Grunt_7_9E69E797.wem</Path>
+				</File>
+				<File Id="778128938" Language="SFX">
+					<ShortName>Piglet Grunt_4.wav</ShortName>
+					<Path>SFX\Piglet Grunt_4_9E69E797.wem</Path>
+				</File>
+				<File Id="888290984" Language="SFX">
+					<ShortName>Piglet Grunt_6.wav</ShortName>
+					<Path>SFX\Piglet Grunt_6_9E69E797.wem</Path>
+				</File>
+				<File Id="889288471" Language="SFX">
+					<ShortName>Piglet Grunt_8.wav</ShortName>
+					<Path>SFX\Piglet Grunt_8_9E69E797.wem</Path>
+				</File>
+				<File Id="1019371492" Language="SFX">
+					<ShortName>Pig Squeal_13.wav</ShortName>
+					<Path>SFX\Pig Squeal_13_9E69E797.wem</Path>
+				</File>
+				<File Id="1050011013" Language="SFX">
+					<ShortName>Piglet Oink Bubble_7.wav</ShortName>
+					<Path>SFX\Piglet Oink Bubble_7_9E69E797.wem</Path>
+				</File>
+				<File Id="1052571594" Language="SFX">
+					<ShortName>Pig Squeal.wav</ShortName>
+					<Path>SFX\Pig Squeal_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

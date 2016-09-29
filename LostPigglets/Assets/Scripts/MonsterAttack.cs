@@ -2,17 +2,17 @@
 using System.Collections;
 
 public class MonsterAttack : MonoBehaviour {
-	public delegate void MonsterAttacks();
-	public static event MonsterAttacks monsterAttacks;
+	//public delegate void MonsterAttacks(GameObject monster);
+	//public static event MonsterAttacks monsterAttacks;
 
 	void OnTriggerEnter(Collider other){
-		if (other.gameObject.tag == "Player") {
-			Attack ();
+		if (other.gameObject.tag == "Player" && !MonsterStun.current.monsterStunned) {
+			GameManager.instance.MonsterAttacks (gameObject);
 		}
 	}
 
 	//attack player
 	void Attack(){
-		monsterAttacks ();
+		
 	}
 }

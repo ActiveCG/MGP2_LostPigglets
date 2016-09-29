@@ -38,42 +38,43 @@
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\Switches\Default Work Unit.wwu" DateLow="3115101984" DateHigh="30545921"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\Team 1 - MGP-2.wproj" DateLow="3114981977" DateHigh="30545921"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-2\Triggers\Default Work Unit.wwu" DateLow="3115291995" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1999506538" DateHigh="30545922"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="2335939946" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="2337530037" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Attenuations\Default Work Unit.wwu" DateLow="3115301995" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Audio Devices\Default Work Unit.wwu" DateLow="3115392001" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Control Surface Sessions\Default Work Unit.wwu" DateLow="3115372000" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Conversion Settings\Default Work Unit.wwu" DateLow="3115341998" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2341940290" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3115321997" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Default Work Unit.wwu" DateLow="3115191989" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory Altiverb - Outdoor and More.wwu" DateLow="2465187339" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory Auro Headphone.wwu" DateLow="2426592245" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory Convolution Reverb Effects.wwu" DateLow="473359247" DateHigh="30545922"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory Effects.wwu" DateLow="2337490035" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Box Modeler.wwu" DateLow="473409250" DateHigh="30545922"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Delay.wwu" DateLow="2370211907" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Dynamics.wwu" DateLow="2372812055" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Filters.wwu" DateLow="2370541926" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="2374402146" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="2372452035" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="2370141903" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory McDSP Effects.wwu" DateLow="2407271140" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Events\Default Work Unit.wwu" DateLow="1999556541" DateHigh="30545922"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Game Parameters\Default Work Unit.wwu" DateLow="3115171988" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="2335899944" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3115271994" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3115021979" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Mixing Sessions\Default Work Unit.wwu" DateLow="3115331997" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Modulators\Default Work Unit.wwu" DateLow="3115361999" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Presets\Default Work Unit.wwu" DateLow="3115221991" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Queries\Default Work Unit.wwu" DateLow="3115251993" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Queries\Factory Queries.wwu" DateLow="2340050181" DateHigh="30542082"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\SoundBanks\Default Work Unit.wwu" DateLow="2228699647" DateHigh="30545922"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3115241992" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\States\Default Work Unit.wwu" DateLow="3115121985" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Switches\Default Work Unit.wwu" DateLow="3115101984" DateHigh="30545921"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Team 1 - MGP-2.wproj" DateLow="264569115" DateHigh="30545927"/>
-	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Triggers\Default Work Unit.wwu" DateLow="3115291995" DateHigh="30545921"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="997197519" DateHigh="30546484"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="4046408997" DateHigh="30546267"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1874689571" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Attenuations\Default Work Unit.wwu" DateLow="1846536098" DateHigh="30546484"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Audio Devices\Default Work Unit.wwu" DateLow="1874699572" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Control Surface Sessions\Default Work Unit.wwu" DateLow="1874709572" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Conversion Settings\Default Work Unit.wwu" DateLow="1874719573" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1874729573" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1874729573" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Default Work Unit.wwu" DateLow="1874739574" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory Altiverb - Outdoor and More.wwu" DateLow="1874749575" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory Auro Headphone.wwu" DateLow="1874849580" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory Convolution Reverb Effects.wwu" DateLow="1874889583" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory Effects.wwu" DateLow="3850492356" DateHigh="30546483"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Box Modeler.wwu" DateLow="1874959587" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Delay.wwu" DateLow="1874969587" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Dynamics.wwu" DateLow="1874989588" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Filters.wwu" DateLow="1874999589" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1875019590" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1875029591" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1875039591" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Effects\Factory McDSP Effects.wwu" DateLow="1874939585" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Events\Default Work Unit.wwu" DateLow="1229052418" DateHigh="30546483"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Game Parameters\Default Work Unit.wwu" DateLow="1875069593" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1875089594" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1875389611" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="997097513" DateHigh="30546484"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Mixing Sessions\Default Work Unit.wwu" DateLow="1875409612" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Modulators\Default Work Unit.wwu" DateLow="1875409612" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Presets\Default Work Unit.wwu" DateLow="1884510133" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Queries\Default Work Unit.wwu" DateLow="1884520133" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Queries\Factory Queries.wwu" DateLow="1884550135" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\SoundBanks\Default Work Unit.wwu" DateLow="2151733554" DateHigh="30546484"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1884570136" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\States\Default Work Unit.wwu" DateLow="1884580137" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Switches\Default Work Unit.wwu" DateLow="1884580137" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Team 1 - MGP-2.dadiu.wsettings" DateLow="4046859023" DateHigh="30546267"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Team 1 - MGP-2.wproj" DateLow="1884620139" DateHigh="30545928"/>
+	<ValidationCacheItem File="C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\Triggers\Default Work Unit.wwu" DateLow="1884630140" DateHigh="30545928"/>
 </ValidationCache>

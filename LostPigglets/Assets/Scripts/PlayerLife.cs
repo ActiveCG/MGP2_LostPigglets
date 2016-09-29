@@ -4,19 +4,21 @@ using System.Collections;
 public class PlayerLife : MonoBehaviour {
 
 	void OnEnable () {
-		MonsterAttack.monsterAttacks += TakeDamage;
+		GameManager.instance.OnMonsterAttack += TakeDamage;
+
 	}
 	
 	void OnDisable() {
-		MonsterAttack.monsterAttacks -= TakeDamage;
+		GameManager.instance.OnMonsterAttack -= TakeDamage;
 	}
 
 	//recieve damage from monsters
-	void TakeDamage(){
+	void TakeDamage(GameObject monster){
 		Die ();
 	}
 
 	void Die(){
-		SceneController.current.GameOver ();
+		GameManager.instance.notMoving (transform.position);
+		GameManager.instance.GameOver ();
 	}
 }

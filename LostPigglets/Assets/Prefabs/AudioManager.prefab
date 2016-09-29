@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011780851030}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011780851030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012393395308}
+  - 114: {fileID: 114000013291782732}
+  - 114: {fileID: 114000010727750080}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012393395308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011780851030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000010727750080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011780851030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743857ff1a514fb4e898313ab9273ac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSwimStart: Pig_Swim_Start
+  playerSwimStop: Pig_Swim_Stop
+  playerDamaged: Pig_Squeal
+  playerChargeHit: 
+  playerPickUp: Piglet_Grunt
+  playerDeath: Pig_Squeal
+  playerLightStart: 
+  playerLightStop: 
+  playerSpawn: 
+  oink: Piglet_Oink
+  monsterSwimStart: Monster_Swim_Start
+  monsterSwimStop: Monster_Swim_Stop
+  monsterAttack: 
+  monsterAggro: 
+  monsterGrowlAmbStart: 
+  monsterGrowlAmbStop: 
+  monsterStun: 
+  monsterDeath: 
+  ambienceStart: 
+  ambienceStop: 
+  lightFlower: 
+  caveObject: 
+  collision: 
+  ambienceBuildUp: 
+  menuButton: 
+  menuStateGroup: 
+--- !u!114 &114000013291782732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011780851030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c13b3b8b2599d43a8c7b5d1ecd16e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 62a8098dc248cb4bac25386730d99496
+  bankName: Main
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea

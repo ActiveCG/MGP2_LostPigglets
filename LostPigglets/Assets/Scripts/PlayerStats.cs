@@ -10,8 +10,8 @@ public class PlayerStats : MonoBehaviour {
 
 	public int piggletsInGame; //number of pigglets in the level
 
-	void Start(){
-
+	void Awake()
+    {
 		playerStatsCurrent = this;
 	}
 
