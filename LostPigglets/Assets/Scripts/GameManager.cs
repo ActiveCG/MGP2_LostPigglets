@@ -127,7 +127,8 @@ public class GameManager {
 	public delegate void MonsterAction(GameObject monster);
 	public event MonsterAction OnMonsterMove;
 	public event MonsterAction OnMonsterNotMoving;
-	public event MonsterAction OnMonsterAttack;
+    public event MonsterAction OnMonsterJump;
+    public event MonsterAction OnMonsterAttack;
 	public event MonsterAction OnMonsterAggro;
 	public event MonsterAction OnMonsterGrowlAmb;
 	public event MonsterAction OnMonsterGrowlAmbStop;
@@ -141,6 +142,10 @@ public class GameManager {
 		if(OnMonsterNotMoving != null)
 			OnMonsterNotMoving (monster);
 	}
+    public void MonsterJump(GameObject monster) {
+        if (OnMonsterJump != null)
+            OnMonsterJump(monster);
+    }
 	public void MonsterAttacks(GameObject monster) {
 		if(OnMonsterAttack != null)
 			OnMonsterAttack (monster);
