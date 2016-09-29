@@ -7,7 +7,7 @@ public class AudioManager : MonoBehaviour {
 	private string playerSwimStart;
 	[SerializeField]
 	private string playerSwimStop,
-		playerDamaged,
+		//playerDamaged,
 		playerChargeHit,
 		playerPickUp,
 		playerDeath,
@@ -63,9 +63,9 @@ public class AudioManager : MonoBehaviour {
 		PlaySound (playerSwimStop, GameManager.instance.player);
 		isPlayerSwimming = false;
 	}
-	void PlayerDamagedPlay(int health) {
+	/*void PlayerDamagedPlay(int health) {
 		PlaySound (playerDamaged, GameManager.instance.player);
-	}
+	}*/
 	void PlayerDeathPlay(int health) {
 		PlaySound (playerDeath, GameManager.instance.player);
 	}
@@ -116,7 +116,7 @@ public class AudioManager : MonoBehaviour {
 		//player events
 		GameManager.instance.OnPlayerMove += PlayerSwimPlay;
 		GameManager.instance.OnPlayerNotMoving += PlayerSwimStop;
-		GameManager.instance.OnPlayerDamage += PlayerDamagedPlay;
+		//GameManager.instance.OnPlayerDamage += PlayerDamagedPlay;
 		GameManager.instance.OnPlayerDeath += PlayerDeathPlay;
 		GameManager.instance.OnPickUp += PickUpObjectPlay;
 
@@ -133,7 +133,7 @@ public class AudioManager : MonoBehaviour {
 		//player events
 		GameManager.instance.OnPlayerMove -= PlayerSwimPlay;
 		GameManager.instance.OnPlayerNotMoving -= PlayerSwimStop;
-		GameManager.instance.OnPlayerDamage -= PlayerDamagedPlay;
+		//GameManager.instance.OnPlayerDamage -= PlayerDamagedPlay;
 		GameManager.instance.OnPlayerDeath -= PlayerDeathPlay;
 		GameManager.instance.OnPickUp -= PickUpObjectPlay;
 
