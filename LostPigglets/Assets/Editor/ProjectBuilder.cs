@@ -16,6 +16,7 @@ public class ProjectBuilder {
 
 	public static void BuildProject(){
 
+		try {
 		float version = float.Parse(PlayerSettings.bundleVersion);
 		version++;
 		PlayerSettings.bundleVersion = version.ToString();
@@ -28,6 +29,15 @@ public class ProjectBuilder {
 		GenericBuild(SCENES, baseFolder + "/" + target_dir, BuildTarget.Android,BuildOptions.None);
 		//copy unity's log file
 		FileUtil.CopyFileOrDirectory("C:/Users/dadiu/AppData/Local/Unity/Editor/Editor.log", baseFolder + "/" + buildFolder + "/log.txt");
+		} catch (UnityException e){
+			StreamWriter fil = new StreamWriter (baseFolder + "/" + buildFolder + "/unity_errors.txt", true);
+			fil.Write (e.Message);
+			fil.Close ();
+		} catch (Exception e){
+			StreamWriter fil = new StreamWriter (baseFolder + "/" + buildFolder + "/general_errors.txt", true);
+			fil.Write (e.Message);
+			fil.Close ();
+		}
 	}
 
 
