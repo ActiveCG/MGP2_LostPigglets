@@ -3,21 +3,28 @@ using System.Collections;
 
 public class MonsterDestroying : MonoBehaviour {
 
+    public static MonsterDestroying current;
 
-    //Only for testing purposes the enemies are going to be destroyed after 2 seconds
-	void OnEnable()
+    void Awake()
     {
-        Invoke("Destroy", 2f);
+        current = this;
     }
 
-    void Destroy()
+ //   //Only for testing purposes the enemies are going to be destroyed after 2 seconds
+	//void OnEnable()
+ //   {
+ //       Invoke("Destroy", 100f);
+ //   }
+
+    public void Destroy(GameObject obj)
     {
-        gameObject.SetActive(false);
-        gameObject.transform.SetParent(SpawnEnemies.current.poolParent.transform);
+		GameManager.instance.monsterNotMoving (obj); //monster stops swimming
+		obj.SetActive(false);
+        obj.transform.SetParent(SpawnEnemies.current.poolParent.transform);
     }
 
-    void OnDisable()
-    {
-        CancelInvoke();
-    }
+    //void OnDisable()
+    //{
+    //    CancelInvoke();
+    //}
 }

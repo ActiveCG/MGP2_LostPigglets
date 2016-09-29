@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="Team 1 - MGP-2" Platform="Mac" BasePlatform="Mac">
 	<Plugins>
-		<Plugin Name="SoundSeed Air/SoundSeed Woosh" ID="7864322" DLL="AkSoundSeedAir"/>
+		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb"/>
+		<Plugin Name="SoundSeed Air/SoundSeed Wind" ID="7798786" DLL="AkSoundSeedAir"/>
 	</Plugins>
 </PluginInfo>

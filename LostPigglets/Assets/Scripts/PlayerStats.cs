@@ -3,16 +3,13 @@ using System.Collections;
 
 public class PlayerStats : MonoBehaviour {
 
-	public static PlayerStats playerStatsCurrent;
-
-	public float playerHealth;
-	public float playerSpeed;
+	public static PlayerStats instance;
 
 	public int piggletsInGame; //number of pigglets in the level
 
-    void Awake()
+	void Awake()
     {
-        playerStatsCurrent = this;
-    }
+		instance = this;
+	}
 
 }

@@ -20,19 +20,25 @@ public class SpawnEnemies : MonoBehaviour {
 
     List<GameObject> enemies;
 
-    void Start()
+    void Awake()
     {
         current = this;
+    }
+
+    void Start()
+    {
         poolParent = new GameObject(); //spawn an empty gameobject at 0,0,0
         poolParent.name = "EnemyPool";
         enemies = new List<GameObject>();
-        spawnPoint = Random.Range(0, MonsterStats.current.spawnPlaces.Count);
-        for(int i=0; i<MonsterStats.current.pooledAmount; i++)
+        spawnPoint = Random.Range(0, MonsterStats.instance.spawnPlaces.Count);
+        for(int i=0; i<MonsterStats.instance.pooledAmount; i++)
         {
-            GameObject obj = (GameObject)Instantiate(enemy, MonsterStats.current.spawnPlaces[spawnPoint].position, MonsterStats.current.spawnPlaces[spawnPoint].rotation);
+            GameObject obj = (GameObject)Instantiate(enemy, MonsterStats.instance.spawnPlaces[spawnPoint].position, MonsterStats.instance.spawnPlaces[spawnPoint].rotation);
             obj.transform.SetParent(poolParent.transform);
             obj.SetActive(false);
             enemies.Add(obj);
+			obj.GetComponent<MoveEnemies> ().isSwimming = false;
+			GameManager.instance.monsterMove (obj); //monster starts swimming
         }
 
         InvokeRepeating("Spawn", time, repeatRate);
@@ -40,13 +46,13 @@ public class SpawnEnemies : MonoBehaviour {
 
     void Spawn()
     {
-        spawnPoint = Random.Range(0, MonsterStats.current.spawnPlaces.Count);
+        spawnPoint = Random.Range(0, MonsterStats.instance.spawnPlaces.Count);
         for (int i=0; i<enemies.Count; i++)
         {
             if(!enemies[i].activeInHierarchy)
             {
-                enemies[i].transform.position = MonsterStats.current.spawnPlaces[spawnPoint].position;
-                enemies[i].transform.rotation = MonsterStats.current.spawnPlaces[spawnPoint].rotation;
+                enemies[i].transform.position = MonsterStats.instance.spawnPlaces[spawnPoint].position;
+                enemies[i].transform.rotation = MonsterStats.instance.spawnPlaces[spawnPoint].rotation;
                 enemies[i].SetActive(true);
                 enemies[i].transform.SetParent(null);
                 break;

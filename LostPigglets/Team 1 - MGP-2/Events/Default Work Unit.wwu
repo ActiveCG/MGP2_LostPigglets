@@ -3,12 +3,143 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test_Event" ID="{D6E1D1AF-BDB8-4F83-BA34-F9CEAEF790FC}">
+				<Event Name="Piglet_Oink" ID="{9DCF468F-6C8D-4A79-A2A5-E57EB45EC2D4}">
 					<ChildrenList>
-						<Action Name="Play" ID="{6A4B6EEC-668B-4B2E-9FB9-C31BD1050ED9}" ShortID="232032923" Type="Play" Scope="One" Global="false">
+						<Action Name="Play" ID="{FBC22338-A763-4F29-A64C-6D0E4AE86CCB}" ShortID="1016488307" Type="Play" Scope="One" Global="false">
 							<ElementList>
-								<Element ID="{E75BAFD9-EF7F-4630-8614-97C2A9D2EEEF}" Global="false">
-									<ObjectRef Name="Wooden Staff" ID="{3B849615-06B0-441D-9759-8912003295F8}" WorkUnitID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}"/>
+								<Element ID="{62D83711-8959-46C8-BE62-1CCDFD155A0F}" Global="false">
+									<ObjectRef Name="Piglet Oink" ID="{C9E9B73B-BA8A-4C6A-93C1-BC2713AFD1AA}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pig_Swim_Start" ID="{9A5C4BCD-3B03-44BE-9BE2-CB1CDC9F23A4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9229CC1B-B242-484B-A7CE-981EA571E135}" ShortID="705179833" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{E67390AF-CC43-440D-844C-1799F0E01F86}" Global="false">
+									<ObjectRef Name="Pig Swim Temp" ID="{29FEC2A8-F8A9-49B4-B41A-D372FA6CDD76}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pig_Swim_Stop" ID="{E7B2A334-62AB-41D1-A5A2-6B06D170037E}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{E30ADA1F-0A46-4FEB-8610-0271E9C478DF}" ShortID="763443102" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{62C63AEF-3FE9-4C84-A8FD-A11F4E8B3142}" Global="false">
+									<ObjectRef Name="Pig Swim Temp" ID="{29FEC2A8-F8A9-49B4-B41A-D372FA6CDD76}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Swim_Start" ID="{C6CB0F19-CC79-4B34-86A7-7525E103AD14}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FFCA592E-CBF6-4745-B433-C1C83369EDD5}" ShortID="350719355" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{E79925B8-FA22-45B7-8A68-4C9B53DAF35F}" Global="false">
+									<ObjectRef Name="Monster Swim Temp" ID="{54AB0E46-7E94-44EE-BEBE-C204E7BEAB04}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Swim_Stop" ID="{D2888101-41D3-470A-BAE0-2FBA16FE86D6}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{1A77BF4C-C993-4DD8-90CC-DE2B10015BAA}" ShortID="359782148" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{E58A50D6-AE8B-4C6A-ADBA-915F09935878}" Global="false">
+									<ObjectRef Name="Monster Swim Temp" ID="{54AB0E46-7E94-44EE-BEBE-C204E7BEAB04}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Piglet_Grunt" ID="{B934AE76-FF4A-4758-8E7F-6DE347D801BD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4B14506E-3EE6-4030-AE88-2C7164238DB9}" ShortID="826928543" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FD35465C-02B0-4D0C-BAA2-483209FE086C}" Global="false">
+									<ObjectRef Name="Piglet Grunt" ID="{662AF215-1819-4FB4-AEF4-32AD6B711768}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pig_Squeal" ID="{F5BF2B30-9B66-4F27-AF34-E48F45459CC3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{138056E2-CF99-4BCE-A533-ABF33D2BA526}" ShortID="657683526" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B257ADDE-5C23-456A-A0F2-4BDB6FB04691}" Global="false">
+									<ObjectRef Name="Pig Squeal" ID="{D965B1B1-F61C-49E6-97CA-F288778099FA}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience_Play" ID="{92372A29-DEE8-4903-9375-ACAA93DE2070}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0C136B2B-C334-469B-B9F5-755FACE28E7A}" ShortID="678249491" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BB17F040-C3B5-4DF0-A2DC-6E611B2A8452}" Global="false">
+									<ObjectRef Name="Bats" ID="{82EDA7B1-9CB1-4C47-A7EB-1359BFC9CE76}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{0329712B-9D6D-40AE-A026-C39CC55D7B95}" ShortID="230678869" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DC5C05EF-982C-4FC8-B108-FD59C3CACADB}" Global="false">
+									<ObjectRef Name="Water Drops" ID="{6D45ED29-1060-4F7C-9D42-501B0A7831F1}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience_Stop" ID="{563B3210-A472-4605-A2ED-2E2562E8C0C5}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{D3A6C73B-1418-4D37-BD83-00DB472E058D}" ShortID="649237513" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{60D9C72D-A66A-4C18-97A6-F1A51C32DB91}" Global="false">
+									<ObjectRef Name="Bats" ID="{82EDA7B1-9CB1-4C47-A7EB-1359BFC9CE76}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{35469F38-9DA2-482A-8C55-CC36E94AFE3A}" ShortID="809010084" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{FB9F130D-5BAB-4641-8FB5-BB8BC8E9DE9E}" Global="false">
+									<ObjectRef Name="Water Drops" ID="{6D45ED29-1060-4F7C-9D42-501B0A7831F1}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu_Button" ID="{9694A634-551C-46E7-8BD6-01E82C5174CB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3DA5A4A3-2873-43A9-988E-40ED01707938}" ShortID="396686357" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{43575B02-87C1-426C-8CEC-02626B9A7C54}" Global="false">
+									<ObjectRef Name="Water Drop_20" ID="{FCF502B9-B263-4940-AC07-E83FE2F50BCF}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>

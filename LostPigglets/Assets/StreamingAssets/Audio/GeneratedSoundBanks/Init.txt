@@ -1,4 +1,23 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2604644515	Menus			\Default Work Unit\Menus	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menus			
+	1631528850	In_Menu	Menus			
+	2967546505	In_Game	Menus			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Environmental\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\Environmental\SFX	
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	1973600711	Environmental			\Default Work Unit\Master Audio Bus\Environmental	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Environmental\Reverb	
+	1690089400	Ambience_Reverb			\Default Work Unit\Master Audio Bus\Environmental\Ambience\Ambience_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
 

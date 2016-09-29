@@ -6,8 +6,10 @@ TagManager:
   tags:
   - SpawnList
   - Pigglet
-  - GUI
-  - Oink
+  - Enemy
+  - Plane
+  - Terain
+  - Walls
   layers:
   - Default
   - TransparentFX
@@ -17,9 +19,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Landmark
   - 
   - 
   - 

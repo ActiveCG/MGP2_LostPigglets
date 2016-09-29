@@ -31,3 +31,5 @@ LostPigglets/*.apk
 Icon?
 ehthumbs.db
 Thumbs.db
+LostPigglets/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+LostPigglets/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData 1.asset
