@@ -33,6 +33,7 @@ public class Charge : MonoBehaviour {
         }
     }
 
+
     public void Charging()
     {
         
@@ -43,12 +44,13 @@ public class Charge : MonoBehaviour {
 
             //PigMovement.current.nav.Stop();
             PigMovement.current.nav.enabled = false;
-            Debug.Log("I am in");
+            //Debug.Log("CHARGE!!!!!!");
             countTouch = 0;
             startCount = false;
             timer = 0;
-            
+
             PigMovement.current.pigRB.AddForce(transform.forward * chargeSpeed);
+            //ChargedOnMonster.instance.ChargeHit();
         }
 
         if(countTouch > 2)
@@ -57,5 +59,10 @@ public class Charge : MonoBehaviour {
             startCount = false;
             timer = 0;
         }
+    }
+
+    public void ChargeHit()
+    {
+        GameManager.instance.ChargeOnStun(GetComponent<Collider>());
     }
 }

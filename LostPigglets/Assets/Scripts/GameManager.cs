@@ -126,7 +126,7 @@ public class GameManager {
 		OnMonsterMove (monster);
 	}
 	public void monsterNotMoving(GameObject monster) {
-		OnMonsterNotMoving (monster);
+        OnMonsterNotMoving (monster);
 	}
 	public void MonsterAttacks(GameObject monster) {
 		OnMonsterAttack (monster);
@@ -141,7 +141,10 @@ public class GameManager {
 		OnMonsterGrowlAmbStop (monster);
 	}
 	public void MonsterStun(GameObject monster) {
-		OnMonsterStun (monster);
+        if (OnMonsterStun != null)
+        {
+            OnMonsterStun(monster);
+        }
 	}
 	public void MonsterDies(GameObject monster) {
 		OnMonsterDeath (monster);
@@ -180,4 +183,16 @@ public class GameManager {
 	public void menuStateChanged(string element) {
 		OnmenuStates (element);
 	}
+
+    //**** charging ****
+    public delegate void ChargeAction(Collider col);
+    public event ChargeAction OnChargeOnStun;
+
+    public void ChargeOnStun(Collider col)
+    {
+        if(OnChargeOnStun != null)
+        {
+            OnChargeOnStun(col);
+        }
+    }
 }
