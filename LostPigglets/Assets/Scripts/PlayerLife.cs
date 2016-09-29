@@ -4,8 +4,6 @@ using System.Collections;
 public class PlayerLife : MonoBehaviour {
 
 	void OnEnable () {
-		//set player's start health to 100
-		PlayerStats.instance.playerHealth = 100;
 
 		GameManager.instance.OnMonsterAttack += TakeDamage;
 		GameManager.instance.OnPlayerDeath += Die;
@@ -19,15 +17,7 @@ public class PlayerLife : MonoBehaviour {
 
 	//recieve damage from monsters
 	void TakeDamage(GameObject monster){
-		int damage = MonsterStats.instance.damageAmount;
-		PlayerStats.instance.playerHealth -= damage; //die immediatelly after getting hit
-
-		//check whether out of life:
-		if (PlayerStats.instance.playerHealth > 0) {
-			GameManager.instance.playerDamaged (damage);
-		} else {
-			GameManager.instance.playerDies (0);
-		}
+		GameManager.instance.playerDies (0);
 	}
 
 	//to happen when player dies

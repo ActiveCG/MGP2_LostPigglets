@@ -12,7 +12,6 @@ public class MonsterStats : MonoBehaviour {
     public List<Transform> spawnPlaces = new List<Transform>();
 
     public int pooledAmount;
-	public int damageAmount = 100;
 
     void Awake()
     {

@@ -116,7 +116,7 @@ public class AudioManager : MonoBehaviour {
 		//player events
 		GameManager.instance.OnPlayerMove += PlayerSwimPlay;
 		GameManager.instance.OnPlayerNotMoving += PlayerSwimStop;
-		GameManager.instance.OnPlayerDamage += PlayerDamagedPlay;
+		//GameManager.instance.OnPlayerDamage += PlayerDamagedPlay;
 		GameManager.instance.OnPlayerDeath += PlayerDeathPlay;
 		GameManager.instance.OnPickUp += PickUpObjectPlay;
 
@@ -133,7 +133,7 @@ public class AudioManager : MonoBehaviour {
 		//player events
 		GameManager.instance.OnPlayerMove -= PlayerSwimPlay;
 		GameManager.instance.OnPlayerNotMoving -= PlayerSwimStop;
-		GameManager.instance.OnPlayerDamage -= PlayerDamagedPlay;
+		//GameManager.instance.OnPlayerDamage -= PlayerDamagedPlay;
 		GameManager.instance.OnPlayerDeath -= PlayerDeathPlay;
 		GameManager.instance.OnPickUp -= PickUpObjectPlay;
 
