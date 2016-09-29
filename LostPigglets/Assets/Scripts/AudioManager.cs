@@ -54,52 +54,42 @@ public class AudioManager : MonoBehaviour {
 	void PlayerSwimPlay(Vector3 position){
 		if (isPlayerSwimming == true)
 			return;
-		AkSoundEngine.PostEvent (playerSwimStart, GameManager.instance.player);
+		PlaySound (playerSwimStart, GameManager.instance.player);
 		isPlayerSwimming = true;
-		AkSoundEngine.RenderAudio ();
 	}
 
 	void PlayerSwimStop(Vector3 position){
 		if (isPlayerSwimming == false)
 			return;
-		AkSoundEngine.PostEvent (playerSwimStop, GameManager.instance.player);
+		PlaySound (playerSwimStop, GameManager.instance.player);
 		isPlayerSwimming = false;
-		AkSoundEngine.RenderAudio ();
 	}
 
 	//*********** Monster ****************
 	void MonsterSwimPlay(GameObject monster){
-		AkSoundEngine.PostEvent (monsterSwimStart, monster);
-		AkSoundEngine.RenderAudio ();
+		PlaySound (monsterSwimStart, monster);
 	}
 
 	void MonsterSwimStop(GameObject monster){
-		AkSoundEngine.PostEvent (monsterSwimStop, monster);
-		AkSoundEngine.RenderAudio ();
+		PlaySound (monsterSwimStop, monster);
 	}
 	void MonsterAttackPlay(GameObject monster){
-		AkSoundEngine.PostEvent (monsterAttack, monster);
-		AkSoundEngine.RenderAudio ();
+		PlaySound (monsterAttack, monster);
 	}
 	void MonsterAggroPlay(GameObject monster){
-		AkSoundEngine.PostEvent (monsterAggro, monster);
-		AkSoundEngine.RenderAudio ();
+		PlaySound (monsterAggro, monster);
 	}
 	void MonsterGrowlAmbPlay(GameObject monster){
-		AkSoundEngine.PostEvent (monsterGrowlAmbStart, monster);
-		AkSoundEngine.RenderAudio ();
+		PlaySound (monsterGrowlAmbStart, monster);
 	}
 	void MonsterGrowlAmbStop(GameObject monster){
-		AkSoundEngine.PostEvent (monsterGrowlAmbStop, monster);
-		AkSoundEngine.RenderAudio ();
+		PlaySound (monsterGrowlAmbStop, monster);
 	}
 	void MonsterStunPlay(GameObject monster){
-		AkSoundEngine.PostEvent (monsterStun, monster);
-		AkSoundEngine.RenderAudio ();
+		PlaySound (monsterStun, monster);
 	}
 	void MonsterDeathPlay(GameObject monster){
-		AkSoundEngine.PostEvent (monsterDeath, monster);
-		AkSoundEngine.RenderAudio ();
+		PlaySound (monsterDeath, monster);
 	}
 
 	//Subscribing and unsubscribing to delegate events
@@ -120,5 +110,12 @@ public class AudioManager : MonoBehaviour {
 
 		//monster events
 		GameManager.instance.OnMonsterAttack -= MonsterAttackPlay;
+	}
+
+	private void PlaySound(string eventName, GameObject obj) {
+		if (eventName == null || eventName == "")
+			return;
+		AkSoundEngine.PostEvent (eventName, obj);
+		AkSoundEngine.RenderAudio ();
 	}
 }
