@@ -65,6 +65,10 @@ public class AudioManager : MonoBehaviour {
 		isPlayerSwimming = false;
 	}
 
+	void PickUpObject(GameObject pickedObject) {
+		PlaySound (playerPickUp, pickedObject);
+	}
+
 	//*********** Monster ****************
 	void MonsterSwimPlay(GameObject monster){
 		PlaySound (monsterSwimStart, monster);
@@ -98,6 +102,7 @@ public class AudioManager : MonoBehaviour {
 		//player events
 		GameManager.instance.OnPlayerMove += PlayerSwimPlay;
 		GameManager.instance.OnPlayerNotMoving += PlayerSwimStop;
+		GameManager.instance.OnPickUp += PickUpObject;
 
 		//monster events
 		GameManager.instance.OnMonsterAttack += MonsterAttackPlay;
@@ -107,6 +112,7 @@ public class AudioManager : MonoBehaviour {
 		//player events
 		GameManager.instance.OnPlayerMove -= PlayerSwimPlay;
 		GameManager.instance.OnPlayerNotMoving -= PlayerSwimStop;
+		GameManager.instance.OnPickUp -= PickUpObject;
 
 		//monster events
 		GameManager.instance.OnMonsterAttack -= MonsterAttackPlay;
