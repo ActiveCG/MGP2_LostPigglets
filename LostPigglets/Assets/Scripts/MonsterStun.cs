@@ -31,6 +31,7 @@ public class MonsterStun : MonoBehaviour
         {
             canStun = false;
             obj.GetComponent<NavMeshAgent>().Stop();
+			GameManager.instance.monsterNotMoving (obj); //monster stops swimming
             monsterStunned = true;
             Fighting.spotlight.intensity = 8;
             StartCoroutine("LightCooldown");
@@ -53,6 +54,7 @@ public class MonsterStun : MonoBehaviour
         yield return new WaitForSeconds(monsterStunTime);
         obj.GetComponent<NavMeshAgent>().Resume();
         monsterStunned = false;
+		GameManager.instance.monsterMove (obj); //monster starts swimming
     }
 }
 

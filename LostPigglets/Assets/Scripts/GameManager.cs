@@ -80,13 +80,13 @@ public class GameManager {
 	}
 
 	public delegate void HealthAction(int amount);
-	public event HealthAction OnPlayerDamage;
+	//public event HealthAction OnPlayerDamage;
 	public event HealthAction OnPlayerDeath;
 	public event HealthAction OnPlayerSpawn;
-	public void playerDamaged(int damageAmount) {
+	/*public void playerDamaged(int damageAmount) {
 		if(OnPlayerDamage != null)
 			OnPlayerDamage (damageAmount);
-	}
+	}*/
 	public void playerDies(int healthAmount) {
 		if(OnPlayerDeath != null)
 			OnPlayerDeath (healthAmount);

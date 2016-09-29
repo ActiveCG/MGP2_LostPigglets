@@ -13,7 +13,7 @@ public class PickUp : MonoBehaviour {
 			PickUpPigglet (other.gameObject);
 
 			//check whther all pigglets collected
-			if (piggletsCollected == PlayerStats.playerStatsCurrent.piggletsInGame) {
+			if (piggletsCollected == PlayerStats.instance.piggletsInGame) {
 				GameManager.instance.Win ();
 			}
 		}
