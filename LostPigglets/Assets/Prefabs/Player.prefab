@@ -63,6 +63,7 @@ GameObject:
   - 114: {fileID: 114000011663091162}
   - 114: {fileID: 114000012636578102}
   - 195: {fileID: 195000011472589752}
+  - 114: {fileID: 114000013608512242}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -322,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfbe86e1705d75d49b9a95f80cb1b7f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerOffset: {x: 0, y: 0.5, z: 0}
+  playerOffset: {x: 0, y: 7.5, z: 0}
   rotSpeed: 3
   pigRB: {fileID: 0}
   nav: {fileID: 0}
@@ -376,6 +377,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c5543bd2b771e42a64b2a9f4189e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114000013608512242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013944407680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3802d3ba29f58b49852d50e719c90fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000014215944228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -398,7 +410,7 @@ NavMeshAgent:
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 360
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
