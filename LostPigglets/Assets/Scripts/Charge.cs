@@ -19,7 +19,7 @@ public class Charge : MonoBehaviour {
 
     void Update()
     {
-        if(startCount)
+        if (startCount)
         {
             timer += Time.deltaTime;
         }
@@ -36,10 +36,10 @@ public class Charge : MonoBehaviour {
 
     public void Charging()
     {
-        
+
         countTouch++;
         startCount = true;
-        if(countTouch == 2 && timer < doubleTapTime)
+        if (countTouch == 2 && timer < doubleTapTime)
         {
 
             //PigMovement.current.nav.Stop();
@@ -53,7 +53,7 @@ public class Charge : MonoBehaviour {
             //ChargedOnMonster.instance.ChargeHit();
         }
 
-        if(countTouch > 2)
+        if (countTouch > 2 || timer > doubleTapTime)
         {
             countTouch = 0;
             startCount = false;

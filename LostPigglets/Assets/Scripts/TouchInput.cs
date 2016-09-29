@@ -58,18 +58,25 @@ public class TouchInput : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-            
+            //Debug.Log(Input.GetTouch(0).tapCount);
 
             if (Input.GetTouch(0).phase == TouchPhase.Moved)
             {
                 PigMovement.current.nav.enabled = false;
                 Rotating();
                 timer += Time.deltaTime;
+                Debug.Log(timer);
+                if(timer < 0.2f)
+                {
+                    Debug.Log("Reseting the NavMesh");
+                    PigMovement.current.nav.enabled = true;
+                }
+                
             }
 
             if (Input.GetTouch(0).phase == TouchPhase.Ended && timer < tapTime)
             {
-               // PigMovement.current.nav.enabled = true;
+                PigMovement.current.nav.enabled = true;
                 Moving();
             }
 

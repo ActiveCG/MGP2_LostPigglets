@@ -43,12 +43,14 @@ public class PigMovement : MonoBehaviour
     {
         if (nav.enabled)
         {
+            //Debug.Log("Please Move");
             nav.SetDestination(position);
         }
     }
 
     void Rotate(Vector3 position)
     {
+        //Debug.Log("Please Rotate");
         Quaternion targetRotation = Quaternion.LookRotation((position + playerOffset) - transform.position);
         pigRB.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotSpeed * Time.deltaTime);
     }
