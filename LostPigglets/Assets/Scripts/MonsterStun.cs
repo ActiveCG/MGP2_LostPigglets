@@ -12,6 +12,8 @@ public class MonsterStun : MonoBehaviour
 
     bool monsterNewDes = false;
     bool canStun;
+    [HideInInspector]
+    public bool monsterStunned = false;
 
     void Awake()
     {
@@ -29,6 +31,7 @@ public class MonsterStun : MonoBehaviour
         {
             canStun = false;
             obj.GetComponent<NavMeshAgent>().Stop();
+            monsterStunned = true;
             Fighting.spotlight.intensity = 8;
             StartCoroutine("LightCooldown");
             StartCoroutine("Cooldown");
@@ -48,8 +51,8 @@ public class MonsterStun : MonoBehaviour
     IEnumerator MonsterCooldown(GameObject obj)
     {
         yield return new WaitForSeconds(monsterStunTime);
-        Debug.Log(canStun);
         obj.GetComponent<NavMeshAgent>().Resume();
+        monsterStunned = false;
     }
 }
 

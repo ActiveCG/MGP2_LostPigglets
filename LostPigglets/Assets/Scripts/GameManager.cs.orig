@@ -138,8 +138,12 @@ public class GameManager {
 			OnMonsterMove (monster);
 	}
 	public void monsterNotMoving(GameObject monster) {
+<<<<<<< HEAD
+        OnMonsterNotMoving (monster);
+=======
 		if(OnMonsterNotMoving != null)
 			OnMonsterNotMoving (monster);
+>>>>>>> master
 	}
 	public void MonsterAttacks(GameObject monster) {
 		if(OnMonsterAttack != null)
@@ -158,10 +162,15 @@ public class GameManager {
 			OnMonsterGrowlAmbStop (monster);
 	}
 	public void MonsterStun(GameObject monster) {
-		if(OnMonsterStun != null)
+<<<<<<< HEAD
+        if (OnMonsterStun != null)
         {
-			OnMonsterStun (monster);
+            OnMonsterStun(monster);
         }
+=======
+		if(OnMonsterStun != null)
+			OnMonsterStun (monster);
+>>>>>>> master
 	}
 	public void MonsterDies(GameObject monster) {
 		if(OnMonsterDeath != null)

@@ -6,7 +6,7 @@ public class MonsterAttack : MonoBehaviour {
 	//public static event MonsterAttacks monsterAttacks;
 
 	void OnTriggerEnter(Collider other){
-		if (other.gameObject.tag == "Player") {
+		if (other.gameObject.tag == "Player" && !MonsterStun.current.monsterStunned) {
 			GameManager.instance.MonsterAttacks (gameObject);
 		}
 	}
