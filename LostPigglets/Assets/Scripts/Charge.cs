@@ -53,7 +53,7 @@ public class Charge : MonoBehaviour {
             //ChargedOnMonster.instance.ChargeHit();
         }
 
-        if(countTouch > 2)
+		if(countTouch > 2 || timer > doubleTapTime)
         {
             countTouch = 0;
             startCount = false;
