@@ -7,7 +7,7 @@ public class AudioManager : MonoBehaviour {
 	private string playerSwimStart;
 	[SerializeField]
 	private string playerSwimStop,
-		playerDamaged,
+		//playerDamaged,
 		playerChargeHit,
 		playerPickUp,
 		playerDeath,
@@ -63,9 +63,9 @@ public class AudioManager : MonoBehaviour {
 		PlaySound (playerSwimStop, GameManager.instance.player);
 		isPlayerSwimming = false;
 	}
-	void PlayerDamagedPlay(int health) {
+	/*void PlayerDamagedPlay(int health) {
 		PlaySound (playerDamaged, GameManager.instance.player);
-	}
+	}*/
 	void PlayerDeathPlay(int health) {
 		PlaySound (playerDeath, GameManager.instance.player);
 	}

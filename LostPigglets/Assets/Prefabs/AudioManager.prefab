@@ -54,7 +54,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSwimStart: Pig_Swim_Start
   playerSwimStop: Pig_Swim_Stop
-  playerDamaged: Pig_Squeal
   playerChargeHit: 
   playerPickUp: Piglet_Grunt
   playerDeath: Pig_Squeal

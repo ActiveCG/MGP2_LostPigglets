@@ -398,16 +398,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010727750080, guid: 1056aaf8a8d97c84290c45c911b55f1b,
-        type: 2}
-      propertyPath: playerSwimStart
-      value: Pig_Swim_Start
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010727750080, guid: 1056aaf8a8d97c84290c45c911b55f1b,
-        type: 2}
-      propertyPath: playerSwimStop
-      value: Pig_Swim_Stop
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1056aaf8a8d97c84290c45c911b55f1b, type: 2}
   m_IsPrefabParent: 0
