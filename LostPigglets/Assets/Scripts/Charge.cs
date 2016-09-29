@@ -44,6 +44,7 @@ public class Charge : MonoBehaviour {
 
             //PigMovement.current.nav.Stop();
             PigMovement.current.nav.enabled = false;
+			GameManager.instance.chargeHit ();  // player charging
             //Debug.Log("CHARGE!!!!!!");
             countTouch = 0;
             startCount = false;
