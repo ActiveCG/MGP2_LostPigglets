@@ -15,8 +15,10 @@ namespace AK
     {
         static const AkUniqueID MONSTER_SWIM_START = 1632505953U;
         static const AkUniqueID MONSTER_SWIM_STOP = 3461698459U;
+        static const AkUniqueID PIG_SQUEAL = 2522003227U;
         static const AkUniqueID PIG_SWIM_START = 1548288955U;
         static const AkUniqueID PIG_SWIM_STOP = 1750874649U;
+        static const AkUniqueID PIGLET_GRUNT = 3456914341U;
         static const AkUniqueID PIGLET_OINK = 4036007832U;
     } // namespace EVENTS
 

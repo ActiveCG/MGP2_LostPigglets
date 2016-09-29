@@ -54,17 +54,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSwimStart: Pig_Swim_Start
   playerSwimStop: Pig_Swim_Stop
-  playerDamaged: 
+  playerDamaged: Pig_Squeal
   playerChargeHit: 
-  playerPickUp: 
-  playerDeath: 
+  playerPickUp: Piglet_Grunt
+  playerDeath: Pig_Squeal
   playerLightStart: 
   playerLightStop: 
   playerSpawn: 
-  oink: 
-  monsterSwimStart: 
-  monsterSwimStop: 
-  monsterAttack: Piglet_Oink
+  oink: Piglet_Oink
+  monsterSwimStart: Monster_Swim_Start
+  monsterSwimStop: Monster_Swim_Stop
+  monsterAttack: 
   monsterAggro: 
   monsterGrowlAmbStart: 
   monsterGrowlAmbStop: 
