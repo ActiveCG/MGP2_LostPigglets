@@ -13,6 +13,7 @@ public class TouchInput : MonoBehaviour
     private Ray ray;
 
     RaycastHit hit;
+    //RaycastHit collided;
 
     public float tapTime = 0.2f;
     public Collider plane;
@@ -31,10 +32,17 @@ public class TouchInput : MonoBehaviour
     void Moving()
     {
         ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-        if (plane.Raycast(ray, out hit, Mathf.Infinity))
-        {
-            GameManager.instance.move(hit.point);
-        }
+
+        //Physics.Raycast(ray, out collided, Mathf.Infinity);
+        //Debug.Log(collided.collider);
+
+        //if (!(collided.collider.gameObject.tag == "Terain"))
+        //{
+            if (plane.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                GameManager.instance.move(hit.point);
+            }
+        //}
     }
 
     void Rotating()

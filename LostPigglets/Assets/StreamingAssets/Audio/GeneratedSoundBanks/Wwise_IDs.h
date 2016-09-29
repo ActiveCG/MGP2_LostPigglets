@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENCE_PLAY = 1496310610U;
+        static const AkUniqueID AMBIENCE_STOP = 3166394572U;
+        static const AkUniqueID MENU_BUTTON = 938529747U;
         static const AkUniqueID MONSTER_SWIM_START = 1632505953U;
         static const AkUniqueID MONSTER_SWIM_STOP = 3461698459U;
         static const AkUniqueID PIG_SQUEAL = 2522003227U;
@@ -21,6 +24,21 @@ namespace AK
         static const AkUniqueID PIGLET_GRUNT = 3456914341U;
         static const AkUniqueID PIGLET_OINK = 4036007832U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MENUS
+        {
+            static const AkUniqueID GROUP = 2604644515U;
+
+            namespace STATE
+            {
+                static const AkUniqueID IN_GAME = 2967546505U;
+                static const AkUniqueID IN_MENU = 1631528850U;
+            } // namespace STATE
+        } // namespace MENUS
+
+    } // namespace STATES
 
     namespace GAME_PARAMETERS
     {
@@ -54,6 +72,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID AMBIENCE_REVERB = 1690089400U;
         static const AkUniqueID REVERB = 348963605U;
     } // namespace AUX_BUSSES
 
