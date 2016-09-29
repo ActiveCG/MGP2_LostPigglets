@@ -21,16 +21,24 @@ public class AnimatorManager : MonoBehaviour {
 		isPlayerSwimming = false;
 	}
 
+	void AM_Charge(){
+		playerAnim.SetTrigger ("pigAttackTrig");
+	}
+	public void AM_ResetCharge(){
+		playerAnim.ResetTrigger ("pigAttackTrig");
+	}
 	void OnEnable () {
 		isPlayerSwimming = false;
 		playerAnim = GameManager.instance.player.GetComponentInChildren<Animator> () as Animator;
 		//player events
 		GameManager.instance.OnPlayerMove += AM_PlayerSwim;
 		GameManager.instance.OnPlayerNotMoving += AM_PlayerSwimStop;
+		GameManager.instance.OnChargeHit += AM_Charge;
 	}
 	void OnDisable () {
 		//player events
 		GameManager.instance.OnPlayerMove -= AM_PlayerSwim;
 		GameManager.instance.OnPlayerNotMoving -= AM_PlayerSwimStop;
+		GameManager.instance.OnChargeHit -= AM_Charge;
 	}
 }
