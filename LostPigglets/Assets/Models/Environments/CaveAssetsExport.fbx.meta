@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 4299e292aedd5b146b947b62bbd3738d
+timeCreated: 1475066145
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: FatMushroom_01
+    100004: FatMushroom_02
+    100006: FatMushroom_03
+    100008: grp_mushrooms
+    100010: grp_stalagmites
+    100012: grp_stones
+    100014: LargeStone_01
+    100016: LayeredLargeStalagmite_01
+    100018: LayeredMediumStalagmite_01
+    100020: LayeredSmallStalagmite_01
+    100022: MediumStone_01
+    100024: NormalLargeStalagmite_01
+    100026: NormalSmallStalagmite_01
+    100028: SmallStone_01
+    100030: SmoothLargeStalagmite_01
+    100032: SmoothMediumStalagmite_01
+    100034: SmoothSmallStalagmite_01
+    100036: ThinMushroom_01
+    100038: ThinMushroom_02
+    100040: ThinMushroom_03
+    100042: ThinMushroom_04
+    100044: WallMushroom_01
+    400000: //RootNode
+    400002: FatMushroom_01
+    400004: FatMushroom_02
+    400006: FatMushroom_03
+    400008: grp_mushrooms
+    400010: grp_stalagmites
+    400012: grp_stones
+    400014: LargeStone_01
+    400016: LayeredLargeStalagmite_01
+    400018: LayeredMediumStalagmite_01
+    400020: LayeredSmallStalagmite_01
+    400022: MediumStone_01
+    400024: NormalLargeStalagmite_01
+    400026: NormalSmallStalagmite_01
+    400028: SmallStone_01
+    400030: SmoothLargeStalagmite_01
+    400032: SmoothMediumStalagmite_01
+    400034: SmoothSmallStalagmite_01
+    400036: ThinMushroom_01
+    400038: ThinMushroom_02
+    400040: ThinMushroom_03
+    400042: ThinMushroom_04
+    400044: WallMushroom_01
+    2300000: FatMushroom_01
+    2300002: FatMushroom_02
+    2300004: FatMushroom_03
+    2300006: LargeStone_01
+    2300008: LayeredLargeStalagmite_01
+    2300010: LayeredMediumStalagmite_01
+    2300012: LayeredSmallStalagmite_01
+    2300014: MediumStone_01
+    2300016: NormalLargeStalagmite_01
+    2300018: NormalSmallStalagmite_01
+    2300020: SmallStone_01
+    2300022: SmoothLargeStalagmite_01
+    2300024: SmoothMediumStalagmite_01
+    2300026: SmoothSmallStalagmite_01
+    2300028: ThinMushroom_01
+    2300030: ThinMushroom_02
+    2300032: ThinMushroom_03
+    2300034: ThinMushroom_04
+    2300036: WallMushroom_01
+    3300000: FatMushroom_01
+    3300002: FatMushroom_02
+    3300004: FatMushroom_03
+    3300006: LargeStone_01
+    3300008: LayeredLargeStalagmite_01
+    3300010: LayeredMediumStalagmite_01
+    3300012: LayeredSmallStalagmite_01
+    3300014: MediumStone_01
+    3300016: NormalLargeStalagmite_01
+    3300018: NormalSmallStalagmite_01
+    3300020: SmallStone_01
+    3300022: SmoothLargeStalagmite_01
+    3300024: SmoothMediumStalagmite_01
+    3300026: SmoothSmallStalagmite_01
+    3300028: ThinMushroom_01
+    3300030: ThinMushroom_02
+    3300032: ThinMushroom_03
+    3300034: ThinMushroom_04
+    3300036: WallMushroom_01
+    4300000: LayeredMediumStalagmite_01
+    4300002: LayeredSmallStalagmite_01
+    4300004: SmoothLargeStalagmite_01
+    4300006: SmoothMediumStalagmite_01
+    4300008: SmoothSmallStalagmite_01
+    4300010: NormalLargeStalagmite_01
+    4300012: NormalSmallStalagmite_01
+    4300014: LayeredLargeStalagmite_01
+    4300016: SmallStone_01
+    4300018: MediumStone_01
+    4300020: LargeStone_01
+    4300022: WallMushroom_01
+    4300024: FatMushroom_01
+    4300026: FatMushroom_02
+    4300028: FatMushroom_03
+    4300030: ThinMushroom_01
+    4300032: ThinMushroom_02
+    4300034: ThinMushroom_03
+    4300036: ThinMushroom_04
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
