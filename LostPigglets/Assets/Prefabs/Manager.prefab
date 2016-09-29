@@ -52,6 +52,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000013440942388}
+  - 114: {fileID: 114000014214534932}
   m_Layer: 0
   m_Name: AnimationManager
   m_TagString: Untagged
@@ -184,9 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c886b08668c90f7479f0ab4c1bee7a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 0
-  playerSpeed: 0
-  piggletsInGame: 3
+  piggletsInGame: 2
 --- !u!114 &114000011230021458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129779e130a82df4fa19d425cc26f957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tapTime: 0.2
+  tapTime: 0.1
   plane: {fileID: 0}
 --- !u!114 &114000013160568396
 MonoBehaviour:
@@ -250,5 +249,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c7c2d99c988284fa1f581d2b240a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tapTime: 0.2
+  tapTime: 0.5
   plane: {fileID: 0}
+--- !u!114 &114000014214534932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012293488330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c16151c0fe7d5945b38ae1c4184b1f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

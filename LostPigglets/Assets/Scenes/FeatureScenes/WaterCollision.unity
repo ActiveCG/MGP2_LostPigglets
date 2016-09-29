@@ -171,11 +171,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010082586802, guid: 87faded5c5dbd9040a36cbdcc39302bb,
-        type: 2}
-      propertyPath: piggletsInGame
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87faded5c5dbd9040a36cbdcc39302bb, type: 2}
   m_IsPrefabParent: 0
@@ -347,6 +342,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d46d8048cf019e4aba6027202b9dafc, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1283746263 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013944407680, guid: 56fd4acb24fca454887b98d1532e5878,
+    type: 2}
+  m_PrefabInternal: {fileID: 1758772241}
+--- !u!114 &1283746264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1283746263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3802d3ba29f58b49852d50e719c90fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1345282513
 Prefab:
   m_ObjectHideFlags: 0
@@ -3315,6 +3326,11 @@ Prefab:
     - target: {fileID: 4000011669559168, guid: 56fd4acb24fca454887b98d1532e5878, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011663091162, guid: 56fd4acb24fca454887b98d1532e5878,
+        type: 2}
+      propertyPath: doubleTapTime
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56fd4acb24fca454887b98d1532e5878, type: 2}
