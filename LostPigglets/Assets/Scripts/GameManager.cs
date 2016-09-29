@@ -43,6 +43,7 @@ public class GameManager {
 	}
 
 	public void StartGame() {
+		_instance = null;
 		SceneManager.LoadScene (GAME_SCENE);
 	}
 
@@ -66,13 +67,16 @@ public class GameManager {
 	public event MovementInput OnPlayerRotate;
 	public event MovementInput OnPlayerNotMoving;
 	public void move(Vector3 position) {
-		OnPlayerMove (position);
+		if(OnPlayerMove != null)
+			OnPlayerMove (position);
 	}
 	public void rotate(Vector3 position) {
-		OnPlayerRotate (position);
+		if(OnPlayerRotate != null)
+			OnPlayerRotate (position);
 	}
 	public void notMoving(Vector3 position) {
-		OnPlayerNotMoving (position);
+		if(OnPlayerNotMoving != null)
+			OnPlayerNotMoving (position);
 	}
 
 	public delegate void HealthAction(int amount);
@@ -80,36 +84,43 @@ public class GameManager {
 	public event HealthAction OnPlayerDeath;
 	public event HealthAction OnPlayerSpawn;
 	public void playerDamaged(int damageAmount) {
-		OnPlayerDamage (damageAmount);
+		if(OnPlayerDamage != null)
+			OnPlayerDamage (damageAmount);
 	}
 	public void playerDies(int healthAmount) {
-		OnPlayerDeath (healthAmount);
+		if(OnPlayerDeath != null)
+			OnPlayerDeath (healthAmount);
 	}
 	public void playerSpawn(int healthAmount) {
-		OnPlayerSpawn (healthAmount);
+		if(OnPlayerSpawn != null)
+			OnPlayerSpawn (healthAmount);
 	}
 
-	public delegate void PickUpAction();
+	public delegate void PickUpAction(GameObject pickedObj);
 	public event PickUpAction OnPickUp;
-	public void pickUpPigglet() {
-		OnPickUp ();
+	public void pickUpPigglet(GameObject pickedObj) {
+		if(OnPickUp != null)
+			OnPickUp (pickedObj);
 	}
 
 	public delegate void FightingAction();
 	public event FightingAction OnLight;
 	public event FightingAction OnChargeHit;
 	public void light() {
-		OnLight ();
+		if(OnLight != null)
+			OnLight ();
 	}
 	public void chargeHit() {
-		OnChargeHit ();
+		if(OnChargeHit != null)
+			OnChargeHit ();
 	}
 
 	//**** pigglet****
-	public delegate void PigletAction();
+	public delegate void PigletAction(GameObject piglet);
 	public event PigletAction OnPigletOink;
-	public void oink() {
-		OnPigletOink ();
+	public void oink(GameObject piglet) {
+		if(OnPigletOink != null)
+			OnPigletOink (piglet);
 	}
 
 	//**** monsters ****
@@ -123,51 +134,64 @@ public class GameManager {
 	public event MonsterAction OnMonsterStun;
 	public event MonsterAction OnMonsterDeath;
 	public void monsterMove(GameObject monster) {
-		OnMonsterMove (monster);
+		if(OnMonsterMove != null)
+			OnMonsterMove (monster);
 	}
 	public void monsterNotMoving(GameObject monster) {
-		OnMonsterNotMoving (monster);
+		if(OnMonsterNotMoving != null)
+			OnMonsterNotMoving (monster);
 	}
 	public void MonsterAttacks(GameObject monster) {
-		OnMonsterAttack (monster);
+		if(OnMonsterAttack != null)
+			OnMonsterAttack (monster);
 	}
 	public void MonsterAggros(GameObject monster) {
-		OnMonsterAggro (monster);
+		if(OnMonsterAggro != null)
+			OnMonsterAggro (monster);
 	}
 	public void MonsterGrowlAmb(GameObject monster) {
-		OnMonsterGrowlAmb (monster);
+		if(OnMonsterGrowlAmb != null)
+			OnMonsterGrowlAmb (monster);
 	}
 	public void MonsterGrowlAmbStop(GameObject monster) {
-		OnMonsterGrowlAmbStop (monster);
+		if(OnMonsterGrowlAmbStop != null)
+			OnMonsterGrowlAmbStop (monster);
 	}
 	public void MonsterStun(GameObject monster) {
-		OnMonsterStun (monster);
+		if(OnMonsterStun != null)
+			OnMonsterStun (monster);
 	}
 	public void MonsterDies(GameObject monster) {
-		OnMonsterDeath (monster);
+		if(OnMonsterDeath != null)
+			OnMonsterDeath (monster);
 	}
 
 	//**** environment ****
-	public delegate void EnvironmentAction();
+	public delegate void EnvironmentAction(GameObject obj);
 	public event EnvironmentAction OnAmbience;
 	public event EnvironmentAction OnAmbienceStop;
 	public event EnvironmentAction OnCollision;
 	public event EnvironmentAction OnLightFlower;
 	public event EnvironmentAction OnCaveObject;
-	public void ambience() {
-		OnAmbience ();
+	public void ambience(GameObject obj) {
+		if(OnAmbience != null)
+			OnAmbience (obj);
 	}
-	public void ambienceStop() {
-		OnAmbienceStop ();
+	public void ambienceStop(GameObject obj) {
+		if(OnAmbienceStop != null)
+			OnAmbienceStop (obj);
 	}
-	public void collideOnEnvironment() {
-		OnCollision ();
+	public void collideOnEnvironment(GameObject obj) {
+		if(OnCollision != null)
+			OnCollision (obj);
 	}
-	public void lightFlower() {
-		OnLightFlower ();
+	public void lightFlower(GameObject obj) {
+		if(OnLightFlower != null)
+			OnLightFlower (obj);
 	}
-	public void caveObjectHit() {
-		OnCaveObject ();
+	public void caveObjectHit(GameObject obj) {
+		if(OnCaveObject != null)
+			OnCaveObject (obj);
 	}
 
 	//**** menu ****
@@ -175,9 +199,11 @@ public class GameManager {
 	public event MenuAction OnMenuButton;
 	public event MenuAction OnmenuStates;
 	public void buttonPressed(string element) {
-		OnMenuButton (element);
+		if(OnMenuButton != null)
+			OnMenuButton (element);
 	}
 	public void menuStateChanged(string element) {
-		OnmenuStates (element);
+		if(OnmenuStates != null)
+			OnmenuStates (element);
 	}
 }

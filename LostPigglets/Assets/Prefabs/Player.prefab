@@ -132,7 +132,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013944407680}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.24, y: 0.5, z: -14.06}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -337,6 +337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionRadius: 6
+  lightTimer: 1
+  cdTimer: 8
 --- !u!114 &114000011663091162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -348,9 +350,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 405e623c9944ad541811b681c7cf99f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pleaseCharge: 0
   chargeSpeed: 1000
-  initialSpeed: 0
+  doubleTapTime: 1
 --- !u!114 &114000012688584658
 MonoBehaviour:
   m_ObjectHideFlags: 1
