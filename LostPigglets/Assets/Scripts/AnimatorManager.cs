@@ -10,7 +10,7 @@ public class AnimatorManager : MonoBehaviour {
 	void AM_PlayerSwim(Vector3 position){
 		if (isPlayerSwimming == true)
 			return;
-		PlaySound (playerSwimStart, GameManager.instance.player);
+		//PlaySound (playerSwimStart, GameManager.instance.player);
 		isPlayerSwimming = true;
 	}
 }
