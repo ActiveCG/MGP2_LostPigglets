@@ -21,6 +21,9 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1496310610" Name="Ambience_Play" ObjectPath="\Events\Default Work Unit\Ambience_Play"/>
+				<Event Id="3166394572" Name="Ambience_Stop" ObjectPath="\Events\Default Work Unit\Ambience_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="938529747" Name="Menu_Button" ObjectPath="\Events\Default Work Unit\Menu_Button"/>
 				<Event Id="1632505953" Name="Monster_Swim_Start" ObjectPath="\Events\Default Work Unit\Monster_Swim_Start" MaxAttenuation="60.000000"/>
 				<Event Id="3461698459" Name="Monster_Swim_Stop" ObjectPath="\Events\Default Work Unit\Monster_Swim_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="2522003227" Name="Pig_Squeal" ObjectPath="\Events\Default Work Unit\Pig_Squeal"/>
@@ -30,6 +33,10 @@
 				<Event Id="4036007832" Name="Piglet_Oink" ObjectPath="\Events\Default Work Unit\Piglet_Oink" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="4148850" Language="SFX">
+					<ShortName>Water Drop_11.wav</ShortName>
+					<Path>SFX\Water Drop_11_9E69E797.wem</Path>
+				</File>
 				<File Id="24194782" Language="SFX">
 					<ShortName>Pig Squeal_10.wav</ShortName>
 					<Path>SFX\Pig Squeal_10_9E69E797.wem</Path>
@@ -37,6 +44,26 @@
 				<File Id="26525294" Language="SFX">
 					<ShortName>Piglet Oink Bubble_3.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_3_9E69E797.wem</Path>
+				</File>
+				<File Id="30420553" Language="SFX">
+					<ShortName>Water Drop_6.wav</ShortName>
+					<Path>SFX\Water Drop_6_9E69E797.wem</Path>
+				</File>
+				<File Id="48923746" Language="SFX">
+					<ShortName>Bats_9.wav</ShortName>
+					<Path>SFX\Bats_9_9E69E797.wem</Path>
+				</File>
+				<File Id="71185255" Language="SFX">
+					<ShortName>Water Drop_25.wav</ShortName>
+					<Path>SFX\Water Drop_25_9E69E797.wem</Path>
+				</File>
+				<File Id="72094659" Language="SFX">
+					<ShortName>Water Drop.wav</ShortName>
+					<Path>SFX\Water Drop_9E69E797.wem</Path>
+				</File>
+				<File Id="86857199" Language="SFX">
+					<ShortName>Water Drop_28.wav</ShortName>
+					<Path>SFX\Water Drop_28_9E69E797.wem</Path>
 				</File>
 				<File Id="91881920" Language="SFX">
 					<ShortName>Pig Squeal_1.wav</ShortName>
@@ -54,6 +81,10 @@
 					<ShortName>Piglet Grunt_3.wav</ShortName>
 					<Path>SFX\Piglet Grunt_3_9E69E797.wem</Path>
 				</File>
+				<File Id="167772588" Language="SFX">
+					<ShortName>Water Drop_16.wav</ShortName>
+					<Path>SFX\Water Drop_16_9E69E797.wem</Path>
+				</File>
 				<File Id="172806222" Language="SFX">
 					<ShortName>Piglet Grunt_2.wav</ShortName>
 					<Path>SFX\Piglet Grunt_2_9E69E797.wem</Path>
@@ -66,29 +97,77 @@
 					<ShortName>Pig Squeal_2.wav</ShortName>
 					<Path>SFX\Pig Squeal_2_9E69E797.wem</Path>
 				</File>
+				<File Id="254182227" Language="SFX">
+					<ShortName>Water Drop_2.wav</ShortName>
+					<Path>SFX\Water Drop_2_9E69E797.wem</Path>
+				</File>
 				<File Id="258290485" Language="SFX">
 					<ShortName>Pig Squeal_9.wav</ShortName>
 					<Path>SFX\Pig Squeal_9_9E69E797.wem</Path>
+				</File>
+				<File Id="266652559" Language="SFX">
+					<ShortName>Bats_2.wav</ShortName>
+					<Path>SFX\Bats_2_9E69E797.wem</Path>
+				</File>
+				<File Id="271480835" Language="SFX">
+					<ShortName>Bats_4.wav</ShortName>
+					<Path>SFX\Bats_4_9E69E797.wem</Path>
+				</File>
+				<File Id="272873549" Language="SFX">
+					<ShortName>Water Drop_10.wav</ShortName>
+					<Path>SFX\Water Drop_10_9E69E797.wem</Path>
 				</File>
 				<File Id="280780108" Language="SFX">
 					<ShortName>Pig Squeal_4.wav</ShortName>
 					<Path>SFX\Pig Squeal_4_9E69E797.wem</Path>
 				</File>
+				<File Id="285799403" Language="SFX">
+					<ShortName>Bats_5.wav</ShortName>
+					<Path>SFX\Bats_5_9E69E797.wem</Path>
+				</File>
+				<File Id="299204162" Language="SFX">
+					<ShortName>Water Drop_24.wav</ShortName>
+					<Path>SFX\Water Drop_24_9E69E797.wem</Path>
+				</File>
 				<File Id="300654096" Language="SFX">
 					<ShortName>Pig Squeal_6.wav</ShortName>
 					<Path>SFX\Pig Squeal_6_9E69E797.wem</Path>
+				</File>
+				<File Id="311725679" Language="SFX">
+					<ShortName>Water Drop_23.wav</ShortName>
+					<Path>SFX\Water Drop_23_9E69E797.wem</Path>
+				</File>
+				<File Id="335742970" Language="SFX">
+					<ShortName>Bats_13.wav</ShortName>
+					<Path>SFX\Bats_13_9E69E797.wem</Path>
 				</File>
 				<File Id="340566772" Language="SFX">
 					<ShortName>Piglet Oink Bubble.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_9E69E797.wem</Path>
 				</File>
+				<File Id="345045986" Language="SFX">
+					<ShortName>Water Drop_15.wav</ShortName>
+					<Path>SFX\Water Drop_15_9E69E797.wem</Path>
+				</File>
+				<File Id="366673302" Language="SFX">
+					<ShortName>Water Drop_7.wav</ShortName>
+					<Path>SFX\Water Drop_7_9E69E797.wem</Path>
+				</File>
 				<File Id="367240828" Language="SFX">
 					<ShortName>Piglet Grunt.wav</ShortName>
 					<Path>SFX\Piglet Grunt_9E69E797.wem</Path>
 				</File>
+				<File Id="369099336" Language="SFX">
+					<ShortName>Bats_12.wav</ShortName>
+					<Path>SFX\Bats_12_9E69E797.wem</Path>
+				</File>
 				<File Id="372074762" Language="SFX">
 					<ShortName>Pig Squeal_5.wav</ShortName>
 					<Path>SFX\Pig Squeal_5_9E69E797.wem</Path>
+				</File>
+				<File Id="382917414" Language="SFX">
+					<ShortName>Water Drop_26.wav</ShortName>
+					<Path>SFX\Water Drop_26_9E69E797.wem</Path>
 				</File>
 				<File Id="387188291" Language="SFX">
 					<ShortName>Piglet Oink Bubble_8.wav</ShortName>
@@ -98,6 +177,34 @@
 					<ShortName>Pig Squeal_11.wav</ShortName>
 					<Path>SFX\Pig Squeal_11_9E69E797.wem</Path>
 				</File>
+				<File Id="398911237" Language="SFX">
+					<ShortName>Water Drop_5.wav</ShortName>
+					<Path>SFX\Water Drop_5_9E69E797.wem</Path>
+				</File>
+				<File Id="423135228" Language="SFX">
+					<ShortName>Water Drop_21.wav</ShortName>
+					<Path>SFX\Water Drop_21_9E69E797.wem</Path>
+				</File>
+				<File Id="443091155" Language="SFX">
+					<ShortName>Water Drop_20.wav</ShortName>
+					<Path>SFX\Water Drop_20_9E69E797.wem</Path>
+				</File>
+				<File Id="451776431" Language="SFX">
+					<ShortName>Water Drop_13.wav</ShortName>
+					<Path>SFX\Water Drop_13_9E69E797.wem</Path>
+				</File>
+				<File Id="462194035" Language="SFX">
+					<ShortName>Bats_7.wav</ShortName>
+					<Path>SFX\Bats_7_9E69E797.wem</Path>
+				</File>
+				<File Id="480976643" Language="SFX">
+					<ShortName>Bats.wav</ShortName>
+					<Path>SFX\Bats_9E69E797.wem</Path>
+				</File>
+				<File Id="485042121" Language="SFX">
+					<ShortName>Bats_15.wav</ShortName>
+					<Path>SFX\Bats_15_9E69E797.wem</Path>
+				</File>
 				<File Id="490274137" Language="SFX">
 					<ShortName>Pig Squeal_7.wav</ShortName>
 					<Path>SFX\Pig Squeal_7_9E69E797.wem</Path>
@@ -106,13 +213,37 @@
 					<ShortName>Piglet Oink Bubble_5.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_5_9E69E797.wem</Path>
 				</File>
+				<File Id="526843189" Language="SFX">
+					<ShortName>Bats_8.wav</ShortName>
+					<Path>SFX\Bats_8_9E69E797.wem</Path>
+				</File>
 				<File Id="532198382" Language="SFX">
 					<ShortName>Piglet Oink Bubble_4.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_4_9E69E797.wem</Path>
 				</File>
+				<File Id="547755241" Language="SFX">
+					<ShortName>Water Drop_14.wav</ShortName>
+					<Path>SFX\Water Drop_14_9E69E797.wem</Path>
+				</File>
+				<File Id="549609097" Language="SFX">
+					<ShortName>Water Drop_9.wav</ShortName>
+					<Path>SFX\Water Drop_9_9E69E797.wem</Path>
+				</File>
 				<File Id="555880611" Language="SFX">
 					<ShortName>Piglet Oink Bubble_1.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_1_9E69E797.wem</Path>
+				</File>
+				<File Id="557499383" Language="SFX">
+					<ShortName>Water Drop_12.wav</ShortName>
+					<Path>SFX\Water Drop_12_9E69E797.wem</Path>
+				</File>
+				<File Id="561650784" Language="SFX">
+					<ShortName>Bats_10.wav</ShortName>
+					<Path>SFX\Bats_10_9E69E797.wem</Path>
+				</File>
+				<File Id="563456386" Language="SFX">
+					<ShortName>Water Drop_4.wav</ShortName>
+					<Path>SFX\Water Drop_4_9E69E797.wem</Path>
 				</File>
 				<File Id="581616497" Language="SFX">
 					<ShortName>Piglet Grunt_5.wav</ShortName>
@@ -126,6 +257,22 @@
 					<ShortName>Piglet Oink Bubble_2.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_2_9E69E797.wem</Path>
 				</File>
+				<File Id="623874489" Language="SFX">
+					<ShortName>Bats_3.wav</ShortName>
+					<Path>SFX\Bats_3_9E69E797.wem</Path>
+				</File>
+				<File Id="630539066" Language="SFX">
+					<ShortName>Water Drop_18.wav</ShortName>
+					<Path>SFX\Water Drop_18_9E69E797.wem</Path>
+				</File>
+				<File Id="703208946" Language="SFX">
+					<ShortName>Bats_6.wav</ShortName>
+					<Path>SFX\Bats_6_9E69E797.wem</Path>
+				</File>
+				<File Id="707061040" Language="SFX">
+					<ShortName>Water Drop_17.wav</ShortName>
+					<Path>SFX\Water Drop_17_9E69E797.wem</Path>
+				</File>
 				<File Id="725028944" Language="SFX">
 					<ShortName>Piglet Oink Bubble_6.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_6_9E69E797.wem</Path>
@@ -138,13 +285,49 @@
 					<ShortName>Piglet Grunt_4.wav</ShortName>
 					<Path>SFX\Piglet Grunt_4_9E69E797.wem</Path>
 				</File>
+				<File Id="803060998" Language="SFX">
+					<ShortName>Bats_11.wav</ShortName>
+					<Path>SFX\Bats_11_9E69E797.wem</Path>
+				</File>
+				<File Id="866445184" Language="SFX">
+					<ShortName>Water Drop_3.wav</ShortName>
+					<Path>SFX\Water Drop_3_9E69E797.wem</Path>
+				</File>
+				<File Id="871776220" Language="SFX">
+					<ShortName>Water Drop_19.wav</ShortName>
+					<Path>SFX\Water Drop_19_9E69E797.wem</Path>
+				</File>
+				<File Id="883036533" Language="SFX">
+					<ShortName>Water Drop_1.wav</ShortName>
+					<Path>SFX\Water Drop_1_9E69E797.wem</Path>
+				</File>
 				<File Id="888290984" Language="SFX">
 					<ShortName>Piglet Grunt_6.wav</ShortName>
 					<Path>SFX\Piglet Grunt_6_9E69E797.wem</Path>
 				</File>
+				<File Id="889103255" Language="SFX">
+					<ShortName>Water Drop_22.wav</ShortName>
+					<Path>SFX\Water Drop_22_9E69E797.wem</Path>
+				</File>
 				<File Id="889288471" Language="SFX">
 					<ShortName>Piglet Grunt_8.wav</ShortName>
 					<Path>SFX\Piglet Grunt_8_9E69E797.wem</Path>
+				</File>
+				<File Id="892557359" Language="SFX">
+					<ShortName>Water Drop_8.wav</ShortName>
+					<Path>SFX\Water Drop_8_9E69E797.wem</Path>
+				</File>
+				<File Id="911605113" Language="SFX">
+					<ShortName>Water Drop_27.wav</ShortName>
+					<Path>SFX\Water Drop_27_9E69E797.wem</Path>
+				</File>
+				<File Id="944902428" Language="SFX">
+					<ShortName>Bats_16.wav</ShortName>
+					<Path>SFX\Bats_16_9E69E797.wem</Path>
+				</File>
+				<File Id="1011490869" Language="SFX">
+					<ShortName>Bats_14.wav</ShortName>
+					<Path>SFX\Bats_14_9E69E797.wem</Path>
 				</File>
 				<File Id="1019371492" Language="SFX">
 					<ShortName>Pig Squeal_13.wav</ShortName>
@@ -157,6 +340,10 @@
 				<File Id="1052571594" Language="SFX">
 					<ShortName>Pig Squeal.wav</ShortName>
 					<Path>SFX\Pig Squeal_9E69E797.wem</Path>
+				</File>
+				<File Id="1058630686" Language="SFX">
+					<ShortName>Bats_1.wav</ShortName>
+					<Path>SFX\Bats_1_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
