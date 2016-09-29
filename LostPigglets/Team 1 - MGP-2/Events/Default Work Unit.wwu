@@ -92,6 +92,59 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ambience_Play" ID="{92372A29-DEE8-4903-9375-ACAA93DE2070}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0C136B2B-C334-469B-B9F5-755FACE28E7A}" ShortID="678249491" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BB17F040-C3B5-4DF0-A2DC-6E611B2A8452}" Global="false">
+									<ObjectRef Name="Bats" ID="{82EDA7B1-9CB1-4C47-A7EB-1359BFC9CE76}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{0329712B-9D6D-40AE-A026-C39CC55D7B95}" ShortID="230678869" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DC5C05EF-982C-4FC8-B108-FD59C3CACADB}" Global="false">
+									<ObjectRef Name="Water Drops" ID="{6D45ED29-1060-4F7C-9D42-501B0A7831F1}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience_Stop" ID="{563B3210-A472-4605-A2ED-2E2562E8C0C5}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{D3A6C73B-1418-4D37-BD83-00DB472E058D}" ShortID="649237513" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{60D9C72D-A66A-4C18-97A6-F1A51C32DB91}" Global="false">
+									<ObjectRef Name="Bats" ID="{82EDA7B1-9CB1-4C47-A7EB-1359BFC9CE76}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Stop" ID="{35469F38-9DA2-482A-8C55-CC36E94AFE3A}" ShortID="809010084" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{FB9F130D-5BAB-4641-8FB5-BB8BC8E9DE9E}" Global="false">
+									<ObjectRef Name="Water Drops" ID="{6D45ED29-1060-4F7C-9D42-501B0A7831F1}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Menu_Button" ID="{9694A634-551C-46E7-8BD6-01E82C5174CB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3DA5A4A3-2873-43A9-988E-40ED01707938}" ShortID="396686357" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{43575B02-87C1-426C-8CEC-02626B9A7C54}" Global="false">
+									<ObjectRef Name="Water Drop_20" ID="{FCF502B9-B263-4940-AC07-E83FE2F50BCF}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

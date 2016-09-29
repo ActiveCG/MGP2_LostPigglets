@@ -69,14 +69,14 @@ MonoBehaviour:
   monsterGrowlAmbStop: 
   monsterStun: 
   monsterDeath: 
-  ambienceStart: 
-  ambienceStop: 
+  ambienceStart: Ambience_Start
+  ambienceStop: Ambience_Stop
   lightFlower: 
   caveObject: 
   collision: 
   ambienceBuildUp: 
-  menuButton: 
-  menuStateGroup: 
+  menuButton: Menu_Button
+  menuStateGroup: Menus
 --- !u!114 &114000013291782732
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: c8bd1ff4e11b7b14d9a6ab2d04e5a53a
+timeCreated: 1475154613
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: MonsterSlug:ctrl_cod_01
+    100004: MonsterSlug:ctrl_l_eyeTipIK_01
+    100006: MonsterSlug:ctrl_mouth_01
+    100008: MonsterSlug:ctrl_mouth_02
+    100010: MonsterSlug:ctrl_mouth_03
+    100012: MonsterSlug:ctrl_mouth_04
+    100014: MonsterSlug:ctrl_mouth_05
+    100016: MonsterSlug:ctrl_neck_02
+    100018: MonsterSlug:ctrl_neckCounter_01
+    100020: MonsterSlug:ctrl_r_eyeTipIK_01
+    100022: MonsterSlug:grp_ctrl
+    100024: MonsterSlug:grp_ctrl_mouth_01
+    100026: MonsterSlug:grp_jnt
+    100028: MonsterSlug:jnt_bnd_l_eyeChain_01
+    100030: MonsterSlug:jnt_bnd_l_eyeChain_010
+    100032: MonsterSlug:jnt_bnd_l_eyeChain_011
+    100034: MonsterSlug:jnt_bnd_l_eyeChain_012
+    100036: MonsterSlug:jnt_bnd_l_eyeChain_013
+    100038: MonsterSlug:jnt_bnd_l_eyeChain_014
+    100040: MonsterSlug:jnt_bnd_l_eyeChain_015
+    100042: MonsterSlug:jnt_bnd_l_eyeChain_016
+    100044: MonsterSlug:jnt_bnd_l_eyeChain_017
+    100046: MonsterSlug:jnt_bnd_l_eyeChain_018
+    100048: MonsterSlug:jnt_bnd_l_eyeChain_019
+    100050: MonsterSlug:jnt_bnd_l_eyeChain_02
+    100052: MonsterSlug:jnt_bnd_l_eyeChain_020
+    100054: MonsterSlug:jnt_bnd_l_eyeChain_03
+    100056: MonsterSlug:jnt_bnd_l_eyeChain_04
+    100058: MonsterSlug:jnt_bnd_l_eyeChain_05
+    100060: MonsterSlug:jnt_bnd_l_eyeChain_06
+    100062: MonsterSlug:jnt_bnd_l_eyeChain_07
+    100064: MonsterSlug:jnt_bnd_l_eyeChain_08
+    100066: MonsterSlug:jnt_bnd_l_eyeChain_09
+    100068: MonsterSlug:jnt_bnd_l_eyeChain_rotate_01
+    100070: MonsterSlug:jnt_bnd_l_eyeChainRotate_01
+    100072: MonsterSlug:jnt_bnd_mouthChain_a_01
+    100074: MonsterSlug:jnt_bnd_mouthChain_a_02
+    100076: MonsterSlug:jnt_bnd_mouthChain_a_03
+    100078: MonsterSlug:jnt_bnd_mouthChain_a_04
+    100080: MonsterSlug:jnt_bnd_mouthChain_a_05
+    100082: MonsterSlug:jnt_bnd_mouthChain_b_01
+    100084: MonsterSlug:jnt_bnd_mouthChain_b_02
+    100086: MonsterSlug:jnt_bnd_mouthChain_b_03
+    100088: MonsterSlug:jnt_bnd_mouthChain_b_04
+    100090: MonsterSlug:jnt_bnd_mouthChain_b_05
+    100092: MonsterSlug:jnt_bnd_mouthChain_c_01
+    100094: MonsterSlug:jnt_bnd_mouthChain_c_02
+    100096: MonsterSlug:jnt_bnd_mouthChain_c_03
+    100098: MonsterSlug:jnt_bnd_mouthChain_c_04
+    100100: MonsterSlug:jnt_bnd_mouthChain_c_05
+    100102: MonsterSlug:jnt_bnd_mouthChain_d_01
+    100104: MonsterSlug:jnt_bnd_mouthChain_d_02
+    100106: MonsterSlug:jnt_bnd_mouthChain_d_03
+    100108: MonsterSlug:jnt_bnd_mouthChain_d_04
+    100110: MonsterSlug:jnt_bnd_mouthChain_d_05
+    100112: MonsterSlug:jnt_bnd_mouthChain_e_01
+    100114: MonsterSlug:jnt_bnd_mouthChain_e_02
+    100116: MonsterSlug:jnt_bnd_mouthChain_e_03
+    100118: MonsterSlug:jnt_bnd_mouthChain_e_04
+    100120: MonsterSlug:jnt_bnd_mouthChain_e_05
+    100122: MonsterSlug:jnt_bnd_mouthChain_f_01
+    100124: MonsterSlug:jnt_bnd_mouthChain_f_02
+    100126: MonsterSlug:jnt_bnd_mouthChain_f_03
+    100128: MonsterSlug:jnt_bnd_mouthChain_f_04
+    100130: MonsterSlug:jnt_bnd_mouthChain_f_05
+    100132: MonsterSlug:jnt_bnd_mouthChain_g_01
+    100134: MonsterSlug:jnt_bnd_mouthChain_g_02
+    100136: MonsterSlug:jnt_bnd_mouthChain_g_03
+    100138: MonsterSlug:jnt_bnd_mouthChain_g_04
+    100140: MonsterSlug:jnt_bnd_mouthChain_g_05
+    100142: MonsterSlug:jnt_bnd_mouthChain_h_01
+    100144: MonsterSlug:jnt_bnd_mouthChain_h_02
+    100146: MonsterSlug:jnt_bnd_mouthChain_h_03
+    100148: MonsterSlug:jnt_bnd_mouthChain_h_04
+    100150: MonsterSlug:jnt_bnd_mouthChain_h_05
+    100152: MonsterSlug:jnt_bnd_mouthChain_i_01
+    100154: MonsterSlug:jnt_bnd_mouthChain_i_02
+    100156: MonsterSlug:jnt_bnd_mouthChain_i_03
+    100158: MonsterSlug:jnt_bnd_mouthChain_i_04
+    100160: MonsterSlug:jnt_bnd_mouthChain_i_05
+    100162: MonsterSlug:jnt_bnd_mouthChain_j_01
+    100164: MonsterSlug:jnt_bnd_mouthChain_j_02
+    100166: MonsterSlug:jnt_bnd_mouthChain_j_03
+    100168: MonsterSlug:jnt_bnd_mouthChain_j_04
+    100170: MonsterSlug:jnt_bnd_mouthChain_j_05
+    100172: MonsterSlug:jnt_bnd_mouthChain_k_01
+    100174: MonsterSlug:jnt_bnd_mouthChain_k_02
+    100176: MonsterSlug:jnt_bnd_mouthChain_k_03
+    100178: MonsterSlug:jnt_bnd_mouthChain_k_04
+    100180: MonsterSlug:jnt_bnd_mouthChain_k_05
+    100182: MonsterSlug:jnt_bnd_mouthChain_l_01
+    100184: MonsterSlug:jnt_bnd_mouthChain_l_02
+    100186: MonsterSlug:jnt_bnd_mouthChain_l_03
+    100188: MonsterSlug:jnt_bnd_mouthChain_l_04
+    100190: MonsterSlug:jnt_bnd_mouthChain_l_05
+    100192: MonsterSlug:jnt_bnd_mouthChain_m_01
+    100194: MonsterSlug:jnt_bnd_mouthChain_m_02
+    100196: MonsterSlug:jnt_bnd_mouthChain_m_03
+    100198: MonsterSlug:jnt_bnd_mouthChain_m_04
+    100200: MonsterSlug:jnt_bnd_mouthChain_m_05
+    100202: MonsterSlug:jnt_bnd_mouthChain_n_01
+    100204: MonsterSlug:jnt_bnd_mouthChain_n_02
+    100206: MonsterSlug:jnt_bnd_mouthChain_n_03
+    100208: MonsterSlug:jnt_bnd_mouthChain_n_04
+    100210: MonsterSlug:jnt_bnd_mouthChain_n_05
+    100212: MonsterSlug:jnt_bnd_mouthChain_o_01
+    100214: MonsterSlug:jnt_bnd_mouthChain_o_02
+    100216: MonsterSlug:jnt_bnd_mouthChain_o_03
+    100218: MonsterSlug:jnt_bnd_mouthChain_o_04
+    100220: MonsterSlug:jnt_bnd_mouthChain_o_05
+    100222: MonsterSlug:jnt_bnd_mouthChain_p_01
+    100224: MonsterSlug:jnt_bnd_mouthChain_p_02
+    100226: MonsterSlug:jnt_bnd_mouthChain_p_03
+    100228: MonsterSlug:jnt_bnd_mouthChain_p_04
+    100230: MonsterSlug:jnt_bnd_mouthChain_p_05
+    100232: MonsterSlug:jnt_bnd_mouthChain_q_01
+    100234: MonsterSlug:jnt_bnd_mouthChain_q_02
+    100236: MonsterSlug:jnt_bnd_mouthChain_q_03
+    100238: MonsterSlug:jnt_bnd_mouthChain_q_04
+    100240: MonsterSlug:jnt_bnd_mouthChain_q_05
+    100242: MonsterSlug:jnt_bnd_neck_02
+    100244: MonsterSlug:jnt_bnd_neck_03
+    100246: MonsterSlug:jnt_bnd_neck_04
+    100248: MonsterSlug:jnt_bnd_r_eyeChain_01
+    100250: MonsterSlug:jnt_bnd_r_eyeChain_010
+    100252: MonsterSlug:jnt_bnd_r_eyeChain_011
+    100254: MonsterSlug:jnt_bnd_r_eyeChain_012
+    100256: MonsterSlug:jnt_bnd_r_eyeChain_013
+    100258: MonsterSlug:jnt_bnd_r_eyeChain_014
+    100260: MonsterSlug:jnt_bnd_r_eyeChain_015
+    100262: MonsterSlug:jnt_bnd_r_eyeChain_016
+    100264: MonsterSlug:jnt_bnd_r_eyeChain_017
+    100266: MonsterSlug:jnt_bnd_r_eyeChain_018
+    100268: MonsterSlug:jnt_bnd_r_eyeChain_019
+    100270: MonsterSlug:jnt_bnd_r_eyeChain_02
+    100272: MonsterSlug:jnt_bnd_r_eyeChain_020
+    100274: MonsterSlug:jnt_bnd_r_eyeChain_03
+    100276: MonsterSlug:jnt_bnd_r_eyeChain_04
+    100278: MonsterSlug:jnt_bnd_r_eyeChain_05
+    100280: MonsterSlug:jnt_bnd_r_eyeChain_06
+    100282: MonsterSlug:jnt_bnd_r_eyeChain_07
+    100284: MonsterSlug:jnt_bnd_r_eyeChain_08
+    100286: MonsterSlug:jnt_bnd_r_eyeChain_09
+    100288: MonsterSlug:jnt_bnd_r_eyeChain_end
+    100290: MonsterSlug:jnt_bnd_r_eyeChain_rotate_01
+    100292: MonsterSlug:jnt_bnd_r_eyeChainRotate_01
+    100294: MonsterSlug:jnt_bnd_spine_01
+    100296: MonsterSlug:jnt_bnd_spine_010
+    100298: MonsterSlug:jnt_bnd_spine_011
+    100300: MonsterSlug:jnt_bnd_spine_012
+    100302: MonsterSlug:jnt_bnd_spine_013
+    100304: MonsterSlug:jnt_bnd_spine_014
+    100306: MonsterSlug:jnt_bnd_spine_015
+    100308: MonsterSlug:jnt_bnd_spine_016
+    100310: MonsterSlug:jnt_bnd_spine_017
+    100312: MonsterSlug:jnt_bnd_spine_018
+    100314: MonsterSlug:jnt_bnd_spine_019
+    100316: MonsterSlug:jnt_bnd_spine_02
+    100318: MonsterSlug:jnt_bnd_spine_020
+    100320: MonsterSlug:jnt_bnd_spine_021
+    100322: MonsterSlug:jnt_bnd_spine_022
+    100324: MonsterSlug:jnt_bnd_spine_023
+    100326: MonsterSlug:jnt_bnd_spine_024
+    100328: MonsterSlug:jnt_bnd_spine_025
+    100330: MonsterSlug:jnt_bnd_spine_026
+    100332: MonsterSlug:jnt_bnd_spine_027
+    100334: MonsterSlug:jnt_bnd_spine_028
+    100336: MonsterSlug:jnt_bnd_spine_029
+    100338: MonsterSlug:jnt_bnd_spine_03
+    100340: MonsterSlug:jnt_bnd_spine_030
+    100342: MonsterSlug:jnt_bnd_spine_031
+    100344: MonsterSlug:jnt_bnd_spine_032
+    100346: MonsterSlug:jnt_bnd_spine_033
+    100348: MonsterSlug:jnt_bnd_spine_034
+    100350: MonsterSlug:jnt_bnd_spine_035
+    100352: MonsterSlug:jnt_bnd_spine_036
+    100354: MonsterSlug:jnt_bnd_spine_037
+    100356: MonsterSlug:jnt_bnd_spine_038
+    100358: MonsterSlug:jnt_bnd_spine_039
+    100360: MonsterSlug:jnt_bnd_spine_04
+    100362: MonsterSlug:jnt_bnd_spine_040
+    100364: MonsterSlug:jnt_bnd_spine_041
+    100366: MonsterSlug:jnt_bnd_spine_042
+    100368: MonsterSlug:jnt_bnd_spine_043
+    100370: MonsterSlug:jnt_bnd_spine_044
+    100372: MonsterSlug:jnt_bnd_spine_045
+    100374: MonsterSlug:jnt_bnd_spine_046
+    100376: MonsterSlug:jnt_bnd_spine_047
+    100378: MonsterSlug:jnt_bnd_spine_048
+    100380: MonsterSlug:jnt_bnd_spine_049
+    100382: MonsterSlug:jnt_bnd_spine_05
+    100384: MonsterSlug:jnt_bnd_spine_050
+    100386: MonsterSlug:jnt_bnd_spine_051
+    100388: MonsterSlug:jnt_bnd_spine_052
+    100390: MonsterSlug:jnt_bnd_spine_053
+    100392: MonsterSlug:jnt_bnd_spine_054
+    100394: MonsterSlug:jnt_bnd_spine_055
+    100396: MonsterSlug:jnt_bnd_spine_056
+    100398: MonsterSlug:jnt_bnd_spine_057
+    100400: MonsterSlug:jnt_bnd_spine_058
+    100402: MonsterSlug:jnt_bnd_spine_059
+    100404: MonsterSlug:jnt_bnd_spine_06
+    100406: MonsterSlug:jnt_bnd_spine_07
+    100408: MonsterSlug:jnt_bnd_spine_08
+    100410: MonsterSlug:jnt_bnd_spine_09
+    100412: MonsterSlug:jnt_l_eyeChain_end
+    100414: MonsterSlug:jnt_neck_01
+    100416: MonsterSlug:jnt_spine_end
+    400000: //RootNode
+    400002: MonsterSlug:ctrl_cod_01
+    400004: MonsterSlug:ctrl_l_eyeTipIK_01
+    400006: MonsterSlug:ctrl_mouth_01
+    400008: MonsterSlug:ctrl_mouth_02
+    400010: MonsterSlug:ctrl_mouth_03
+    400012: MonsterSlug:ctrl_mouth_04
+    400014: MonsterSlug:ctrl_mouth_05
+    400016: MonsterSlug:ctrl_neck_02
+    400018: MonsterSlug:ctrl_neckCounter_01
+    400020: MonsterSlug:ctrl_r_eyeTipIK_01
+    400022: MonsterSlug:grp_ctrl
+    400024: MonsterSlug:grp_ctrl_mouth_01
+    400026: MonsterSlug:grp_jnt
+    400028: MonsterSlug:jnt_bnd_l_eyeChain_01
+    400030: MonsterSlug:jnt_bnd_l_eyeChain_010
+    400032: MonsterSlug:jnt_bnd_l_eyeChain_011
+    400034: MonsterSlug:jnt_bnd_l_eyeChain_012
+    400036: MonsterSlug:jnt_bnd_l_eyeChain_013
+    400038: MonsterSlug:jnt_bnd_l_eyeChain_014
+    400040: MonsterSlug:jnt_bnd_l_eyeChain_015
+    400042: MonsterSlug:jnt_bnd_l_eyeChain_016
+    400044: MonsterSlug:jnt_bnd_l_eyeChain_017
+    400046: MonsterSlug:jnt_bnd_l_eyeChain_018
+    400048: MonsterSlug:jnt_bnd_l_eyeChain_019
+    400050: MonsterSlug:jnt_bnd_l_eyeChain_02
+    400052: MonsterSlug:jnt_bnd_l_eyeChain_020
+    400054: MonsterSlug:jnt_bnd_l_eyeChain_03
+    400056: MonsterSlug:jnt_bnd_l_eyeChain_04
+    400058: MonsterSlug:jnt_bnd_l_eyeChain_05
+    400060: MonsterSlug:jnt_bnd_l_eyeChain_06
+    400062: MonsterSlug:jnt_bnd_l_eyeChain_07
+    400064: MonsterSlug:jnt_bnd_l_eyeChain_08
+    400066: MonsterSlug:jnt_bnd_l_eyeChain_09
+    400068: MonsterSlug:jnt_bnd_l_eyeChain_rotate_01
+    400070: MonsterSlug:jnt_bnd_l_eyeChainRotate_01
+    400072: MonsterSlug:jnt_bnd_mouthChain_a_01
+    400074: MonsterSlug:jnt_bnd_mouthChain_a_02
+    400076: MonsterSlug:jnt_bnd_mouthChain_a_03
+    400078: MonsterSlug:jnt_bnd_mouthChain_a_04
+    400080: MonsterSlug:jnt_bnd_mouthChain_a_05
+    400082: MonsterSlug:jnt_bnd_mouthChain_b_01
+    400084: MonsterSlug:jnt_bnd_mouthChain_b_02
+    400086: MonsterSlug:jnt_bnd_mouthChain_b_03
+    400088: MonsterSlug:jnt_bnd_mouthChain_b_04
+    400090: MonsterSlug:jnt_bnd_mouthChain_b_05
+    400092: MonsterSlug:jnt_bnd_mouthChain_c_01
+    400094: MonsterSlug:jnt_bnd_mouthChain_c_02
+    400096: MonsterSlug:jnt_bnd_mouthChain_c_03
+    400098: MonsterSlug:jnt_bnd_mouthChain_c_04
+    400100: MonsterSlug:jnt_bnd_mouthChain_c_05
+    400102: MonsterSlug:jnt_bnd_mouthChain_d_01
+    400104: MonsterSlug:jnt_bnd_mouthChain_d_02
+    400106: MonsterSlug:jnt_bnd_mouthChain_d_03
+    400108: MonsterSlug:jnt_bnd_mouthChain_d_04
+    400110: MonsterSlug:jnt_bnd_mouthChain_d_05
+    400112: MonsterSlug:jnt_bnd_mouthChain_e_01
+    400114: MonsterSlug:jnt_bnd_mouthChain_e_02
+    400116: MonsterSlug:jnt_bnd_mouthChain_e_03
+    400118: MonsterSlug:jnt_bnd_mouthChain_e_04
+    400120: MonsterSlug:jnt_bnd_mouthChain_e_05
+    400122: MonsterSlug:jnt_bnd_mouthChain_f_01
+    400124: MonsterSlug:jnt_bnd_mouthChain_f_02
+    400126: MonsterSlug:jnt_bnd_mouthChain_f_03
+    400128: MonsterSlug:jnt_bnd_mouthChain_f_04
+    400130: MonsterSlug:jnt_bnd_mouthChain_f_05
+    400132: MonsterSlug:jnt_bnd_mouthChain_g_01
+    400134: MonsterSlug:jnt_bnd_mouthChain_g_02
+    400136: MonsterSlug:jnt_bnd_mouthChain_g_03
+    400138: MonsterSlug:jnt_bnd_mouthChain_g_04
+    400140: MonsterSlug:jnt_bnd_mouthChain_g_05
+    400142: MonsterSlug:jnt_bnd_mouthChain_h_01
+    400144: MonsterSlug:jnt_bnd_mouthChain_h_02
+    400146: MonsterSlug:jnt_bnd_mouthChain_h_03
+    400148: MonsterSlug:jnt_bnd_mouthChain_h_04
+    400150: MonsterSlug:jnt_bnd_mouthChain_h_05
+    400152: MonsterSlug:jnt_bnd_mouthChain_i_01
+    400154: MonsterSlug:jnt_bnd_mouthChain_i_02
+    400156: MonsterSlug:jnt_bnd_mouthChain_i_03
+    400158: MonsterSlug:jnt_bnd_mouthChain_i_04
+    400160: MonsterSlug:jnt_bnd_mouthChain_i_05
+    400162: MonsterSlug:jnt_bnd_mouthChain_j_01
+    400164: MonsterSlug:jnt_bnd_mouthChain_j_02
+    400166: MonsterSlug:jnt_bnd_mouthChain_j_03
+    400168: MonsterSlug:jnt_bnd_mouthChain_j_04
+    400170: MonsterSlug:jnt_bnd_mouthChain_j_05
+    400172: MonsterSlug:jnt_bnd_mouthChain_k_01
+    400174: MonsterSlug:jnt_bnd_mouthChain_k_02
+    400176: MonsterSlug:jnt_bnd_mouthChain_k_03
+    400178: MonsterSlug:jnt_bnd_mouthChain_k_04
+    400180: MonsterSlug:jnt_bnd_mouthChain_k_05
+    400182: MonsterSlug:jnt_bnd_mouthChain_l_01
+    400184: MonsterSlug:jnt_bnd_mouthChain_l_02
+    400186: MonsterSlug:jnt_bnd_mouthChain_l_03
+    400188: MonsterSlug:jnt_bnd_mouthChain_l_04
+    400190: MonsterSlug:jnt_bnd_mouthChain_l_05
+    400192: MonsterSlug:jnt_bnd_mouthChain_m_01
+    400194: MonsterSlug:jnt_bnd_mouthChain_m_02
+    400196: MonsterSlug:jnt_bnd_mouthChain_m_03
+    400198: MonsterSlug:jnt_bnd_mouthChain_m_04
+    400200: MonsterSlug:jnt_bnd_mouthChain_m_05
+    400202: MonsterSlug:jnt_bnd_mouthChain_n_01
+    400204: MonsterSlug:jnt_bnd_mouthChain_n_02
+    400206: MonsterSlug:jnt_bnd_mouthChain_n_03
+    400208: MonsterSlug:jnt_bnd_mouthChain_n_04
+    400210: MonsterSlug:jnt_bnd_mouthChain_n_05
+    400212: MonsterSlug:jnt_bnd_mouthChain_o_01
+    400214: MonsterSlug:jnt_bnd_mouthChain_o_02
+    400216: MonsterSlug:jnt_bnd_mouthChain_o_03
+    400218: MonsterSlug:jnt_bnd_mouthChain_o_04
+    400220: MonsterSlug:jnt_bnd_mouthChain_o_05
+    400222: MonsterSlug:jnt_bnd_mouthChain_p_01
+    400224: MonsterSlug:jnt_bnd_mouthChain_p_02
+    400226: MonsterSlug:jnt_bnd_mouthChain_p_03
+    400228: MonsterSlug:jnt_bnd_mouthChain_p_04
+    400230: MonsterSlug:jnt_bnd_mouthChain_p_05
+    400232: MonsterSlug:jnt_bnd_mouthChain_q_01
+    400234: MonsterSlug:jnt_bnd_mouthChain_q_02
+    400236: MonsterSlug:jnt_bnd_mouthChain_q_03
+    400238: MonsterSlug:jnt_bnd_mouthChain_q_04
+    400240: MonsterSlug:jnt_bnd_mouthChain_q_05
+    400242: MonsterSlug:jnt_bnd_neck_02
+    400244: MonsterSlug:jnt_bnd_neck_03
+    400246: MonsterSlug:jnt_bnd_neck_04
+    400248: MonsterSlug:jnt_bnd_r_eyeChain_01
+    400250: MonsterSlug:jnt_bnd_r_eyeChain_010
+    400252: MonsterSlug:jnt_bnd_r_eyeChain_011
+    400254: MonsterSlug:jnt_bnd_r_eyeChain_012
+    400256: MonsterSlug:jnt_bnd_r_eyeChain_013
+    400258: MonsterSlug:jnt_bnd_r_eyeChain_014
+    400260: MonsterSlug:jnt_bnd_r_eyeChain_015
+    400262: MonsterSlug:jnt_bnd_r_eyeChain_016
+    400264: MonsterSlug:jnt_bnd_r_eyeChain_017
+    400266: MonsterSlug:jnt_bnd_r_eyeChain_018
+    400268: MonsterSlug:jnt_bnd_r_eyeChain_019
+    400270: MonsterSlug:jnt_bnd_r_eyeChain_02
+    400272: MonsterSlug:jnt_bnd_r_eyeChain_020
+    400274: MonsterSlug:jnt_bnd_r_eyeChain_03
+    400276: MonsterSlug:jnt_bnd_r_eyeChain_04
+    400278: MonsterSlug:jnt_bnd_r_eyeChain_05
+    400280: MonsterSlug:jnt_bnd_r_eyeChain_06
+    400282: MonsterSlug:jnt_bnd_r_eyeChain_07
+    400284: MonsterSlug:jnt_bnd_r_eyeChain_08
+    400286: MonsterSlug:jnt_bnd_r_eyeChain_09
+    400288: MonsterSlug:jnt_bnd_r_eyeChain_end
+    400290: MonsterSlug:jnt_bnd_r_eyeChain_rotate_01
+    400292: MonsterSlug:jnt_bnd_r_eyeChainRotate_01
+    400294: MonsterSlug:jnt_bnd_spine_01
+    400296: MonsterSlug:jnt_bnd_spine_010
+    400298: MonsterSlug:jnt_bnd_spine_011
+    400300: MonsterSlug:jnt_bnd_spine_012
+    400302: MonsterSlug:jnt_bnd_spine_013
+    400304: MonsterSlug:jnt_bnd_spine_014
+    400306: MonsterSlug:jnt_bnd_spine_015
+    400308: MonsterSlug:jnt_bnd_spine_016
+    400310: MonsterSlug:jnt_bnd_spine_017
+    400312: MonsterSlug:jnt_bnd_spine_018
+    400314: MonsterSlug:jnt_bnd_spine_019
+    400316: MonsterSlug:jnt_bnd_spine_02
+    400318: MonsterSlug:jnt_bnd_spine_020
+    400320: MonsterSlug:jnt_bnd_spine_021
+    400322: MonsterSlug:jnt_bnd_spine_022
+    400324: MonsterSlug:jnt_bnd_spine_023
+    400326: MonsterSlug:jnt_bnd_spine_024
+    400328: MonsterSlug:jnt_bnd_spine_025
+    400330: MonsterSlug:jnt_bnd_spine_026
+    400332: MonsterSlug:jnt_bnd_spine_027
+    400334: MonsterSlug:jnt_bnd_spine_028
+    400336: MonsterSlug:jnt_bnd_spine_029
+    400338: MonsterSlug:jnt_bnd_spine_03
+    400340: MonsterSlug:jnt_bnd_spine_030
+    400342: MonsterSlug:jnt_bnd_spine_031
+    400344: MonsterSlug:jnt_bnd_spine_032
+    400346: MonsterSlug:jnt_bnd_spine_033
+    400348: MonsterSlug:jnt_bnd_spine_034
+    400350: MonsterSlug:jnt_bnd_spine_035
+    400352: MonsterSlug:jnt_bnd_spine_036
+    400354: MonsterSlug:jnt_bnd_spine_037
+    400356: MonsterSlug:jnt_bnd_spine_038
+    400358: MonsterSlug:jnt_bnd_spine_039
+    400360: MonsterSlug:jnt_bnd_spine_04
+    400362: MonsterSlug:jnt_bnd_spine_040
+    400364: MonsterSlug:jnt_bnd_spine_041
+    400366: MonsterSlug:jnt_bnd_spine_042
+    400368: MonsterSlug:jnt_bnd_spine_043
+    400370: MonsterSlug:jnt_bnd_spine_044
+    400372: MonsterSlug:jnt_bnd_spine_045
+    400374: MonsterSlug:jnt_bnd_spine_046
+    400376: MonsterSlug:jnt_bnd_spine_047
+    400378: MonsterSlug:jnt_bnd_spine_048
+    400380: MonsterSlug:jnt_bnd_spine_049
+    400382: MonsterSlug:jnt_bnd_spine_05
+    400384: MonsterSlug:jnt_bnd_spine_050
+    400386: MonsterSlug:jnt_bnd_spine_051
+    400388: MonsterSlug:jnt_bnd_spine_052
+    400390: MonsterSlug:jnt_bnd_spine_053
+    400392: MonsterSlug:jnt_bnd_spine_054
+    400394: MonsterSlug:jnt_bnd_spine_055
+    400396: MonsterSlug:jnt_bnd_spine_056
+    400398: MonsterSlug:jnt_bnd_spine_057
+    400400: MonsterSlug:jnt_bnd_spine_058
+    400402: MonsterSlug:jnt_bnd_spine_059
+    400404: MonsterSlug:jnt_bnd_spine_06
+    400406: MonsterSlug:jnt_bnd_spine_07
+    400408: MonsterSlug:jnt_bnd_spine_08
+    400410: MonsterSlug:jnt_bnd_spine_09
+    400412: MonsterSlug:jnt_l_eyeChain_end
+    400414: MonsterSlug:jnt_neck_01
+    400416: MonsterSlug:jnt_spine_end
+    7400000: Slinky
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Slinky
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MonsterSlug:grp_ctrl
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:ctrl_l_eyeTipIK_01
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:ctrl_neckCounter_01
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:ctrl_neckCounter_01/MonsterSlug:ctrl_neck_02
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:ctrl_r_eyeTipIK_01
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:grp_ctrl_mouth_01
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:grp_ctrl_mouth_01/MonsterSlug:ctrl_mouth_01
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:grp_ctrl_mouth_01/MonsterSlug:ctrl_mouth_02
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:grp_ctrl_mouth_01/MonsterSlug:ctrl_mouth_03
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:grp_ctrl_mouth_01/MonsterSlug:ctrl_mouth_04
+        weight: 1
+      - path: MonsterSlug:grp_ctrl/MonsterSlug:ctrl_cod_01/MonsterSlug:grp_ctrl_mouth_01/MonsterSlug:ctrl_mouth_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_l_eyeChain_rotate_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_l_eyeChain_rotate_01/MonsterSlug:jnt_l_eyeChain_end
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_r_eyeChain_rotate_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_r_eyeChain_rotate_01/MonsterSlug:jnt_bnd_r_eyeChain_end
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052/MonsterSlug:jnt_bnd_spine_053
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052/MonsterSlug:jnt_bnd_spine_053/MonsterSlug:jnt_bnd_spine_054
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052/MonsterSlug:jnt_bnd_spine_053/MonsterSlug:jnt_bnd_spine_054/MonsterSlug:jnt_bnd_spine_055
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052/MonsterSlug:jnt_bnd_spine_053/MonsterSlug:jnt_bnd_spine_054/MonsterSlug:jnt_bnd_spine_055/MonsterSlug:jnt_bnd_spine_056
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052/MonsterSlug:jnt_bnd_spine_053/MonsterSlug:jnt_bnd_spine_054/MonsterSlug:jnt_bnd_spine_055/MonsterSlug:jnt_bnd_spine_056/MonsterSlug:jnt_bnd_spine_057
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052/MonsterSlug:jnt_bnd_spine_053/MonsterSlug:jnt_bnd_spine_054/MonsterSlug:jnt_bnd_spine_055/MonsterSlug:jnt_bnd_spine_056/MonsterSlug:jnt_bnd_spine_057/MonsterSlug:jnt_bnd_spine_058
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052/MonsterSlug:jnt_bnd_spine_053/MonsterSlug:jnt_bnd_spine_054/MonsterSlug:jnt_bnd_spine_055/MonsterSlug:jnt_bnd_spine_056/MonsterSlug:jnt_bnd_spine_057/MonsterSlug:jnt_bnd_spine_058/MonsterSlug:jnt_bnd_spine_059
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_bnd_spine_01/MonsterSlug:jnt_bnd_spine_02/MonsterSlug:jnt_bnd_spine_03/MonsterSlug:jnt_bnd_spine_04/MonsterSlug:jnt_bnd_spine_05/MonsterSlug:jnt_bnd_spine_06/MonsterSlug:jnt_bnd_spine_07/MonsterSlug:jnt_bnd_spine_08/MonsterSlug:jnt_bnd_spine_09/MonsterSlug:jnt_bnd_spine_010/MonsterSlug:jnt_bnd_spine_011/MonsterSlug:jnt_bnd_spine_012/MonsterSlug:jnt_bnd_spine_013/MonsterSlug:jnt_bnd_spine_014/MonsterSlug:jnt_bnd_spine_015/MonsterSlug:jnt_bnd_spine_016/MonsterSlug:jnt_bnd_spine_017/MonsterSlug:jnt_bnd_spine_018/MonsterSlug:jnt_bnd_spine_019/MonsterSlug:jnt_bnd_spine_020/MonsterSlug:jnt_bnd_spine_021/MonsterSlug:jnt_bnd_spine_022/MonsterSlug:jnt_bnd_spine_023/MonsterSlug:jnt_bnd_spine_024/MonsterSlug:jnt_bnd_spine_025/MonsterSlug:jnt_bnd_spine_026/MonsterSlug:jnt_bnd_spine_027/MonsterSlug:jnt_bnd_spine_028/MonsterSlug:jnt_bnd_spine_029/MonsterSlug:jnt_bnd_spine_030/MonsterSlug:jnt_bnd_spine_031/MonsterSlug:jnt_bnd_spine_032/MonsterSlug:jnt_bnd_spine_033/MonsterSlug:jnt_bnd_spine_034/MonsterSlug:jnt_bnd_spine_035/MonsterSlug:jnt_bnd_spine_036/MonsterSlug:jnt_bnd_spine_037/MonsterSlug:jnt_bnd_spine_038/MonsterSlug:jnt_bnd_spine_039/MonsterSlug:jnt_bnd_spine_040/MonsterSlug:jnt_bnd_spine_041/MonsterSlug:jnt_bnd_spine_042/MonsterSlug:jnt_bnd_spine_043/MonsterSlug:jnt_bnd_spine_044/MonsterSlug:jnt_bnd_spine_045/MonsterSlug:jnt_bnd_spine_046/MonsterSlug:jnt_bnd_spine_047/MonsterSlug:jnt_bnd_spine_048/MonsterSlug:jnt_bnd_spine_049/MonsterSlug:jnt_bnd_spine_050/MonsterSlug:jnt_bnd_spine_051/MonsterSlug:jnt_bnd_spine_052/MonsterSlug:jnt_bnd_spine_053/MonsterSlug:jnt_bnd_spine_054/MonsterSlug:jnt_bnd_spine_055/MonsterSlug:jnt_bnd_spine_056/MonsterSlug:jnt_bnd_spine_057/MonsterSlug:jnt_bnd_spine_058/MonsterSlug:jnt_bnd_spine_059/MonsterSlug:jnt_spine_end
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_a_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_a_01/MonsterSlug:jnt_bnd_mouthChain_a_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_a_01/MonsterSlug:jnt_bnd_mouthChain_a_02/MonsterSlug:jnt_bnd_mouthChain_a_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_a_01/MonsterSlug:jnt_bnd_mouthChain_a_02/MonsterSlug:jnt_bnd_mouthChain_a_03/MonsterSlug:jnt_bnd_mouthChain_a_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_a_01/MonsterSlug:jnt_bnd_mouthChain_a_02/MonsterSlug:jnt_bnd_mouthChain_a_03/MonsterSlug:jnt_bnd_mouthChain_a_04/MonsterSlug:jnt_bnd_mouthChain_a_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012/MonsterSlug:jnt_bnd_l_eyeChain_013
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012/MonsterSlug:jnt_bnd_l_eyeChain_013/MonsterSlug:jnt_bnd_l_eyeChain_014
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012/MonsterSlug:jnt_bnd_l_eyeChain_013/MonsterSlug:jnt_bnd_l_eyeChain_014/MonsterSlug:jnt_bnd_l_eyeChain_015
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012/MonsterSlug:jnt_bnd_l_eyeChain_013/MonsterSlug:jnt_bnd_l_eyeChain_014/MonsterSlug:jnt_bnd_l_eyeChain_015/MonsterSlug:jnt_bnd_l_eyeChain_016
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012/MonsterSlug:jnt_bnd_l_eyeChain_013/MonsterSlug:jnt_bnd_l_eyeChain_014/MonsterSlug:jnt_bnd_l_eyeChain_015/MonsterSlug:jnt_bnd_l_eyeChain_016/MonsterSlug:jnt_bnd_l_eyeChain_017
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012/MonsterSlug:jnt_bnd_l_eyeChain_013/MonsterSlug:jnt_bnd_l_eyeChain_014/MonsterSlug:jnt_bnd_l_eyeChain_015/MonsterSlug:jnt_bnd_l_eyeChain_016/MonsterSlug:jnt_bnd_l_eyeChain_017/MonsterSlug:jnt_bnd_l_eyeChain_018
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012/MonsterSlug:jnt_bnd_l_eyeChain_013/MonsterSlug:jnt_bnd_l_eyeChain_014/MonsterSlug:jnt_bnd_l_eyeChain_015/MonsterSlug:jnt_bnd_l_eyeChain_016/MonsterSlug:jnt_bnd_l_eyeChain_017/MonsterSlug:jnt_bnd_l_eyeChain_018/MonsterSlug:jnt_bnd_l_eyeChain_019
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_l_eyeChainRotate_01/MonsterSlug:jnt_bnd_l_eyeChain_01/MonsterSlug:jnt_bnd_l_eyeChain_02/MonsterSlug:jnt_bnd_l_eyeChain_03/MonsterSlug:jnt_bnd_l_eyeChain_04/MonsterSlug:jnt_bnd_l_eyeChain_05/MonsterSlug:jnt_bnd_l_eyeChain_06/MonsterSlug:jnt_bnd_l_eyeChain_07/MonsterSlug:jnt_bnd_l_eyeChain_08/MonsterSlug:jnt_bnd_l_eyeChain_09/MonsterSlug:jnt_bnd_l_eyeChain_010/MonsterSlug:jnt_bnd_l_eyeChain_011/MonsterSlug:jnt_bnd_l_eyeChain_012/MonsterSlug:jnt_bnd_l_eyeChain_013/MonsterSlug:jnt_bnd_l_eyeChain_014/MonsterSlug:jnt_bnd_l_eyeChain_015/MonsterSlug:jnt_bnd_l_eyeChain_016/MonsterSlug:jnt_bnd_l_eyeChain_017/MonsterSlug:jnt_bnd_l_eyeChain_018/MonsterSlug:jnt_bnd_l_eyeChain_019/MonsterSlug:jnt_bnd_l_eyeChain_020
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_mouthChain_b_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_mouthChain_b_02/MonsterSlug:jnt_bnd_mouthChain_b_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_mouthChain_b_02/MonsterSlug:jnt_bnd_mouthChain_b_03/MonsterSlug:jnt_bnd_mouthChain_b_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_b_01/MonsterSlug:jnt_bnd_mouthChain_b_02/MonsterSlug:jnt_bnd_mouthChain_b_03/MonsterSlug:jnt_bnd_mouthChain_b_04/MonsterSlug:jnt_bnd_mouthChain_b_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_c_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_c_01/MonsterSlug:jnt_bnd_mouthChain_c_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_c_01/MonsterSlug:jnt_bnd_mouthChain_c_02/MonsterSlug:jnt_bnd_mouthChain_c_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_c_01/MonsterSlug:jnt_bnd_mouthChain_c_02/MonsterSlug:jnt_bnd_mouthChain_c_03/MonsterSlug:jnt_bnd_mouthChain_c_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_c_01/MonsterSlug:jnt_bnd_mouthChain_c_02/MonsterSlug:jnt_bnd_mouthChain_c_03/MonsterSlug:jnt_bnd_mouthChain_c_04/MonsterSlug:jnt_bnd_mouthChain_c_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_d_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_d_01/MonsterSlug:jnt_bnd_mouthChain_d_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_d_01/MonsterSlug:jnt_bnd_mouthChain_d_02/MonsterSlug:jnt_bnd_mouthChain_d_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_d_01/MonsterSlug:jnt_bnd_mouthChain_d_02/MonsterSlug:jnt_bnd_mouthChain_d_03/MonsterSlug:jnt_bnd_mouthChain_d_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_d_01/MonsterSlug:jnt_bnd_mouthChain_d_02/MonsterSlug:jnt_bnd_mouthChain_d_03/MonsterSlug:jnt_bnd_mouthChain_d_04/MonsterSlug:jnt_bnd_mouthChain_d_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_e_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_e_01/MonsterSlug:jnt_bnd_mouthChain_e_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_e_01/MonsterSlug:jnt_bnd_mouthChain_e_02/MonsterSlug:jnt_bnd_mouthChain_e_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_e_01/MonsterSlug:jnt_bnd_mouthChain_e_02/MonsterSlug:jnt_bnd_mouthChain_e_03/MonsterSlug:jnt_bnd_mouthChain_e_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_e_01/MonsterSlug:jnt_bnd_mouthChain_e_02/MonsterSlug:jnt_bnd_mouthChain_e_03/MonsterSlug:jnt_bnd_mouthChain_e_04/MonsterSlug:jnt_bnd_mouthChain_e_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_f_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_f_01/MonsterSlug:jnt_bnd_mouthChain_f_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_f_01/MonsterSlug:jnt_bnd_mouthChain_f_02/MonsterSlug:jnt_bnd_mouthChain_f_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_f_01/MonsterSlug:jnt_bnd_mouthChain_f_02/MonsterSlug:jnt_bnd_mouthChain_f_03/MonsterSlug:jnt_bnd_mouthChain_f_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_f_01/MonsterSlug:jnt_bnd_mouthChain_f_02/MonsterSlug:jnt_bnd_mouthChain_f_03/MonsterSlug:jnt_bnd_mouthChain_f_04/MonsterSlug:jnt_bnd_mouthChain_f_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_g_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_g_01/MonsterSlug:jnt_bnd_mouthChain_g_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_g_01/MonsterSlug:jnt_bnd_mouthChain_g_02/MonsterSlug:jnt_bnd_mouthChain_g_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_g_01/MonsterSlug:jnt_bnd_mouthChain_g_02/MonsterSlug:jnt_bnd_mouthChain_g_03/MonsterSlug:jnt_bnd_mouthChain_g_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_g_01/MonsterSlug:jnt_bnd_mouthChain_g_02/MonsterSlug:jnt_bnd_mouthChain_g_03/MonsterSlug:jnt_bnd_mouthChain_g_04/MonsterSlug:jnt_bnd_mouthChain_g_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_h_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_h_01/MonsterSlug:jnt_bnd_mouthChain_h_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_h_01/MonsterSlug:jnt_bnd_mouthChain_h_02/MonsterSlug:jnt_bnd_mouthChain_h_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_h_01/MonsterSlug:jnt_bnd_mouthChain_h_02/MonsterSlug:jnt_bnd_mouthChain_h_03/MonsterSlug:jnt_bnd_mouthChain_h_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_h_01/MonsterSlug:jnt_bnd_mouthChain_h_02/MonsterSlug:jnt_bnd_mouthChain_h_03/MonsterSlug:jnt_bnd_mouthChain_h_04/MonsterSlug:jnt_bnd_mouthChain_h_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_i_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_i_01/MonsterSlug:jnt_bnd_mouthChain_i_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_i_01/MonsterSlug:jnt_bnd_mouthChain_i_02/MonsterSlug:jnt_bnd_mouthChain_i_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_i_01/MonsterSlug:jnt_bnd_mouthChain_i_02/MonsterSlug:jnt_bnd_mouthChain_i_03/MonsterSlug:jnt_bnd_mouthChain_i_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_i_01/MonsterSlug:jnt_bnd_mouthChain_i_02/MonsterSlug:jnt_bnd_mouthChain_i_03/MonsterSlug:jnt_bnd_mouthChain_i_04/MonsterSlug:jnt_bnd_mouthChain_i_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_j_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_j_01/MonsterSlug:jnt_bnd_mouthChain_j_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_j_01/MonsterSlug:jnt_bnd_mouthChain_j_02/MonsterSlug:jnt_bnd_mouthChain_j_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_j_01/MonsterSlug:jnt_bnd_mouthChain_j_02/MonsterSlug:jnt_bnd_mouthChain_j_03/MonsterSlug:jnt_bnd_mouthChain_j_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_j_01/MonsterSlug:jnt_bnd_mouthChain_j_02/MonsterSlug:jnt_bnd_mouthChain_j_03/MonsterSlug:jnt_bnd_mouthChain_j_04/MonsterSlug:jnt_bnd_mouthChain_j_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_k_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_k_01/MonsterSlug:jnt_bnd_mouthChain_k_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_k_01/MonsterSlug:jnt_bnd_mouthChain_k_02/MonsterSlug:jnt_bnd_mouthChain_k_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_k_01/MonsterSlug:jnt_bnd_mouthChain_k_02/MonsterSlug:jnt_bnd_mouthChain_k_03/MonsterSlug:jnt_bnd_mouthChain_k_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_k_01/MonsterSlug:jnt_bnd_mouthChain_k_02/MonsterSlug:jnt_bnd_mouthChain_k_03/MonsterSlug:jnt_bnd_mouthChain_k_04/MonsterSlug:jnt_bnd_mouthChain_k_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_l_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_l_01/MonsterSlug:jnt_bnd_mouthChain_l_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_l_01/MonsterSlug:jnt_bnd_mouthChain_l_02/MonsterSlug:jnt_bnd_mouthChain_l_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_l_01/MonsterSlug:jnt_bnd_mouthChain_l_02/MonsterSlug:jnt_bnd_mouthChain_l_03/MonsterSlug:jnt_bnd_mouthChain_l_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_l_01/MonsterSlug:jnt_bnd_mouthChain_l_02/MonsterSlug:jnt_bnd_mouthChain_l_03/MonsterSlug:jnt_bnd_mouthChain_l_04/MonsterSlug:jnt_bnd_mouthChain_l_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_m_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_m_01/MonsterSlug:jnt_bnd_mouthChain_m_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_m_01/MonsterSlug:jnt_bnd_mouthChain_m_02/MonsterSlug:jnt_bnd_mouthChain_m_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_m_01/MonsterSlug:jnt_bnd_mouthChain_m_02/MonsterSlug:jnt_bnd_mouthChain_m_03/MonsterSlug:jnt_bnd_mouthChain_m_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_m_01/MonsterSlug:jnt_bnd_mouthChain_m_02/MonsterSlug:jnt_bnd_mouthChain_m_03/MonsterSlug:jnt_bnd_mouthChain_m_04/MonsterSlug:jnt_bnd_mouthChain_m_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_n_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_n_01/MonsterSlug:jnt_bnd_mouthChain_n_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_n_01/MonsterSlug:jnt_bnd_mouthChain_n_02/MonsterSlug:jnt_bnd_mouthChain_n_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_n_01/MonsterSlug:jnt_bnd_mouthChain_n_02/MonsterSlug:jnt_bnd_mouthChain_n_03/MonsterSlug:jnt_bnd_mouthChain_n_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_n_01/MonsterSlug:jnt_bnd_mouthChain_n_02/MonsterSlug:jnt_bnd_mouthChain_n_03/MonsterSlug:jnt_bnd_mouthChain_n_04/MonsterSlug:jnt_bnd_mouthChain_n_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_o_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_o_01/MonsterSlug:jnt_bnd_mouthChain_o_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_o_01/MonsterSlug:jnt_bnd_mouthChain_o_02/MonsterSlug:jnt_bnd_mouthChain_o_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_o_01/MonsterSlug:jnt_bnd_mouthChain_o_02/MonsterSlug:jnt_bnd_mouthChain_o_03/MonsterSlug:jnt_bnd_mouthChain_o_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_o_01/MonsterSlug:jnt_bnd_mouthChain_o_02/MonsterSlug:jnt_bnd_mouthChain_o_03/MonsterSlug:jnt_bnd_mouthChain_o_04/MonsterSlug:jnt_bnd_mouthChain_o_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_p_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_p_01/MonsterSlug:jnt_bnd_mouthChain_p_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_p_01/MonsterSlug:jnt_bnd_mouthChain_p_02/MonsterSlug:jnt_bnd_mouthChain_p_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_p_01/MonsterSlug:jnt_bnd_mouthChain_p_02/MonsterSlug:jnt_bnd_mouthChain_p_03/MonsterSlug:jnt_bnd_mouthChain_p_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_p_01/MonsterSlug:jnt_bnd_mouthChain_p_02/MonsterSlug:jnt_bnd_mouthChain_p_03/MonsterSlug:jnt_bnd_mouthChain_p_04/MonsterSlug:jnt_bnd_mouthChain_p_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_mouthChain_q_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_mouthChain_q_02/MonsterSlug:jnt_bnd_mouthChain_q_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_mouthChain_q_02/MonsterSlug:jnt_bnd_mouthChain_q_03/MonsterSlug:jnt_bnd_mouthChain_q_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_mouthChain_q_02/MonsterSlug:jnt_bnd_mouthChain_q_03/MonsterSlug:jnt_bnd_mouthChain_q_04/MonsterSlug:jnt_bnd_mouthChain_q_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012/MonsterSlug:jnt_bnd_r_eyeChain_013
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012/MonsterSlug:jnt_bnd_r_eyeChain_013/MonsterSlug:jnt_bnd_r_eyeChain_014
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012/MonsterSlug:jnt_bnd_r_eyeChain_013/MonsterSlug:jnt_bnd_r_eyeChain_014/MonsterSlug:jnt_bnd_r_eyeChain_015
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012/MonsterSlug:jnt_bnd_r_eyeChain_013/MonsterSlug:jnt_bnd_r_eyeChain_014/MonsterSlug:jnt_bnd_r_eyeChain_015/MonsterSlug:jnt_bnd_r_eyeChain_016
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012/MonsterSlug:jnt_bnd_r_eyeChain_013/MonsterSlug:jnt_bnd_r_eyeChain_014/MonsterSlug:jnt_bnd_r_eyeChain_015/MonsterSlug:jnt_bnd_r_eyeChain_016/MonsterSlug:jnt_bnd_r_eyeChain_017
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012/MonsterSlug:jnt_bnd_r_eyeChain_013/MonsterSlug:jnt_bnd_r_eyeChain_014/MonsterSlug:jnt_bnd_r_eyeChain_015/MonsterSlug:jnt_bnd_r_eyeChain_016/MonsterSlug:jnt_bnd_r_eyeChain_017/MonsterSlug:jnt_bnd_r_eyeChain_018
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012/MonsterSlug:jnt_bnd_r_eyeChain_013/MonsterSlug:jnt_bnd_r_eyeChain_014/MonsterSlug:jnt_bnd_r_eyeChain_015/MonsterSlug:jnt_bnd_r_eyeChain_016/MonsterSlug:jnt_bnd_r_eyeChain_017/MonsterSlug:jnt_bnd_r_eyeChain_018/MonsterSlug:jnt_bnd_r_eyeChain_019
+        weight: 1
+      - path: MonsterSlug:grp_jnt/MonsterSlug:jnt_neck_01/MonsterSlug:jnt_bnd_neck_02/MonsterSlug:jnt_bnd_neck_03/MonsterSlug:jnt_bnd_neck_04/MonsterSlug:jnt_bnd_mouthChain_q_01/MonsterSlug:jnt_bnd_r_eyeChainRotate_01/MonsterSlug:jnt_bnd_r_eyeChain_01/MonsterSlug:jnt_bnd_r_eyeChain_02/MonsterSlug:jnt_bnd_r_eyeChain_03/MonsterSlug:jnt_bnd_r_eyeChain_04/MonsterSlug:jnt_bnd_r_eyeChain_05/MonsterSlug:jnt_bnd_r_eyeChain_06/MonsterSlug:jnt_bnd_r_eyeChain_07/MonsterSlug:jnt_bnd_r_eyeChain_08/MonsterSlug:jnt_bnd_r_eyeChain_09/MonsterSlug:jnt_bnd_r_eyeChain_010/MonsterSlug:jnt_bnd_r_eyeChain_011/MonsterSlug:jnt_bnd_r_eyeChain_012/MonsterSlug:jnt_bnd_r_eyeChain_013/MonsterSlug:jnt_bnd_r_eyeChain_014/MonsterSlug:jnt_bnd_r_eyeChain_015/MonsterSlug:jnt_bnd_r_eyeChain_016/MonsterSlug:jnt_bnd_r_eyeChain_017/MonsterSlug:jnt_bnd_r_eyeChain_018/MonsterSlug:jnt_bnd_r_eyeChain_019/MonsterSlug:jnt_bnd_r_eyeChain_020
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
