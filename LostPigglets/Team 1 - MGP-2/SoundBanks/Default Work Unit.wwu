@@ -7,8 +7,10 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Pig_Swim_Stop" ID="{E7B2A334-62AB-41D1-A5A2-6B06D170037E}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pig_Swim_Start" ID="{9A5C4BCD-3B03-44BE-9BE2-CB1CDC9F23A4}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambience_Stop" ID="{563B3210-A472-4605-A2ED-2E2562E8C0C5}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Swim_Stop" ID="{D2888101-41D3-470A-BAE0-2FBA16FE86D6}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Piglet_Grunt" ID="{B934AE76-FF4A-4758-8E7F-6DE347D801BD}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambience_Play" ID="{92372A29-DEE8-4903-9375-ACAA93DE2070}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Piglet_Oink" ID="{9DCF468F-6C8D-4A79-A2A5-E57EB45EC2D4}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Swim_Start" ID="{C6CB0F19-CC79-4B34-86A7-7525E103AD14}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pig_Squeal" ID="{F5BF2B30-9B66-4F27-AF34-E48F45459CC3}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
