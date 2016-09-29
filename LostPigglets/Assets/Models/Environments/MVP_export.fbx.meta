@@ -1,0 +1,3552 @@
+fileFormatVersion: 2
+guid: c728cd13fa6a8fc40ac9c82b1f4245a6
+timeCreated: 1475153708
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group1
+    100002: group10
+    100004: group11
+    100006: group12
+    100008: group14
+    100010: group15
+    100012: group16
+    100014: group17
+    100016: group18
+    100018: group19
+    100020: group2
+    100022: group20
+    100024: group21
+    100026: group22
+    100028: group25
+    100030: group26
+    100032: group28
+    100034: group3
+    100036: group30
+    100038: group34
+    100040: group35
+    100042: group36
+    100044: group37
+    100046: group38
+    100048: group39
+    100050: group4
+    100052: group40
+    100054: group41
+    100056: group42
+    100058: group43
+    100060: group44
+    100062: group45
+    100064: group46
+    100066: group46 1
+    100068: group46 2
+    100070: group47
+    100072: group47 1
+    100074: group47 2
+    100076: group48
+    100078: group49
+    100080: group5
+    100082: group50
+    100084: group51
+    100086: group52
+    100088: group53
+    100090: group6
+    100092: group7
+    100094: group8
+    100096: group9
+    100098: LargeStone_010
+    100100: LargeStone_011
+    100102: LargeStone_012
+    100104: LargeStone_013
+    100106: LargeStone_013 1
+    100108: LargeStone_013 2
+    100110: LargeStone_013 3
+    100112: LargeStone_013 4
+    100114: LargeStone_013 5
+    100116: LargeStone_013 6
+    100118: LargeStone_013 7
+    100120: LargeStone_013 8
+    100122: LargeStone_014
+    100124: LargeStone_015
+    100126: LargeStone_016
+    100128: LargeStone_017
+    100130: LargeStone_018
+    100132: LargeStone_019
+    100134: LargeStone_02
+    100136: LargeStone_020
+    100138: LargeStone_021
+    100140: LargeStone_022
+    100142: LargeStone_022 1
+    100144: LargeStone_022 2
+    100146: LargeStone_022 3
+    100148: LargeStone_022 4
+    100150: LargeStone_022 5
+    100152: LargeStone_022 6
+    100154: LargeStone_022 7
+    100156: LargeStone_023
+    100158: LargeStone_024
+    100160: LargeStone_025
+    100162: LargeStone_025 1
+    100164: LargeStone_025 2
+    100166: LargeStone_025 3
+    100168: LargeStone_025 4
+    100170: LargeStone_026
+    100172: LargeStone_026 1
+    100174: LargeStone_026 2
+    100176: LargeStone_026 3
+    100178: LargeStone_026 4
+    100180: LargeStone_027
+    100182: LargeStone_028
+    100184: LargeStone_029
+    100186: LargeStone_03
+    100188: LargeStone_04
+    100190: LargeStone_05
+    100192: LargeStone_06
+    100194: LargeStone_07
+    100196: LargeStone_08
+    100198: LargeStone_09
+    100200: LayeredLargeStalagmite_010
+    100202: LayeredLargeStalagmite_010 1
+    100204: LayeredLargeStalagmite_010 2
+    100206: LayeredLargeStalagmite_010 3
+    100208: LayeredLargeStalagmite_010 4
+    100210: LayeredLargeStalagmite_02
+    100212: LayeredLargeStalagmite_03
+    100214: LayeredLargeStalagmite_04
+    100216: LayeredLargeStalagmite_05
+    100218: LayeredLargeStalagmite_06
+    100220: LayeredLargeStalagmite_07
+    100222: LayeredLargeStalagmite_07 1
+    100224: LayeredLargeStalagmite_07 2
+    100226: LayeredLargeStalagmite_07 3
+    100228: LayeredLargeStalagmite_07 4
+    100230: LayeredLargeStalagmite_07 5
+    100232: LayeredLargeStalagmite_07 6
+    100234: LayeredLargeStalagmite_07 7
+    100236: LayeredLargeStalagmite_07 8
+    100238: LayeredLargeStalagmite_07 9
+    100240: LayeredLargeStalagmite_08
+    100242: LayeredLargeStalagmite_08 1
+    100244: LayeredLargeStalagmite_09
+    100246: LayeredMediumStalagmite_010
+    100248: LayeredMediumStalagmite_010 1
+    100250: LayeredMediumStalagmite_010 2
+    100252: LayeredMediumStalagmite_010 3
+    100254: LayeredMediumStalagmite_010 4
+    100256: LayeredMediumStalagmite_011
+    100258: LayeredMediumStalagmite_011 1
+    100260: LayeredMediumStalagmite_011 2
+    100262: LayeredMediumStalagmite_011 3
+    100264: LayeredMediumStalagmite_011 4
+    100266: LayeredMediumStalagmite_02
+    100268: LayeredMediumStalagmite_03
+    100270: LayeredMediumStalagmite_04
+    100272: LayeredMediumStalagmite_04 1
+    100274: LayeredMediumStalagmite_04 2
+    100276: LayeredMediumStalagmite_04 3
+    100278: LayeredMediumStalagmite_04 4
+    100280: LayeredMediumStalagmite_04 5
+    100282: LayeredMediumStalagmite_04 6
+    100284: LayeredMediumStalagmite_04 7
+    100286: LayeredMediumStalagmite_04 8
+    100288: LayeredMediumStalagmite_04 9
+    100290: LayeredMediumStalagmite_05
+    100292: LayeredMediumStalagmite_05 1
+    100294: LayeredMediumStalagmite_05 2
+    100296: LayeredMediumStalagmite_05 3
+    100298: LayeredMediumStalagmite_05 4
+    100300: LayeredMediumStalagmite_05 5
+    100302: LayeredMediumStalagmite_05 6
+    100304: LayeredMediumStalagmite_05 7
+    100306: LayeredMediumStalagmite_05 8
+    100308: LayeredMediumStalagmite_05 9
+    100310: LayeredMediumStalagmite_06
+    100312: LayeredMediumStalagmite_06 1
+    100314: LayeredMediumStalagmite_06 2
+    100316: LayeredMediumStalagmite_06 3
+    100318: LayeredMediumStalagmite_06 4
+    100320: LayeredMediumStalagmite_06 5
+    100322: LayeredMediumStalagmite_07
+    100324: LayeredMediumStalagmite_07 1
+    100326: LayeredMediumStalagmite_07 2
+    100328: LayeredMediumStalagmite_07 3
+    100330: LayeredMediumStalagmite_07 4
+    100332: LayeredMediumStalagmite_07 5
+    100334: LayeredMediumStalagmite_08
+    100336: LayeredMediumStalagmite_09
+    100338: LayeredSmallStalagmite_010
+    100340: LayeredSmallStalagmite_010 1
+    100342: LayeredSmallStalagmite_011
+    100344: LayeredSmallStalagmite_012
+    100346: LayeredSmallStalagmite_012 1
+    100348: LayeredSmallStalagmite_012 2
+    100350: LayeredSmallStalagmite_012 3
+    100352: LayeredSmallStalagmite_012 4
+    100354: LayeredSmallStalagmite_02
+    100356: LayeredSmallStalagmite_03
+    100358: LayeredSmallStalagmite_04
+    100360: LayeredSmallStalagmite_05
+    100362: LayeredSmallStalagmite_06
+    100364: LayeredSmallStalagmite_06 1
+    100366: LayeredSmallStalagmite_06 2
+    100368: LayeredSmallStalagmite_06 3
+    100370: LayeredSmallStalagmite_06 4
+    100372: LayeredSmallStalagmite_06 5
+    100374: LayeredSmallStalagmite_06 6
+    100376: LayeredSmallStalagmite_06 7
+    100378: LayeredSmallStalagmite_06 8
+    100380: LayeredSmallStalagmite_06 9
+    100382: LayeredSmallStalagmite_07
+    100384: LayeredSmallStalagmite_08
+    100386: LayeredSmallStalagmite_09
+    100388: LayeredSmallStalagmite_09 1
+    100390: MediumStone_010
+    100392: MediumStone_011
+    100394: MediumStone_012
+    100396: MediumStone_013
+    100398: MediumStone_014
+    100400: MediumStone_015
+    100402: MediumStone_016
+    100404: MediumStone_017
+    100406: MediumStone_018
+    100408: MediumStone_019
+    100410: MediumStone_02
+    100412: MediumStone_020
+    100414: MediumStone_021
+    100416: MediumStone_022
+    100418: MediumStone_023
+    100420: MediumStone_023 1
+    100422: MediumStone_023 2
+    100424: MediumStone_023 3
+    100426: MediumStone_023 4
+    100428: MediumStone_024
+    100430: MediumStone_024 1
+    100432: MediumStone_024 2
+    100434: MediumStone_024 3
+    100436: MediumStone_024 4
+    100438: MediumStone_025
+    100440: MediumStone_025 1
+    100442: MediumStone_025 2
+    100444: MediumStone_025 3
+    100446: MediumStone_025 4
+    100448: MediumStone_026
+    100450: MediumStone_026 1
+    100452: MediumStone_026 2
+    100454: MediumStone_026 3
+    100456: MediumStone_026 4
+    100458: MediumStone_027
+    100460: MediumStone_028
+    100462: MediumStone_029
+    100464: MediumStone_03
+    100466: MediumStone_030
+    100468: MediumStone_031
+    100470: MediumStone_031 1
+    100472: MediumStone_032
+    100474: MediumStone_032 1
+    100476: MediumStone_04
+    100478: MediumStone_05
+    100480: MediumStone_06
+    100482: MediumStone_07
+    100484: MediumStone_08
+    100486: MediumStone_09
+    100488: //RootNode
+    100490: NormalLargeStalagmite_02
+    100492: NormalLargeStalagmite_03
+    100494: NormalLargeStalagmite_04
+    100496: NormalLargeStalagmite_05
+    100498: NormalLargeStalagmite_06
+    100500: NormalLargeStalagmite_07
+    100502: NormalLargeStalagmite_08
+    100504: NormalSmallStalagmite_010
+    100506: NormalSmallStalagmite_011
+    100508: NormalSmallStalagmite_012
+    100510: NormalSmallStalagmite_012 1
+    100512: NormalSmallStalagmite_012 10
+    100514: NormalSmallStalagmite_012 11
+    100516: NormalSmallStalagmite_012 12
+    100518: NormalSmallStalagmite_012 13
+    100520: NormalSmallStalagmite_012 14
+    100522: NormalSmallStalagmite_012 15
+    100524: NormalSmallStalagmite_012 16
+    100526: NormalSmallStalagmite_012 17
+    100528: NormalSmallStalagmite_012 2
+    100530: NormalSmallStalagmite_012 3
+    100532: NormalSmallStalagmite_012 4
+    100534: NormalSmallStalagmite_012 5
+    100536: NormalSmallStalagmite_012 6
+    100538: NormalSmallStalagmite_012 7
+    100540: NormalSmallStalagmite_012 8
+    100542: NormalSmallStalagmite_012 9
+    100544: NormalSmallStalagmite_013
+    100546: NormalSmallStalagmite_013 1
+    100548: NormalSmallStalagmite_013 2
+    100550: NormalSmallStalagmite_013 3
+    100552: NormalSmallStalagmite_013 4
+    100554: NormalSmallStalagmite_013 5
+    100556: NormalSmallStalagmite_013 6
+    100558: NormalSmallStalagmite_013 7
+    100560: NormalSmallStalagmite_013 8
+    100562: NormalSmallStalagmite_013 9
+    100564: NormalSmallStalagmite_014
+    100566: NormalSmallStalagmite_014 1
+    100568: NormalSmallStalagmite_015
+    100570: NormalSmallStalagmite_015 1
+    100572: NormalSmallStalagmite_016
+    100574: NormalSmallStalagmite_016 1
+    100576: NormalSmallStalagmite_016 2
+    100578: NormalSmallStalagmite_016 3
+    100580: NormalSmallStalagmite_016 4
+    100582: NormalSmallStalagmite_017
+    100584: NormalSmallStalagmite_017 1
+    100586: NormalSmallStalagmite_017 2
+    100588: NormalSmallStalagmite_017 3
+    100590: NormalSmallStalagmite_017 4
+    100592: NormalSmallStalagmite_02
+    100594: NormalSmallStalagmite_03
+    100596: NormalSmallStalagmite_04
+    100598: NormalSmallStalagmite_05
+    100600: NormalSmallStalagmite_06
+    100602: NormalSmallStalagmite_07
+    100604: NormalSmallStalagmite_08
+    100606: NormalSmallStalagmite_09
+    100608: SmallStone_010
+    100610: SmallStone_011
+    100612: SmallStone_012
+    100614: SmallStone_013
+    100616: SmallStone_014
+    100618: SmallStone_014 1
+    100620: SmallStone_015
+    100622: SmallStone_016
+    100624: SmallStone_02
+    100626: SmallStone_03
+    100628: SmallStone_04
+    100630: SmallStone_05
+    100632: SmallStone_06
+    100634: SmallStone_07
+    100636: SmallStone_08
+    100638: SmallStone_09
+    100640: SmoothLargeStalagmite_010
+    100642: SmoothLargeStalagmite_010 1
+    100644: SmoothLargeStalagmite_011
+    100646: SmoothLargeStalagmite_011 1
+    100648: SmoothLargeStalagmite_011 2
+    100650: SmoothLargeStalagmite_011 3
+    100652: SmoothLargeStalagmite_011 4
+    100654: SmoothLargeStalagmite_012
+    100656: SmoothLargeStalagmite_012 1
+    100658: SmoothLargeStalagmite_012 2
+    100660: SmoothLargeStalagmite_012 3
+    100662: SmoothLargeStalagmite_012 4
+    100664: SmoothLargeStalagmite_013
+    100666: SmoothLargeStalagmite_02
+    100668: SmoothLargeStalagmite_03
+    100670: SmoothLargeStalagmite_04
+    100672: SmoothLargeStalagmite_05
+    100674: SmoothLargeStalagmite_06
+    100676: SmoothLargeStalagmite_07
+    100678: SmoothLargeStalagmite_08
+    100680: SmoothLargeStalagmite_08 1
+    100682: SmoothLargeStalagmite_08 10
+    100684: SmoothLargeStalagmite_08 11
+    100686: SmoothLargeStalagmite_08 12
+    100688: SmoothLargeStalagmite_08 13
+    100690: SmoothLargeStalagmite_08 14
+    100692: SmoothLargeStalagmite_08 15
+    100694: SmoothLargeStalagmite_08 16
+    100696: SmoothLargeStalagmite_08 17
+    100698: SmoothLargeStalagmite_08 2
+    100700: SmoothLargeStalagmite_08 3
+    100702: SmoothLargeStalagmite_08 4
+    100704: SmoothLargeStalagmite_08 5
+    100706: SmoothLargeStalagmite_08 6
+    100708: SmoothLargeStalagmite_08 7
+    100710: SmoothLargeStalagmite_08 8
+    100712: SmoothLargeStalagmite_08 9
+    100714: SmoothLargeStalagmite_09
+    100716: SmoothLargeStalagmite_09 1
+    100718: SmoothLargeStalagmite_09 2
+    100720: SmoothLargeStalagmite_09 3
+    100722: SmoothLargeStalagmite_09 4
+    100724: SmoothLargeStalagmite_09 5
+    100726: SmoothLargeStalagmite_09 6
+    100728: SmoothLargeStalagmite_09 7
+    100730: SmoothLargeStalagmite_09 8
+    100732: SmoothLargeStalagmite_09 9
+    100734: SmoothMediumStalagmite_010
+    100736: SmoothMediumStalagmite_011
+    100738: SmoothMediumStalagmite_012
+    100740: SmoothMediumStalagmite_013
+    100742: SmoothMediumStalagmite_014
+    100744: SmoothMediumStalagmite_015
+    100746: SmoothMediumStalagmite_016
+    100748: SmoothMediumStalagmite_017
+    100750: SmoothMediumStalagmite_018
+    100752: SmoothMediumStalagmite_019
+    100754: SmoothMediumStalagmite_02
+    100756: SmoothMediumStalagmite_020
+    100758: SmoothMediumStalagmite_021
+    100760: SmoothMediumStalagmite_022
+    100762: SmoothMediumStalagmite_023
+    100764: SmoothMediumStalagmite_024
+    100766: SmoothMediumStalagmite_025
+    100768: SmoothMediumStalagmite_026
+    100770: SmoothMediumStalagmite_027
+    100772: SmoothMediumStalagmite_028
+    100774: SmoothMediumStalagmite_029
+    100776: SmoothMediumStalagmite_03
+    100778: SmoothMediumStalagmite_030
+    100780: SmoothMediumStalagmite_030 1
+    100782: SmoothMediumStalagmite_030 10
+    100784: SmoothMediumStalagmite_030 11
+    100786: SmoothMediumStalagmite_030 12
+    100788: SmoothMediumStalagmite_030 13
+    100790: SmoothMediumStalagmite_030 14
+    100792: SmoothMediumStalagmite_030 15
+    100794: SmoothMediumStalagmite_030 16
+    100796: SmoothMediumStalagmite_030 17
+    100798: SmoothMediumStalagmite_030 2
+    100800: SmoothMediumStalagmite_030 3
+    100802: SmoothMediumStalagmite_030 4
+    100804: SmoothMediumStalagmite_030 5
+    100806: SmoothMediumStalagmite_030 6
+    100808: SmoothMediumStalagmite_030 7
+    100810: SmoothMediumStalagmite_030 8
+    100812: SmoothMediumStalagmite_030 9
+    100814: SmoothMediumStalagmite_031
+    100816: SmoothMediumStalagmite_031 1
+    100818: SmoothMediumStalagmite_031 10
+    100820: SmoothMediumStalagmite_031 11
+    100822: SmoothMediumStalagmite_031 12
+    100824: SmoothMediumStalagmite_031 13
+    100826: SmoothMediumStalagmite_031 14
+    100828: SmoothMediumStalagmite_031 15
+    100830: SmoothMediumStalagmite_031 16
+    100832: SmoothMediumStalagmite_031 17
+    100834: SmoothMediumStalagmite_031 2
+    100836: SmoothMediumStalagmite_031 3
+    100838: SmoothMediumStalagmite_031 4
+    100840: SmoothMediumStalagmite_031 5
+    100842: SmoothMediumStalagmite_031 6
+    100844: SmoothMediumStalagmite_031 7
+    100846: SmoothMediumStalagmite_031 8
+    100848: SmoothMediumStalagmite_031 9
+    100850: SmoothMediumStalagmite_032
+    100852: SmoothMediumStalagmite_032 1
+    100854: SmoothMediumStalagmite_032 10
+    100856: SmoothMediumStalagmite_032 11
+    100858: SmoothMediumStalagmite_032 12
+    100860: SmoothMediumStalagmite_032 13
+    100862: SmoothMediumStalagmite_032 14
+    100864: SmoothMediumStalagmite_032 15
+    100866: SmoothMediumStalagmite_032 16
+    100868: SmoothMediumStalagmite_032 17
+    100870: SmoothMediumStalagmite_032 2
+    100872: SmoothMediumStalagmite_032 3
+    100874: SmoothMediumStalagmite_032 4
+    100876: SmoothMediumStalagmite_032 5
+    100878: SmoothMediumStalagmite_032 6
+    100880: SmoothMediumStalagmite_032 7
+    100882: SmoothMediumStalagmite_032 8
+    100884: SmoothMediumStalagmite_032 9
+    100886: SmoothMediumStalagmite_033
+    100888: SmoothMediumStalagmite_033 1
+    100890: SmoothMediumStalagmite_033 10
+    100892: SmoothMediumStalagmite_033 11
+    100894: SmoothMediumStalagmite_033 12
+    100896: SmoothMediumStalagmite_033 13
+    100898: SmoothMediumStalagmite_033 14
+    100900: SmoothMediumStalagmite_033 15
+    100902: SmoothMediumStalagmite_033 16
+    100904: SmoothMediumStalagmite_033 17
+    100906: SmoothMediumStalagmite_033 2
+    100908: SmoothMediumStalagmite_033 3
+    100910: SmoothMediumStalagmite_033 4
+    100912: SmoothMediumStalagmite_033 5
+    100914: SmoothMediumStalagmite_033 6
+    100916: SmoothMediumStalagmite_033 7
+    100918: SmoothMediumStalagmite_033 8
+    100920: SmoothMediumStalagmite_033 9
+    100922: SmoothMediumStalagmite_034
+    100924: SmoothMediumStalagmite_034 1
+    100926: SmoothMediumStalagmite_034 10
+    100928: SmoothMediumStalagmite_034 11
+    100930: SmoothMediumStalagmite_034 12
+    100932: SmoothMediumStalagmite_034 13
+    100934: SmoothMediumStalagmite_034 14
+    100936: SmoothMediumStalagmite_034 15
+    100938: SmoothMediumStalagmite_034 16
+    100940: SmoothMediumStalagmite_034 17
+    100942: SmoothMediumStalagmite_034 2
+    100944: SmoothMediumStalagmite_034 3
+    100946: SmoothMediumStalagmite_034 4
+    100948: SmoothMediumStalagmite_034 5
+    100950: SmoothMediumStalagmite_034 6
+    100952: SmoothMediumStalagmite_034 7
+    100954: SmoothMediumStalagmite_034 8
+    100956: SmoothMediumStalagmite_034 9
+    100958: SmoothMediumStalagmite_035
+    100960: SmoothMediumStalagmite_035 1
+    100962: SmoothMediumStalagmite_035 2
+    100964: SmoothMediumStalagmite_035 3
+    100966: SmoothMediumStalagmite_035 4
+    100968: SmoothMediumStalagmite_035 5
+    100970: SmoothMediumStalagmite_035 6
+    100972: SmoothMediumStalagmite_035 7
+    100974: SmoothMediumStalagmite_035 8
+    100976: SmoothMediumStalagmite_035 9
+    100978: SmoothMediumStalagmite_036
+    100980: SmoothMediumStalagmite_036 1
+    100982: SmoothMediumStalagmite_036 2
+    100984: SmoothMediumStalagmite_036 3
+    100986: SmoothMediumStalagmite_036 4
+    100988: SmoothMediumStalagmite_036 5
+    100990: SmoothMediumStalagmite_036 6
+    100992: SmoothMediumStalagmite_036 7
+    100994: SmoothMediumStalagmite_036 8
+    100996: SmoothMediumStalagmite_036 9
+    100998: SmoothMediumStalagmite_037
+    101000: SmoothMediumStalagmite_037 1
+    101002: SmoothMediumStalagmite_037 2
+    101004: SmoothMediumStalagmite_037 3
+    101006: SmoothMediumStalagmite_037 4
+    101008: SmoothMediumStalagmite_037 5
+    101010: SmoothMediumStalagmite_037 6
+    101012: SmoothMediumStalagmite_037 7
+    101014: SmoothMediumStalagmite_037 8
+    101016: SmoothMediumStalagmite_037 9
+    101018: SmoothMediumStalagmite_038
+    101020: SmoothMediumStalagmite_038 1
+    101022: SmoothMediumStalagmite_038 2
+    101024: SmoothMediumStalagmite_038 3
+    101026: SmoothMediumStalagmite_038 4
+    101028: SmoothMediumStalagmite_038 5
+    101030: SmoothMediumStalagmite_038 6
+    101032: SmoothMediumStalagmite_038 7
+    101034: SmoothMediumStalagmite_038 8
+    101036: SmoothMediumStalagmite_038 9
+    101038: SmoothMediumStalagmite_039
+    101040: SmoothMediumStalagmite_039 1
+    101042: SmoothMediumStalagmite_039 2
+    101044: SmoothMediumStalagmite_039 3
+    101046: SmoothMediumStalagmite_039 4
+    101048: SmoothMediumStalagmite_039 5
+    101050: SmoothMediumStalagmite_039 6
+    101052: SmoothMediumStalagmite_039 7
+    101054: SmoothMediumStalagmite_039 8
+    101056: SmoothMediumStalagmite_039 9
+    101058: SmoothMediumStalagmite_04
+    101060: SmoothMediumStalagmite_040
+    101062: SmoothMediumStalagmite_041
+    101064: SmoothMediumStalagmite_042
+    101066: SmoothMediumStalagmite_043
+    101068: SmoothMediumStalagmite_043 1
+    101070: SmoothMediumStalagmite_044
+    101072: SmoothMediumStalagmite_044 1
+    101074: SmoothMediumStalagmite_045
+    101076: SmoothMediumStalagmite_045 1
+    101078: SmoothMediumStalagmite_045 2
+    101080: SmoothMediumStalagmite_045 3
+    101082: SmoothMediumStalagmite_045 4
+    101084: SmoothMediumStalagmite_046
+    101086: SmoothMediumStalagmite_046 1
+    101088: SmoothMediumStalagmite_046 2
+    101090: SmoothMediumStalagmite_046 3
+    101092: SmoothMediumStalagmite_046 4
+    101094: SmoothMediumStalagmite_047
+    101096: SmoothMediumStalagmite_047 1
+    101098: SmoothMediumStalagmite_047 2
+    101100: SmoothMediumStalagmite_047 3
+    101102: SmoothMediumStalagmite_047 4
+    101104: SmoothMediumStalagmite_048
+    101106: SmoothMediumStalagmite_048 1
+    101108: SmoothMediumStalagmite_048 2
+    101110: SmoothMediumStalagmite_048 3
+    101112: SmoothMediumStalagmite_048 4
+    101114: SmoothMediumStalagmite_049
+    101116: SmoothMediumStalagmite_049 1
+    101118: SmoothMediumStalagmite_049 2
+    101120: SmoothMediumStalagmite_049 3
+    101122: SmoothMediumStalagmite_049 4
+    101124: SmoothMediumStalagmite_05
+    101126: SmoothMediumStalagmite_050
+    101128: SmoothMediumStalagmite_050 1
+    101130: SmoothMediumStalagmite_050 2
+    101132: SmoothMediumStalagmite_050 3
+    101134: SmoothMediumStalagmite_050 4
+    101136: SmoothMediumStalagmite_051
+    101138: SmoothMediumStalagmite_051 1
+    101140: SmoothMediumStalagmite_051 2
+    101142: SmoothMediumStalagmite_051 3
+    101144: SmoothMediumStalagmite_052
+    101146: SmoothMediumStalagmite_052 1
+    101148: SmoothMediumStalagmite_052 2
+    101150: SmoothMediumStalagmite_052 3
+    101152: SmoothMediumStalagmite_052 4
+    101154: SmoothMediumStalagmite_053
+    101156: SmoothMediumStalagmite_053 1
+    101158: SmoothMediumStalagmite_053 2
+    101160: SmoothMediumStalagmite_053 3
+    101162: SmoothMediumStalagmite_053 4
+    101164: SmoothMediumStalagmite_054
+    101166: SmoothMediumStalagmite_054 1
+    101168: SmoothMediumStalagmite_054 2
+    101170: SmoothMediumStalagmite_054 3
+    101172: SmoothMediumStalagmite_054 4
+    101174: SmoothMediumStalagmite_055
+    101176: SmoothMediumStalagmite_06
+    101178: SmoothMediumStalagmite_07
+    101180: SmoothMediumStalagmite_08
+    101182: SmoothMediumStalagmite_09
+    101184: SmoothSmallStalagmite_02
+    101186: SmoothSmallStalagmite_03
+    101188: SmoothSmallStalagmite_04
+    101190: SmoothSmallStalagmite_05
+    101192: SmoothSmallStalagmite_06
+    101194: SmoothSmallStalagmite_07
+    101196: SmoothSmallStalagmite_08
+    101198: SmoothSmallStalagmite_09
+    101200: WallMushroom_010
+    101202: WallMushroom_011
+    101204: WallMushroom_012
+    101206: WallMushroom_013
+    101208: WallMushroom_014
+    101210: WallMushroom_015
+    101212: WallMushroom_016
+    101214: WallMushroom_016 1
+    101216: WallMushroom_016 2
+    101218: WallMushroom_016 3
+    101220: WallMushroom_016 4
+    101222: WallMushroom_016 5
+    101224: WallMushroom_016 6
+    101226: WallMushroom_016 7
+    101228: WallMushroom_017
+    101230: WallMushroom_017 1
+    101232: WallMushroom_017 2
+    101234: WallMushroom_017 3
+    101236: WallMushroom_017 4
+    101238: WallMushroom_017 5
+    101240: WallMushroom_017 6
+    101242: WallMushroom_017 7
+    101244: WallMushroom_018
+    101246: WallMushroom_018 1
+    101248: WallMushroom_018 2
+    101250: WallMushroom_018 3
+    101252: WallMushroom_018 4
+    101254: WallMushroom_018 5
+    101256: WallMushroom_018 6
+    101258: WallMushroom_018 7
+    101260: WallMushroom_019
+    101262: WallMushroom_019 1
+    101264: WallMushroom_019 2
+    101266: WallMushroom_019 3
+    101268: WallMushroom_019 4
+    101270: WallMushroom_019 5
+    101272: WallMushroom_019 6
+    101274: WallMushroom_019 7
+    101276: WallMushroom_02
+    101278: WallMushroom_020
+    101280: WallMushroom_020 1
+    101282: WallMushroom_020 2
+    101284: WallMushroom_020 3
+    101286: WallMushroom_020 4
+    101288: WallMushroom_020 5
+    101290: WallMushroom_020 6
+    101292: WallMushroom_020 7
+    101294: WallMushroom_021
+    101296: WallMushroom_021 1
+    101298: WallMushroom_021 2
+    101300: WallMushroom_021 3
+    101302: WallMushroom_021 4
+    101304: WallMushroom_021 5
+    101306: WallMushroom_021 6
+    101308: WallMushroom_021 7
+    101310: WallMushroom_022
+    101312: WallMushroom_022 1
+    101314: WallMushroom_022 2
+    101316: WallMushroom_022 3
+    101318: WallMushroom_022 4
+    101320: WallMushroom_022 5
+    101322: WallMushroom_022 6
+    101324: WallMushroom_022 7
+    101326: WallMushroom_023
+    101328: WallMushroom_023 1
+    101330: WallMushroom_023 2
+    101332: WallMushroom_023 3
+    101334: WallMushroom_023 4
+    101336: WallMushroom_023 5
+    101338: WallMushroom_023 6
+    101340: WallMushroom_023 7
+    101342: WallMushroom_024
+    101344: WallMushroom_024 1
+    101346: WallMushroom_024 2
+    101348: WallMushroom_024 3
+    101350: WallMushroom_024 4
+    101352: WallMushroom_024 5
+    101354: WallMushroom_024 6
+    101356: WallMushroom_024 7
+    101358: WallMushroom_025
+    101360: WallMushroom_025 1
+    101362: WallMushroom_025 2
+    101364: WallMushroom_025 3
+    101366: WallMushroom_025 4
+    101368: WallMushroom_025 5
+    101370: WallMushroom_025 6
+    101372: WallMushroom_025 7
+    101374: WallMushroom_026
+    101376: WallMushroom_026 1
+    101378: WallMushroom_026 2
+    101380: WallMushroom_026 3
+    101382: WallMushroom_026 4
+    101384: WallMushroom_026 5
+    101386: WallMushroom_026 6
+    101388: WallMushroom_026 7
+    101390: WallMushroom_027
+    101392: WallMushroom_027 1
+    101394: WallMushroom_027 2
+    101396: WallMushroom_027 3
+    101398: WallMushroom_027 4
+    101400: WallMushroom_027 5
+    101402: WallMushroom_027 6
+    101404: WallMushroom_027 7
+    101406: WallMushroom_028
+    101408: WallMushroom_028 1
+    101410: WallMushroom_028 2
+    101412: WallMushroom_028 3
+    101414: WallMushroom_028 4
+    101416: WallMushroom_028 5
+    101418: WallMushroom_028 6
+    101420: WallMushroom_028 7
+    101422: WallMushroom_029
+    101424: WallMushroom_029 1
+    101426: WallMushroom_029 2
+    101428: WallMushroom_029 3
+    101430: WallMushroom_029 4
+    101432: WallMushroom_029 5
+    101434: WallMushroom_029 6
+    101436: WallMushroom_029 7
+    101438: WallMushroom_03
+    101440: WallMushroom_04
+    101442: WallMushroom_05
+    101444: WallMushroom_06
+    101446: WallMushroom_07
+    101448: WallMushroom_08
+    101450: WallMushroom_09
+    400000: group1
+    400002: group10
+    400004: group11
+    400006: group12
+    400008: group14
+    400010: group15
+    400012: group16
+    400014: group17
+    400016: group18
+    400018: group19
+    400020: group2
+    400022: group20
+    400024: group21
+    400026: group22
+    400028: group25
+    400030: group26
+    400032: group28
+    400034: group3
+    400036: group30
+    400038: group34
+    400040: group35
+    400042: group36
+    400044: group37
+    400046: group38
+    400048: group39
+    400050: group4
+    400052: group40
+    400054: group41
+    400056: group42
+    400058: group43
+    400060: group44
+    400062: group45
+    400064: group46
+    400066: group46 1
+    400068: group46 2
+    400070: group47
+    400072: group47 1
+    400074: group47 2
+    400076: group48
+    400078: group49
+    400080: group5
+    400082: group50
+    400084: group51
+    400086: group52
+    400088: group53
+    400090: group6
+    400092: group7
+    400094: group8
+    400096: group9
+    400098: LargeStone_010
+    400100: LargeStone_011
+    400102: LargeStone_012
+    400104: LargeStone_013
+    400106: LargeStone_013 1
+    400108: LargeStone_013 2
+    400110: LargeStone_013 3
+    400112: LargeStone_013 4
+    400114: LargeStone_013 5
+    400116: LargeStone_013 6
+    400118: LargeStone_013 7
+    400120: LargeStone_013 8
+    400122: LargeStone_014
+    400124: LargeStone_015
+    400126: LargeStone_016
+    400128: LargeStone_017
+    400130: LargeStone_018
+    400132: LargeStone_019
+    400134: LargeStone_02
+    400136: LargeStone_020
+    400138: LargeStone_021
+    400140: LargeStone_022
+    400142: LargeStone_022 1
+    400144: LargeStone_022 2
+    400146: LargeStone_022 3
+    400148: LargeStone_022 4
+    400150: LargeStone_022 5
+    400152: LargeStone_022 6
+    400154: LargeStone_022 7
+    400156: LargeStone_023
+    400158: LargeStone_024
+    400160: LargeStone_025
+    400162: LargeStone_025 1
+    400164: LargeStone_025 2
+    400166: LargeStone_025 3
+    400168: LargeStone_025 4
+    400170: LargeStone_026
+    400172: LargeStone_026 1
+    400174: LargeStone_026 2
+    400176: LargeStone_026 3
+    400178: LargeStone_026 4
+    400180: LargeStone_027
+    400182: LargeStone_028
+    400184: LargeStone_029
+    400186: LargeStone_03
+    400188: LargeStone_04
+    400190: LargeStone_05
+    400192: LargeStone_06
+    400194: LargeStone_07
+    400196: LargeStone_08
+    400198: LargeStone_09
+    400200: LayeredLargeStalagmite_010
+    400202: LayeredLargeStalagmite_010 1
+    400204: LayeredLargeStalagmite_010 2
+    400206: LayeredLargeStalagmite_010 3
+    400208: LayeredLargeStalagmite_010 4
+    400210: LayeredLargeStalagmite_02
+    400212: LayeredLargeStalagmite_03
+    400214: LayeredLargeStalagmite_04
+    400216: LayeredLargeStalagmite_05
+    400218: LayeredLargeStalagmite_06
+    400220: LayeredLargeStalagmite_07
+    400222: LayeredLargeStalagmite_07 1
+    400224: LayeredLargeStalagmite_07 2
+    400226: LayeredLargeStalagmite_07 3
+    400228: LayeredLargeStalagmite_07 4
+    400230: LayeredLargeStalagmite_07 5
+    400232: LayeredLargeStalagmite_07 6
+    400234: LayeredLargeStalagmite_07 7
+    400236: LayeredLargeStalagmite_07 8
+    400238: LayeredLargeStalagmite_07 9
+    400240: LayeredLargeStalagmite_08
+    400242: LayeredLargeStalagmite_08 1
+    400244: LayeredLargeStalagmite_09
+    400246: LayeredMediumStalagmite_010
+    400248: LayeredMediumStalagmite_010 1
+    400250: LayeredMediumStalagmite_010 2
+    400252: LayeredMediumStalagmite_010 3
+    400254: LayeredMediumStalagmite_010 4
+    400256: LayeredMediumStalagmite_011
+    400258: LayeredMediumStalagmite_011 1
+    400260: LayeredMediumStalagmite_011 2
+    400262: LayeredMediumStalagmite_011 3
+    400264: LayeredMediumStalagmite_011 4
+    400266: LayeredMediumStalagmite_02
+    400268: LayeredMediumStalagmite_03
+    400270: LayeredMediumStalagmite_04
+    400272: LayeredMediumStalagmite_04 1
+    400274: LayeredMediumStalagmite_04 2
+    400276: LayeredMediumStalagmite_04 3
+    400278: LayeredMediumStalagmite_04 4
+    400280: LayeredMediumStalagmite_04 5
+    400282: LayeredMediumStalagmite_04 6
+    400284: LayeredMediumStalagmite_04 7
+    400286: LayeredMediumStalagmite_04 8
+    400288: LayeredMediumStalagmite_04 9
+    400290: LayeredMediumStalagmite_05
+    400292: LayeredMediumStalagmite_05 1
+    400294: LayeredMediumStalagmite_05 2
+    400296: LayeredMediumStalagmite_05 3
+    400298: LayeredMediumStalagmite_05 4
+    400300: LayeredMediumStalagmite_05 5
+    400302: LayeredMediumStalagmite_05 6
+    400304: LayeredMediumStalagmite_05 7
+    400306: LayeredMediumStalagmite_05 8
+    400308: LayeredMediumStalagmite_05 9
+    400310: LayeredMediumStalagmite_06
+    400312: LayeredMediumStalagmite_06 1
+    400314: LayeredMediumStalagmite_06 2
+    400316: LayeredMediumStalagmite_06 3
+    400318: LayeredMediumStalagmite_06 4
+    400320: LayeredMediumStalagmite_06 5
+    400322: LayeredMediumStalagmite_07
+    400324: LayeredMediumStalagmite_07 1
+    400326: LayeredMediumStalagmite_07 2
+    400328: LayeredMediumStalagmite_07 3
+    400330: LayeredMediumStalagmite_07 4
+    400332: LayeredMediumStalagmite_07 5
+    400334: LayeredMediumStalagmite_08
+    400336: LayeredMediumStalagmite_09
+    400338: LayeredSmallStalagmite_010
+    400340: LayeredSmallStalagmite_010 1
+    400342: LayeredSmallStalagmite_011
+    400344: LayeredSmallStalagmite_012
+    400346: LayeredSmallStalagmite_012 1
+    400348: LayeredSmallStalagmite_012 2
+    400350: LayeredSmallStalagmite_012 3
+    400352: LayeredSmallStalagmite_012 4
+    400354: LayeredSmallStalagmite_02
+    400356: LayeredSmallStalagmite_03
+    400358: LayeredSmallStalagmite_04
+    400360: LayeredSmallStalagmite_05
+    400362: LayeredSmallStalagmite_06
+    400364: LayeredSmallStalagmite_06 1
+    400366: LayeredSmallStalagmite_06 2
+    400368: LayeredSmallStalagmite_06 3
+    400370: LayeredSmallStalagmite_06 4
+    400372: LayeredSmallStalagmite_06 5
+    400374: LayeredSmallStalagmite_06 6
+    400376: LayeredSmallStalagmite_06 7
+    400378: LayeredSmallStalagmite_06 8
+    400380: LayeredSmallStalagmite_06 9
+    400382: LayeredSmallStalagmite_07
+    400384: LayeredSmallStalagmite_08
+    400386: LayeredSmallStalagmite_09
+    400388: LayeredSmallStalagmite_09 1
+    400390: MediumStone_010
+    400392: MediumStone_011
+    400394: MediumStone_012
+    400396: MediumStone_013
+    400398: MediumStone_014
+    400400: MediumStone_015
+    400402: MediumStone_016
+    400404: MediumStone_017
+    400406: MediumStone_018
+    400408: MediumStone_019
+    400410: MediumStone_02
+    400412: MediumStone_020
+    400414: MediumStone_021
+    400416: MediumStone_022
+    400418: MediumStone_023
+    400420: MediumStone_023 1
+    400422: MediumStone_023 2
+    400424: MediumStone_023 3
+    400426: MediumStone_023 4
+    400428: MediumStone_024
+    400430: MediumStone_024 1
+    400432: MediumStone_024 2
+    400434: MediumStone_024 3
+    400436: MediumStone_024 4
+    400438: MediumStone_025
+    400440: MediumStone_025 1
+    400442: MediumStone_025 2
+    400444: MediumStone_025 3
+    400446: MediumStone_025 4
+    400448: MediumStone_026
+    400450: MediumStone_026 1
+    400452: MediumStone_026 2
+    400454: MediumStone_026 3
+    400456: MediumStone_026 4
+    400458: MediumStone_027
+    400460: MediumStone_028
+    400462: MediumStone_029
+    400464: MediumStone_03
+    400466: MediumStone_030
+    400468: MediumStone_031
+    400470: MediumStone_031 1
+    400472: MediumStone_032
+    400474: MediumStone_032 1
+    400476: MediumStone_04
+    400478: MediumStone_05
+    400480: MediumStone_06
+    400482: MediumStone_07
+    400484: MediumStone_08
+    400486: MediumStone_09
+    400488: //RootNode
+    400490: NormalLargeStalagmite_02
+    400492: NormalLargeStalagmite_03
+    400494: NormalLargeStalagmite_04
+    400496: NormalLargeStalagmite_05
+    400498: NormalLargeStalagmite_06
+    400500: NormalLargeStalagmite_07
+    400502: NormalLargeStalagmite_08
+    400504: NormalSmallStalagmite_010
+    400506: NormalSmallStalagmite_011
+    400508: NormalSmallStalagmite_012
+    400510: NormalSmallStalagmite_012 1
+    400512: NormalSmallStalagmite_012 10
+    400514: NormalSmallStalagmite_012 11
+    400516: NormalSmallStalagmite_012 12
+    400518: NormalSmallStalagmite_012 13
+    400520: NormalSmallStalagmite_012 14
+    400522: NormalSmallStalagmite_012 15
+    400524: NormalSmallStalagmite_012 16
+    400526: NormalSmallStalagmite_012 17
+    400528: NormalSmallStalagmite_012 2
+    400530: NormalSmallStalagmite_012 3
+    400532: NormalSmallStalagmite_012 4
+    400534: NormalSmallStalagmite_012 5
+    400536: NormalSmallStalagmite_012 6
+    400538: NormalSmallStalagmite_012 7
+    400540: NormalSmallStalagmite_012 8
+    400542: NormalSmallStalagmite_012 9
+    400544: NormalSmallStalagmite_013
+    400546: NormalSmallStalagmite_013 1
+    400548: NormalSmallStalagmite_013 2
+    400550: NormalSmallStalagmite_013 3
+    400552: NormalSmallStalagmite_013 4
+    400554: NormalSmallStalagmite_013 5
+    400556: NormalSmallStalagmite_013 6
+    400558: NormalSmallStalagmite_013 7
+    400560: NormalSmallStalagmite_013 8
+    400562: NormalSmallStalagmite_013 9
+    400564: NormalSmallStalagmite_014
+    400566: NormalSmallStalagmite_014 1
+    400568: NormalSmallStalagmite_015
+    400570: NormalSmallStalagmite_015 1
+    400572: NormalSmallStalagmite_016
+    400574: NormalSmallStalagmite_016 1
+    400576: NormalSmallStalagmite_016 2
+    400578: NormalSmallStalagmite_016 3
+    400580: NormalSmallStalagmite_016 4
+    400582: NormalSmallStalagmite_017
+    400584: NormalSmallStalagmite_017 1
+    400586: NormalSmallStalagmite_017 2
+    400588: NormalSmallStalagmite_017 3
+    400590: NormalSmallStalagmite_017 4
+    400592: NormalSmallStalagmite_02
+    400594: NormalSmallStalagmite_03
+    400596: NormalSmallStalagmite_04
+    400598: NormalSmallStalagmite_05
+    400600: NormalSmallStalagmite_06
+    400602: NormalSmallStalagmite_07
+    400604: NormalSmallStalagmite_08
+    400606: NormalSmallStalagmite_09
+    400608: SmallStone_010
+    400610: SmallStone_011
+    400612: SmallStone_012
+    400614: SmallStone_013
+    400616: SmallStone_014
+    400618: SmallStone_014 1
+    400620: SmallStone_015
+    400622: SmallStone_016
+    400624: SmallStone_02
+    400626: SmallStone_03
+    400628: SmallStone_04
+    400630: SmallStone_05
+    400632: SmallStone_06
+    400634: SmallStone_07
+    400636: SmallStone_08
+    400638: SmallStone_09
+    400640: SmoothLargeStalagmite_010
+    400642: SmoothLargeStalagmite_010 1
+    400644: SmoothLargeStalagmite_011
+    400646: SmoothLargeStalagmite_011 1
+    400648: SmoothLargeStalagmite_011 2
+    400650: SmoothLargeStalagmite_011 3
+    400652: SmoothLargeStalagmite_011 4
+    400654: SmoothLargeStalagmite_012
+    400656: SmoothLargeStalagmite_012 1
+    400658: SmoothLargeStalagmite_012 2
+    400660: SmoothLargeStalagmite_012 3
+    400662: SmoothLargeStalagmite_012 4
+    400664: SmoothLargeStalagmite_013
+    400666: SmoothLargeStalagmite_02
+    400668: SmoothLargeStalagmite_03
+    400670: SmoothLargeStalagmite_04
+    400672: SmoothLargeStalagmite_05
+    400674: SmoothLargeStalagmite_06
+    400676: SmoothLargeStalagmite_07
+    400678: SmoothLargeStalagmite_08
+    400680: SmoothLargeStalagmite_08 1
+    400682: SmoothLargeStalagmite_08 10
+    400684: SmoothLargeStalagmite_08 11
+    400686: SmoothLargeStalagmite_08 12
+    400688: SmoothLargeStalagmite_08 13
+    400690: SmoothLargeStalagmite_08 14
+    400692: SmoothLargeStalagmite_08 15
+    400694: SmoothLargeStalagmite_08 16
+    400696: SmoothLargeStalagmite_08 17
+    400698: SmoothLargeStalagmite_08 2
+    400700: SmoothLargeStalagmite_08 3
+    400702: SmoothLargeStalagmite_08 4
+    400704: SmoothLargeStalagmite_08 5
+    400706: SmoothLargeStalagmite_08 6
+    400708: SmoothLargeStalagmite_08 7
+    400710: SmoothLargeStalagmite_08 8
+    400712: SmoothLargeStalagmite_08 9
+    400714: SmoothLargeStalagmite_09
+    400716: SmoothLargeStalagmite_09 1
+    400718: SmoothLargeStalagmite_09 2
+    400720: SmoothLargeStalagmite_09 3
+    400722: SmoothLargeStalagmite_09 4
+    400724: SmoothLargeStalagmite_09 5
+    400726: SmoothLargeStalagmite_09 6
+    400728: SmoothLargeStalagmite_09 7
+    400730: SmoothLargeStalagmite_09 8
+    400732: SmoothLargeStalagmite_09 9
+    400734: SmoothMediumStalagmite_010
+    400736: SmoothMediumStalagmite_011
+    400738: SmoothMediumStalagmite_012
+    400740: SmoothMediumStalagmite_013
+    400742: SmoothMediumStalagmite_014
+    400744: SmoothMediumStalagmite_015
+    400746: SmoothMediumStalagmite_016
+    400748: SmoothMediumStalagmite_017
+    400750: SmoothMediumStalagmite_018
+    400752: SmoothMediumStalagmite_019
+    400754: SmoothMediumStalagmite_02
+    400756: SmoothMediumStalagmite_020
+    400758: SmoothMediumStalagmite_021
+    400760: SmoothMediumStalagmite_022
+    400762: SmoothMediumStalagmite_023
+    400764: SmoothMediumStalagmite_024
+    400766: SmoothMediumStalagmite_025
+    400768: SmoothMediumStalagmite_026
+    400770: SmoothMediumStalagmite_027
+    400772: SmoothMediumStalagmite_028
+    400774: SmoothMediumStalagmite_029
+    400776: SmoothMediumStalagmite_03
+    400778: SmoothMediumStalagmite_030
+    400780: SmoothMediumStalagmite_030 1
+    400782: SmoothMediumStalagmite_030 10
+    400784: SmoothMediumStalagmite_030 11
+    400786: SmoothMediumStalagmite_030 12
+    400788: SmoothMediumStalagmite_030 13
+    400790: SmoothMediumStalagmite_030 14
+    400792: SmoothMediumStalagmite_030 15
+    400794: SmoothMediumStalagmite_030 16
+    400796: SmoothMediumStalagmite_030 17
+    400798: SmoothMediumStalagmite_030 2
+    400800: SmoothMediumStalagmite_030 3
+    400802: SmoothMediumStalagmite_030 4
+    400804: SmoothMediumStalagmite_030 5
+    400806: SmoothMediumStalagmite_030 6
+    400808: SmoothMediumStalagmite_030 7
+    400810: SmoothMediumStalagmite_030 8
+    400812: SmoothMediumStalagmite_030 9
+    400814: SmoothMediumStalagmite_031
+    400816: SmoothMediumStalagmite_031 1
+    400818: SmoothMediumStalagmite_031 10
+    400820: SmoothMediumStalagmite_031 11
+    400822: SmoothMediumStalagmite_031 12
+    400824: SmoothMediumStalagmite_031 13
+    400826: SmoothMediumStalagmite_031 14
+    400828: SmoothMediumStalagmite_031 15
+    400830: SmoothMediumStalagmite_031 16
+    400832: SmoothMediumStalagmite_031 17
+    400834: SmoothMediumStalagmite_031 2
+    400836: SmoothMediumStalagmite_031 3
+    400838: SmoothMediumStalagmite_031 4
+    400840: SmoothMediumStalagmite_031 5
+    400842: SmoothMediumStalagmite_031 6
+    400844: SmoothMediumStalagmite_031 7
+    400846: SmoothMediumStalagmite_031 8
+    400848: SmoothMediumStalagmite_031 9
+    400850: SmoothMediumStalagmite_032
+    400852: SmoothMediumStalagmite_032 1
+    400854: SmoothMediumStalagmite_032 10
+    400856: SmoothMediumStalagmite_032 11
+    400858: SmoothMediumStalagmite_032 12
+    400860: SmoothMediumStalagmite_032 13
+    400862: SmoothMediumStalagmite_032 14
+    400864: SmoothMediumStalagmite_032 15
+    400866: SmoothMediumStalagmite_032 16
+    400868: SmoothMediumStalagmite_032 17
+    400870: SmoothMediumStalagmite_032 2
+    400872: SmoothMediumStalagmite_032 3
+    400874: SmoothMediumStalagmite_032 4
+    400876: SmoothMediumStalagmite_032 5
+    400878: SmoothMediumStalagmite_032 6
+    400880: SmoothMediumStalagmite_032 7
+    400882: SmoothMediumStalagmite_032 8
+    400884: SmoothMediumStalagmite_032 9
+    400886: SmoothMediumStalagmite_033
+    400888: SmoothMediumStalagmite_033 1
+    400890: SmoothMediumStalagmite_033 10
+    400892: SmoothMediumStalagmite_033 11
+    400894: SmoothMediumStalagmite_033 12
+    400896: SmoothMediumStalagmite_033 13
+    400898: SmoothMediumStalagmite_033 14
+    400900: SmoothMediumStalagmite_033 15
+    400902: SmoothMediumStalagmite_033 16
+    400904: SmoothMediumStalagmite_033 17
+    400906: SmoothMediumStalagmite_033 2
+    400908: SmoothMediumStalagmite_033 3
+    400910: SmoothMediumStalagmite_033 4
+    400912: SmoothMediumStalagmite_033 5
+    400914: SmoothMediumStalagmite_033 6
+    400916: SmoothMediumStalagmite_033 7
+    400918: SmoothMediumStalagmite_033 8
+    400920: SmoothMediumStalagmite_033 9
+    400922: SmoothMediumStalagmite_034
+    400924: SmoothMediumStalagmite_034 1
+    400926: SmoothMediumStalagmite_034 10
+    400928: SmoothMediumStalagmite_034 11
+    400930: SmoothMediumStalagmite_034 12
+    400932: SmoothMediumStalagmite_034 13
+    400934: SmoothMediumStalagmite_034 14
+    400936: SmoothMediumStalagmite_034 15
+    400938: SmoothMediumStalagmite_034 16
+    400940: SmoothMediumStalagmite_034 17
+    400942: SmoothMediumStalagmite_034 2
+    400944: SmoothMediumStalagmite_034 3
+    400946: SmoothMediumStalagmite_034 4
+    400948: SmoothMediumStalagmite_034 5
+    400950: SmoothMediumStalagmite_034 6
+    400952: SmoothMediumStalagmite_034 7
+    400954: SmoothMediumStalagmite_034 8
+    400956: SmoothMediumStalagmite_034 9
+    400958: SmoothMediumStalagmite_035
+    400960: SmoothMediumStalagmite_035 1
+    400962: SmoothMediumStalagmite_035 2
+    400964: SmoothMediumStalagmite_035 3
+    400966: SmoothMediumStalagmite_035 4
+    400968: SmoothMediumStalagmite_035 5
+    400970: SmoothMediumStalagmite_035 6
+    400972: SmoothMediumStalagmite_035 7
+    400974: SmoothMediumStalagmite_035 8
+    400976: SmoothMediumStalagmite_035 9
+    400978: SmoothMediumStalagmite_036
+    400980: SmoothMediumStalagmite_036 1
+    400982: SmoothMediumStalagmite_036 2
+    400984: SmoothMediumStalagmite_036 3
+    400986: SmoothMediumStalagmite_036 4
+    400988: SmoothMediumStalagmite_036 5
+    400990: SmoothMediumStalagmite_036 6
+    400992: SmoothMediumStalagmite_036 7
+    400994: SmoothMediumStalagmite_036 8
+    400996: SmoothMediumStalagmite_036 9
+    400998: SmoothMediumStalagmite_037
+    401000: SmoothMediumStalagmite_037 1
+    401002: SmoothMediumStalagmite_037 2
+    401004: SmoothMediumStalagmite_037 3
+    401006: SmoothMediumStalagmite_037 4
+    401008: SmoothMediumStalagmite_037 5
+    401010: SmoothMediumStalagmite_037 6
+    401012: SmoothMediumStalagmite_037 7
+    401014: SmoothMediumStalagmite_037 8
+    401016: SmoothMediumStalagmite_037 9
+    401018: SmoothMediumStalagmite_038
+    401020: SmoothMediumStalagmite_038 1
+    401022: SmoothMediumStalagmite_038 2
+    401024: SmoothMediumStalagmite_038 3
+    401026: SmoothMediumStalagmite_038 4
+    401028: SmoothMediumStalagmite_038 5
+    401030: SmoothMediumStalagmite_038 6
+    401032: SmoothMediumStalagmite_038 7
+    401034: SmoothMediumStalagmite_038 8
+    401036: SmoothMediumStalagmite_038 9
+    401038: SmoothMediumStalagmite_039
+    401040: SmoothMediumStalagmite_039 1
+    401042: SmoothMediumStalagmite_039 2
+    401044: SmoothMediumStalagmite_039 3
+    401046: SmoothMediumStalagmite_039 4
+    401048: SmoothMediumStalagmite_039 5
+    401050: SmoothMediumStalagmite_039 6
+    401052: SmoothMediumStalagmite_039 7
+    401054: SmoothMediumStalagmite_039 8
+    401056: SmoothMediumStalagmite_039 9
+    401058: SmoothMediumStalagmite_04
+    401060: SmoothMediumStalagmite_040
+    401062: SmoothMediumStalagmite_041
+    401064: SmoothMediumStalagmite_042
+    401066: SmoothMediumStalagmite_043
+    401068: SmoothMediumStalagmite_043 1
+    401070: SmoothMediumStalagmite_044
+    401072: SmoothMediumStalagmite_044 1
+    401074: SmoothMediumStalagmite_045
+    401076: SmoothMediumStalagmite_045 1
+    401078: SmoothMediumStalagmite_045 2
+    401080: SmoothMediumStalagmite_045 3
+    401082: SmoothMediumStalagmite_045 4
+    401084: SmoothMediumStalagmite_046
+    401086: SmoothMediumStalagmite_046 1
+    401088: SmoothMediumStalagmite_046 2
+    401090: SmoothMediumStalagmite_046 3
+    401092: SmoothMediumStalagmite_046 4
+    401094: SmoothMediumStalagmite_047
+    401096: SmoothMediumStalagmite_047 1
+    401098: SmoothMediumStalagmite_047 2
+    401100: SmoothMediumStalagmite_047 3
+    401102: SmoothMediumStalagmite_047 4
+    401104: SmoothMediumStalagmite_048
+    401106: SmoothMediumStalagmite_048 1
+    401108: SmoothMediumStalagmite_048 2
+    401110: SmoothMediumStalagmite_048 3
+    401112: SmoothMediumStalagmite_048 4
+    401114: SmoothMediumStalagmite_049
+    401116: SmoothMediumStalagmite_049 1
+    401118: SmoothMediumStalagmite_049 2
+    401120: SmoothMediumStalagmite_049 3
+    401122: SmoothMediumStalagmite_049 4
+    401124: SmoothMediumStalagmite_05
+    401126: SmoothMediumStalagmite_050
+    401128: SmoothMediumStalagmite_050 1
+    401130: SmoothMediumStalagmite_050 2
+    401132: SmoothMediumStalagmite_050 3
+    401134: SmoothMediumStalagmite_050 4
+    401136: SmoothMediumStalagmite_051
+    401138: SmoothMediumStalagmite_051 1
+    401140: SmoothMediumStalagmite_051 2
+    401142: SmoothMediumStalagmite_051 3
+    401144: SmoothMediumStalagmite_052
+    401146: SmoothMediumStalagmite_052 1
+    401148: SmoothMediumStalagmite_052 2
+    401150: SmoothMediumStalagmite_052 3
+    401152: SmoothMediumStalagmite_052 4
+    401154: SmoothMediumStalagmite_053
+    401156: SmoothMediumStalagmite_053 1
+    401158: SmoothMediumStalagmite_053 2
+    401160: SmoothMediumStalagmite_053 3
+    401162: SmoothMediumStalagmite_053 4
+    401164: SmoothMediumStalagmite_054
+    401166: SmoothMediumStalagmite_054 1
+    401168: SmoothMediumStalagmite_054 2
+    401170: SmoothMediumStalagmite_054 3
+    401172: SmoothMediumStalagmite_054 4
+    401174: SmoothMediumStalagmite_055
+    401176: SmoothMediumStalagmite_06
+    401178: SmoothMediumStalagmite_07
+    401180: SmoothMediumStalagmite_08
+    401182: SmoothMediumStalagmite_09
+    401184: SmoothSmallStalagmite_02
+    401186: SmoothSmallStalagmite_03
+    401188: SmoothSmallStalagmite_04
+    401190: SmoothSmallStalagmite_05
+    401192: SmoothSmallStalagmite_06
+    401194: SmoothSmallStalagmite_07
+    401196: SmoothSmallStalagmite_08
+    401198: SmoothSmallStalagmite_09
+    401200: WallMushroom_010
+    401202: WallMushroom_011
+    401204: WallMushroom_012
+    401206: WallMushroom_013
+    401208: WallMushroom_014
+    401210: WallMushroom_015
+    401212: WallMushroom_016
+    401214: WallMushroom_016 1
+    401216: WallMushroom_016 2
+    401218: WallMushroom_016 3
+    401220: WallMushroom_016 4
+    401222: WallMushroom_016 5
+    401224: WallMushroom_016 6
+    401226: WallMushroom_016 7
+    401228: WallMushroom_017
+    401230: WallMushroom_017 1
+    401232: WallMushroom_017 2
+    401234: WallMushroom_017 3
+    401236: WallMushroom_017 4
+    401238: WallMushroom_017 5
+    401240: WallMushroom_017 6
+    401242: WallMushroom_017 7
+    401244: WallMushroom_018
+    401246: WallMushroom_018 1
+    401248: WallMushroom_018 2
+    401250: WallMushroom_018 3
+    401252: WallMushroom_018 4
+    401254: WallMushroom_018 5
+    401256: WallMushroom_018 6
+    401258: WallMushroom_018 7
+    401260: WallMushroom_019
+    401262: WallMushroom_019 1
+    401264: WallMushroom_019 2
+    401266: WallMushroom_019 3
+    401268: WallMushroom_019 4
+    401270: WallMushroom_019 5
+    401272: WallMushroom_019 6
+    401274: WallMushroom_019 7
+    401276: WallMushroom_02
+    401278: WallMushroom_020
+    401280: WallMushroom_020 1
+    401282: WallMushroom_020 2
+    401284: WallMushroom_020 3
+    401286: WallMushroom_020 4
+    401288: WallMushroom_020 5
+    401290: WallMushroom_020 6
+    401292: WallMushroom_020 7
+    401294: WallMushroom_021
+    401296: WallMushroom_021 1
+    401298: WallMushroom_021 2
+    401300: WallMushroom_021 3
+    401302: WallMushroom_021 4
+    401304: WallMushroom_021 5
+    401306: WallMushroom_021 6
+    401308: WallMushroom_021 7
+    401310: WallMushroom_022
+    401312: WallMushroom_022 1
+    401314: WallMushroom_022 2
+    401316: WallMushroom_022 3
+    401318: WallMushroom_022 4
+    401320: WallMushroom_022 5
+    401322: WallMushroom_022 6
+    401324: WallMushroom_022 7
+    401326: WallMushroom_023
+    401328: WallMushroom_023 1
+    401330: WallMushroom_023 2
+    401332: WallMushroom_023 3
+    401334: WallMushroom_023 4
+    401336: WallMushroom_023 5
+    401338: WallMushroom_023 6
+    401340: WallMushroom_023 7
+    401342: WallMushroom_024
+    401344: WallMushroom_024 1
+    401346: WallMushroom_024 2
+    401348: WallMushroom_024 3
+    401350: WallMushroom_024 4
+    401352: WallMushroom_024 5
+    401354: WallMushroom_024 6
+    401356: WallMushroom_024 7
+    401358: WallMushroom_025
+    401360: WallMushroom_025 1
+    401362: WallMushroom_025 2
+    401364: WallMushroom_025 3
+    401366: WallMushroom_025 4
+    401368: WallMushroom_025 5
+    401370: WallMushroom_025 6
+    401372: WallMushroom_025 7
+    401374: WallMushroom_026
+    401376: WallMushroom_026 1
+    401378: WallMushroom_026 2
+    401380: WallMushroom_026 3
+    401382: WallMushroom_026 4
+    401384: WallMushroom_026 5
+    401386: WallMushroom_026 6
+    401388: WallMushroom_026 7
+    401390: WallMushroom_027
+    401392: WallMushroom_027 1
+    401394: WallMushroom_027 2
+    401396: WallMushroom_027 3
+    401398: WallMushroom_027 4
+    401400: WallMushroom_027 5
+    401402: WallMushroom_027 6
+    401404: WallMushroom_027 7
+    401406: WallMushroom_028
+    401408: WallMushroom_028 1
+    401410: WallMushroom_028 2
+    401412: WallMushroom_028 3
+    401414: WallMushroom_028 4
+    401416: WallMushroom_028 5
+    401418: WallMushroom_028 6
+    401420: WallMushroom_028 7
+    401422: WallMushroom_029
+    401424: WallMushroom_029 1
+    401426: WallMushroom_029 2
+    401428: WallMushroom_029 3
+    401430: WallMushroom_029 4
+    401432: WallMushroom_029 5
+    401434: WallMushroom_029 6
+    401436: WallMushroom_029 7
+    401438: WallMushroom_03
+    401440: WallMushroom_04
+    401442: WallMushroom_05
+    401444: WallMushroom_06
+    401446: WallMushroom_07
+    401448: WallMushroom_08
+    401450: WallMushroom_09
+    2300000: LargeStone_010
+    2300002: LargeStone_011
+    2300004: LargeStone_012
+    2300006: LargeStone_013
+    2300008: LargeStone_013 1
+    2300010: LargeStone_013 2
+    2300012: LargeStone_013 3
+    2300014: LargeStone_013 4
+    2300016: LargeStone_013 5
+    2300018: LargeStone_013 6
+    2300020: LargeStone_013 7
+    2300022: LargeStone_013 8
+    2300024: LargeStone_014
+    2300026: LargeStone_015
+    2300028: LargeStone_016
+    2300030: LargeStone_017
+    2300032: LargeStone_018
+    2300034: LargeStone_019
+    2300036: LargeStone_02
+    2300038: LargeStone_020
+    2300040: LargeStone_021
+    2300042: LargeStone_022
+    2300044: LargeStone_022 1
+    2300046: LargeStone_022 2
+    2300048: LargeStone_022 3
+    2300050: LargeStone_022 4
+    2300052: LargeStone_022 5
+    2300054: LargeStone_022 6
+    2300056: LargeStone_022 7
+    2300058: LargeStone_023
+    2300060: LargeStone_024
+    2300062: LargeStone_025
+    2300064: LargeStone_025 1
+    2300066: LargeStone_025 2
+    2300068: LargeStone_025 3
+    2300070: LargeStone_025 4
+    2300072: LargeStone_026
+    2300074: LargeStone_026 1
+    2300076: LargeStone_026 2
+    2300078: LargeStone_026 3
+    2300080: LargeStone_026 4
+    2300082: LargeStone_027
+    2300084: LargeStone_028
+    2300086: LargeStone_029
+    2300088: LargeStone_03
+    2300090: LargeStone_04
+    2300092: LargeStone_05
+    2300094: LargeStone_06
+    2300096: LargeStone_07
+    2300098: LargeStone_08
+    2300100: LargeStone_09
+    2300102: LayeredLargeStalagmite_010
+    2300104: LayeredLargeStalagmite_010 1
+    2300106: LayeredLargeStalagmite_010 2
+    2300108: LayeredLargeStalagmite_010 3
+    2300110: LayeredLargeStalagmite_010 4
+    2300112: LayeredLargeStalagmite_02
+    2300114: LayeredLargeStalagmite_03
+    2300116: LayeredLargeStalagmite_04
+    2300118: LayeredLargeStalagmite_05
+    2300120: LayeredLargeStalagmite_06
+    2300122: LayeredLargeStalagmite_07
+    2300124: LayeredLargeStalagmite_07 1
+    2300126: LayeredLargeStalagmite_07 2
+    2300128: LayeredLargeStalagmite_07 3
+    2300130: LayeredLargeStalagmite_07 4
+    2300132: LayeredLargeStalagmite_07 5
+    2300134: LayeredLargeStalagmite_07 6
+    2300136: LayeredLargeStalagmite_07 7
+    2300138: LayeredLargeStalagmite_07 8
+    2300140: LayeredLargeStalagmite_07 9
+    2300142: LayeredLargeStalagmite_08
+    2300144: LayeredLargeStalagmite_08 1
+    2300146: LayeredLargeStalagmite_09
+    2300148: LayeredMediumStalagmite_010
+    2300150: LayeredMediumStalagmite_010 1
+    2300152: LayeredMediumStalagmite_010 2
+    2300154: LayeredMediumStalagmite_010 3
+    2300156: LayeredMediumStalagmite_010 4
+    2300158: LayeredMediumStalagmite_011
+    2300160: LayeredMediumStalagmite_011 1
+    2300162: LayeredMediumStalagmite_011 2
+    2300164: LayeredMediumStalagmite_011 3
+    2300166: LayeredMediumStalagmite_011 4
+    2300168: LayeredMediumStalagmite_02
+    2300170: LayeredMediumStalagmite_03
+    2300172: LayeredMediumStalagmite_04
+    2300174: LayeredMediumStalagmite_04 1
+    2300176: LayeredMediumStalagmite_04 2
+    2300178: LayeredMediumStalagmite_04 3
+    2300180: LayeredMediumStalagmite_04 4
+    2300182: LayeredMediumStalagmite_04 5
+    2300184: LayeredMediumStalagmite_04 6
+    2300186: LayeredMediumStalagmite_04 7
+    2300188: LayeredMediumStalagmite_04 8
+    2300190: LayeredMediumStalagmite_04 9
+    2300192: LayeredMediumStalagmite_05
+    2300194: LayeredMediumStalagmite_05 1
+    2300196: LayeredMediumStalagmite_05 2
+    2300198: LayeredMediumStalagmite_05 3
+    2300200: LayeredMediumStalagmite_05 4
+    2300202: LayeredMediumStalagmite_05 5
+    2300204: LayeredMediumStalagmite_05 6
+    2300206: LayeredMediumStalagmite_05 7
+    2300208: LayeredMediumStalagmite_05 8
+    2300210: LayeredMediumStalagmite_05 9
+    2300212: LayeredMediumStalagmite_06
+    2300214: LayeredMediumStalagmite_06 1
+    2300216: LayeredMediumStalagmite_06 2
+    2300218: LayeredMediumStalagmite_06 3
+    2300220: LayeredMediumStalagmite_06 4
+    2300222: LayeredMediumStalagmite_06 5
+    2300224: LayeredMediumStalagmite_07
+    2300226: LayeredMediumStalagmite_07 1
+    2300228: LayeredMediumStalagmite_07 2
+    2300230: LayeredMediumStalagmite_07 3
+    2300232: LayeredMediumStalagmite_07 4
+    2300234: LayeredMediumStalagmite_07 5
+    2300236: LayeredMediumStalagmite_08
+    2300238: LayeredMediumStalagmite_09
+    2300240: LayeredSmallStalagmite_010
+    2300242: LayeredSmallStalagmite_010 1
+    2300244: LayeredSmallStalagmite_011
+    2300246: LayeredSmallStalagmite_012
+    2300248: LayeredSmallStalagmite_012 1
+    2300250: LayeredSmallStalagmite_012 2
+    2300252: LayeredSmallStalagmite_012 3
+    2300254: LayeredSmallStalagmite_012 4
+    2300256: LayeredSmallStalagmite_02
+    2300258: LayeredSmallStalagmite_03
+    2300260: LayeredSmallStalagmite_04
+    2300262: LayeredSmallStalagmite_05
+    2300264: LayeredSmallStalagmite_06
+    2300266: LayeredSmallStalagmite_06 1
+    2300268: LayeredSmallStalagmite_06 2
+    2300270: LayeredSmallStalagmite_06 3
+    2300272: LayeredSmallStalagmite_06 4
+    2300274: LayeredSmallStalagmite_06 5
+    2300276: LayeredSmallStalagmite_06 6
+    2300278: LayeredSmallStalagmite_06 7
+    2300280: LayeredSmallStalagmite_06 8
+    2300282: LayeredSmallStalagmite_06 9
+    2300284: LayeredSmallStalagmite_07
+    2300286: LayeredSmallStalagmite_08
+    2300288: LayeredSmallStalagmite_09
+    2300290: LayeredSmallStalagmite_09 1
+    2300292: MediumStone_010
+    2300294: MediumStone_011
+    2300296: MediumStone_012
+    2300298: MediumStone_013
+    2300300: MediumStone_014
+    2300302: MediumStone_015
+    2300304: MediumStone_016
+    2300306: MediumStone_017
+    2300308: MediumStone_018
+    2300310: MediumStone_019
+    2300312: MediumStone_02
+    2300314: MediumStone_020
+    2300316: MediumStone_021
+    2300318: MediumStone_022
+    2300320: MediumStone_023
+    2300322: MediumStone_023 1
+    2300324: MediumStone_023 2
+    2300326: MediumStone_023 3
+    2300328: MediumStone_023 4
+    2300330: MediumStone_024
+    2300332: MediumStone_024 1
+    2300334: MediumStone_024 2
+    2300336: MediumStone_024 3
+    2300338: MediumStone_024 4
+    2300340: MediumStone_025
+    2300342: MediumStone_025 1
+    2300344: MediumStone_025 2
+    2300346: MediumStone_025 3
+    2300348: MediumStone_025 4
+    2300350: MediumStone_026
+    2300352: MediumStone_026 1
+    2300354: MediumStone_026 2
+    2300356: MediumStone_026 3
+    2300358: MediumStone_026 4
+    2300360: MediumStone_027
+    2300362: MediumStone_028
+    2300364: MediumStone_029
+    2300366: MediumStone_03
+    2300368: MediumStone_030
+    2300370: MediumStone_031
+    2300372: MediumStone_031 1
+    2300374: MediumStone_032
+    2300376: MediumStone_032 1
+    2300378: MediumStone_04
+    2300380: MediumStone_05
+    2300382: MediumStone_06
+    2300384: MediumStone_07
+    2300386: MediumStone_08
+    2300388: MediumStone_09
+    2300390: NormalLargeStalagmite_02
+    2300392: NormalLargeStalagmite_03
+    2300394: NormalLargeStalagmite_04
+    2300396: NormalLargeStalagmite_05
+    2300398: NormalLargeStalagmite_06
+    2300400: NormalLargeStalagmite_07
+    2300402: NormalLargeStalagmite_08
+    2300404: NormalSmallStalagmite_010
+    2300406: NormalSmallStalagmite_011
+    2300408: NormalSmallStalagmite_012
+    2300410: NormalSmallStalagmite_012 1
+    2300412: NormalSmallStalagmite_012 10
+    2300414: NormalSmallStalagmite_012 11
+    2300416: NormalSmallStalagmite_012 12
+    2300418: NormalSmallStalagmite_012 13
+    2300420: NormalSmallStalagmite_012 14
+    2300422: NormalSmallStalagmite_012 15
+    2300424: NormalSmallStalagmite_012 16
+    2300426: NormalSmallStalagmite_012 17
+    2300428: NormalSmallStalagmite_012 2
+    2300430: NormalSmallStalagmite_012 3
+    2300432: NormalSmallStalagmite_012 4
+    2300434: NormalSmallStalagmite_012 5
+    2300436: NormalSmallStalagmite_012 6
+    2300438: NormalSmallStalagmite_012 7
+    2300440: NormalSmallStalagmite_012 8
+    2300442: NormalSmallStalagmite_012 9
+    2300444: NormalSmallStalagmite_013
+    2300446: NormalSmallStalagmite_013 1
+    2300448: NormalSmallStalagmite_013 2
+    2300450: NormalSmallStalagmite_013 3
+    2300452: NormalSmallStalagmite_013 4
+    2300454: NormalSmallStalagmite_013 5
+    2300456: NormalSmallStalagmite_013 6
+    2300458: NormalSmallStalagmite_013 7
+    2300460: NormalSmallStalagmite_013 8
+    2300462: NormalSmallStalagmite_013 9
+    2300464: NormalSmallStalagmite_014
+    2300466: NormalSmallStalagmite_014 1
+    2300468: NormalSmallStalagmite_015
+    2300470: NormalSmallStalagmite_015 1
+    2300472: NormalSmallStalagmite_016
+    2300474: NormalSmallStalagmite_016 1
+    2300476: NormalSmallStalagmite_016 2
+    2300478: NormalSmallStalagmite_016 3
+    2300480: NormalSmallStalagmite_016 4
+    2300482: NormalSmallStalagmite_017
+    2300484: NormalSmallStalagmite_017 1
+    2300486: NormalSmallStalagmite_017 2
+    2300488: NormalSmallStalagmite_017 3
+    2300490: NormalSmallStalagmite_017 4
+    2300492: NormalSmallStalagmite_02
+    2300494: NormalSmallStalagmite_03
+    2300496: NormalSmallStalagmite_04
+    2300498: NormalSmallStalagmite_05
+    2300500: NormalSmallStalagmite_06
+    2300502: NormalSmallStalagmite_07
+    2300504: NormalSmallStalagmite_08
+    2300506: NormalSmallStalagmite_09
+    2300508: SmallStone_010
+    2300510: SmallStone_011
+    2300512: SmallStone_012
+    2300514: SmallStone_013
+    2300516: SmallStone_014
+    2300518: SmallStone_014 1
+    2300520: SmallStone_015
+    2300522: SmallStone_016
+    2300524: SmallStone_02
+    2300526: SmallStone_03
+    2300528: SmallStone_04
+    2300530: SmallStone_05
+    2300532: SmallStone_06
+    2300534: SmallStone_07
+    2300536: SmallStone_08
+    2300538: SmallStone_09
+    2300540: SmoothLargeStalagmite_010
+    2300542: SmoothLargeStalagmite_010 1
+    2300544: SmoothLargeStalagmite_011
+    2300546: SmoothLargeStalagmite_011 1
+    2300548: SmoothLargeStalagmite_011 2
+    2300550: SmoothLargeStalagmite_011 3
+    2300552: SmoothLargeStalagmite_011 4
+    2300554: SmoothLargeStalagmite_012
+    2300556: SmoothLargeStalagmite_012 1
+    2300558: SmoothLargeStalagmite_012 2
+    2300560: SmoothLargeStalagmite_012 3
+    2300562: SmoothLargeStalagmite_012 4
+    2300564: SmoothLargeStalagmite_013
+    2300566: SmoothLargeStalagmite_02
+    2300568: SmoothLargeStalagmite_03
+    2300570: SmoothLargeStalagmite_04
+    2300572: SmoothLargeStalagmite_05
+    2300574: SmoothLargeStalagmite_06
+    2300576: SmoothLargeStalagmite_07
+    2300578: SmoothLargeStalagmite_08
+    2300580: SmoothLargeStalagmite_08 1
+    2300582: SmoothLargeStalagmite_08 10
+    2300584: SmoothLargeStalagmite_08 11
+    2300586: SmoothLargeStalagmite_08 12
+    2300588: SmoothLargeStalagmite_08 13
+    2300590: SmoothLargeStalagmite_08 14
+    2300592: SmoothLargeStalagmite_08 15
+    2300594: SmoothLargeStalagmite_08 16
+    2300596: SmoothLargeStalagmite_08 17
+    2300598: SmoothLargeStalagmite_08 2
+    2300600: SmoothLargeStalagmite_08 3
+    2300602: SmoothLargeStalagmite_08 4
+    2300604: SmoothLargeStalagmite_08 5
+    2300606: SmoothLargeStalagmite_08 6
+    2300608: SmoothLargeStalagmite_08 7
+    2300610: SmoothLargeStalagmite_08 8
+    2300612: SmoothLargeStalagmite_08 9
+    2300614: SmoothLargeStalagmite_09
+    2300616: SmoothLargeStalagmite_09 1
+    2300618: SmoothLargeStalagmite_09 2
+    2300620: SmoothLargeStalagmite_09 3
+    2300622: SmoothLargeStalagmite_09 4
+    2300624: SmoothLargeStalagmite_09 5
+    2300626: SmoothLargeStalagmite_09 6
+    2300628: SmoothLargeStalagmite_09 7
+    2300630: SmoothLargeStalagmite_09 8
+    2300632: SmoothLargeStalagmite_09 9
+    2300634: SmoothMediumStalagmite_010
+    2300636: SmoothMediumStalagmite_011
+    2300638: SmoothMediumStalagmite_012
+    2300640: SmoothMediumStalagmite_013
+    2300642: SmoothMediumStalagmite_014
+    2300644: SmoothMediumStalagmite_015
+    2300646: SmoothMediumStalagmite_016
+    2300648: SmoothMediumStalagmite_017
+    2300650: SmoothMediumStalagmite_018
+    2300652: SmoothMediumStalagmite_019
+    2300654: SmoothMediumStalagmite_02
+    2300656: SmoothMediumStalagmite_020
+    2300658: SmoothMediumStalagmite_021
+    2300660: SmoothMediumStalagmite_022
+    2300662: SmoothMediumStalagmite_023
+    2300664: SmoothMediumStalagmite_024
+    2300666: SmoothMediumStalagmite_025
+    2300668: SmoothMediumStalagmite_026
+    2300670: SmoothMediumStalagmite_027
+    2300672: SmoothMediumStalagmite_028
+    2300674: SmoothMediumStalagmite_029
+    2300676: SmoothMediumStalagmite_03
+    2300678: SmoothMediumStalagmite_030
+    2300680: SmoothMediumStalagmite_030 1
+    2300682: SmoothMediumStalagmite_030 10
+    2300684: SmoothMediumStalagmite_030 11
+    2300686: SmoothMediumStalagmite_030 12
+    2300688: SmoothMediumStalagmite_030 13
+    2300690: SmoothMediumStalagmite_030 14
+    2300692: SmoothMediumStalagmite_030 15
+    2300694: SmoothMediumStalagmite_030 16
+    2300696: SmoothMediumStalagmite_030 17
+    2300698: SmoothMediumStalagmite_030 2
+    2300700: SmoothMediumStalagmite_030 3
+    2300702: SmoothMediumStalagmite_030 4
+    2300704: SmoothMediumStalagmite_030 5
+    2300706: SmoothMediumStalagmite_030 6
+    2300708: SmoothMediumStalagmite_030 7
+    2300710: SmoothMediumStalagmite_030 8
+    2300712: SmoothMediumStalagmite_030 9
+    2300714: SmoothMediumStalagmite_031
+    2300716: SmoothMediumStalagmite_031 1
+    2300718: SmoothMediumStalagmite_031 10
+    2300720: SmoothMediumStalagmite_031 11
+    2300722: SmoothMediumStalagmite_031 12
+    2300724: SmoothMediumStalagmite_031 13
+    2300726: SmoothMediumStalagmite_031 14
+    2300728: SmoothMediumStalagmite_031 15
+    2300730: SmoothMediumStalagmite_031 16
+    2300732: SmoothMediumStalagmite_031 17
+    2300734: SmoothMediumStalagmite_031 2
+    2300736: SmoothMediumStalagmite_031 3
+    2300738: SmoothMediumStalagmite_031 4
+    2300740: SmoothMediumStalagmite_031 5
+    2300742: SmoothMediumStalagmite_031 6
+    2300744: SmoothMediumStalagmite_031 7
+    2300746: SmoothMediumStalagmite_031 8
+    2300748: SmoothMediumStalagmite_031 9
+    2300750: SmoothMediumStalagmite_032
+    2300752: SmoothMediumStalagmite_032 1
+    2300754: SmoothMediumStalagmite_032 10
+    2300756: SmoothMediumStalagmite_032 11
+    2300758: SmoothMediumStalagmite_032 12
+    2300760: SmoothMediumStalagmite_032 13
+    2300762: SmoothMediumStalagmite_032 14
+    2300764: SmoothMediumStalagmite_032 15
+    2300766: SmoothMediumStalagmite_032 16
+    2300768: SmoothMediumStalagmite_032 17
+    2300770: SmoothMediumStalagmite_032 2
+    2300772: SmoothMediumStalagmite_032 3
+    2300774: SmoothMediumStalagmite_032 4
+    2300776: SmoothMediumStalagmite_032 5
+    2300778: SmoothMediumStalagmite_032 6
+    2300780: SmoothMediumStalagmite_032 7
+    2300782: SmoothMediumStalagmite_032 8
+    2300784: SmoothMediumStalagmite_032 9
+    2300786: SmoothMediumStalagmite_033
+    2300788: SmoothMediumStalagmite_033 1
+    2300790: SmoothMediumStalagmite_033 10
+    2300792: SmoothMediumStalagmite_033 11
+    2300794: SmoothMediumStalagmite_033 12
+    2300796: SmoothMediumStalagmite_033 13
+    2300798: SmoothMediumStalagmite_033 14
+    2300800: SmoothMediumStalagmite_033 15
+    2300802: SmoothMediumStalagmite_033 16
+    2300804: SmoothMediumStalagmite_033 17
+    2300806: SmoothMediumStalagmite_033 2
+    2300808: SmoothMediumStalagmite_033 3
+    2300810: SmoothMediumStalagmite_033 4
+    2300812: SmoothMediumStalagmite_033 5
+    2300814: SmoothMediumStalagmite_033 6
+    2300816: SmoothMediumStalagmite_033 7
+    2300818: SmoothMediumStalagmite_033 8
+    2300820: SmoothMediumStalagmite_033 9
+    2300822: SmoothMediumStalagmite_034
+    2300824: SmoothMediumStalagmite_034 1
+    2300826: SmoothMediumStalagmite_034 10
+    2300828: SmoothMediumStalagmite_034 11
+    2300830: SmoothMediumStalagmite_034 12
+    2300832: SmoothMediumStalagmite_034 13
+    2300834: SmoothMediumStalagmite_034 14
+    2300836: SmoothMediumStalagmite_034 15
+    2300838: SmoothMediumStalagmite_034 16
+    2300840: SmoothMediumStalagmite_034 17
+    2300842: SmoothMediumStalagmite_034 2
+    2300844: SmoothMediumStalagmite_034 3
+    2300846: SmoothMediumStalagmite_034 4
+    2300848: SmoothMediumStalagmite_034 5
+    2300850: SmoothMediumStalagmite_034 6
+    2300852: SmoothMediumStalagmite_034 7
+    2300854: SmoothMediumStalagmite_034 8
+    2300856: SmoothMediumStalagmite_034 9
+    2300858: SmoothMediumStalagmite_035
+    2300860: SmoothMediumStalagmite_035 1
+    2300862: SmoothMediumStalagmite_035 2
+    2300864: SmoothMediumStalagmite_035 3
+    2300866: SmoothMediumStalagmite_035 4
+    2300868: SmoothMediumStalagmite_035 5
+    2300870: SmoothMediumStalagmite_035 6
+    2300872: SmoothMediumStalagmite_035 7
+    2300874: SmoothMediumStalagmite_035 8
+    2300876: SmoothMediumStalagmite_035 9
+    2300878: SmoothMediumStalagmite_036
+    2300880: SmoothMediumStalagmite_036 1
+    2300882: SmoothMediumStalagmite_036 2
+    2300884: SmoothMediumStalagmite_036 3
+    2300886: SmoothMediumStalagmite_036 4
+    2300888: SmoothMediumStalagmite_036 5
+    2300890: SmoothMediumStalagmite_036 6
+    2300892: SmoothMediumStalagmite_036 7
+    2300894: SmoothMediumStalagmite_036 8
+    2300896: SmoothMediumStalagmite_036 9
+    2300898: SmoothMediumStalagmite_037
+    2300900: SmoothMediumStalagmite_037 1
+    2300902: SmoothMediumStalagmite_037 2
+    2300904: SmoothMediumStalagmite_037 3
+    2300906: SmoothMediumStalagmite_037 4
+    2300908: SmoothMediumStalagmite_037 5
+    2300910: SmoothMediumStalagmite_037 6
+    2300912: SmoothMediumStalagmite_037 7
+    2300914: SmoothMediumStalagmite_037 8
+    2300916: SmoothMediumStalagmite_037 9
+    2300918: SmoothMediumStalagmite_038
+    2300920: SmoothMediumStalagmite_038 1
+    2300922: SmoothMediumStalagmite_038 2
+    2300924: SmoothMediumStalagmite_038 3
+    2300926: SmoothMediumStalagmite_038 4
+    2300928: SmoothMediumStalagmite_038 5
+    2300930: SmoothMediumStalagmite_038 6
+    2300932: SmoothMediumStalagmite_038 7
+    2300934: SmoothMediumStalagmite_038 8
+    2300936: SmoothMediumStalagmite_038 9
+    2300938: SmoothMediumStalagmite_039
+    2300940: SmoothMediumStalagmite_039 1
+    2300942: SmoothMediumStalagmite_039 2
+    2300944: SmoothMediumStalagmite_039 3
+    2300946: SmoothMediumStalagmite_039 4
+    2300948: SmoothMediumStalagmite_039 5
+    2300950: SmoothMediumStalagmite_039 6
+    2300952: SmoothMediumStalagmite_039 7
+    2300954: SmoothMediumStalagmite_039 8
+    2300956: SmoothMediumStalagmite_039 9
+    2300958: SmoothMediumStalagmite_04
+    2300960: SmoothMediumStalagmite_040
+    2300962: SmoothMediumStalagmite_041
+    2300964: SmoothMediumStalagmite_042
+    2300966: SmoothMediumStalagmite_043
+    2300968: SmoothMediumStalagmite_043 1
+    2300970: SmoothMediumStalagmite_044
+    2300972: SmoothMediumStalagmite_044 1
+    2300974: SmoothMediumStalagmite_045
+    2300976: SmoothMediumStalagmite_045 1
+    2300978: SmoothMediumStalagmite_045 2
+    2300980: SmoothMediumStalagmite_045 3
+    2300982: SmoothMediumStalagmite_045 4
+    2300984: SmoothMediumStalagmite_046
+    2300986: SmoothMediumStalagmite_046 1
+    2300988: SmoothMediumStalagmite_046 2
+    2300990: SmoothMediumStalagmite_046 3
+    2300992: SmoothMediumStalagmite_046 4
+    2300994: SmoothMediumStalagmite_047
+    2300996: SmoothMediumStalagmite_047 1
+    2300998: SmoothMediumStalagmite_047 2
+    2301000: SmoothMediumStalagmite_047 3
+    2301002: SmoothMediumStalagmite_047 4
+    2301004: SmoothMediumStalagmite_048
+    2301006: SmoothMediumStalagmite_048 1
+    2301008: SmoothMediumStalagmite_048 2
+    2301010: SmoothMediumStalagmite_048 3
+    2301012: SmoothMediumStalagmite_048 4
+    2301014: SmoothMediumStalagmite_049
+    2301016: SmoothMediumStalagmite_049 1
+    2301018: SmoothMediumStalagmite_049 2
+    2301020: SmoothMediumStalagmite_049 3
+    2301022: SmoothMediumStalagmite_049 4
+    2301024: SmoothMediumStalagmite_05
+    2301026: SmoothMediumStalagmite_050
+    2301028: SmoothMediumStalagmite_050 1
+    2301030: SmoothMediumStalagmite_050 2
+    2301032: SmoothMediumStalagmite_050 3
+    2301034: SmoothMediumStalagmite_050 4
+    2301036: SmoothMediumStalagmite_051
+    2301038: SmoothMediumStalagmite_051 1
+    2301040: SmoothMediumStalagmite_051 2
+    2301042: SmoothMediumStalagmite_051 3
+    2301044: SmoothMediumStalagmite_052
+    2301046: SmoothMediumStalagmite_052 1
+    2301048: SmoothMediumStalagmite_052 2
+    2301050: SmoothMediumStalagmite_052 3
+    2301052: SmoothMediumStalagmite_052 4
+    2301054: SmoothMediumStalagmite_053
+    2301056: SmoothMediumStalagmite_053 1
+    2301058: SmoothMediumStalagmite_053 2
+    2301060: SmoothMediumStalagmite_053 3
+    2301062: SmoothMediumStalagmite_053 4
+    2301064: SmoothMediumStalagmite_054
+    2301066: SmoothMediumStalagmite_054 1
+    2301068: SmoothMediumStalagmite_054 2
+    2301070: SmoothMediumStalagmite_054 3
+    2301072: SmoothMediumStalagmite_054 4
+    2301074: SmoothMediumStalagmite_055
+    2301076: SmoothMediumStalagmite_06
+    2301078: SmoothMediumStalagmite_07
+    2301080: SmoothMediumStalagmite_08
+    2301082: SmoothMediumStalagmite_09
+    2301084: SmoothSmallStalagmite_02
+    2301086: SmoothSmallStalagmite_03
+    2301088: SmoothSmallStalagmite_04
+    2301090: SmoothSmallStalagmite_05
+    2301092: SmoothSmallStalagmite_06
+    2301094: SmoothSmallStalagmite_07
+    2301096: SmoothSmallStalagmite_08
+    2301098: SmoothSmallStalagmite_09
+    2301100: WallMushroom_010
+    2301102: WallMushroom_011
+    2301104: WallMushroom_012
+    2301106: WallMushroom_013
+    2301108: WallMushroom_014
+    2301110: WallMushroom_015
+    2301112: WallMushroom_016
+    2301114: WallMushroom_016 1
+    2301116: WallMushroom_016 2
+    2301118: WallMushroom_016 3
+    2301120: WallMushroom_016 4
+    2301122: WallMushroom_016 5
+    2301124: WallMushroom_016 6
+    2301126: WallMushroom_016 7
+    2301128: WallMushroom_017
+    2301130: WallMushroom_017 1
+    2301132: WallMushroom_017 2
+    2301134: WallMushroom_017 3
+    2301136: WallMushroom_017 4
+    2301138: WallMushroom_017 5
+    2301140: WallMushroom_017 6
+    2301142: WallMushroom_017 7
+    2301144: WallMushroom_018
+    2301146: WallMushroom_018 1
+    2301148: WallMushroom_018 2
+    2301150: WallMushroom_018 3
+    2301152: WallMushroom_018 4
+    2301154: WallMushroom_018 5
+    2301156: WallMushroom_018 6
+    2301158: WallMushroom_018 7
+    2301160: WallMushroom_019
+    2301162: WallMushroom_019 1
+    2301164: WallMushroom_019 2
+    2301166: WallMushroom_019 3
+    2301168: WallMushroom_019 4
+    2301170: WallMushroom_019 5
+    2301172: WallMushroom_019 6
+    2301174: WallMushroom_019 7
+    2301176: WallMushroom_02
+    2301178: WallMushroom_020
+    2301180: WallMushroom_020 1
+    2301182: WallMushroom_020 2
+    2301184: WallMushroom_020 3
+    2301186: WallMushroom_020 4
+    2301188: WallMushroom_020 5
+    2301190: WallMushroom_020 6
+    2301192: WallMushroom_020 7
+    2301194: WallMushroom_021
+    2301196: WallMushroom_021 1
+    2301198: WallMushroom_021 2
+    2301200: WallMushroom_021 3
+    2301202: WallMushroom_021 4
+    2301204: WallMushroom_021 5
+    2301206: WallMushroom_021 6
+    2301208: WallMushroom_021 7
+    2301210: WallMushroom_022
+    2301212: WallMushroom_022 1
+    2301214: WallMushroom_022 2
+    2301216: WallMushroom_022 3
+    2301218: WallMushroom_022 4
+    2301220: WallMushroom_022 5
+    2301222: WallMushroom_022 6
+    2301224: WallMushroom_022 7
+    2301226: WallMushroom_023
+    2301228: WallMushroom_023 1
+    2301230: WallMushroom_023 2
+    2301232: WallMushroom_023 3
+    2301234: WallMushroom_023 4
+    2301236: WallMushroom_023 5
+    2301238: WallMushroom_023 6
+    2301240: WallMushroom_023 7
+    2301242: WallMushroom_024
+    2301244: WallMushroom_024 1
+    2301246: WallMushroom_024 2
+    2301248: WallMushroom_024 3
+    2301250: WallMushroom_024 4
+    2301252: WallMushroom_024 5
+    2301254: WallMushroom_024 6
+    2301256: WallMushroom_024 7
+    2301258: WallMushroom_025
+    2301260: WallMushroom_025 1
+    2301262: WallMushroom_025 2
+    2301264: WallMushroom_025 3
+    2301266: WallMushroom_025 4
+    2301268: WallMushroom_025 5
+    2301270: WallMushroom_025 6
+    2301272: WallMushroom_025 7
+    2301274: WallMushroom_026
+    2301276: WallMushroom_026 1
+    2301278: WallMushroom_026 2
+    2301280: WallMushroom_026 3
+    2301282: WallMushroom_026 4
+    2301284: WallMushroom_026 5
+    2301286: WallMushroom_026 6
+    2301288: WallMushroom_026 7
+    2301290: WallMushroom_027
+    2301292: WallMushroom_027 1
+    2301294: WallMushroom_027 2
+    2301296: WallMushroom_027 3
+    2301298: WallMushroom_027 4
+    2301300: WallMushroom_027 5
+    2301302: WallMushroom_027 6
+    2301304: WallMushroom_027 7
+    2301306: WallMushroom_028
+    2301308: WallMushroom_028 1
+    2301310: WallMushroom_028 2
+    2301312: WallMushroom_028 3
+    2301314: WallMushroom_028 4
+    2301316: WallMushroom_028 5
+    2301318: WallMushroom_028 6
+    2301320: WallMushroom_028 7
+    2301322: WallMushroom_029
+    2301324: WallMushroom_029 1
+    2301326: WallMushroom_029 2
+    2301328: WallMushroom_029 3
+    2301330: WallMushroom_029 4
+    2301332: WallMushroom_029 5
+    2301334: WallMushroom_029 6
+    2301336: WallMushroom_029 7
+    2301338: WallMushroom_03
+    2301340: WallMushroom_04
+    2301342: WallMushroom_05
+    2301344: WallMushroom_06
+    2301346: WallMushroom_07
+    2301348: WallMushroom_08
+    2301350: WallMushroom_09
+    3300000: LargeStone_010
+    3300002: LargeStone_011
+    3300004: LargeStone_012
+    3300006: LargeStone_013
+    3300008: LargeStone_013 1
+    3300010: LargeStone_013 2
+    3300012: LargeStone_013 3
+    3300014: LargeStone_013 4
+    3300016: LargeStone_013 5
+    3300018: LargeStone_013 6
+    3300020: LargeStone_013 7
+    3300022: LargeStone_013 8
+    3300024: LargeStone_014
+    3300026: LargeStone_015
+    3300028: LargeStone_016
+    3300030: LargeStone_017
+    3300032: LargeStone_018
+    3300034: LargeStone_019
+    3300036: LargeStone_02
+    3300038: LargeStone_020
+    3300040: LargeStone_021
+    3300042: LargeStone_022
+    3300044: LargeStone_022 1
+    3300046: LargeStone_022 2
+    3300048: LargeStone_022 3
+    3300050: LargeStone_022 4
+    3300052: LargeStone_022 5
+    3300054: LargeStone_022 6
+    3300056: LargeStone_022 7
+    3300058: LargeStone_023
+    3300060: LargeStone_024
+    3300062: LargeStone_025
+    3300064: LargeStone_025 1
+    3300066: LargeStone_025 2
+    3300068: LargeStone_025 3
+    3300070: LargeStone_025 4
+    3300072: LargeStone_026
+    3300074: LargeStone_026 1
+    3300076: LargeStone_026 2
+    3300078: LargeStone_026 3
+    3300080: LargeStone_026 4
+    3300082: LargeStone_027
+    3300084: LargeStone_028
+    3300086: LargeStone_029
+    3300088: LargeStone_03
+    3300090: LargeStone_04
+    3300092: LargeStone_05
+    3300094: LargeStone_06
+    3300096: LargeStone_07
+    3300098: LargeStone_08
+    3300100: LargeStone_09
+    3300102: LayeredLargeStalagmite_010
+    3300104: LayeredLargeStalagmite_010 1
+    3300106: LayeredLargeStalagmite_010 2
+    3300108: LayeredLargeStalagmite_010 3
+    3300110: LayeredLargeStalagmite_010 4
+    3300112: LayeredLargeStalagmite_02
+    3300114: LayeredLargeStalagmite_03
+    3300116: LayeredLargeStalagmite_04
+    3300118: LayeredLargeStalagmite_05
+    3300120: LayeredLargeStalagmite_06
+    3300122: LayeredLargeStalagmite_07
+    3300124: LayeredLargeStalagmite_07 1
+    3300126: LayeredLargeStalagmite_07 2
+    3300128: LayeredLargeStalagmite_07 3
+    3300130: LayeredLargeStalagmite_07 4
+    3300132: LayeredLargeStalagmite_07 5
+    3300134: LayeredLargeStalagmite_07 6
+    3300136: LayeredLargeStalagmite_07 7
+    3300138: LayeredLargeStalagmite_07 8
+    3300140: LayeredLargeStalagmite_07 9
+    3300142: LayeredLargeStalagmite_08
+    3300144: LayeredLargeStalagmite_08 1
+    3300146: LayeredLargeStalagmite_09
+    3300148: LayeredMediumStalagmite_010
+    3300150: LayeredMediumStalagmite_010 1
+    3300152: LayeredMediumStalagmite_010 2
+    3300154: LayeredMediumStalagmite_010 3
+    3300156: LayeredMediumStalagmite_010 4
+    3300158: LayeredMediumStalagmite_011
+    3300160: LayeredMediumStalagmite_011 1
+    3300162: LayeredMediumStalagmite_011 2
+    3300164: LayeredMediumStalagmite_011 3
+    3300166: LayeredMediumStalagmite_011 4
+    3300168: LayeredMediumStalagmite_02
+    3300170: LayeredMediumStalagmite_03
+    3300172: LayeredMediumStalagmite_04
+    3300174: LayeredMediumStalagmite_04 1
+    3300176: LayeredMediumStalagmite_04 2
+    3300178: LayeredMediumStalagmite_04 3
+    3300180: LayeredMediumStalagmite_04 4
+    3300182: LayeredMediumStalagmite_04 5
+    3300184: LayeredMediumStalagmite_04 6
+    3300186: LayeredMediumStalagmite_04 7
+    3300188: LayeredMediumStalagmite_04 8
+    3300190: LayeredMediumStalagmite_04 9
+    3300192: LayeredMediumStalagmite_05
+    3300194: LayeredMediumStalagmite_05 1
+    3300196: LayeredMediumStalagmite_05 2
+    3300198: LayeredMediumStalagmite_05 3
+    3300200: LayeredMediumStalagmite_05 4
+    3300202: LayeredMediumStalagmite_05 5
+    3300204: LayeredMediumStalagmite_05 6
+    3300206: LayeredMediumStalagmite_05 7
+    3300208: LayeredMediumStalagmite_05 8
+    3300210: LayeredMediumStalagmite_05 9
+    3300212: LayeredMediumStalagmite_06
+    3300214: LayeredMediumStalagmite_06 1
+    3300216: LayeredMediumStalagmite_06 2
+    3300218: LayeredMediumStalagmite_06 3
+    3300220: LayeredMediumStalagmite_06 4
+    3300222: LayeredMediumStalagmite_06 5
+    3300224: LayeredMediumStalagmite_07
+    3300226: LayeredMediumStalagmite_07 1
+    3300228: LayeredMediumStalagmite_07 2
+    3300230: LayeredMediumStalagmite_07 3
+    3300232: LayeredMediumStalagmite_07 4
+    3300234: LayeredMediumStalagmite_07 5
+    3300236: LayeredMediumStalagmite_08
+    3300238: LayeredMediumStalagmite_09
+    3300240: LayeredSmallStalagmite_010
+    3300242: LayeredSmallStalagmite_010 1
+    3300244: LayeredSmallStalagmite_011
+    3300246: LayeredSmallStalagmite_012
+    3300248: LayeredSmallStalagmite_012 1
+    3300250: LayeredSmallStalagmite_012 2
+    3300252: LayeredSmallStalagmite_012 3
+    3300254: LayeredSmallStalagmite_012 4
+    3300256: LayeredSmallStalagmite_02
+    3300258: LayeredSmallStalagmite_03
+    3300260: LayeredSmallStalagmite_04
+    3300262: LayeredSmallStalagmite_05
+    3300264: LayeredSmallStalagmite_06
+    3300266: LayeredSmallStalagmite_06 1
+    3300268: LayeredSmallStalagmite_06 2
+    3300270: LayeredSmallStalagmite_06 3
+    3300272: LayeredSmallStalagmite_06 4
+    3300274: LayeredSmallStalagmite_06 5
+    3300276: LayeredSmallStalagmite_06 6
+    3300278: LayeredSmallStalagmite_06 7
+    3300280: LayeredSmallStalagmite_06 8
+    3300282: LayeredSmallStalagmite_06 9
+    3300284: LayeredSmallStalagmite_07
+    3300286: LayeredSmallStalagmite_08
+    3300288: LayeredSmallStalagmite_09
+    3300290: LayeredSmallStalagmite_09 1
+    3300292: MediumStone_010
+    3300294: MediumStone_011
+    3300296: MediumStone_012
+    3300298: MediumStone_013
+    3300300: MediumStone_014
+    3300302: MediumStone_015
+    3300304: MediumStone_016
+    3300306: MediumStone_017
+    3300308: MediumStone_018
+    3300310: MediumStone_019
+    3300312: MediumStone_02
+    3300314: MediumStone_020
+    3300316: MediumStone_021
+    3300318: MediumStone_022
+    3300320: MediumStone_023
+    3300322: MediumStone_023 1
+    3300324: MediumStone_023 2
+    3300326: MediumStone_023 3
+    3300328: MediumStone_023 4
+    3300330: MediumStone_024
+    3300332: MediumStone_024 1
+    3300334: MediumStone_024 2
+    3300336: MediumStone_024 3
+    3300338: MediumStone_024 4
+    3300340: MediumStone_025
+    3300342: MediumStone_025 1
+    3300344: MediumStone_025 2
+    3300346: MediumStone_025 3
+    3300348: MediumStone_025 4
+    3300350: MediumStone_026
+    3300352: MediumStone_026 1
+    3300354: MediumStone_026 2
+    3300356: MediumStone_026 3
+    3300358: MediumStone_026 4
+    3300360: MediumStone_027
+    3300362: MediumStone_028
+    3300364: MediumStone_029
+    3300366: MediumStone_03
+    3300368: MediumStone_030
+    3300370: MediumStone_031
+    3300372: MediumStone_031 1
+    3300374: MediumStone_032
+    3300376: MediumStone_032 1
+    3300378: MediumStone_04
+    3300380: MediumStone_05
+    3300382: MediumStone_06
+    3300384: MediumStone_07
+    3300386: MediumStone_08
+    3300388: MediumStone_09
+    3300390: NormalLargeStalagmite_02
+    3300392: NormalLargeStalagmite_03
+    3300394: NormalLargeStalagmite_04
+    3300396: NormalLargeStalagmite_05
+    3300398: NormalLargeStalagmite_06
+    3300400: NormalLargeStalagmite_07
+    3300402: NormalLargeStalagmite_08
+    3300404: NormalSmallStalagmite_010
+    3300406: NormalSmallStalagmite_011
+    3300408: NormalSmallStalagmite_012
+    3300410: NormalSmallStalagmite_012 1
+    3300412: NormalSmallStalagmite_012 10
+    3300414: NormalSmallStalagmite_012 11
+    3300416: NormalSmallStalagmite_012 12
+    3300418: NormalSmallStalagmite_012 13
+    3300420: NormalSmallStalagmite_012 14
+    3300422: NormalSmallStalagmite_012 15
+    3300424: NormalSmallStalagmite_012 16
+    3300426: NormalSmallStalagmite_012 17
+    3300428: NormalSmallStalagmite_012 2
+    3300430: NormalSmallStalagmite_012 3
+    3300432: NormalSmallStalagmite_012 4
+    3300434: NormalSmallStalagmite_012 5
+    3300436: NormalSmallStalagmite_012 6
+    3300438: NormalSmallStalagmite_012 7
+    3300440: NormalSmallStalagmite_012 8
+    3300442: NormalSmallStalagmite_012 9
+    3300444: NormalSmallStalagmite_013
+    3300446: NormalSmallStalagmite_013 1
+    3300448: NormalSmallStalagmite_013 2
+    3300450: NormalSmallStalagmite_013 3
+    3300452: NormalSmallStalagmite_013 4
+    3300454: NormalSmallStalagmite_013 5
+    3300456: NormalSmallStalagmite_013 6
+    3300458: NormalSmallStalagmite_013 7
+    3300460: NormalSmallStalagmite_013 8
+    3300462: NormalSmallStalagmite_013 9
+    3300464: NormalSmallStalagmite_014
+    3300466: NormalSmallStalagmite_014 1
+    3300468: NormalSmallStalagmite_015
+    3300470: NormalSmallStalagmite_015 1
+    3300472: NormalSmallStalagmite_016
+    3300474: NormalSmallStalagmite_016 1
+    3300476: NormalSmallStalagmite_016 2
+    3300478: NormalSmallStalagmite_016 3
+    3300480: NormalSmallStalagmite_016 4
+    3300482: NormalSmallStalagmite_017
+    3300484: NormalSmallStalagmite_017 1
+    3300486: NormalSmallStalagmite_017 2
+    3300488: NormalSmallStalagmite_017 3
+    3300490: NormalSmallStalagmite_017 4
+    3300492: NormalSmallStalagmite_02
+    3300494: NormalSmallStalagmite_03
+    3300496: NormalSmallStalagmite_04
+    3300498: NormalSmallStalagmite_05
+    3300500: NormalSmallStalagmite_06
+    3300502: NormalSmallStalagmite_07
+    3300504: NormalSmallStalagmite_08
+    3300506: NormalSmallStalagmite_09
+    3300508: SmallStone_010
+    3300510: SmallStone_011
+    3300512: SmallStone_012
+    3300514: SmallStone_013
+    3300516: SmallStone_014
+    3300518: SmallStone_014 1
+    3300520: SmallStone_015
+    3300522: SmallStone_016
+    3300524: SmallStone_02
+    3300526: SmallStone_03
+    3300528: SmallStone_04
+    3300530: SmallStone_05
+    3300532: SmallStone_06
+    3300534: SmallStone_07
+    3300536: SmallStone_08
+    3300538: SmallStone_09
+    3300540: SmoothLargeStalagmite_010
+    3300542: SmoothLargeStalagmite_010 1
+    3300544: SmoothLargeStalagmite_011
+    3300546: SmoothLargeStalagmite_011 1
+    3300548: SmoothLargeStalagmite_011 2
+    3300550: SmoothLargeStalagmite_011 3
+    3300552: SmoothLargeStalagmite_011 4
+    3300554: SmoothLargeStalagmite_012
+    3300556: SmoothLargeStalagmite_012 1
+    3300558: SmoothLargeStalagmite_012 2
+    3300560: SmoothLargeStalagmite_012 3
+    3300562: SmoothLargeStalagmite_012 4
+    3300564: SmoothLargeStalagmite_013
+    3300566: SmoothLargeStalagmite_02
+    3300568: SmoothLargeStalagmite_03
+    3300570: SmoothLargeStalagmite_04
+    3300572: SmoothLargeStalagmite_05
+    3300574: SmoothLargeStalagmite_06
+    3300576: SmoothLargeStalagmite_07
+    3300578: SmoothLargeStalagmite_08
+    3300580: SmoothLargeStalagmite_08 1
+    3300582: SmoothLargeStalagmite_08 10
+    3300584: SmoothLargeStalagmite_08 11
+    3300586: SmoothLargeStalagmite_08 12
+    3300588: SmoothLargeStalagmite_08 13
+    3300590: SmoothLargeStalagmite_08 14
+    3300592: SmoothLargeStalagmite_08 15
+    3300594: SmoothLargeStalagmite_08 16
+    3300596: SmoothLargeStalagmite_08 17
+    3300598: SmoothLargeStalagmite_08 2
+    3300600: SmoothLargeStalagmite_08 3
+    3300602: SmoothLargeStalagmite_08 4
+    3300604: SmoothLargeStalagmite_08 5
+    3300606: SmoothLargeStalagmite_08 6
+    3300608: SmoothLargeStalagmite_08 7
+    3300610: SmoothLargeStalagmite_08 8
+    3300612: SmoothLargeStalagmite_08 9
+    3300614: SmoothLargeStalagmite_09
+    3300616: SmoothLargeStalagmite_09 1
+    3300618: SmoothLargeStalagmite_09 2
+    3300620: SmoothLargeStalagmite_09 3
+    3300622: SmoothLargeStalagmite_09 4
+    3300624: SmoothLargeStalagmite_09 5
+    3300626: SmoothLargeStalagmite_09 6
+    3300628: SmoothLargeStalagmite_09 7
+    3300630: SmoothLargeStalagmite_09 8
+    3300632: SmoothLargeStalagmite_09 9
+    3300634: SmoothMediumStalagmite_010
+    3300636: SmoothMediumStalagmite_011
+    3300638: SmoothMediumStalagmite_012
+    3300640: SmoothMediumStalagmite_013
+    3300642: SmoothMediumStalagmite_014
+    3300644: SmoothMediumStalagmite_015
+    3300646: SmoothMediumStalagmite_016
+    3300648: SmoothMediumStalagmite_017
+    3300650: SmoothMediumStalagmite_018
+    3300652: SmoothMediumStalagmite_019
+    3300654: SmoothMediumStalagmite_02
+    3300656: SmoothMediumStalagmite_020
+    3300658: SmoothMediumStalagmite_021
+    3300660: SmoothMediumStalagmite_022
+    3300662: SmoothMediumStalagmite_023
+    3300664: SmoothMediumStalagmite_024
+    3300666: SmoothMediumStalagmite_025
+    3300668: SmoothMediumStalagmite_026
+    3300670: SmoothMediumStalagmite_027
+    3300672: SmoothMediumStalagmite_028
+    3300674: SmoothMediumStalagmite_029
+    3300676: SmoothMediumStalagmite_03
+    3300678: SmoothMediumStalagmite_030
+    3300680: SmoothMediumStalagmite_030 1
+    3300682: SmoothMediumStalagmite_030 10
+    3300684: SmoothMediumStalagmite_030 11
+    3300686: SmoothMediumStalagmite_030 12
+    3300688: SmoothMediumStalagmite_030 13
+    3300690: SmoothMediumStalagmite_030 14
+    3300692: SmoothMediumStalagmite_030 15
+    3300694: SmoothMediumStalagmite_030 16
+    3300696: SmoothMediumStalagmite_030 17
+    3300698: SmoothMediumStalagmite_030 2
+    3300700: SmoothMediumStalagmite_030 3
+    3300702: SmoothMediumStalagmite_030 4
+    3300704: SmoothMediumStalagmite_030 5
+    3300706: SmoothMediumStalagmite_030 6
+    3300708: SmoothMediumStalagmite_030 7
+    3300710: SmoothMediumStalagmite_030 8
+    3300712: SmoothMediumStalagmite_030 9
+    3300714: SmoothMediumStalagmite_031
+    3300716: SmoothMediumStalagmite_031 1
+    3300718: SmoothMediumStalagmite_031 10
+    3300720: SmoothMediumStalagmite_031 11
+    3300722: SmoothMediumStalagmite_031 12
+    3300724: SmoothMediumStalagmite_031 13
+    3300726: SmoothMediumStalagmite_031 14
+    3300728: SmoothMediumStalagmite_031 15
+    3300730: SmoothMediumStalagmite_031 16
+    3300732: SmoothMediumStalagmite_031 17
+    3300734: SmoothMediumStalagmite_031 2
+    3300736: SmoothMediumStalagmite_031 3
+    3300738: SmoothMediumStalagmite_031 4
+    3300740: SmoothMediumStalagmite_031 5
+    3300742: SmoothMediumStalagmite_031 6
+    3300744: SmoothMediumStalagmite_031 7
+    3300746: SmoothMediumStalagmite_031 8
+    3300748: SmoothMediumStalagmite_031 9
+    3300750: SmoothMediumStalagmite_032
+    3300752: SmoothMediumStalagmite_032 1
+    3300754: SmoothMediumStalagmite_032 10
+    3300756: SmoothMediumStalagmite_032 11
+    3300758: SmoothMediumStalagmite_032 12
+    3300760: SmoothMediumStalagmite_032 13
+    3300762: SmoothMediumStalagmite_032 14
+    3300764: SmoothMediumStalagmite_032 15
+    3300766: SmoothMediumStalagmite_032 16
+    3300768: SmoothMediumStalagmite_032 17
+    3300770: SmoothMediumStalagmite_032 2
+    3300772: SmoothMediumStalagmite_032 3
+    3300774: SmoothMediumStalagmite_032 4
+    3300776: SmoothMediumStalagmite_032 5
+    3300778: SmoothMediumStalagmite_032 6
+    3300780: SmoothMediumStalagmite_032 7
+    3300782: SmoothMediumStalagmite_032 8
+    3300784: SmoothMediumStalagmite_032 9
+    3300786: SmoothMediumStalagmite_033
+    3300788: SmoothMediumStalagmite_033 1
+    3300790: SmoothMediumStalagmite_033 10
+    3300792: SmoothMediumStalagmite_033 11
+    3300794: SmoothMediumStalagmite_033 12
+    3300796: SmoothMediumStalagmite_033 13
+    3300798: SmoothMediumStalagmite_033 14
+    3300800: SmoothMediumStalagmite_033 15
+    3300802: SmoothMediumStalagmite_033 16
+    3300804: SmoothMediumStalagmite_033 17
+    3300806: SmoothMediumStalagmite_033 2
+    3300808: SmoothMediumStalagmite_033 3
+    3300810: SmoothMediumStalagmite_033 4
+    3300812: SmoothMediumStalagmite_033 5
+    3300814: SmoothMediumStalagmite_033 6
+    3300816: SmoothMediumStalagmite_033 7
+    3300818: SmoothMediumStalagmite_033 8
+    3300820: SmoothMediumStalagmite_033 9
+    3300822: SmoothMediumStalagmite_034
+    3300824: SmoothMediumStalagmite_034 1
+    3300826: SmoothMediumStalagmite_034 10
+    3300828: SmoothMediumStalagmite_034 11
+    3300830: SmoothMediumStalagmite_034 12
+    3300832: SmoothMediumStalagmite_034 13
+    3300834: SmoothMediumStalagmite_034 14
+    3300836: SmoothMediumStalagmite_034 15
+    3300838: SmoothMediumStalagmite_034 16
+    3300840: SmoothMediumStalagmite_034 17
+    3300842: SmoothMediumStalagmite_034 2
+    3300844: SmoothMediumStalagmite_034 3
+    3300846: SmoothMediumStalagmite_034 4
+    3300848: SmoothMediumStalagmite_034 5
+    3300850: SmoothMediumStalagmite_034 6
+    3300852: SmoothMediumStalagmite_034 7
+    3300854: SmoothMediumStalagmite_034 8
+    3300856: SmoothMediumStalagmite_034 9
+    3300858: SmoothMediumStalagmite_035
+    3300860: SmoothMediumStalagmite_035 1
+    3300862: SmoothMediumStalagmite_035 2
+    3300864: SmoothMediumStalagmite_035 3
+    3300866: SmoothMediumStalagmite_035 4
+    3300868: SmoothMediumStalagmite_035 5
+    3300870: SmoothMediumStalagmite_035 6
+    3300872: SmoothMediumStalagmite_035 7
+    3300874: SmoothMediumStalagmite_035 8
+    3300876: SmoothMediumStalagmite_035 9
+    3300878: SmoothMediumStalagmite_036
+    3300880: SmoothMediumStalagmite_036 1
+    3300882: SmoothMediumStalagmite_036 2
+    3300884: SmoothMediumStalagmite_036 3
+    3300886: SmoothMediumStalagmite_036 4
+    3300888: SmoothMediumStalagmite_036 5
+    3300890: SmoothMediumStalagmite_036 6
+    3300892: SmoothMediumStalagmite_036 7
+    3300894: SmoothMediumStalagmite_036 8
+    3300896: SmoothMediumStalagmite_036 9
+    3300898: SmoothMediumStalagmite_037
+    3300900: SmoothMediumStalagmite_037 1
+    3300902: SmoothMediumStalagmite_037 2
+    3300904: SmoothMediumStalagmite_037 3
+    3300906: SmoothMediumStalagmite_037 4
+    3300908: SmoothMediumStalagmite_037 5
+    3300910: SmoothMediumStalagmite_037 6
+    3300912: SmoothMediumStalagmite_037 7
+    3300914: SmoothMediumStalagmite_037 8
+    3300916: SmoothMediumStalagmite_037 9
+    3300918: SmoothMediumStalagmite_038
+    3300920: SmoothMediumStalagmite_038 1
+    3300922: SmoothMediumStalagmite_038 2
+    3300924: SmoothMediumStalagmite_038 3
+    3300926: SmoothMediumStalagmite_038 4
+    3300928: SmoothMediumStalagmite_038 5
+    3300930: SmoothMediumStalagmite_038 6
+    3300932: SmoothMediumStalagmite_038 7
+    3300934: SmoothMediumStalagmite_038 8
+    3300936: SmoothMediumStalagmite_038 9
+    3300938: SmoothMediumStalagmite_039
+    3300940: SmoothMediumStalagmite_039 1
+    3300942: SmoothMediumStalagmite_039 2
+    3300944: SmoothMediumStalagmite_039 3
+    3300946: SmoothMediumStalagmite_039 4
+    3300948: SmoothMediumStalagmite_039 5
+    3300950: SmoothMediumStalagmite_039 6
+    3300952: SmoothMediumStalagmite_039 7
+    3300954: SmoothMediumStalagmite_039 8
+    3300956: SmoothMediumStalagmite_039 9
+    3300958: SmoothMediumStalagmite_04
+    3300960: SmoothMediumStalagmite_040
+    3300962: SmoothMediumStalagmite_041
+    3300964: SmoothMediumStalagmite_042
+    3300966: SmoothMediumStalagmite_043
+    3300968: SmoothMediumStalagmite_043 1
+    3300970: SmoothMediumStalagmite_044
+    3300972: SmoothMediumStalagmite_044 1
+    3300974: SmoothMediumStalagmite_045
+    3300976: SmoothMediumStalagmite_045 1
+    3300978: SmoothMediumStalagmite_045 2
+    3300980: SmoothMediumStalagmite_045 3
+    3300982: SmoothMediumStalagmite_045 4
+    3300984: SmoothMediumStalagmite_046
+    3300986: SmoothMediumStalagmite_046 1
+    3300988: SmoothMediumStalagmite_046 2
+    3300990: SmoothMediumStalagmite_046 3
+    3300992: SmoothMediumStalagmite_046 4
+    3300994: SmoothMediumStalagmite_047
+    3300996: SmoothMediumStalagmite_047 1
+    3300998: SmoothMediumStalagmite_047 2
+    3301000: SmoothMediumStalagmite_047 3
+    3301002: SmoothMediumStalagmite_047 4
+    3301004: SmoothMediumStalagmite_048
+    3301006: SmoothMediumStalagmite_048 1
+    3301008: SmoothMediumStalagmite_048 2
+    3301010: SmoothMediumStalagmite_048 3
+    3301012: SmoothMediumStalagmite_048 4
+    3301014: SmoothMediumStalagmite_049
+    3301016: SmoothMediumStalagmite_049 1
+    3301018: SmoothMediumStalagmite_049 2
+    3301020: SmoothMediumStalagmite_049 3
+    3301022: SmoothMediumStalagmite_049 4
+    3301024: SmoothMediumStalagmite_05
+    3301026: SmoothMediumStalagmite_050
+    3301028: SmoothMediumStalagmite_050 1
+    3301030: SmoothMediumStalagmite_050 2
+    3301032: SmoothMediumStalagmite_050 3
+    3301034: SmoothMediumStalagmite_050 4
+    3301036: SmoothMediumStalagmite_051
+    3301038: SmoothMediumStalagmite_051 1
+    3301040: SmoothMediumStalagmite_051 2
+    3301042: SmoothMediumStalagmite_051 3
+    3301044: SmoothMediumStalagmite_052
+    3301046: SmoothMediumStalagmite_052 1
+    3301048: SmoothMediumStalagmite_052 2
+    3301050: SmoothMediumStalagmite_052 3
+    3301052: SmoothMediumStalagmite_052 4
+    3301054: SmoothMediumStalagmite_053
+    3301056: SmoothMediumStalagmite_053 1
+    3301058: SmoothMediumStalagmite_053 2
+    3301060: SmoothMediumStalagmite_053 3
+    3301062: SmoothMediumStalagmite_053 4
+    3301064: SmoothMediumStalagmite_054
+    3301066: SmoothMediumStalagmite_054 1
+    3301068: SmoothMediumStalagmite_054 2
+    3301070: SmoothMediumStalagmite_054 3
+    3301072: SmoothMediumStalagmite_054 4
+    3301074: SmoothMediumStalagmite_055
+    3301076: SmoothMediumStalagmite_06
+    3301078: SmoothMediumStalagmite_07
+    3301080: SmoothMediumStalagmite_08
+    3301082: SmoothMediumStalagmite_09
+    3301084: SmoothSmallStalagmite_02
+    3301086: SmoothSmallStalagmite_03
+    3301088: SmoothSmallStalagmite_04
+    3301090: SmoothSmallStalagmite_05
+    3301092: SmoothSmallStalagmite_06
+    3301094: SmoothSmallStalagmite_07
+    3301096: SmoothSmallStalagmite_08
+    3301098: SmoothSmallStalagmite_09
+    3301100: WallMushroom_010
+    3301102: WallMushroom_011
+    3301104: WallMushroom_012
+    3301106: WallMushroom_013
+    3301108: WallMushroom_014
+    3301110: WallMushroom_015
+    3301112: WallMushroom_016
+    3301114: WallMushroom_016 1
+    3301116: WallMushroom_016 2
+    3301118: WallMushroom_016 3
+    3301120: WallMushroom_016 4
+    3301122: WallMushroom_016 5
+    3301124: WallMushroom_016 6
+    3301126: WallMushroom_016 7
+    3301128: WallMushroom_017
+    3301130: WallMushroom_017 1
+    3301132: WallMushroom_017 2
+    3301134: WallMushroom_017 3
+    3301136: WallMushroom_017 4
+    3301138: WallMushroom_017 5
+    3301140: WallMushroom_017 6
+    3301142: WallMushroom_017 7
+    3301144: WallMushroom_018
+    3301146: WallMushroom_018 1
+    3301148: WallMushroom_018 2
+    3301150: WallMushroom_018 3
+    3301152: WallMushroom_018 4
+    3301154: WallMushroom_018 5
+    3301156: WallMushroom_018 6
+    3301158: WallMushroom_018 7
+    3301160: WallMushroom_019
+    3301162: WallMushroom_019 1
+    3301164: WallMushroom_019 2
+    3301166: WallMushroom_019 3
+    3301168: WallMushroom_019 4
+    3301170: WallMushroom_019 5
+    3301172: WallMushroom_019 6
+    3301174: WallMushroom_019 7
+    3301176: WallMushroom_02
+    3301178: WallMushroom_020
+    3301180: WallMushroom_020 1
+    3301182: WallMushroom_020 2
+    3301184: WallMushroom_020 3
+    3301186: WallMushroom_020 4
+    3301188: WallMushroom_020 5
+    3301190: WallMushroom_020 6
+    3301192: WallMushroom_020 7
+    3301194: WallMushroom_021
+    3301196: WallMushroom_021 1
+    3301198: WallMushroom_021 2
+    3301200: WallMushroom_021 3
+    3301202: WallMushroom_021 4
+    3301204: WallMushroom_021 5
+    3301206: WallMushroom_021 6
+    3301208: WallMushroom_021 7
+    3301210: WallMushroom_022
+    3301212: WallMushroom_022 1
+    3301214: WallMushroom_022 2
+    3301216: WallMushroom_022 3
+    3301218: WallMushroom_022 4
+    3301220: WallMushroom_022 5
+    3301222: WallMushroom_022 6
+    3301224: WallMushroom_022 7
+    3301226: WallMushroom_023
+    3301228: WallMushroom_023 1
+    3301230: WallMushroom_023 2
+    3301232: WallMushroom_023 3
+    3301234: WallMushroom_023 4
+    3301236: WallMushroom_023 5
+    3301238: WallMushroom_023 6
+    3301240: WallMushroom_023 7
+    3301242: WallMushroom_024
+    3301244: WallMushroom_024 1
+    3301246: WallMushroom_024 2
+    3301248: WallMushroom_024 3
+    3301250: WallMushroom_024 4
+    3301252: WallMushroom_024 5
+    3301254: WallMushroom_024 6
+    3301256: WallMushroom_024 7
+    3301258: WallMushroom_025
+    3301260: WallMushroom_025 1
+    3301262: WallMushroom_025 2
+    3301264: WallMushroom_025 3
+    3301266: WallMushroom_025 4
+    3301268: WallMushroom_025 5
+    3301270: WallMushroom_025 6
+    3301272: WallMushroom_025 7
+    3301274: WallMushroom_026
+    3301276: WallMushroom_026 1
+    3301278: WallMushroom_026 2
+    3301280: WallMushroom_026 3
+    3301282: WallMushroom_026 4
+    3301284: WallMushroom_026 5
+    3301286: WallMushroom_026 6
+    3301288: WallMushroom_026 7
+    3301290: WallMushroom_027
+    3301292: WallMushroom_027 1
+    3301294: WallMushroom_027 2
+    3301296: WallMushroom_027 3
+    3301298: WallMushroom_027 4
+    3301300: WallMushroom_027 5
+    3301302: WallMushroom_027 6
+    3301304: WallMushroom_027 7
+    3301306: WallMushroom_028
+    3301308: WallMushroom_028 1
+    3301310: WallMushroom_028 2
+    3301312: WallMushroom_028 3
+    3301314: WallMushroom_028 4
+    3301316: WallMushroom_028 5
+    3301318: WallMushroom_028 6
+    3301320: WallMushroom_028 7
+    3301322: WallMushroom_029
+    3301324: WallMushroom_029 1
+    3301326: WallMushroom_029 2
+    3301328: WallMushroom_029 3
+    3301330: WallMushroom_029 4
+    3301332: WallMushroom_029 5
+    3301334: WallMushroom_029 6
+    3301336: WallMushroom_029 7
+    3301338: WallMushroom_03
+    3301340: WallMushroom_04
+    3301342: WallMushroom_05
+    3301344: WallMushroom_06
+    3301346: WallMushroom_07
+    3301348: WallMushroom_08
+    3301350: WallMushroom_09
+    4300000: MediumStone_02
+    4300002: LargeStone_02
+    4300004: SmallStone_02
+    4300006: MediumStone_03
+    4300008: LargeStone_03
+    4300010: MediumStone_04
+    4300012: LargeStone_04
+    4300014: LargeStone_05
+    4300016: MediumStone_05
+    4300018: SmallStone_03
+    4300020: LargeStone_06
+    4300022: MediumStone_06
+    4300024: LargeStone_07
+    4300026: LargeStone_08
+    4300028: MediumStone_07
+    4300030: MediumStone_08
+    4300032: SmallStone_04
+    4300034: LargeStone_09
+    4300036: LargeStone_010
+    4300038: LargeStone_011
+    4300040: LargeStone_012
+    4300042: LargeStone_014
+    4300044: LargeStone_015
+    4300046: MediumStone_09
+    4300048: MediumStone_010
+    4300050: SmallStone_05
+    4300052: SmallStone_06
+    4300054: SmallStone_07
+    4300056: MediumStone_011
+    4300058: MediumStone_012
+    4300060: MediumStone_013
+    4300062: MediumStone_014
+    4300064: LargeStone_016
+    4300066: SmallStone_08
+    4300068: MediumStone_015
+    4300070: MediumStone_016
+    4300072: SmallStone_09
+    4300074: MediumStone_017
+    4300076: LargeStone_017
+    4300078: MediumStone_018
+    4300080: NormalLargeStalagmite_02
+    4300082: NormalSmallStalagmite_02
+    4300084: LayeredMediumStalagmite_02
+    4300086: LayeredSmallStalagmite_02
+    4300088: LayeredLargeStalagmite_02
+    4300090: LayeredLargeStalagmite_03
+    4300092: SmoothLargeStalagmite_02
+    4300094: SmoothMediumStalagmite_02
+    4300096: SmoothSmallStalagmite_02
+    4300098: SmoothMediumStalagmite_03
+    4300100: SmoothSmallStalagmite_03
+    4300102: LayeredLargeStalagmite_04
+    4300104: LayeredSmallStalagmite_03
+    4300106: MediumStone_019
+    4300108: LayeredLargeStalagmite_05
+    4300110: LayeredMediumStalagmite_03
+    4300112: LayeredSmallStalagmite_04
+    4300114: LargeStone_018
+    4300116: NormalSmallStalagmite_03
+    4300118: NormalLargeStalagmite_03
+    4300120: NormalSmallStalagmite_04
+    4300122: NormalLargeStalagmite_04
+    4300124: NormalSmallStalagmite_05
+    4300126: LayeredLargeStalagmite_06
+    4300128: LayeredSmallStalagmite_05
+    4300130: SmoothMediumStalagmite_04
+    4300132: SmoothLargeStalagmite_03
+    4300134: SmoothSmallStalagmite_04
+    4300136: SmoothLargeStalagmite_04
+    4300138: NormalSmallStalagmite_06
+    4300140: SmoothMediumStalagmite_05
+    4300142: SmoothMediumStalagmite_06
+    4300144: SmoothMediumStalagmite_07
+    4300146: SmoothMediumStalagmite_08
+    4300148: WallMushroom_02
+    4300150: LargeStone_019
+    4300152: WallMushroom_03
+    4300154: WallMushroom_04
+    4300156: WallMushroom_05
+    4300158: WallMushroom_06
+    4300160: WallMushroom_07
+    4300162: WallMushroom_08
+    4300164: WallMushroom_09
+    4300166: WallMushroom_010
+    4300168: WallMushroom_011
+    4300170: WallMushroom_012
+    4300172: WallMushroom_013
+    4300174: WallMushroom_014
+    4300176: WallMushroom_015
+    4300178: SmoothMediumStalagmite_09
+    4300180: SmoothSmallStalagmite_05
+    4300182: SmoothMediumStalagmite_010
+    4300184: SmoothLargeStalagmite_05
+    4300186: NormalLargeStalagmite_05
+    4300188: NormalSmallStalagmite_07
+    4300190: SmoothLargeStalagmite_06
+    4300192: SmoothMediumStalagmite_011
+    4300194: SmoothSmallStalagmite_06
+    4300196: NormalSmallStalagmite_08
+    4300198: NormalLargeStalagmite_06
+    4300200: SmoothMediumStalagmite_012
+    4300202: NormalSmallStalagmite_09
+    4300204: SmoothMediumStalagmite_013
+    4300206: SmoothSmallStalagmite_07
+    4300208: SmoothMediumStalagmite_014
+    4300210: SmoothMediumStalagmite_015
+    4300212: SmoothMediumStalagmite_016
+    4300214: SmoothMediumStalagmite_017
+    4300216: SmoothMediumStalagmite_018
+    4300218: SmoothMediumStalagmite_019
+    4300220: SmoothMediumStalagmite_020
+    4300222: SmoothMediumStalagmite_021
+    4300224: NormalLargeStalagmite_08
+    4300226: SmoothSmallStalagmite_09
+    4300228: SmoothSmallStalagmite_08
+    4300230: SmoothMediumStalagmite_029
+    4300232: NormalSmallStalagmite_011
+    4300234: SmoothMediumStalagmite_028
+    4300236: SmoothMediumStalagmite_027
+    4300238: SmoothLargeStalagmite_07
+    4300240: SmoothMediumStalagmite_026
+    4300242: SmoothMediumStalagmite_025
+    4300244: SmoothMediumStalagmite_024
+    4300246: NormalSmallStalagmite_010
+    4300248: SmoothMediumStalagmite_023
+    4300250: NormalLargeStalagmite_07
+    4300252: SmoothMediumStalagmite_022
+    4300254: LayeredSmallStalagmite_07
+    4300256: SmoothLargeStalagmite_09
+    4300258: SmoothMediumStalagmite_035
+    4300260: SmoothMediumStalagmite_036
+    4300262: SmoothMediumStalagmite_037
+    4300264: NormalSmallStalagmite_013
+    4300266: SmoothMediumStalagmite_038
+    4300268: SmoothMediumStalagmite_039
+    4300270: SmallStone_010
+    4300272: LargeStone_020
+    4300274: LargeStone_021
+    4300276: MediumStone_020
+    4300278: MediumStone_021
+    4300280: WallMushroom_016
+    4300282: LargeStone_022
+    4300284: WallMushroom_017
+    4300286: WallMushroom_018
+    4300288: WallMushroom_019
+    4300290: WallMushroom_020
+    4300292: WallMushroom_021
+    4300294: WallMushroom_022
+    4300296: WallMushroom_023
+    4300298: WallMushroom_024
+    4300300: WallMushroom_025
+    4300302: WallMushroom_026
+    4300304: WallMushroom_027
+    4300306: WallMushroom_028
+    4300308: WallMushroom_029
+    4300310: WallMushroom_016
+    4300312: LargeStone_022
+    4300314: WallMushroom_017
+    4300316: WallMushroom_018
+    4300318: WallMushroom_019
+    4300320: WallMushroom_020
+    4300322: WallMushroom_021
+    4300324: WallMushroom_022
+    4300326: WallMushroom_023
+    4300328: WallMushroom_024
+    4300330: WallMushroom_025
+    4300332: WallMushroom_026
+    4300334: WallMushroom_027
+    4300336: WallMushroom_028
+    4300338: WallMushroom_029
+    4300340: WallMushroom_016
+    4300342: LargeStone_022
+    4300344: WallMushroom_017
+    4300346: WallMushroom_018
+    4300348: WallMushroom_019
+    4300350: WallMushroom_020
+    4300352: WallMushroom_021
+    4300354: WallMushroom_022
+    4300356: WallMushroom_023
+    4300358: WallMushroom_024
+    4300360: WallMushroom_025
+    4300362: WallMushroom_026
+    4300364: WallMushroom_027
+    4300366: WallMushroom_028
+    4300368: WallMushroom_029
+    4300370: SmoothLargeStalagmite_09
+    4300372: SmoothMediumStalagmite_035
+    4300374: SmoothMediumStalagmite_036
+    4300376: SmoothMediumStalagmite_037
+    4300378: NormalSmallStalagmite_013
+    4300380: SmoothMediumStalagmite_038
+    4300382: SmoothMediumStalagmite_039
+    4300384: SmoothLargeStalagmite_09
+    4300386: SmoothMediumStalagmite_035
+    4300388: SmoothMediumStalagmite_036
+    4300390: SmoothMediumStalagmite_037
+    4300392: NormalSmallStalagmite_013
+    4300394: SmoothMediumStalagmite_038
+    4300396: SmoothMediumStalagmite_039
+    4300398: SmoothLargeStalagmite_09
+    4300400: SmoothMediumStalagmite_035
+    4300402: SmoothMediumStalagmite_036
+    4300404: SmoothMediumStalagmite_037
+    4300406: NormalSmallStalagmite_013
+    4300408: SmoothMediumStalagmite_038
+    4300410: SmoothMediumStalagmite_039
+    4300412: SmoothLargeStalagmite_09
+    4300414: SmoothMediumStalagmite_035
+    4300416: SmoothMediumStalagmite_036
+    4300418: SmoothMediumStalagmite_037
+    4300420: NormalSmallStalagmite_013
+    4300422: SmoothMediumStalagmite_038
+    4300424: SmoothMediumStalagmite_039
+    4300426: LayeredMediumStalagmite_04
+    4300428: LayeredLargeStalagmite_07
+    4300430: LayeredMediumStalagmite_05
+    4300432: LargeStone_013
+    4300434: LayeredSmallStalagmite_06
+    4300436: LayeredMediumStalagmite_04
+    4300438: LayeredLargeStalagmite_07
+    4300440: LayeredMediumStalagmite_05
+    4300442: LargeStone_013
+    4300444: LayeredSmallStalagmite_06
+    4300446: LayeredMediumStalagmite_04
+    4300448: LayeredLargeStalagmite_07
+    4300450: LayeredMediumStalagmite_05
+    4300452: LargeStone_013
+    4300454: LayeredSmallStalagmite_06
+    4300456: SmoothMediumStalagmite_033
+    4300458: NormalSmallStalagmite_012
+    4300460: SmoothMediumStalagmite_032
+    4300462: SmoothMediumStalagmite_031
+    4300464: SmoothMediumStalagmite_030
+    4300466: SmoothLargeStalagmite_08
+    4300468: SmoothMediumStalagmite_034
+    4300470: SmoothMediumStalagmite_033
+    4300472: NormalSmallStalagmite_012
+    4300474: SmoothMediumStalagmite_032
+    4300476: SmoothMediumStalagmite_031
+    4300478: SmoothMediumStalagmite_030
+    4300480: SmoothLargeStalagmite_08
+    4300482: SmoothMediumStalagmite_034
+    4300484: SmoothMediumStalagmite_033
+    4300486: NormalSmallStalagmite_012
+    4300488: SmoothMediumStalagmite_032
+    4300490: SmoothMediumStalagmite_031
+    4300492: SmoothMediumStalagmite_030
+    4300494: SmoothLargeStalagmite_08
+    4300496: SmoothMediumStalagmite_034
+    4300498: SmoothMediumStalagmite_033
+    4300500: NormalSmallStalagmite_012
+    4300502: SmoothMediumStalagmite_032
+    4300504: SmoothMediumStalagmite_031
+    4300506: SmoothMediumStalagmite_030
+    4300508: SmoothLargeStalagmite_08
+    4300510: SmoothMediumStalagmite_034
+    4300512: SmoothMediumStalagmite_033
+    4300514: NormalSmallStalagmite_012
+    4300516: SmoothMediumStalagmite_032
+    4300518: SmoothMediumStalagmite_031
+    4300520: SmoothMediumStalagmite_030
+    4300522: SmoothLargeStalagmite_08
+    4300524: SmoothMediumStalagmite_034
+    4300526: SmoothMediumStalagmite_033
+    4300528: NormalSmallStalagmite_012
+    4300530: SmoothMediumStalagmite_032
+    4300532: SmoothMediumStalagmite_031
+    4300534: SmoothMediumStalagmite_030
+    4300536: SmoothLargeStalagmite_08
+    4300538: SmoothMediumStalagmite_034
+    4300540: SmoothMediumStalagmite_033
+    4300542: NormalSmallStalagmite_012
+    4300544: SmoothMediumStalagmite_032
+    4300546: SmoothMediumStalagmite_031
+    4300548: SmoothMediumStalagmite_030
+    4300550: SmoothLargeStalagmite_08
+    4300552: SmoothMediumStalagmite_034
+    4300554: SmoothMediumStalagmite_033
+    4300556: NormalSmallStalagmite_012
+    4300558: SmoothMediumStalagmite_032
+    4300560: SmoothMediumStalagmite_031
+    4300562: SmoothMediumStalagmite_030
+    4300564: SmoothLargeStalagmite_08
+    4300566: SmoothMediumStalagmite_034
+    4300568: SmoothMediumStalagmite_033
+    4300570: NormalSmallStalagmite_012
+    4300572: SmoothMediumStalagmite_032
+    4300574: SmoothMediumStalagmite_031
+    4300576: SmoothMediumStalagmite_030
+    4300578: SmoothLargeStalagmite_08
+    4300580: SmoothMediumStalagmite_034
+    4300582: SmoothMediumStalagmite_033
+    4300584: NormalSmallStalagmite_012
+    4300586: SmoothMediumStalagmite_032
+    4300588: SmoothMediumStalagmite_031
+    4300590: SmoothMediumStalagmite_030
+    4300592: SmoothLargeStalagmite_08
+    4300594: SmoothMediumStalagmite_034
+    4300596: SmoothMediumStalagmite_033
+    4300598: NormalSmallStalagmite_012
+    4300600: SmoothMediumStalagmite_032
+    4300602: SmoothMediumStalagmite_031
+    4300604: SmoothMediumStalagmite_030
+    4300606: SmoothLargeStalagmite_08
+    4300608: SmoothMediumStalagmite_034
+    4300610: SmallStone_011
+    4300612: LayeredSmallStalagmite_08
+    4300614: SmoothMediumStalagmite_040
+    4300616: LargeStone_023
+    4300618: SmoothMediumStalagmite_041
+    4300620: SmoothMediumStalagmite_042
+    4300622: LargeStone_024
+    4300624: MediumStone_022
+    4300626: SmallStone_012
+    4300628: SmallStone_013
+    4300630: SmallStone_016
+    4300632: WallMushroom_016
+    4300634: LargeStone_022
+    4300636: WallMushroom_017
+    4300638: WallMushroom_018
+    4300640: WallMushroom_019
+    4300642: WallMushroom_020
+    4300644: WallMushroom_021
+    4300646: WallMushroom_022
+    4300648: WallMushroom_023
+    4300650: WallMushroom_024
+    4300652: WallMushroom_025
+    4300654: WallMushroom_026
+    4300656: WallMushroom_027
+    4300658: WallMushroom_028
+    4300660: WallMushroom_029
+    4300662: MediumStone_027
+    4300664: MediumStone_028
+    4300666: LayeredMediumStalagmite_04
+    4300668: LayeredLargeStalagmite_07
+    4300670: LayeredMediumStalagmite_05
+    4300672: LayeredSmallStalagmite_06
+    4300674: LayeredMediumStalagmite_06
+    4300676: LayeredMediumStalagmite_07
+    4300678: SmoothMediumStalagmite_033
+    4300680: NormalSmallStalagmite_012
+    4300682: SmoothMediumStalagmite_032
+    4300684: SmoothMediumStalagmite_031
+    4300686: SmoothMediumStalagmite_030
+    4300688: SmoothLargeStalagmite_08
+    4300690: SmoothMediumStalagmite_034
+    4300692: SmoothMediumStalagmite_033
+    4300694: NormalSmallStalagmite_012
+    4300696: SmoothMediumStalagmite_032
+    4300698: SmoothMediumStalagmite_031
+    4300700: SmoothMediumStalagmite_030
+    4300702: SmoothLargeStalagmite_08
+    4300704: SmoothMediumStalagmite_034
+    4300706: SmoothMediumStalagmite_033
+    4300708: NormalSmallStalagmite_012
+    4300710: SmoothMediumStalagmite_032
+    4300712: SmoothMediumStalagmite_031
+    4300714: SmoothMediumStalagmite_030
+    4300716: SmoothLargeStalagmite_08
+    4300718: SmoothMediumStalagmite_034
+    4300720: SmoothMediumStalagmite_033
+    4300722: NormalSmallStalagmite_012
+    4300724: SmoothMediumStalagmite_032
+    4300726: SmoothMediumStalagmite_031
+    4300728: SmoothMediumStalagmite_030
+    4300730: SmoothLargeStalagmite_08
+    4300732: SmoothMediumStalagmite_034
+    4300734: LayeredSmallStalagmite_09
+    4300736: SmoothMediumStalagmite_043
+    4300738: LayeredLargeStalagmite_08
+    4300740: SmallStone_014
+    4300742: NormalSmallStalagmite_014
+    4300744: LayeredSmallStalagmite_010
+    4300746: SmoothLargeStalagmite_010
+    4300748: NormalSmallStalagmite_015
+    4300750: SmoothMediumStalagmite_044
+    4300752: LayeredSmallStalagmite_09
+    4300754: SmoothMediumStalagmite_043
+    4300756: LayeredLargeStalagmite_08
+    4300758: SmallStone_014
+    4300760: NormalSmallStalagmite_014
+    4300762: LayeredSmallStalagmite_010
+    4300764: SmoothLargeStalagmite_010
+    4300766: NormalSmallStalagmite_015
+    4300768: SmoothMediumStalagmite_044
+    4300770: LayeredMediumStalagmite_04
+    4300772: LayeredLargeStalagmite_07
+    4300774: LayeredMediumStalagmite_05
+    4300776: LargeStone_013
+    4300778: LayeredSmallStalagmite_06
+    4300780: SmallStone_015
+    4300782: LargeStone_027
+    4300784: LargeStone_028
+    4300786: MediumStone_029
+    4300788: MediumStone_030
+    4300790: LayeredMediumStalagmite_08
+    4300792: LargeStone_029
+    4300794: LayeredLargeStalagmite_09
+    4300796: LayeredMediumStalagmite_09
+    4300798: LayeredSmallStalagmite_011
+    4300800: SmoothMediumStalagmite_033
+    4300802: NormalSmallStalagmite_012
+    4300804: SmoothMediumStalagmite_032
+    4300806: SmoothMediumStalagmite_031
+    4300808: SmoothMediumStalagmite_030
+    4300810: SmoothLargeStalagmite_08
+    4300812: SmoothMediumStalagmite_034
+    4300814: LayeredMediumStalagmite_04
+    4300816: LayeredLargeStalagmite_07
+    4300818: LayeredMediumStalagmite_05
+    4300820: LargeStone_013
+    4300822: LayeredSmallStalagmite_06
+    4300824: SmoothLargeStalagmite_09
+    4300826: SmoothMediumStalagmite_035
+    4300828: SmoothMediumStalagmite_036
+    4300830: SmoothMediumStalagmite_037
+    4300832: NormalSmallStalagmite_013
+    4300834: SmoothMediumStalagmite_038
+    4300836: SmoothMediumStalagmite_039
+    4300838: WallMushroom_016
+    4300840: LargeStone_022
+    4300842: WallMushroom_017
+    4300844: WallMushroom_018
+    4300846: WallMushroom_019
+    4300848: WallMushroom_020
+    4300850: WallMushroom_021
+    4300852: WallMushroom_022
+    4300854: WallMushroom_023
+    4300856: WallMushroom_024
+    4300858: WallMushroom_025
+    4300860: WallMushroom_026
+    4300862: WallMushroom_027
+    4300864: WallMushroom_028
+    4300866: WallMushroom_029
+    4300868: MediumStone_023
+    4300870: LargeStone_025
+    4300872: LargeStone_026
+    4300874: MediumStone_024
+    4300876: LayeredMediumStalagmite_010
+    4300878: LayeredLargeStalagmite_010
+    4300880: LayeredMediumStalagmite_011
+    4300882: LayeredSmallStalagmite_012
+    4300884: LayeredMediumStalagmite_06
+    4300886: LayeredMediumStalagmite_07
+    4300888: SmoothLargeStalagmite_011
+    4300890: SmoothMediumStalagmite_045
+    4300892: SmoothMediumStalagmite_046
+    4300894: SmoothMediumStalagmite_047
+    4300896: NormalSmallStalagmite_016
+    4300898: SmoothMediumStalagmite_048
+    4300900: SmoothMediumStalagmite_049
+    4300902: MediumStone_025
+    4300904: MediumStone_026
+    4300906: SmoothLargeStalagmite_012
+    4300908: SmoothMediumStalagmite_050
+    4300910: SmoothMediumStalagmite_051
+    4300912: SmoothMediumStalagmite_052
+    4300914: NormalSmallStalagmite_017
+    4300916: SmoothMediumStalagmite_053
+    4300918: SmoothMediumStalagmite_054
+    4300920: MediumStone_031
+    4300922: MediumStone_032
+    4300924: LayeredMediumStalagmite_04
+    4300926: LayeredLargeStalagmite_07
+    4300928: LayeredMediumStalagmite_05
+    4300930: LargeStone_013
+    4300932: LayeredSmallStalagmite_06
+    4300934: MediumStone_023
+    4300936: LargeStone_025
+    4300938: LargeStone_026
+    4300940: MediumStone_024
+    4300942: LayeredMediumStalagmite_010
+    4300944: LayeredLargeStalagmite_010
+    4300946: LayeredMediumStalagmite_011
+    4300948: LayeredSmallStalagmite_012
+    4300950: LayeredMediumStalagmite_06
+    4300952: LayeredMediumStalagmite_07
+    4300954: SmoothLargeStalagmite_011
+    4300956: SmoothMediumStalagmite_045
+    4300958: SmoothMediumStalagmite_046
+    4300960: SmoothMediumStalagmite_047
+    4300962: NormalSmallStalagmite_016
+    4300964: SmoothMediumStalagmite_048
+    4300966: SmoothMediumStalagmite_049
+    4300968: MediumStone_025
+    4300970: MediumStone_026
+    4300972: SmoothLargeStalagmite_012
+    4300974: SmoothMediumStalagmite_050
+    4300976: SmoothMediumStalagmite_051
+    4300978: SmoothMediumStalagmite_052
+    4300980: NormalSmallStalagmite_017
+    4300982: SmoothMediumStalagmite_053
+    4300984: SmoothMediumStalagmite_054
+    4300986: WallMushroom_016
+    4300988: LargeStone_022
+    4300990: WallMushroom_017
+    4300992: WallMushroom_018
+    4300994: WallMushroom_019
+    4300996: WallMushroom_020
+    4300998: WallMushroom_021
+    4301000: WallMushroom_022
+    4301002: WallMushroom_023
+    4301004: WallMushroom_024
+    4301006: WallMushroom_025
+    4301008: WallMushroom_026
+    4301010: WallMushroom_027
+    4301012: WallMushroom_028
+    4301014: WallMushroom_029
+    4301016: SmoothLargeStalagmite_09
+    4301018: SmoothMediumStalagmite_039
+    4301020: SmoothMediumStalagmite_036
+    4301022: SmoothMediumStalagmite_035
+    4301024: SmoothMediumStalagmite_037
+    4301026: NormalSmallStalagmite_013
+    4301028: SmoothMediumStalagmite_038
+    4301030: LayeredMediumStalagmite_04
+    4301032: LayeredLargeStalagmite_07
+    4301034: LayeredMediumStalagmite_05
+    4301036: LargeStone_013
+    4301038: LayeredSmallStalagmite_06
+    4301040: MediumStone_023
+    4301042: LargeStone_025
+    4301044: LargeStone_026
+    4301046: MediumStone_024
+    4301048: LayeredMediumStalagmite_010
+    4301050: LayeredLargeStalagmite_010
+    4301052: LayeredMediumStalagmite_011
+    4301054: LayeredSmallStalagmite_012
+    4301056: LayeredMediumStalagmite_06
+    4301058: LayeredMediumStalagmite_07
+    4301060: SmoothLargeStalagmite_011
+    4301062: SmoothMediumStalagmite_045
+    4301064: SmoothMediumStalagmite_046
+    4301066: SmoothMediumStalagmite_047
+    4301068: NormalSmallStalagmite_016
+    4301070: SmoothMediumStalagmite_048
+    4301072: SmoothMediumStalagmite_049
+    4301074: MediumStone_025
+    4301076: MediumStone_026
+    4301078: SmoothLargeStalagmite_012
+    4301080: SmoothMediumStalagmite_050
+    4301082: SmoothMediumStalagmite_052
+    4301084: NormalSmallStalagmite_017
+    4301086: SmoothMediumStalagmite_053
+    4301088: SmoothMediumStalagmite_054
+    4301090: WallMushroom_016
+    4301092: LargeStone_022
+    4301094: WallMushroom_017
+    4301096: WallMushroom_018
+    4301098: WallMushroom_019
+    4301100: WallMushroom_020
+    4301102: WallMushroom_021
+    4301104: WallMushroom_022
+    4301106: WallMushroom_023
+    4301108: WallMushroom_024
+    4301110: WallMushroom_025
+    4301112: WallMushroom_026
+    4301114: WallMushroom_027
+    4301116: WallMushroom_028
+    4301118: WallMushroom_029
+    4301120: SmoothLargeStalagmite_09
+    4301122: SmoothMediumStalagmite_039
+    4301124: SmoothMediumStalagmite_036
+    4301126: SmoothMediumStalagmite_035
+    4301128: SmoothMediumStalagmite_037
+    4301130: NormalSmallStalagmite_013
+    4301132: SmoothMediumStalagmite_038
+    4301134: SmoothMediumStalagmite_033
+    4301136: NormalSmallStalagmite_012
+    4301138: SmoothLargeStalagmite_08
+    4301140: SmoothMediumStalagmite_034
+    4301142: SmoothMediumStalagmite_031
+    4301144: SmoothMediumStalagmite_032
+    4301146: SmoothMediumStalagmite_030
+    4301148: SmoothMediumStalagmite_033
+    4301150: NormalSmallStalagmite_012
+    4301152: SmoothMediumStalagmite_032
+    4301154: SmoothMediumStalagmite_031
+    4301156: SmoothMediumStalagmite_030
+    4301158: SmoothLargeStalagmite_08
+    4301160: SmoothMediumStalagmite_034
+    4301162: SmoothLargeStalagmite_013
+    4301164: SmoothMediumStalagmite_055
+    4301166: LargeStone_013
+    4301168: MediumStone_023
+    4301170: LargeStone_025
+    4301172: LargeStone_026
+    4301174: MediumStone_024
+    4301176: LayeredMediumStalagmite_010
+    4301178: LayeredLargeStalagmite_010
+    4301180: LayeredMediumStalagmite_011
+    4301182: LayeredSmallStalagmite_012
+    4301184: LayeredMediumStalagmite_06
+    4301186: LayeredMediumStalagmite_07
+    4301188: MediumStone_026
+    4301190: SmoothLargeStalagmite_012
+    4301192: SmoothMediumStalagmite_050
+    4301194: SmoothMediumStalagmite_051
+    4301196: SmoothMediumStalagmite_052
+    4301198: NormalSmallStalagmite_017
+    4301200: SmoothMediumStalagmite_053
+    4301202: SmoothMediumStalagmite_054
+    4301204: WallMushroom_016
+    4301206: LargeStone_022
+    4301208: WallMushroom_017
+    4301210: WallMushroom_018
+    4301212: WallMushroom_019
+    4301214: WallMushroom_020
+    4301216: WallMushroom_021
+    4301218: WallMushroom_022
+    4301220: WallMushroom_023
+    4301222: WallMushroom_024
+    4301224: WallMushroom_025
+    4301226: WallMushroom_026
+    4301228: WallMushroom_027
+    4301230: WallMushroom_028
+    4301232: WallMushroom_029
+    4301234: SmoothLargeStalagmite_09
+    4301236: SmoothMediumStalagmite_039
+    4301238: SmoothMediumStalagmite_036
+    4301240: SmoothMediumStalagmite_035
+    4301242: SmoothMediumStalagmite_037
+    4301244: NormalSmallStalagmite_013
+    4301246: SmoothMediumStalagmite_038
+    4301248: LayeredMediumStalagmite_04
+    4301250: LayeredMediumStalagmite_05
+    4301252: LayeredLargeStalagmite_07
+    4301254: LayeredSmallStalagmite_06
+    4301256: SmoothMediumStalagmite_049
+    4301258: SmoothLargeStalagmite_011
+    4301260: SmoothMediumStalagmite_046
+    4301262: SmoothMediumStalagmite_045
+    4301264: SmoothMediumStalagmite_047
+    4301266: NormalSmallStalagmite_016
+    4301268: SmoothMediumStalagmite_048
+    4301270: MediumStone_025
+    4301272: LayeredMediumStalagmite_04
+    4301274: LayeredLargeStalagmite_07
+    4301276: LayeredMediumStalagmite_05
+    4301278: LargeStone_013
+    4301280: LayeredSmallStalagmite_06
+    4301282: SmoothLargeStalagmite_09
+    4301284: SmoothMediumStalagmite_035
+    4301286: SmoothMediumStalagmite_036
+    4301288: SmoothMediumStalagmite_037
+    4301290: NormalSmallStalagmite_013
+    4301292: SmoothMediumStalagmite_038
+    4301294: SmoothMediumStalagmite_039
+    4301296: MediumStone_023
+    4301298: LargeStone_025
+    4301300: LargeStone_026
+    4301302: MediumStone_024
+    4301304: LayeredMediumStalagmite_010
+    4301306: LayeredLargeStalagmite_010
+    4301308: LayeredMediumStalagmite_011
+    4301310: LayeredSmallStalagmite_012
+    4301312: LayeredMediumStalagmite_06
+    4301314: LayeredMediumStalagmite_07
+    4301316: SmoothLargeStalagmite_011
+    4301318: SmoothMediumStalagmite_045
+    4301320: SmoothMediumStalagmite_046
+    4301322: SmoothMediumStalagmite_047
+    4301324: NormalSmallStalagmite_016
+    4301326: SmoothMediumStalagmite_048
+    4301328: SmoothMediumStalagmite_049
+    4301330: MediumStone_025
+    4301332: MediumStone_026
+    4301334: SmoothLargeStalagmite_012
+    4301336: SmoothMediumStalagmite_050
+    4301338: SmoothMediumStalagmite_051
+    4301340: SmoothMediumStalagmite_052
+    4301342: NormalSmallStalagmite_017
+    4301344: SmoothMediumStalagmite_053
+    4301346: SmoothMediumStalagmite_054
+    4301348: MediumStone_031
+    4301350: MediumStone_032
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
