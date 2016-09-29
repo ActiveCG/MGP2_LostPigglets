@@ -65,10 +65,10 @@ public class TouchInput : MonoBehaviour
                 PigMovement.current.nav.enabled = false;
                 Rotating();
                 timer += Time.deltaTime;
-                Debug.Log(timer);
+                //Debug.Log(timer);
                 if(timer < 0.2f)
                 {
-                    Debug.Log("Reseting the NavMesh");
+                    //Debug.Log("Reseting the NavMesh");
                     PigMovement.current.nav.enabled = true;
                 }
                 

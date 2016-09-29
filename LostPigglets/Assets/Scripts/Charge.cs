@@ -44,6 +44,7 @@ public class Charge : MonoBehaviour {
 
             //PigMovement.current.nav.Stop();
             PigMovement.current.nav.enabled = false;
+            /////////PLAY ANIMATION HERE////////////
             //Debug.Log("CHARGE!!!!!!");
             countTouch = 0;
             startCount = false;
