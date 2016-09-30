@@ -6,24 +6,18 @@ public class SpawnEnemies : MonoBehaviour {
 
     public static SpawnEnemies current;
 
-    int spawnPoint;
-
-    //These are for testing purposes and they are going to be deleted
-    float time = 2f;
-    float repeatRate = 0.5f;
-    ///////
-
-    public GameObject enemy;
-
+    private int spawnPoint;
+    private List<GameObject> enemies;
     [HideInInspector]
     public GameObject poolParent;
 
-    List<GameObject> enemies;
+
 
     void Awake()
     {
         current = this;
     }
+
 
     void Start()
     {
@@ -31,9 +25,9 @@ public class SpawnEnemies : MonoBehaviour {
         poolParent.name = "EnemyPool";
         enemies = new List<GameObject>();
         spawnPoint = Random.Range(0, MonsterStats.instance.spawnPlaces.Count);
-        for(int i=0; i<MonsterStats.instance.pooledAmount; i++)
+        for(int i=0; i<MonsterStats.instance.poolAmount; i++)
         {
-            GameObject obj = (GameObject)Instantiate(enemy, MonsterStats.instance.spawnPlaces[spawnPoint].position, MonsterStats.instance.spawnPlaces[spawnPoint].rotation);
+            GameObject obj = (GameObject)Instantiate(MonsterStats.instance.enemy, MonsterStats.instance.spawnPlaces[spawnPoint].position, MonsterStats.instance.spawnPlaces[spawnPoint].rotation);
             obj.transform.SetParent(poolParent.transform);
             obj.SetActive(false);
             enemies.Add(obj);
@@ -41,8 +35,9 @@ public class SpawnEnemies : MonoBehaviour {
 			GameManager.instance.monsterMove (obj); //monster starts swimming
         }
 
-        InvokeRepeating("Spawn", time, repeatRate);
+        InvokeRepeating("Spawn", MonsterStats.instance.Time1stSpawnMonster, MonsterStats.instance.repeatTimeSpawn);
     }
+
 
     void Spawn()
     {

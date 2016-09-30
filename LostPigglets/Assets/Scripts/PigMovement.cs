@@ -3,15 +3,14 @@ using System.Collections;
 public class PigMovement : MonoBehaviour
 {
     public static PigMovement current;
-    public Vector3 playerOffset = new Vector3(0, 7.5f, 0);
-    public float rotSpeed = 3f; //Manager
 
-    public Rigidbody pigRB;
-
-	private bool moved = false;
 
     [HideInInspector]
+    public Rigidbody pigRB;
+    [HideInInspector]
     public NavMeshAgent nav;
+	private bool moved = false;
+
 
     void Awake()
     {
@@ -20,10 +19,12 @@ public class PigMovement : MonoBehaviour
         nav = GetComponent<NavMeshAgent>();
     }
 
+
     void Start()
     {
         pigRB = gameObject.GetComponent<Rigidbody>();
     }
+
 
     void OnEnable()
     {
@@ -32,12 +33,14 @@ public class PigMovement : MonoBehaviour
 		GameManager.instance.OnPlayerRotate += Rotate; //TouchInput.rotate += Rotate;
     }
 
+
     void OnDisable()
     {
 		GameManager.instance.OnPlayerMove -= Movement; //KeyboardInput.move -= Movement;
         //TouchInput.move -= Movement;
 		GameManager.instance.OnPlayerRotate -= Rotate; //TouchInput.rotate -= Rotate;
     }
+
 
     void Movement(Vector3 position)
     {
@@ -48,12 +51,14 @@ public class PigMovement : MonoBehaviour
         }
     }
 
+
     void Rotate(Vector3 position)
     {
         //Debug.Log("Please Rotate");
-        Quaternion targetRotation = Quaternion.LookRotation((position + playerOffset) - transform.position);
-        pigRB.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotSpeed * Time.deltaTime);
+        Quaternion targetRotation = Quaternion.LookRotation((position + PlayerStats.instance.rotationOffset) - transform.position);
+        pigRB.rotation = Quaternion.Slerp(transform.rotation, targetRotation, PlayerStats.instance.rotSpeedFinger * Time.deltaTime);
     }
+
 
 	//check whether player is not moving *****SHOULD BE IMPROVED, NO SOUND ON ROTATION!!!!!!!!!!!!
 	void Update(){

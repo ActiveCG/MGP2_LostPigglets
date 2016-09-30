@@ -4,6 +4,7 @@ using System.Collections;
 public class MoveEnemies : MonoBehaviour {
 
     private NavMeshAgent nav;
+    [HideInInspector]
 	public bool isSwimming;
 
     [HideInInspector]
