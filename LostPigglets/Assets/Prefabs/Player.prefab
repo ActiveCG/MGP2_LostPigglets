@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013128254954}
   - 95: {fileID: 95000012090908978}
-  - 136: {fileID: 136000013584457592}
   m_Layer: 12
   m_Name: SamanthaDefault
   m_TagString: Untagged
@@ -1488,10 +1487,10 @@ GameObject:
   - 114: {fileID: 114000012688584658}
   - 114: {fileID: 114000011032030272}
   - 114: {fileID: 114000011663091162}
-  - 114: {fileID: 114000012636578102}
   - 114: {fileID: 114000011618759922}
   - 114: {fileID: 114000010224320942}
   - 114: {fileID: 114000010352223046}
+  - 136: {fileID: 136000011736258902}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3117,7 +3116,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 15
-  m_SpotAngle: 90
+  m_SpotAngle: 40
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -3242,17 +3241,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 405e623c9944ad541811b681c7cf99f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114000012636578102
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013944407680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56f07fcd8ea76d346b6d40249773cfec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000012688584658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3283,16 +3271,16 @@ SphereCollider:
   m_GameObject: {fileID: 1000010050585454}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.23504972
   m_Center: {x: 0, y: 0.75, z: 1.4}
---- !u!136 &136000013584457592
+--- !u!136 &136000011736258902
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010024856018}
+  m_GameObject: {fileID: 1000013944407680}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1

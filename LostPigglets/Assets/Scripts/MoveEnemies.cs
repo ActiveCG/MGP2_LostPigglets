@@ -7,7 +7,7 @@ public class MoveEnemies : MonoBehaviour {
     [HideInInspector]
 	public bool isSwimming;
 
-    [HideInInspector]
+    
     public Transform target;
 
     void Start()
