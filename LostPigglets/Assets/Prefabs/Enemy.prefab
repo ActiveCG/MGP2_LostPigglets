@@ -121,6 +121,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSwimming: 0
+  timeToDeath: 8
+  jumpingCooldownTimer: 5
+  deathAnimTime: 3
+  attackRange: 0
+  jumping: 500
   target: {fileID: 0}
 --- !u!114 &114000014241635790
 MonoBehaviour:

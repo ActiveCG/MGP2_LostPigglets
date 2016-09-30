@@ -18,21 +18,25 @@ public class MoveEnemies : MonoBehaviour
     public int deathAnimTime = 3;
     [Tooltip("The range where the monster should be attacking")]
     public int attackRange;
-    [Tooltip("This value is exclusive")]
+    [Tooltip("This value is excluded")]
     public int jumping;
    
     [HideInInspector]
     public Transform target;
 
-    /*void OnEnable()
+    void OnEnable()
     {
+        GameManager.instance.OnMonsterAttack += Attack;
         GameManager.instance.OnMonsterJump += Jump;
+        GameManager.instance.OnMonsterAggro += Aggro;
     }
 
     void OnDisable()
     {
+        GameManager.instance.OnMonsterAttack -= Attack;
         GameManager.instance.OnMonsterJump -= Jump;
-    }*/
+        GameManager.instance.OnMonsterAggro -= Aggro;
+    }
 
     void Start()
     {
@@ -46,28 +50,37 @@ public class MoveEnemies : MonoBehaviour
         nav.SetDestination(target.position); //move towards target
         if (Random.Range(1, jumping) == 1 && canJump == true)
         {
-            Jump();
+            Jump(gameObject);
         }
         if (Vector3.Distance(transform.position, target.transform.position) < attackRange)
         {
             isInRange = true;
+            Aggro(gameObject);
             timer += Time.deltaTime;
+            Debug.Log("InRange");
             if (timer > timeToDeath)
             {
-                Attack();
+                Attack(gameObject);
             }
         }
         else isInRange = false;
     }
 
-    void Jump()
+    void Jump(GameObject monster)
     {
+        Debug.Log("Jump");
         canJump = false;
         StartCoroutine("AnimationCD");
     }
 
-    void Attack()
+    void Aggro(GameObject monster)
     {
+
+    }
+
+    void Attack(GameObject monster)
+    {
+        Debug.Log("DeathAnimation");
         StartCoroutine("DeathAnimationTime");
     }
 
