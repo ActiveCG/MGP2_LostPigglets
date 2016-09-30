@@ -11,6 +11,22 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1000012174415878}
   m_IsPrefabParent: 1
+--- !u!1 &1000011809701072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013692656320}
+  - 114: {fileID: 114000012452177776}
+  m_Layer: 0
+  m_Name: PigletManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1000011992503328
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +124,7 @@ Transform:
   - {fileID: 4000011209908238}
   - {fileID: 4000013440942388}
   - {fileID: 4000011452064528}
+  - {fileID: 4000013692656320}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &4000011178321816
@@ -162,6 +179,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000010000717646}
   m_RootOrder: 2
+--- !u!4 &4000013692656320
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011809701072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010000717646}
+  m_RootOrder: 4
 --- !u!114 &114000010065618978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -184,9 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c886b08668c90f7479f0ab4c1bee7a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 0
-  playerSpeed: 0
-  piggletsInGame: 3
+  piggletsInGame: 2
 --- !u!114 &114000011230021458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -215,6 +243,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tapTime: 0.2
   plane: {fileID: 0}
+--- !u!114 &114000012452177776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011809701072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afda477ee991cf4c8a82444d0edeebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  minDelay: 10
+  maxDelay: 15
+  pigletList: []
+  pigletActiveOink: 
+  pigletPickedUp: 
 --- !u!114 &114000013160568396
 MonoBehaviour:
   m_ObjectHideFlags: 1

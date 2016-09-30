@@ -52,7 +52,6 @@ public class OinkPool : MonoBehaviour {
             {
                 oinks[i].SetActive(true);
                 oinks[i].GetComponent<OinkScript>().id = id;
-                //oinks[i].GetComponent<OinkScript>().pigletPos = pigletPos;
                 break;
             }
         }

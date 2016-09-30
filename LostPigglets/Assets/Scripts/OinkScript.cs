@@ -63,7 +63,6 @@ public class OinkScript : MonoBehaviour {
             angle = AngleBetweenVector(playerPos.transform.position, pigletPos.transform.position);
             spherePos = CalculateSpawnpoint(angle);
             rect.position = spherePos;
-            Debug.Log(angle + " " + id);
 
         }
 
@@ -100,9 +99,7 @@ public class OinkScript : MonoBehaviour {
         float newX = (Mathf.Sin(radAngle) * canvasWidthR * 0.8f);
         float newY = (Mathf.Cos(radAngle) * canvasHeightR * 0.8f);
 
-        Debug.Log(rect.sizeDelta);
-
-        return new Vector2(canvasCenter.x + newX, canvasCenter.y + newY);
+        return new Vector2(canvasCenter.x - newX, canvasCenter.y - newY);
     }
 
 }

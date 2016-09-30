@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class PigletManager : MonoBehaviour {
 
@@ -19,6 +20,9 @@ public class PigletManager : MonoBehaviour {
     public List<GameObject> pigletList = new List<GameObject>(); //List for the piglets
     GameObject[] tempArray;
     public List<bool> pigletActiveOink = new List<bool>(); //List to check if the piglet has fired an Oink
+    public List<bool> pigletPickedUp = new List<bool>();
+    public List<float> delayList = new List<float>();
+    bool preventReset = false;
 
     void Awake() {
         if (current == null) {
@@ -32,12 +36,17 @@ public class PigletManager : MonoBehaviour {
         
         tempArray = GameObject.FindGameObjectsWithTag("Pigglet");
 
+        
 
-        for(int i = 0; i < tempArray.Length; i++)
+        for (int i = 0; i < tempArray.Length; i++)
         {
-            Debug.Log(i);
+            delay = Random.Range(minDelay, maxDelay); //Delays the oink
             pigletList.Add(tempArray[i]);
             pigletActiveOink.Add(false);
+            pigletPickedUp.Add(tempArray[i].GetComponent<PigletScript>().amIPickedUp);
+            tempArray[i].GetComponent<PigletScript>().id = i;
+            delayList.Add(delay);
+
         }
 
         OinkPool.current.CreatePool(pigletList);
@@ -52,19 +61,43 @@ public class PigletManager : MonoBehaviour {
         SpawnOink();
         counter += Time.deltaTime;
 
-	}
+        if((pigletActiveOink.All(c => c == true) && preventReset == false) ||
+            (pigletActiveOink.Any(c => c == true) && preventReset == false && pigletPickedUp.Any(c => c == true))) {
+            counter = 0f;
+            CreateNewDelay();
+        }
+
+        if (pigletActiveOink.All(c => c == false) && pigletPickedUp.All(c => c == false) ||
+            pigletActiveOink.All(c => c == false) && pigletPickedUp.Any(c => c == true)) {
+            preventReset = false;
+        }
+
+    }
 
     void SpawnOink()
     {
-        delay = Random.Range(minDelay, maxDelay); //Delays the oink
         for (int i = 0; i < pigletList.Count; i++)
-        {     
-            if (pigletActiveOink[i] == false && counter > delay)
+        {         
+            if (pigletActiveOink[i] == false
+                && counter > delayList[i]
+                && pigletPickedUp[i] == false)
             {  
                 pigletActiveOink[i] = true;
                 OinkPool.current.SpawnOink(i, pigletList[i].transform.position);
-                counter = 0f;            
+                GameManager.instance.oink(pigletList[i]);
             }
+        }      
+    }
+
+    void CreateNewDelay() {     
+            for (int i = 0; i < delayList.Count; i++) {
+            delay = Random.Range(minDelay, maxDelay); //Delays the oink
+            delayList[i] = delay;
         }
+        preventReset = true;
+    }
+
+    public void SetMeFalse (int id) {
+        pigletPickedUp[id] = true;
     }
 }
