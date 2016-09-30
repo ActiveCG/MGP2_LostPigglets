@@ -10,6 +10,9 @@ TagManager:
   - Plane
   - Terain
   - Walls
+  - GUI
+  - Oink
+  - PigletMark
   layers:
   - Default
   - TransparentFX

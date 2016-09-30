@@ -28,7 +28,12 @@ public class AnimatorManager : MonoBehaviour {
 		playerAnim.ResetTrigger ("pigAttackTrig");
 	}
 	public void AM_PickUpSequence(GameObject Piglet){
-		cameraAnim.SetTrigger ("pickupSequence");
+		//cameraAnim.SetTrigger ("pickupSequence");
+		Transform pigletMark = Piglet.transform.FindChild("PigletMark");
+		pigletMark.parent = null;
+		pigletMark.rotation = Quaternion.identity;
+		cameraAnim.gameObject.transform.parent = pigletMark;
+		cameraAnim.enabled = true;
 	}
 	void OnEnable () {
 		isPlayerSwimming = false;
