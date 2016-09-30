@@ -78,6 +78,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9dc0cce2ec6ef44c926cf517f298380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oinkImg: {fileID: 1000010208461968, guid: 7db865e5fb1ceb94eaef96ce856b214a, type: 2}
+  isCreated: 0
+  oinks: []
+  oinkPoolParent: {fileID: 0}
 --- !u!223 &223000010665313980
 Canvas:
   m_ObjectHideFlags: 1

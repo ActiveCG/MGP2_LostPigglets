@@ -10,7 +10,7 @@ public class PigletManager : MonoBehaviour {
 
     public static PigletManager current;
 
-    public GameObject player;
+    GameObject player;
 
     public float minDelay;
     public float maxDelay;
@@ -36,7 +36,7 @@ public class PigletManager : MonoBehaviour {
         
         tempArray = GameObject.FindGameObjectsWithTag("Pigglet");
 
-        
+        player = GameManager.instance.player;
 
         for (int i = 0; i < tempArray.Length; i++)
         {
