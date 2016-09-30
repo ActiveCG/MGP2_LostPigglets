@@ -111,8 +111,12 @@ public class AudioManager : MonoBehaviour {
 	}
 
 	//*********** Menu ****************
-	void MenuButtonPlay()
-	void SetMenuState(string state){
+	void MenuButtonPlay() {
+
+	}
+	void SetMenuState(string state) {
+		if (menuStateGroup == null || menuStateGroup == "")
+			return;
 		AkSoundEngine.SetState (menuStateGroup, state);
 	}
 
