@@ -11,8 +11,4 @@ public class MonsterAttack : MonoBehaviour {
 		}
 	}
 
-	//attack player
-	void Attack(){
-		
-	}
 }

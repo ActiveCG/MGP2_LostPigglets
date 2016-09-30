@@ -11,22 +11,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1000012174415878}
   m_IsPrefabParent: 1
---- !u!1 &1000011809701072
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 4000013692656320}
-  - 114: {fileID: 114000012452177776}
-  m_Layer: 0
-  m_Name: PigletManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1000011992503328
 GameObject:
   m_ObjectHideFlags: 0
@@ -36,7 +20,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011452064528}
   - 114: {fileID: 114000013308315508}
-  - 114: {fileID: 114000011230021458}
   m_Layer: 0
   m_Name: MonsterManager
   m_TagString: Untagged
@@ -68,6 +51,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000013440942388}
+  - 114: {fileID: 114000014214534932}
   m_Layer: 0
   m_Name: AnimationManager
   m_TagString: Untagged
@@ -100,7 +84,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011209908238}
-  - 114: {fileID: 114000010065618978}
   - 114: {fileID: 114000010082586802}
   m_Layer: 0
   m_Name: PlayerManager
@@ -124,7 +107,6 @@ Transform:
   - {fileID: 4000011209908238}
   - {fileID: 4000013440942388}
   - {fileID: 4000011452064528}
-  - {fileID: 4000013692656320}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &4000011178321816
@@ -179,30 +161,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000010000717646}
   m_RootOrder: 2
---- !u!4 &4000013692656320
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011809701072}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 4000010000717646}
-  m_RootOrder: 4
---- !u!114 &114000010065618978
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012940022496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a081f54cd62e9d4aa75fd5e67ea4e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000010082586802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -214,22 +172,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c886b08668c90f7479f0ab4c1bee7a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  piggletsCollected: 0
+  spotlight: {fileID: 0}
+  pigletsFollowPosZ: -1.5
   piggletsInGame: 2
---- !u!114 &114000011230021458
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011992503328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df1b6d06fb774a749b398063d3ec3b11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightTimer: 1
-  cdTimer: 8
-  monsterStunTime: 4
-  monsterStunned: 0
+  chargeSpeed: 2000
+  doubleTapTime: 0.5
+  collisionRadius: 6
+  cameraOffset: {x: 0, y: 20, z: -4}
+  rotSpeedFinger: 3
+  rotationOffset: {x: 0, y: 7.5, z: 0}
 --- !u!114 &114000011586531204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -241,25 +193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129779e130a82df4fa19d425cc26f957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tapTime: 0.2
+  tapTimeForMoving: 0.1
   plane: {fileID: 0}
---- !u!114 &114000012452177776
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011809701072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afda477ee991cf4c8a82444d0edeebe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  minDelay: 10
-  maxDelay: 15
-  pigletList: []
-  pigletActiveOink: 
-  pigletPickedUp: 
 --- !u!114 &114000013160568396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -283,7 +218,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPlaces: []
-  pooledAmount: 1
+  poolAmount: 1
+  Time1stSpawnMonster: 2
+  repeatTimeSpawn: 0.5
+  enemy: {fileID: 1000010112326358, guid: 732e1d8c3d16ed04d841ccb9e9dffaa7, type: 2}
+  BlindingTimer: 1
+  cooldownTimer: 8
+  monsterStunTime: 2
+  destroyTimeAfterHit: 0.5
 --- !u!114 &114000013885245646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -295,5 +237,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c7c2d99c988284fa1f581d2b240a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tapTime: 0.2
+  tapTime: 0.5
   plane: {fileID: 0}
+--- !u!114 &114000014214534932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012293488330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c16151c0fe7d5945b38ae1c4184b1f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
