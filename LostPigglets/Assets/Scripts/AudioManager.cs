@@ -110,6 +110,12 @@ public class AudioManager : MonoBehaviour {
 		PlaySound (monsterDeath, monster);
 	}
 
+	//*********** Menu ****************
+	void MenuButtonPlay()
+	void SetMenuState(string state){
+		AkSoundEngine.SetState (menuStateGroup, state);
+	}
+
 	//Subscribing and unsubscribing to delegate events
 	void OnEnable () {
 		isPlayerSwimming = false;
@@ -127,6 +133,9 @@ public class AudioManager : MonoBehaviour {
 		GameManager.instance.OnMonsterMove += MonsterSwimPlay;
 		GameManager.instance.OnMonsterNotMoving += MonsterSwimStop;
 		GameManager.instance.OnMonsterAttack += MonsterAttackPlay;
+
+		//menu events
+		GameManager.instance.OnmenuStates += SetMenuState;
 	}
 
 	void OnDisable() {
@@ -144,6 +153,9 @@ public class AudioManager : MonoBehaviour {
 		GameManager.instance.OnMonsterMove -= MonsterSwimPlay;
 		GameManager.instance.OnMonsterNotMoving -= MonsterSwimStop;
 		GameManager.instance.OnMonsterAttack -= MonsterAttackPlay;
+
+		//menu events
+		GameManager.instance.OnmenuStates -= SetMenuState;
 	}
 
 	private void PlaySound(string eventName, GameObject obj) {

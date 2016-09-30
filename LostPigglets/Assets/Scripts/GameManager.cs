@@ -44,19 +44,24 @@ public class GameManager {
 
 	public void StartGame() {
 		_instance = null;
+		menuStateChanged("In_Game");
 		SceneManager.LoadScene (GAME_SCENE);
 	}
 
 	public void RestartGame() {
 		_instance = null;
+		menuStateChanged("In_Game");
 		SceneManager.LoadScene (GAME_SCENE);
 	}
 
 	public void Win(){
+		menuStateChanged("In_Menu");
 		SceneManager.LoadScene ("Win");
+
 	}
 
 	public void GameOver(){
+		menuStateChanged("In_Menu");
 		SceneManager.LoadScene ("GameOver");
 	}
 
@@ -204,9 +209,9 @@ public class GameManager {
 		if(OnMenuButton != null)
 			OnMenuButton (element);
 	}
-	public void menuStateChanged(string element) {
+	public void menuStateChanged(string state) {
 		if(OnmenuStates != null)
-			OnmenuStates (element);
+			OnmenuStates (state);
 	}
 
     //**** charging ****
