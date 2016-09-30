@@ -17,7 +17,7 @@ public class PigletManager : MonoBehaviour {
 
     float delay;
     float counter;
-    [HideInInspector]
+    //[HideInInspector]
     public List<GameObject> pigletList = new List<GameObject>(); //List for the piglets
     GameObject[] tempArray;
     [HideInInspector]
@@ -65,12 +65,14 @@ public class PigletManager : MonoBehaviour {
         SpawnOink();
         counter += Time.deltaTime;
 
+        //Reset the counter and create new delay if both oinks have been fired.
         if((pigletActiveOink.All(c => c == true) && preventReset == false) ||
             (pigletActiveOink.Any(c => c == true) && preventReset == false && pigletPickedUp.Any(c => c == true))) {
             counter = 0f;
             CreateNewDelay();
         }
 
+        //Reset the prevent reset boolean, so we can reset again.
         if (pigletActiveOink.All(c => c == false) && pigletPickedUp.All(c => c == false) ||
             pigletActiveOink.All(c => c == false) && pigletPickedUp.Any(c => c == true)) {
             preventReset = false;
@@ -78,6 +80,7 @@ public class PigletManager : MonoBehaviour {
 
     }
 
+    //Function to Spawn the oinks
     void SpawnOink()
     {
         for (int i = 0; i < pigletList.Count; i++)
@@ -87,12 +90,13 @@ public class PigletManager : MonoBehaviour {
                 && pigletPickedUp[i] == false)
             {  
                 pigletActiveOink[i] = true;
-                OinkPool.current.SpawnOink(i, pigletList[i].transform.position);
-                GameManager.instance.oink(pigletList[i]);
+                OinkPool.current.SpawnOink(i, pigletList[i]);
+                GameManager.instance.oink(pigletList[i]); 
             }
         }      
     }
 
+    //Find a new delay for the oinks
     void CreateNewDelay() {     
             for (int i = 0; i < delayList.Count; i++) {
             delay = Random.Range(minDelay, maxDelay); //Delays the oink
@@ -101,6 +105,7 @@ public class PigletManager : MonoBehaviour {
         preventReset = true;
     }
 
+    // Prevent pickedup piglets from making oinks
     public void SetMeFalse (int id) {
         pigletPickedUp[id] = true;
     }
