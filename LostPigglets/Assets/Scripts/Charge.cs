@@ -10,6 +10,7 @@ public class Charge : MonoBehaviour {
     private float chargingTimer = 0;
     private bool startCount = false;
     private bool notCharged = true;
+    private bool charged = false;
     
 
     void Awake()
@@ -34,6 +35,13 @@ public class Charge : MonoBehaviour {
         }
 
         chargingTimer += Time.deltaTime;
+
+        //if(PigMovement.current.pigRB.velocity.magnitude < 1f)
+        //{
+        //    //charged = false;
+        //}
+        print(charged);
+        //print(PigMovement.current.pigRB.velocity.magnitude);
     }
 
 
@@ -48,7 +56,9 @@ public class Charge : MonoBehaviour {
             {
                 //PigMovement.current.nav.Stop();
                 PigMovement.current.nav.enabled = false;
-                GameManager.instance.chargeHit();
+                charged = true;
+                StartCoroutine("SetChargeFalse");
+                //ChargeHit();
                 //Debug.Log("CHARGE!!!!!!");
                 notCharged = false;
                 chargingTimer = 0;
@@ -66,11 +76,34 @@ public class Charge : MonoBehaviour {
             countTouch = 0;
             startCount = false;
             timer = 0;
+
         }
     }
 
-    public void ChargeHit()
+    //public void ChargeHit()
+    //{
+    //    GameManager.instance.ChargeOnStun(GetComponent<Collider>());
+    //}
+
+    void OnTriggerEnter(Collider col)
     {
-        GameManager.instance.ChargeOnStun(GetComponent<Collider>());
+        if (col.tag == "Enemy" && MonsterStun.current.monsterStunned && charged)
+        {
+            Debug.Log("Hit the enemy");
+            ///////PLAY ANIMATION/////////
+            StartCoroutine(MonsterPushedBack(MonsterStats.instance.destroyTimeAfterHit, col));
+        }
+    }
+
+    IEnumerator MonsterPushedBack(float time, Collider enemyCol)
+    {
+        yield return new WaitForSeconds(time);
+        MonsterDestroying.current.Destroy(enemyCol.gameObject);
+    }
+
+    IEnumerator SetChargeFalse()
+    {
+        yield return new WaitForSeconds(PlayerStats.instance.setChargeFalse);
+        charged = false;
     }
 }
