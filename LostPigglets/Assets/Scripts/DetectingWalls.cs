@@ -7,7 +7,10 @@ public class DetectingWalls : MonoBehaviour {
     {
         if (col.gameObject.tag == "Walls")
         {
-            PigMovement.current.nav.SetDestination(transform.position);
+            if (PigMovement.current.nav.enabled)
+            {
+                PigMovement.current.nav.SetDestination(transform.position);
+            }
         }
     }
 }

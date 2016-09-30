@@ -17,10 +17,14 @@ public class PigletManager : MonoBehaviour {
 
     float delay;
     float counter;
+    [HideInInspector]
     public List<GameObject> pigletList = new List<GameObject>(); //List for the piglets
     GameObject[] tempArray;
+    [HideInInspector]
     public List<bool> pigletActiveOink = new List<bool>(); //List to check if the piglet has fired an Oink
+    [HideInInspector]
     public List<bool> pigletPickedUp = new List<bool>();
+    [HideInInspector]
     public List<float> delayList = new List<float>();
     bool preventReset = false;
 

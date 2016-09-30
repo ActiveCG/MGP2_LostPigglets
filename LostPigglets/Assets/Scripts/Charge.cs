@@ -7,7 +7,9 @@ public class Charge : MonoBehaviour {
 
     private int countTouch = 0;
     private float timer = 0;
+    private float chargingTimer = 0;
     private bool startCount = false;
+    //private bool charged = false;
     
 
     void Awake()
@@ -30,6 +32,8 @@ public class Charge : MonoBehaviour {
                 Charging();
             }
         }
+
+        chargingTimer += Time.deltaTime;
     }
 
 
@@ -40,17 +44,21 @@ public class Charge : MonoBehaviour {
         startCount = true;
         if (countTouch == 2 && timer < PlayerStats.instance.doubleTapTime)
         {
+            if (chargingTimer > PlayerStats.instance.chargeCooldown)
+            {
+                //PigMovement.current.nav.Stop();
+                PigMovement.current.nav.enabled = false;
+                GameManager.instance.chargeHit();
+                //Debug.Log("CHARGE!!!!!!");
+                //charged = true;
+                chargingTimer = 0;
+                countTouch = 0;
+                startCount = false;
+                timer = 0;
 
-            //PigMovement.current.nav.Stop();
-            PigMovement.current.nav.enabled = false;
-			GameManager.instance.chargeHit ();  // player charging
-            //Debug.Log("CHARGE!!!!!!");
-            countTouch = 0;
-            startCount = false;
-            timer = 0;
-
-            PigMovement.current.pigRB.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
-            //ChargedOnMonster.instance.ChargeHit();
+                PigMovement.current.pigRB.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
+                //ChargedOnMonster.instance.ChargeHit();
+            }
         }
 
         if (countTouch > 2 || timer > PlayerStats.instance.doubleTapTime)
