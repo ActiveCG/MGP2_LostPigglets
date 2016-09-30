@@ -9,7 +9,7 @@ public class Charge : MonoBehaviour {
     private float timer = 0;
     private float chargingTimer = 0;
     private bool startCount = false;
-    //private bool charged = false;
+    private bool notCharged = true;
     
 
     void Awake()
@@ -44,13 +44,13 @@ public class Charge : MonoBehaviour {
         startCount = true;
         if (countTouch == 2 && timer < PlayerStats.instance.doubleTapTime)
         {
-            if (chargingTimer > PlayerStats.instance.chargeCooldown)
+            if (chargingTimer > PlayerStats.instance.chargeCooldown || notCharged)
             {
                 //PigMovement.current.nav.Stop();
                 PigMovement.current.nav.enabled = false;
                 GameManager.instance.chargeHit();
                 //Debug.Log("CHARGE!!!!!!");
-                //charged = true;
+                notCharged = false;
                 chargingTimer = 0;
                 countTouch = 0;
                 startCount = false;
