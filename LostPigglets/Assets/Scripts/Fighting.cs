@@ -4,26 +4,22 @@ using System.Collections;
 public class Fighting : MonoBehaviour
 {
 
-    public float collisionRadius;
-    float angle;
+    private float angle;
+    private Vector3 direction;
 
-    public static Light spotlight;
-    Vector3 direction;
-    public float lightTimer = 1f;
-    public float cdTimer = 8f;
-    bool stunCD;
 
     void Start()
     {
-        stunCD = true;
-        spotlight = GetComponentInChildren<Light>();
+        PlayerStats.instance.spotlight = GetComponentInChildren<Light>();
     }
+
 
     void Update()
     {
-        Collider[] hitColliders = Physics.OverlapSphere(transform.position, collisionRadius, 1 << LayerMask.NameToLayer("Enemy"));
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, PlayerStats.instance.collisionRadius, 1 << LayerMask.NameToLayer("Enemy"));
         Fight(hitColliders);
     }
+
 
     void Fight(Collider[] col)
     {
@@ -33,7 +29,7 @@ public class Fighting : MonoBehaviour
             direction = (col[i].gameObject.transform.position - transform.position).normalized;
             angle = Vector3.Angle(transform.forward, direction);
             //Debug.Log(angle);
-            if (angle < spotlight.spotAngle / 2f)
+            if (angle < PlayerStats.instance.spotlight.spotAngle / 2f)
             {
                 // MonsterDestroying.current.Destroy(col[i].gameObject);
                 MonsterStun.current.Stun(col[i].gameObject);

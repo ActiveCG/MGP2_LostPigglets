@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PickUp : MonoBehaviour {
-	public static int piggletsCollected = 0;
+	
 
 	//when player picks up something
 	void OnTriggerEnter(Collider other){
@@ -13,17 +13,17 @@ public class PickUp : MonoBehaviour {
 			PickUpPigglet (other.gameObject);
 
 			//check whther all pigglets collected
-			if (piggletsCollected == PlayerStats.instance.piggletsInGame) {
+			if (PlayerStats.instance.piggletsCollected == PlayerStats.instance.piggletsInGame) {
 				GameManager.instance.Win ();
 			}
 		}
 	}
 
 	private void PickUpPigglet(GameObject pigglet) {
-		piggletsCollected++;
+        PlayerStats.instance.piggletsCollected++;
 		//make pigglets follow pig
 		pigglet.transform.rotation = transform.rotation;
-		pigglet.transform.position = transform.position + new Vector3 (0f, 0f, -1.5f * piggletsCollected);
+		pigglet.transform.position = transform.position + new Vector3 (0f, 0f, PlayerStats.instance.pigletsFollowPosZ * PlayerStats.instance.piggletsCollected);
 		pigglet.transform.parent = transform;
 	}
 }
