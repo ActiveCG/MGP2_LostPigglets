@@ -84,7 +84,7 @@ NavMeshSettings:
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
+    maxJumpAcrossDistance: 2.18
     accuratePlacement: 0
     minRegionArea: 2
     cellSize: 0.16666667
