@@ -20,8 +20,25 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013128254954}
   - 95: {fileID: 95000012090908978}
-  m_Layer: 0
+  - 136: {fileID: 136000013584457592}
+  m_Layer: 12
   m_Name: SamanthaDefault
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010050585454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013282693204}
+  - 135: {fileID: 135000011514957160}
+  m_Layer: 11
+  m_Name: Horn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1464,8 +1481,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011669559168}
-  - 136: {fileID: 136000012715674142}
-  - 135: {fileID: 135000011805675400}
   - 54: {fileID: 54000013363042432}
   - 195: {fileID: 195000011472589752}
   - 114: {fileID: 114000010768318096}
@@ -1474,9 +1489,9 @@ GameObject:
   - 114: {fileID: 114000011032030272}
   - 114: {fileID: 114000011663091162}
   - 114: {fileID: 114000012636578102}
-  - 114: {fileID: 114000013608512242}
   - 114: {fileID: 114000011618759922}
   - 114: {fileID: 114000010224320942}
+  - 114: {fileID: 114000010352223046}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2196,6 +2211,7 @@ Transform:
   - {fileID: 4000011042866808}
   - {fileID: 4000013128254954}
   - {fileID: 4000011564190332}
+  - {fileID: 4000013282693204}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &4000011686673588
@@ -2655,6 +2671,19 @@ Transform:
   - {fileID: 4000013486071710}
   m_Father: {fileID: 4000011387640766}
   m_RootOrder: 4
+--- !u!4 &4000013282693204
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010050585454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000011669559168}
+  m_RootOrder: 3
 --- !u!4 &4000013290326984
 Transform:
   m_ObjectHideFlags: 1
@@ -3088,7 +3117,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 15
-  m_SpotAngle: 40
+  m_SpotAngle: 90
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -3156,6 +3185,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterStunned: 0
+--- !u!114 &114000010352223046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013944407680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1476b30b9bd9c41be6ad08a24a8b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000010768318096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3224,17 +3264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c5543bd2b771e42a64b2a9f4189e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114000013608512242
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013944407680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3802d3ba29f58b49852d50e719c90fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000014215944228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3246,24 +3275,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40566536dffd18f4789f03903d95dbe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!135 &135000011805675400
+--- !u!135 &135000011514957160
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013944407680}
+  m_GameObject: {fileID: 1000010050585454}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.23504972
   m_Center: {x: 0, y: 0.75, z: 1.4}
---- !u!136 &136000012715674142
+--- !u!136 &136000013584457592
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013944407680}
+  m_GameObject: {fileID: 1000010024856018}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1

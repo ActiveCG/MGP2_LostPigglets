@@ -20,13 +20,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013708439176}
   - 108: {fileID: 108000013139283450}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PugSkullLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1000012601963690
 GameObject:
   m_ObjectHideFlags: 0
@@ -38,7 +38,9 @@ GameObject:
   - 33: {fileID: 33000011385636002}
   - 23: {fileID: 23000013089833620}
   - 95: {fileID: 95000010943508768}
-  m_Layer: 0
+  - 114: {fileID: 114000010875551186}
+  - 65: {fileID: 65000011763043362}
+  m_Layer: 10
   m_Name: PigSkull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,6 +110,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012601963690}
   m_Mesh: {fileID: 4300000, guid: 54f69a92b6c2ee9409569a58b98d97dc, type: 3}
+--- !u!65 &65000011763043362
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012601963690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 26.524872, y: 34.735603, z: 37.013985}
+  m_Center: {x: 0, y: 17.302616, z: -1.2036438}
 --- !u!95 &95000010943508768
 Animator:
   serializedVersion: 3
@@ -159,3 +173,14 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114000010875551186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012601963690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8810bd4b949cd54a87032b2e4533294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

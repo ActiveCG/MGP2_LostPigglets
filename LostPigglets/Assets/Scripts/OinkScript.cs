@@ -80,9 +80,9 @@ public class OinkScript : MonoBehaviour {
     //Forward vector is the vector you want to measure the angle from
     private float AngleBetweenVector(Vector3 vec1, Vector3 vec2) {
         Vector3 refVector = (vec2 - vec1).normalized; // Find the vector from pig to piglet
-        tempAngle = Vector3.Angle(playerPos.transform.forward.normalized, refVector);
+        tempAngle = Vector3.Angle(playerPos.transform.position.normalized, refVector);
 
-       sign = Vector3.Cross(playerPos.transform.forward, refVector);
+       sign = Vector3.Cross(playerPos.transform.position, refVector);
         if(sign.y < 0) {
             tempAngle = -tempAngle;
             tempAngle = 180f + tempAngle;
@@ -99,7 +99,7 @@ public class OinkScript : MonoBehaviour {
         float newX = (Mathf.Sin(radAngle) * canvasWidthR * 0.8f);
         float newY = (Mathf.Cos(radAngle) * canvasHeightR * 0.8f);
 
-        return new Vector2(canvasCenter.x - newX, canvasCenter.y - newY);
+        return new Vector2(canvasCenter.x + newX, canvasCenter.y + newY);
     }
 
 }

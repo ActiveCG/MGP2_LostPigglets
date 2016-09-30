@@ -11,6 +11,7 @@ public class PlayerStats : MonoBehaviour {
     public Light spotlight;
     public float pigletsFollowPosZ = -1.5f;
     public float chargeSpeed = 2000f;
+    public float chargeCooldown = 8f;
     public float doubleTapTime = 0.5f;
     public float collisionRadius;
     public float rotSpeedFinger = 3f;

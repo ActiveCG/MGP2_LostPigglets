@@ -10,9 +10,8 @@ TagManager:
   - Plane
   - Terain
   - Walls
-  - GUI
   - Oink
-  - PigletMark
+  - GUI
   layers:
   - Default
   - TransparentFX
@@ -25,9 +24,9 @@ TagManager:
   - Player
   - Enemy
   - Landmark
-  - 
-  - 
-  - 
+  - Horn
+  - Body
+  - Walls
   - 
   - 
   - 

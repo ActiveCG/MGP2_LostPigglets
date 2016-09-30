@@ -27,7 +27,7 @@ public class OinkPool : MonoBehaviour {
         }
     }
 
-	// Use this for initialization
+	// Create the pool for the oinks
 	public void CreatePool (List<GameObject> pigletList) {
 
         poolSize = pigletList.Count;
@@ -44,7 +44,8 @@ public class OinkPool : MonoBehaviour {
         }
     }
 
-    public void SpawnOink(int id, Vector3 pigletPos)
+    //Spawn the oinks
+    public void SpawnOink(int id, GameObject pigletPos)
     {
         for(int i = 0; i < oinks.Count; i++)
         {
@@ -52,6 +53,7 @@ public class OinkPool : MonoBehaviour {
             {
                 oinks[i].SetActive(true);
                 oinks[i].GetComponent<OinkScript>().id = id;
+                oinks[i].GetComponent<OinkScript>().pigletPos = pigletPos;
                 break;
             }
         }
