@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PigletScript : MonoBehaviour {
 
-    [HideInInspector]
+   // [HideInInspector]
     public int id;
     [HideInInspector]
     public bool amIPickedUp;
@@ -17,7 +17,7 @@ public class PigletScript : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame
+	// Check if it's has been picked up
 	void Update () {
 
         if (amIPickedUp) {
