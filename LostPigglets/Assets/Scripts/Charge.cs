@@ -7,7 +7,10 @@ public class Charge : MonoBehaviour {
 
     private int countTouch = 0;
     private float timer = 0;
+    private float chargingTimer = 0;
     private bool startCount = false;
+    private bool notCharged = true;
+    private bool charged = false;
     
 
     void Awake()
@@ -30,6 +33,15 @@ public class Charge : MonoBehaviour {
                 Charging();
             }
         }
+
+        chargingTimer += Time.deltaTime;
+
+        //if(PigMovement.current.pigRB.velocity.magnitude < 1f)
+        //{
+        //    //charged = false;
+        //}
+        print(charged);
+        //print(PigMovement.current.pigRB.velocity.magnitude);
     }
 
 
@@ -40,17 +52,23 @@ public class Charge : MonoBehaviour {
         startCount = true;
         if (countTouch == 2 && timer < PlayerStats.instance.doubleTapTime)
         {
+            if (chargingTimer > PlayerStats.instance.chargeCooldown || notCharged)
+            {
+                //PigMovement.current.nav.Stop();
+                PigMovement.current.nav.enabled = false;
+                charged = true;
+                StartCoroutine("SetChargeFalse");
+                //ChargeHit();
+                //Debug.Log("CHARGE!!!!!!");
+                notCharged = false;
+                chargingTimer = 0;
+                countTouch = 0;
+                startCount = false;
+                timer = 0;
 
-            //PigMovement.current.nav.Stop();
-            PigMovement.current.nav.enabled = false;
-			GameManager.instance.chargeHit ();  // player charging
-            //Debug.Log("CHARGE!!!!!!");
-            countTouch = 0;
-            startCount = false;
-            timer = 0;
-
-            PigMovement.current.pigRB.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
-            //ChargedOnMonster.instance.ChargeHit();
+                PigMovement.current.pigRB.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
+                //ChargedOnMonster.instance.ChargeHit();
+            }
         }
 
         if (countTouch > 2 || timer > PlayerStats.instance.doubleTapTime)
@@ -58,11 +76,34 @@ public class Charge : MonoBehaviour {
             countTouch = 0;
             startCount = false;
             timer = 0;
+
         }
     }
 
-    public void ChargeHit()
+    //public void ChargeHit()
+    //{
+    //    GameManager.instance.ChargeOnStun(GetComponent<Collider>());
+    //}
+
+    void OnTriggerEnter(Collider col)
     {
-        GameManager.instance.ChargeOnStun(GetComponent<Collider>());
+        if (col.tag == "Enemy" && MonsterStun.current.monsterStunned && charged)
+        {
+            Debug.Log("Hit the enemy");
+            ///////PLAY ANIMATION/////////
+            StartCoroutine(MonsterPushedBack(MonsterStats.instance.destroyTimeAfterHit, col));
+        }
+    }
+
+    IEnumerator MonsterPushedBack(float time, Collider enemyCol)
+    {
+        yield return new WaitForSeconds(time);
+        MonsterDestroying.current.Destroy(enemyCol.gameObject);
+    }
+
+    IEnumerator SetChargeFalse()
+    {
+        yield return new WaitForSeconds(PlayerStats.instance.setChargeFalse);
+        charged = false;
     }
 }

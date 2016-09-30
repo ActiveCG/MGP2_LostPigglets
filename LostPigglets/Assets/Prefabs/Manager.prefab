@@ -76,6 +76,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1000012877885858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011215210358}
+  - 114: {fileID: 114000014280751674}
+  m_Layer: 0
+  m_Name: PigletManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1000012940022496
 GameObject:
   m_ObjectHideFlags: 0
@@ -87,6 +103,22 @@ GameObject:
   - 114: {fileID: 114000010082586802}
   m_Layer: 0
   m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013427070374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013132361632}
+  - 114: {fileID: 114000014061511010}
+  m_Layer: 0
+  m_Name: EnvironmentManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,6 +139,8 @@ Transform:
   - {fileID: 4000011209908238}
   - {fileID: 4000013440942388}
   - {fileID: 4000011452064528}
+  - {fileID: 4000011215210358}
+  - {fileID: 4000013132361632}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &4000011178321816
@@ -135,6 +169,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000010000717646}
   m_RootOrder: 1
+--- !u!4 &4000011215210358
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012877885858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010000717646}
+  m_RootOrder: 4
 --- !u!4 &4000011452064528
 Transform:
   m_ObjectHideFlags: 1
@@ -148,6 +195,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000010000717646}
   m_RootOrder: 3
+--- !u!4 &4000013132361632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013427070374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010000717646}
+  m_RootOrder: 5
 --- !u!4 &4000013440942388
 Transform:
   m_ObjectHideFlags: 1
@@ -175,12 +235,13 @@ MonoBehaviour:
   piggletsCollected: 0
   spotlight: {fileID: 0}
   pigletsFollowPosZ: -1.5
-  piggletsInGame: 2
   chargeSpeed: 2000
+  chargeCooldown: 8
   doubleTapTime: 0.5
   collisionRadius: 6
-  cameraOffset: {x: 0, y: 20, z: -4}
   rotSpeedFinger: 3
+  piggletsInGame: 2
+  cameraOffset: {x: 0, y: 20, z: -4}
   rotationOffset: {x: 0, y: 7.5, z: 0}
 --- !u!114 &114000011586531204
 MonoBehaviour:
@@ -188,13 +249,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012768797780}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 129779e130a82df4fa19d425cc26f957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tapTimeForMoving: 0.1
   plane: {fileID: 0}
+  tapTimeForMoving: 0.1
 --- !u!114 &114000013160568396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -218,27 +279,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPlaces: []
-  poolAmount: 1
   Time1stSpawnMonster: 2
   repeatTimeSpawn: 0.5
-  enemy: {fileID: 1000010112326358, guid: 732e1d8c3d16ed04d841ccb9e9dffaa7, type: 2}
   BlindingTimer: 1
   cooldownTimer: 8
   monsterStunTime: 2
   destroyTimeAfterHit: 0.5
+  poolAmount: 1
+  enemy: {fileID: 1000010112326358, guid: 732e1d8c3d16ed04d841ccb9e9dffaa7, type: 2}
 --- !u!114 &114000013885245646
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012768797780}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54c7c2d99c988284fa1f581d2b240a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tapTime: 0.5
   plane: {fileID: 0}
+--- !u!114 &114000014061511010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013427070374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978c296ca650ef44798020bd6b51535a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emissionColor: {x: 1, y: 1, z: 1}
 --- !u!114 &114000014214534932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -250,3 +323,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c16151c0fe7d5945b38ae1c4184b1f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114000014280751674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012877885858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afda477ee991cf4c8a82444d0edeebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minDelay: 10
+  maxDelay: 15
+  pigletList: []
+  pigletActiveOink: 
+  pigletPickedUp: 
+  delayList: []
