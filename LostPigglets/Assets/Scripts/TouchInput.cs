@@ -2,21 +2,17 @@
 using System.Collections;
 public class TouchInput : MonoBehaviour
 {
-    //public delegate void MovementInput(Vector3 position);
 
-    //public static event MovementInput move;
-    //public static event MovementInput rotate;
-
+    [HideInInspector]
+    public Collider plane;
     private float timer;
     private float distance;
     private Plane groundPlane;
     private Ray ray;
-
     RaycastHit hit;
-    //RaycastHit collided;
 
-    public float tapTime = 0.2f;
-    public Collider plane;
+    public float tapTimeForMoving = 0.2f;
+
 
     void Start()
     {
@@ -74,7 +70,7 @@ public class TouchInput : MonoBehaviour
                 
             }
 
-            if (Input.GetTouch(0).phase == TouchPhase.Ended && timer < tapTime)
+            if (Input.GetTouch(0).phase == TouchPhase.Ended && timer < tapTimeForMoving)
             {
                 PigMovement.current.nav.enabled = true;
                 Moving();

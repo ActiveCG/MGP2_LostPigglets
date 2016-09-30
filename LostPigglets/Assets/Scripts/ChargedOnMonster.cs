@@ -4,7 +4,7 @@ using System.Collections;
 public class ChargedOnMonster : MonoBehaviour {
 
     public static ChargedOnMonster instance;
-    public float timeAfterHit = 0;
+    
 
     void Awake()
     {
@@ -27,7 +27,7 @@ public class ChargedOnMonster : MonoBehaviour {
         {
             //Debug.Log("Hit the enemy");
             ///////PLAY ANIMATION/////////
-            StartCoroutine(MonsterPushedBack(timeAfterHit, col));
+            StartCoroutine(MonsterPushedBack(MonsterStats.instance.destroyTimeAfterHit, col));
         }
     }
 

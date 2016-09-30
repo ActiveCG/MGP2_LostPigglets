@@ -5,25 +5,25 @@ public class MonsterStun : MonoBehaviour
 {
 
     public static MonsterStun current;
+  
 
-    public float lightTimer = 1f;
-    public float cdTimer = 8f;
-    public float monsterStunTime = 2f;
-
-    bool monsterNewDes = false;
-    bool canStun;
     [HideInInspector]
     public bool monsterStunned = false;
+    private bool monsterNewDes = false;
+    private bool canStun;
+
 
     void Awake()
     {
         current = this;
     }
 
+
     void Start()
     {
         canStun = true;
     }
+
 
     public void Stun(GameObject obj)
     {
@@ -33,25 +33,31 @@ public class MonsterStun : MonoBehaviour
             obj.GetComponent<NavMeshAgent>().Stop();
 			GameManager.instance.monsterNotMoving (obj); //monster stops swimming
             monsterStunned = true;
-            Fighting.spotlight.intensity = 8;
+            PlayerStats.instance.spotlight.intensity = 8;
             StartCoroutine("LightCooldown");
             StartCoroutine("Cooldown");
             StartCoroutine(MonsterCooldown(obj));
         }
     }
+
+
     IEnumerator LightCooldown()
     {
-        yield return new WaitForSeconds(lightTimer);
-        Fighting.spotlight.intensity = 2;
+        yield return new WaitForSeconds(MonsterStats.instance.BlindingTimer);
+        PlayerStats.instance.spotlight.intensity = 2;
     }
+
+
     IEnumerator Cooldown()
     {
-        yield return new WaitForSeconds(cdTimer);
+        yield return new WaitForSeconds(MonsterStats.instance.cooldownTimer);
         canStun = true;
     }
+
+
     IEnumerator MonsterCooldown(GameObject obj)
     {
-        yield return new WaitForSeconds(monsterStunTime);
+        yield return new WaitForSeconds(MonsterStats.instance.monsterStunTime);
         obj.GetComponent<NavMeshAgent>().Resume();
         monsterStunned = false;
 		GameManager.instance.monsterMove (obj); //monster starts swimming

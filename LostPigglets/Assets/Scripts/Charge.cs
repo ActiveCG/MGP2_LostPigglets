@@ -5,11 +5,10 @@ public class Charge : MonoBehaviour {
 
     public static Charge instance;
 
-    int countTouch = 0;
-    float timer = 0;
-    bool startCount = false;
-    public float chargeSpeed;
-    public float doubleTapTime = 1f;
+    private int countTouch = 0;
+    private float timer = 0;
+    private bool startCount = false;
+    
 
     void Awake()
     {
@@ -39,7 +38,7 @@ public class Charge : MonoBehaviour {
 
         countTouch++;
         startCount = true;
-        if (countTouch == 2 && timer < doubleTapTime)
+        if (countTouch == 2 && timer < PlayerStats.instance.doubleTapTime)
         {
 
             //PigMovement.current.nav.Stop();
@@ -50,11 +49,11 @@ public class Charge : MonoBehaviour {
             startCount = false;
             timer = 0;
 
-            PigMovement.current.pigRB.AddForce(transform.forward * chargeSpeed);
+            PigMovement.current.pigRB.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
             //ChargedOnMonster.instance.ChargeHit();
         }
 
-        if (countTouch > 2 || timer > doubleTapTime)
+        if (countTouch > 2 || timer > PlayerStats.instance.doubleTapTime)
         {
             countTouch = 0;
             startCount = false;
