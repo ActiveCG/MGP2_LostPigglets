@@ -19,7 +19,6 @@ public class PigSkull : MonoBehaviour {
 
     //Activate the light on the skull, and change the emission color.
     public void ActivateLight() {
-        Debug.Log("ACTIVATE!");
         transform.GetChild(0).gameObject.SetActive(true);
         mat.EnableKeyword("_EMISSION");
         Color baseColor = new Color(r, g, b, 1.0f);

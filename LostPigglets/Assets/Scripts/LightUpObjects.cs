@@ -20,7 +20,6 @@ public class LightUpObjects : MonoBehaviour {
     void LightUpObject(Collider[] col) {
 
         for (int i = 0; i < col.Length; i++) {
-            Debug.Log(col[i]);
             direction = (col[i].gameObject.transform.position - transform.position).normalized;
             angle = Vector3.Angle(transform.forward, direction);
             if (angle < PlayerStats.instance.spotlight.spotAngle / 2f) {
