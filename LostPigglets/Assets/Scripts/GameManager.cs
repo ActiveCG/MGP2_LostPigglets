@@ -65,6 +65,12 @@ public class GameManager {
 		SceneManager.LoadScene ("GameOver");
 	}
 
+	public void QuitGame() {
+		_instance = null;
+		ambienceStop (audioManager.gameObject);
+		Application.Quit ();
+	}
+
 	//delegates
 	//**** player ****
 	public delegate void MovementInput(Vector3 position);
