@@ -31,7 +31,7 @@ public class AnimatorManager : MonoBehaviour {
 		//cameraAnim.SetTrigger ("pickupSequence");
 		Transform pigletMark = Piglet.transform.FindChild("PigletMark");
 		pigletMark.parent = null;
-		pigletMark.rotation = Quaternion.identity;
+		//pigletMark.rotation = Quaternion.identity;
 		cameraAnim.gameObject.transform.parent = pigletMark;
 		cameraAnim.enabled = true;
 	}
