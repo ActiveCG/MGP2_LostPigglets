@@ -9,6 +9,7 @@ public class GameManager {
 
 	private static GameManager _instance;
 
+    private GameObject _monster;
 	private GameObject _player;
 	private AudioManager _audioManager;
 
@@ -150,7 +151,7 @@ public class GameManager {
 		if(OnMonsterAttack != null)
 			OnMonsterAttack (monster);
 	}
-	public void MonsterAggros(GameObject monster) {
+	public void MonsterAggro(GameObject monster) {
 		if(OnMonsterAggro != null)
 			OnMonsterAggro (monster);
 	}

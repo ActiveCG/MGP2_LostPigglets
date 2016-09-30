@@ -5,10 +5,13 @@ public class MoveEnemies : MonoBehaviour
 {
     //private GameObject pig;
     private NavMeshAgent nav;
-    private bool isInRange = true;
     private bool canJump = true;
+    private bool canAttack = false;
+    private bool canResume = false;
+    private bool canSearch = true;
     private float timer;
 
+    [HideInInspector]
     public bool isSwimming;
     [Tooltip("The duration time the player has to be in range before dying")]
     public float timeToDeath = 8f;
@@ -18,24 +21,26 @@ public class MoveEnemies : MonoBehaviour
     public int deathAnimTime = 3;
     [Tooltip("The range where the monster should be attacking")]
     public int attackRange;
-    [Tooltip("This value is excluded")]
+    [Tooltip("The range where the monster should be searching")]
+    public int visibilityRange;
+    [Tooltip("This value is excluded as in jumping-1")]
     public int jumping;
-   
+
     [HideInInspector]
     public Transform target;
 
     void OnEnable()
     {
-        GameManager.instance.OnMonsterAttack += Attack;
         GameManager.instance.OnMonsterJump += Jump;
-        GameManager.instance.OnMonsterAggro += Aggro;
+        GameManager.instance.OnMonsterAttack += Attack;
+        GameManager.instance.OnMonsterAggro += Search;
     }
 
     void OnDisable()
     {
-        GameManager.instance.OnMonsterAttack -= Attack;
         GameManager.instance.OnMonsterJump -= Jump;
-        GameManager.instance.OnMonsterAggro -= Aggro;
+        GameManager.instance.OnMonsterAttack -= Attack;
+        GameManager.instance.OnMonsterAggro -= Search;
     }
 
     void Start()
@@ -48,51 +53,61 @@ public class MoveEnemies : MonoBehaviour
     void Update()
     {
         nav.SetDestination(target.position); //move towards target
+        // If the monster can jump and the value between 1 and jumping-1 it will jump
         if (Random.Range(1, jumping) == 1 && canJump == true)
         {
-            Jump(gameObject);
+            GameManager.instance.MonsterJump(gameObject);
         }
-        if (Vector3.Distance(transform.position, target.transform.position) < attackRange)
+        // If the monster is inside the attackRange and canAttack is true the monster can kill the player
+        if (Vector3.Distance(transform.position, target.transform.position) < attackRange && canAttack == true)
         {
-            isInRange = true;
-            Aggro(gameObject);
             timer += Time.deltaTime;
-            Debug.Log("InRange");
             if (timer > timeToDeath)
             {
-                Attack(gameObject);
+                GameManager.instance.MonsterAttacks(gameObject);
+                canSearch = true;
+                canAttack = false;
+                timer = 0;
             }
         }
-        else isInRange = false;
+        // If the monster is outside the attackRange it resumes chasing
+        if (Vector3.Distance(transform.position, target.transform.position) > attackRange && canResume == true)
+        {
+            nav.Resume();
+            canAttack = false;
+            canResume = false;
+            canSearch = true;
+        }
+        // If the monster is inside the visibilityRange it starts searching
+        if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange == canSearch == true)
+        {
+            GameManager.instance.MonsterAggro(gameObject);
+        }
     }
 
     void Jump(GameObject monster)
     {
-        Debug.Log("Jump");
         canJump = false;
         StartCoroutine("AnimationCD");
     }
 
-    void Aggro(GameObject monster)
+    void Search(GameObject monster)
     {
-
+        canJump = false;
+        canSearch = false;
+        canAttack = true;
+        canResume = true;
+        nav.Stop();
     }
 
     void Attack(GameObject monster)
     {
-        Debug.Log("DeathAnimation");
-        StartCoroutine("DeathAnimationTime");
+        canJump = false;
     }
 
     IEnumerator AnimationCD()
     {
         yield return new WaitForSeconds(jumpingCooldownTimer);
         canJump = true;
-    }
-
-    IEnumerator DeathAnimationTime()
-    {
-        yield return new WaitForSeconds(deathAnimTime);
-        GameManager.instance.GameOver();
     }
 }
