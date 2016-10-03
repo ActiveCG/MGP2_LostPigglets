@@ -9,6 +9,7 @@ public class AnimatorManager : MonoBehaviour {
 
 	//*********** Player ****************
 	void AM_PlayerSwim(Vector3 position){
+        Debug.Log("I am in");
 		if (isPlayerSwimming == true)
 			return;
 		playerAnim.SetBool ("isPigSwimming", true);

@@ -5,7 +5,7 @@ public class DetectingWalls : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-            print("Impact");
+            //print("Impact");
         if (col.gameObject.tag == "Walls" && (TouchInput.instance.hitInfo.collider.tag == "Terain"))
         {
             if (PigMovement.current.nav.enabled)
