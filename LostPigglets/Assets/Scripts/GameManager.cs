@@ -210,14 +210,14 @@ public class GameManager {
 	}
 
     //**** charging ****
-    public delegate void ChargeAction(Collider col);
-    public event ChargeAction OnChargeOnStun;
+    //public delegate void ChargeAction(Collider col);
+    //public event ChargeAction OnChargeOnStun;
 
-    public void ChargeOnStun(Collider col)
-    {
-        if(OnChargeOnStun != null)
-        {
-            OnChargeOnStun(col);
-        }
-    }
+    //public void ChargeOnStun(Collider col)
+    //{
+    //    if(OnChargeOnStun != null)
+    //    {
+    //        OnChargeOnStun(col);
+    //    }
+    //}
 }
