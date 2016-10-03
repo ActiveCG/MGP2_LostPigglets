@@ -50,6 +50,13 @@ public class Charge : MonoBehaviour {
         //print(PigMovement.current.pigRB.velocity.magnitude);
     }
 
+    void FixedUpdate()
+    {
+        if (charged)
+        {
+            playerRigidBody.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
+        }
+    }
 
     public void Charging()
     {
@@ -70,8 +77,6 @@ public class Charge : MonoBehaviour {
                 countTouch = 0;
                 startCount = false;
                 timer = 0;
-
-                playerRigidBody.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
             }
         }
 
