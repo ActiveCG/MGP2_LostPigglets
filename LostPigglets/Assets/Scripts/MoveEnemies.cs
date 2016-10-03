@@ -66,6 +66,7 @@ public class MoveEnemies : MonoBehaviour
             {
                 GameManager.instance.MonsterAttacks(gameObject);
                 canSearch = true;
+                canResume = false;
                 canAttack = false;
                 timer = 0;
             }
@@ -73,6 +74,7 @@ public class MoveEnemies : MonoBehaviour
         // If the monster is outside the attackRange it resumes chasing
         if (Vector3.Distance(transform.position, target.transform.position) > attackRange && canResume == true)
         {
+            GameManager.instance.MonsterOutRange(gameObject);
             nav.Resume();
             canAttack = false;
             canResume = false;
@@ -82,6 +84,9 @@ public class MoveEnemies : MonoBehaviour
         if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange == canSearch == true)
         {
             GameManager.instance.MonsterAggro(gameObject);
+            canSearch = false;
+            canAttack = true;
+            canResume = true;
         }
     }
 
@@ -94,9 +99,6 @@ public class MoveEnemies : MonoBehaviour
     void Search(GameObject monster)
     {
         canJump = false;
-        canSearch = false;
-        canAttack = true;
-        canResume = true;
         nav.Stop();
     }
 

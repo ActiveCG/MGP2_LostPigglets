@@ -47,7 +47,12 @@ public class AnimatorManager : MonoBehaviour
 
     void AM_Attack(GameObject monster)
     {
-        monster.GetComponentInChildren<Animator>().SetBool("isAttacking", true);
+        monster.GetComponentInChildren<Animator>().SetTrigger("isAttacking");
+    }
+
+    void AM_OutRange(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetBool("isSearching", false);
     }
 
     void OnEnable()
@@ -59,6 +64,7 @@ public class AnimatorManager : MonoBehaviour
         GameManager.instance.OnPlayerNotMoving += AM_PlayerSwimStop;
         GameManager.instance.OnChargeHit += AM_Charge;
         //monster events
+        GameManager.instance.OnMonsterOutOfRange += AM_OutRange;
         GameManager.instance.OnMonsterJump += AM_Slink;
         GameManager.instance.OnMonsterAttack += AM_Attack;
         GameManager.instance.OnMonsterAggro += AM_Search;
@@ -70,6 +76,7 @@ public class AnimatorManager : MonoBehaviour
         GameManager.instance.OnPlayerNotMoving -= AM_PlayerSwimStop;
         GameManager.instance.OnChargeHit -= AM_Charge;
         //monster events
+        GameManager.instance.OnMonsterOutOfRange -= AM_OutRange;
         GameManager.instance.OnMonsterJump -= AM_Slink;
         GameManager.instance.OnMonsterAttack -= AM_Attack;
         GameManager.instance.OnMonsterAggro -= AM_Search;

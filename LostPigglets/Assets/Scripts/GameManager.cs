@@ -128,6 +128,7 @@ public class GameManager {
 	public delegate void MonsterAction(GameObject monster);
 	public event MonsterAction OnMonsterMove;
 	public event MonsterAction OnMonsterNotMoving;
+    public event MonsterAction OnMonsterOutOfRange;
     public event MonsterAction OnMonsterJump;
     public event MonsterAction OnMonsterAttack;
 	public event MonsterAction OnMonsterAggro;
@@ -143,6 +144,11 @@ public class GameManager {
 		if(OnMonsterNotMoving != null)
 			OnMonsterNotMoving (monster);
 	}
+    public void MonsterOutRange(GameObject monster)
+    {
+        if (OnMonsterOutOfRange != null)
+            OnMonsterOutOfRange(monster);
+    }
     public void MonsterJump(GameObject monster) {
         if (OnMonsterJump != null)
             OnMonsterJump(monster);
