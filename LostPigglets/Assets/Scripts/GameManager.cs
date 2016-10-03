@@ -9,6 +9,7 @@ public class GameManager {
 
 	private static GameManager _instance;
 
+    private GameObject _monster;
 	private GameObject _player;
 	private AudioManager _audioManager;
 
@@ -127,7 +128,9 @@ public class GameManager {
 	public delegate void MonsterAction(GameObject monster);
 	public event MonsterAction OnMonsterMove;
 	public event MonsterAction OnMonsterNotMoving;
-	public event MonsterAction OnMonsterAttack;
+    public event MonsterAction OnMonsterOutOfRange;
+    public event MonsterAction OnMonsterJump;
+    public event MonsterAction OnMonsterAttack;
 	public event MonsterAction OnMonsterAggro;
 	public event MonsterAction OnMonsterGrowlAmb;
 	public event MonsterAction OnMonsterGrowlAmbStop;
@@ -141,11 +144,20 @@ public class GameManager {
 		if(OnMonsterNotMoving != null)
 			OnMonsterNotMoving (monster);
 	}
+    public void MonsterOutRange(GameObject monster)
+    {
+        if (OnMonsterOutOfRange != null)
+            OnMonsterOutOfRange(monster);
+    }
+    public void MonsterJump(GameObject monster) {
+        if (OnMonsterJump != null)
+            OnMonsterJump(monster);
+    }
 	public void MonsterAttacks(GameObject monster) {
 		if(OnMonsterAttack != null)
 			OnMonsterAttack (monster);
 	}
-	public void MonsterAggros(GameObject monster) {
+	public void MonsterAggro(GameObject monster) {
 		if(OnMonsterAggro != null)
 			OnMonsterAggro (monster);
 	}
