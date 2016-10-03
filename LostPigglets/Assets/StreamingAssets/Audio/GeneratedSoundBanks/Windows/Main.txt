@@ -1,0 +1,115 @@
+Event	ID	Name			Wwise Object Path	Notes
+	938529747	Menu_Button			\Default Work Unit\Menu_Button	
+	1496310610	Ambience_Play			\Default Work Unit\Ambience_Play	
+	1548288955	Pig_Swim_Start			\Default Work Unit\Pig_Swim_Start	
+	1632505953	Monster_Swim_Start			\Default Work Unit\Monster_Swim_Start	
+	1750874649	Pig_Swim_Stop			\Default Work Unit\Pig_Swim_Stop	
+	2522003227	Pig_Squeal			\Default Work Unit\Pig_Squeal	
+	3166394572	Ambience_Stop			\Default Work Unit\Ambience_Stop	
+	3456914341	Piglet_Grunt			\Default Work Unit\Piglet_Grunt	
+	3461698459	Monster_Swim_Stop			\Default Work Unit\Monster_Swim_Stop	
+	4036007832	Piglet_Oink			\Default Work Unit\Piglet_Oink	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2604644515	Menus			\Default Work Unit\Menus	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Menus			
+	1631528850	In_Menu	Menus			
+	2967546505	In_Game	Menus			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	123789667	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink		
+	211964614	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Monster Swim Temp		
+	304848893	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Pig Swim Temp		
+	530433745	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Ambience		
+	844083297	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal		
+	1007119524	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3074696722	SS_Air_Size			\Factory SoundSeed Air Game Syncs\SS_Air_Size	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	663911219	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Default Work Unit\Pig Swim Temp\SoundSeed Wind	
+	665485202	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Default Work Unit\Monster Swim Temp\SoundSeed Wind	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4148850	Water Drop_11	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_11		18370
+	24194782	Pig Squeal_10	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_10		27626
+	26525294	Piglet Oink Bubble_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble_3		57174
+	30420553	Water Drop_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_6		25386
+	48923746	Bats_9	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_9		673704
+	71185255	Water Drop_25	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_25_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_25		10132
+	72094659	Water Drop	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop		16538
+	86857199	Water Drop_28	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_28_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_28		13336
+	91881920	Pig Squeal_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_1		29658
+	98314906	Pig Squeal_12	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_12_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_12		20780
+	117339204	Pig Squeal_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_8		28672
+	145541140	Piglet Grunt_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt_3		42578
+	167772588	Water Drop_16	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_16_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_16		22640
+	172806222	Piglet Grunt_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt_2		47324
+	178309760	Piglet Grunt_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt_1		40746
+	201720044	Pig Squeal_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_2		32052
+	254182227	Water Drop_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_2		14708
+	258290485	Pig Squeal_9	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_9		24232
+	266652559	Bats_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_2		782440
+	271480835	Bats_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_4		572036
+	272873549	Water Drop_10	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_10		15166
+	280780108	Pig Squeal_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_4		28700
+	285799403	Bats_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_5		729400
+	299204162	Water Drop_24	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_24_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_24		18216
+	300654096	Pig Squeal_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_6		28178
+	311725679	Water Drop_23	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_23_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_23		11658
+	335742970	Bats_13	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_13_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_13		999032
+	340566772	Piglet Oink Bubble	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble		84478
+	345045986	Water Drop_15	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_15_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_15		14556
+	366673302	Water Drop_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_7		19438
+	367240828	Piglet Grunt	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt		40504
+	369099336	Bats_12	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_12_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_12		908860
+	372074762	Pig Squeal_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_5		26452
+	382917414	Water Drop_26	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_26_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_26		13030
+	387188291	Piglet Oink Bubble_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble_8		64456
+	389814778	Pig Squeal_11	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_11		29310
+	398911237	Water Drop_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_5		12878
+	423135228	Water Drop_21	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_21_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_21		13030
+	443091155	Water Drop_20	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_20_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_20		15244
+	451776431	Water Drop_13	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_13_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_13		29048
+	462194035	Bats_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_7		968976
+	480976643	Bats	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats		568504
+	485042121	Bats_15	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_15_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_15		859352
+	490274137	Pig Squeal_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_7		31630
+	493937495	Piglet Oink Bubble_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble_5		66048
+	526843189	Bats_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_8		693152
+	532198382	Piglet Oink Bubble_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble_4		61042
+	547755241	Water Drop_14	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_14_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_14		29202
+	549609097	Water Drop_9	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_9		16388
+	555880611	Piglet Oink Bubble_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble_1		62636
+	557499383	Water Drop_12	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_12_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_12		17302
+	561650784	Bats_10	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_10		718792
+	563456386	Water Drop_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_4		16386
+	581616497	Piglet Grunt_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt_5		39528
+	618103567	Pig Squeal_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_3		30530
+	623803512	Piglet Oink Bubble_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble_2		63090
+	623874489	Bats_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_3		870848
+	630539066	Water Drop_18	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_18_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_18		23710
+	703208946	Bats_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_6		816916
+	707061040	Water Drop_17	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_17_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_17		20658
+	725028944	Piglet Oink Bubble_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble_6		54216
+	777465957	Piglet Grunt_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt_7		44520
+	778128938	Piglet Grunt_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt_4		40748
+	803060998	Bats_11	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_11		911508
+	866445184	Water Drop_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_3		15472
+	871776220	Water Drop_19	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_19_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_19		22946
+	883036533	Water Drop_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_1		16540
+	888290984	Piglet Grunt_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt_6		46106
+	889103255	Water Drop_22	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_22_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_22		17148
+	889288471	Piglet Grunt_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Grunt_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Grunt\Piglet Grunt_8		38062
+	892557359	Water Drop_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_8		14708
+	911605113	Water Drop_27	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Water Drop_27_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_27		11352
+	944902428	Bats_16	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_16_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_16		797468
+	1011490869	Bats_14	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_14_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_14		722324
+	1019371492	Pig Squeal_13	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_13_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal_13		30984
+	1050011013	Piglet Oink Bubble_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Piglet Oink Bubble_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet Oink\Piglet Oink Bubble_7		51030
+	1052571594	Pig Squeal	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Pig Squeal_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Squeal\Pig Squeal		29660
+	1058630686	Bats_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\Windows\SFX\Bats_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_1		770064
+
