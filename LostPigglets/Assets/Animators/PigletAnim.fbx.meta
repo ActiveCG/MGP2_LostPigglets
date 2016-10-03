@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: f559f3a1cc375994caee50b093bb6a0f
-timeCreated: 1475227771
+guid: 35c1479431017c74db15c2560e99e725
+timeCreated: 1475490234
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -197,8 +197,8 @@ ModelImporter:
     400186: Piglet:jnt_spine_05
     400188: Piglet:nrb_spine_01
     400190: //RootNode
-    7400000: CutscenePiglet
-    7400002: Idle
+    7400000: Idle
+    7400002: IdleJump
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -222,17 +222,17 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: CutscenePiglet
+      name: Idle
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 160
+      lastFrame: 4
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -444,17 +444,17 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Idle
+      name: IdleJump
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 2
+      lastFrame: 42
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

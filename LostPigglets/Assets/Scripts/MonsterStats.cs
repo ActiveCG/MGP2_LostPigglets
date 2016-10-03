@@ -6,7 +6,7 @@ public class MonsterStats : MonoBehaviour {
 
     public static MonsterStats instance;
 
-    [HideInInspector]
+    //[HideInInspector]
     public List<Transform> spawnPlaces = new List<Transform>();
     public float Time1stSpawnMonster = 2f;
     public float repeatTimeSpawn = 0.5f;
