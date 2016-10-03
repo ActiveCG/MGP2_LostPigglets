@@ -50,6 +50,7 @@ public class OldTouchInput : MonoBehaviour
                 rotateChar();
                 rBody.AddRelativeForce(Vector3.forward * PlayerStats.instance.acceleration);
                 GameManager.instance.move(hit.point);
+
             }
             else
             {

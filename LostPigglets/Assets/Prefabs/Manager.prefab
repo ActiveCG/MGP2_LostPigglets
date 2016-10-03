@@ -238,7 +238,7 @@ MonoBehaviour:
   spotlight: {fileID: 0}
   pigletsFollowPosZ: -1.5
   chargeSpeed: 800
-  chargeCooldown: 1
+  chargeCooldown: 3
   doubleTapTime: 0.5
   collisionRadiusMonster: 10
   rotSpeedFinger: 3

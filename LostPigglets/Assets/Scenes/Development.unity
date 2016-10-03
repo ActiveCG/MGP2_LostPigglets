@@ -288,21 +288,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114000010082586802, guid: 87faded5c5dbd9040a36cbdcc39302bb,
-        type: 2}
-      propertyPath: cameraOffset.y
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010082586802, guid: 87faded5c5dbd9040a36cbdcc39302bb,
-        type: 2}
-      propertyPath: cameraOffset.z
-      value: -9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010082586802, guid: 87faded5c5dbd9040a36cbdcc39302bb,
-        type: 2}
-      propertyPath: chargeCooldown
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87faded5c5dbd9040a36cbdcc39302bb, type: 2}
   m_IsPrefabParent: 0
@@ -480,53 +465,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 26.524874, y: 34.735603, z: 37.013985}
   m_Center: {x: 0.00000003587138, y: 17.302616, z: -1.2036438}
---- !u!1001 &487408954
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1758772242}
-    m_Modifications:
-    - target: {fileID: 4000013049391074, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013049391074, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.333
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013049391074, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013049391074, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013049391074, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013049391074, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013049391074, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000013049391074, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011639600870, guid: 36a0386571ff5b549836f34272c3914c,
-        type: 2}
-      propertyPath: m_Text
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 36a0386571ff5b549836f34272c3914c, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &487956379
 Prefab:
   m_ObjectHideFlags: 0
@@ -929,7 +867,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011669559168, guid: 56fd4acb24fca454887b98d1532e5878, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 7.5
+      value: 8.6
       objectReference: {fileID: 0}
     - target: {fileID: 4000011669559168, guid: 56fd4acb24fca454887b98d1532e5878, type: 2}
       propertyPath: m_LocalPosition.z
@@ -955,19 +893,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 54000013363042432, guid: 56fd4acb24fca454887b98d1532e5878,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 80
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56fd4acb24fca454887b98d1532e5878, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1758772242 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4000011669559168, guid: 56fd4acb24fca454887b98d1532e5878,
-    type: 2}
-  m_PrefabInternal: {fileID: 1758772241}
 --- !u!1 &1962993646 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000012450643130, guid: 2acb540a6a0dee64d912a72e69e880b7,
