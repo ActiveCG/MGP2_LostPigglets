@@ -135,6 +135,7 @@ public class GameManager {
 	public event MonsterAction OnMonsterGrowlAmb;
 	public event MonsterAction OnMonsterGrowlAmbStop;
 	public event MonsterAction OnMonsterStun;
+    public event MonsterAction OnMonsterRecoil;
 	public event MonsterAction OnMonsterDeath;
 	public void monsterMove(GameObject monster) {
 		if(OnMonsterMove != null)
@@ -144,6 +145,11 @@ public class GameManager {
 		if(OnMonsterNotMoving != null)
 			OnMonsterNotMoving (monster);
 	}
+    public void MonsterRecoil(GameObject monster)
+    {
+        if (OnMonsterRecoil != null)
+            OnMonsterRecoil(monster);
+    }
     public void MonsterOutRange(GameObject monster)
     {
         if (OnMonsterOutOfRange != null)
