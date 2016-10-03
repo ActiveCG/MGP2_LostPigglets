@@ -81,6 +81,7 @@ public class MoveEnemies : MonoBehaviour
             canAttack = false;
             canResume = false;
             canSearch = true;
+            timer = 0;
         }
         // If the monster is inside the visibilityRange it starts searching
         if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange == canSearch == true && MonsterStun.current.monsterStunned == false)
