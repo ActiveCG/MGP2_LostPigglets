@@ -15,8 +15,8 @@ public class OinkPool : MonoBehaviour {
 
     [HideInInspector]
     public List<GameObject> oinks;
-    [HideInInspector]
-    public GameObject oinkPoolParent;
+    //[HideInInspector]
+    //public GameObject oinkPoolParent;
 
 
     void Awake()
@@ -31,7 +31,7 @@ public class OinkPool : MonoBehaviour {
 	public void CreatePool (List<GameObject> pigletList) {
 
         poolSize = pigletList.Count;
-        oinkPoolParent = new GameObject();
+        //oinkPoolParent = new GameObject();
 
         for(int i = 0; i < poolSize; i++)
         {

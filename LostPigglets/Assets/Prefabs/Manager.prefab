@@ -236,10 +236,11 @@ MonoBehaviour:
   spotlight: {fileID: 0}
   pigletsFollowPosZ: -1.5
   chargeSpeed: 2000
-  chargeCooldown: 8
+  chargeCooldown: 1
   doubleTapTime: 0.5
-  collisionRadius: 6
+  collisionRadius: 10
   rotSpeedFinger: 3
+  setChargeFalse: 1
   piggletsInGame: 2
   cameraOffset: {x: 0, y: 20, z: -4}
   rotationOffset: {x: 0, y: 7.5, z: 0}
@@ -249,7 +250,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012768797780}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 129779e130a82df4fa19d425cc26f957, type: 3}
   m_Name: 
@@ -283,7 +284,7 @@ MonoBehaviour:
   repeatTimeSpawn: 0.5
   BlindingTimer: 1
   cooldownTimer: 8
-  monsterStunTime: 2
+  monsterStunTime: 5
   destroyTimeAfterHit: 0.5
   poolAmount: 1
   enemy: {fileID: 1000010112326358, guid: 732e1d8c3d16ed04d841ccb9e9dffaa7, type: 2}
@@ -293,7 +294,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012768797780}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54c7c2d99c988284fa1f581d2b240a18, type: 3}
   m_Name: 
