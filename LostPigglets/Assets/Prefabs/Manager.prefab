@@ -70,6 +70,7 @@ GameObject:
   - 4: {fileID: 4000011178321816}
   - 114: {fileID: 114000013885245646}
   - 114: {fileID: 114000011586531204}
+  - 114: {fileID: 114000011448874788}
   m_Layer: 0
   m_Name: InputManager
   m_TagString: Untagged
@@ -236,22 +237,39 @@ MonoBehaviour:
   piggletsCollected: 0
   spotlight: {fileID: 0}
   pigletsFollowPosZ: -1.5
-  chargeSpeed: 2000
+  chargeSpeed: 800
   chargeCooldown: 1
   doubleTapTime: 0.5
-  collisionRadius: 10
+  collisionRadiusMonster: 10
   rotSpeedFinger: 3
   setChargeFalse: 1
+  radiusForRotation: 9
+  playerSpeed: 15
+  acceleration: 150
+  rotateRadius: 6
+  speedMaxDist: 20
   piggletsInGame: 2
   cameraOffset: {x: 0, y: 30, z: -9}
   rotationOffset: {x: 0, y: 7.5, z: 0}
---- !u!114 &114000011586531204
+--- !u!114 &114000011448874788
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012768797780}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11d1e8e5efd763940984e8c08a1e5bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coll: {fileID: 0}
+--- !u!114 &114000011586531204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012768797780}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 129779e130a82df4fa19d425cc26f957, type: 3}
   m_Name: 

@@ -13,7 +13,7 @@ public class LightUpObjects : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Collider[] landMarkColliders = Physics.OverlapSphere(transform.position, PlayerStats.instance.collisionRadius, 1 << LayerMask.NameToLayer("Landmark"));
+        Collider[] landMarkColliders = Physics.OverlapSphere(transform.position, PlayerStats.instance.collisionRadiusMonster, 1 << LayerMask.NameToLayer("Landmark"));
         LightUpObject(landMarkColliders);
     }
 

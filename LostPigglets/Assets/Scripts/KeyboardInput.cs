@@ -60,7 +60,7 @@ public class KeyboardInput : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            PigMovement.current.nav.enabled = true;
+            //PigMovement.current.nav.enabled = true;
             Moving();
         }
 

@@ -1,0 +1,81 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1347007871	Worm_Swim			\Default Work Unit\Worm_Swim	
+	1750874649	Pig_Swim_Stop			\Default Work Unit\Pig_Swim_Stop	
+	2192397196	MenuButton			\Default Work Unit\MenuButton	
+	2399068542	Worm_Disappear			\Default Work Unit\Worm_Disappear	
+	2444492466	Piglet_Scream			\Default Work Unit\Piglet_Scream	
+	2481768143	Worm_Attack			\Default Work Unit\Worm_Attack	
+	2554214570	Pig_Swim			\Default Work Unit\Pig_Swim	
+	2836636979	Pig_Damaged			\Default Work Unit\Pig_Damaged	
+	2981377429	Ambiance			\Default Work Unit\Ambiance	
+	3181627793	Piglet_Pickup			\Default Work Unit\Piglet_Pickup	
+	3831645642	Worm_Swim_Stop			\Default Work Unit\Worm_Swim_Stop	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	14875552	Drip_10	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_10		18688
+	23777914	Pig_Happy_3	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Happy_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Happy\Pig_Happy_3		100928
+	29051969	Bat Screams_7	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_7		415648
+	52847732	Pig Swim_2	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim_2		121488
+	76660083	Bat Screams_8	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_8		352234
+	83490524	Worm Disappear_4	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Disappear_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Disappear\Worm Disappear_4		235584
+	86558883	Bat Screams_11	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_11		684160
+	91490076	Drip_11	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_11		12800
+	92786696	Worm Disappear	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Disappear_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Disappear\Worm Disappear		138304
+	93855581	Drip_14	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_14_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_14		19712
+	95055791	Worm Disappear_2	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Disappear_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Disappear\Worm Disappear_2		136256
+	97771784	Pig Swim_7	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim_7		126736
+	157183366	Drip_1	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_1		8768
+	157505953	Bat Screams_2	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_2		466922
+	158478567	Worm Attack_8	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Attack_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Attack\Worm Attack_8		259136
+	164528855	Worm Disappear_5	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Disappear_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Disappear\Worm Disappear_5		191552
+	169879184	Drip_12	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_12_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_12		30400
+	204815079	Pig Swim_8	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim_8		257156
+	207011237	Pig_Scream	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Scream_540450A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Damaged\Pig_Scream		47664
+	228545082	Bat Screams_3	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_3		454778
+	233652331	Drip_16	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_16_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_16		34304
+	253011877	Bat Screams_4	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_4		383266
+	272512363	Pig_Happy_2	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Happy_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Happy\Pig_Happy_2		44864
+	272586828	Bat Screams_9	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_9		682812
+	309460106	Drip_15	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_15_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_15		21632
+	345848941	Pig Swim_1	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim_1		146974
+	391142184	Pig_Happy	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Happy_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Happy\Pig_Happy		88128
+	403872176	Worm Attack_7	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Attack_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Attack\Worm Attack_7		264256
+	408165373	Drip_5	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_5		8560
+	408847842	Pig Swim_5	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim_5		170958
+	420215224	Pig_Scream_2	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Scream_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Scream\Pig_Scream_2		116800
+	436257286	Bat Screams_6	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_6		699002
+	450563265	Drip_17	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_17_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_17		25536
+	524833281	Pig Swim_3	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim_3		191946
+	548247002	Pig_Scream_3	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Scream_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Scream\Pig_Scream_3		81984
+	550840091	Drip_7	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_7		6944
+	584215297	Pig_Scream_1	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Scream_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Scream\Pig_Scream_1		133970
+	605981353	Drip	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip		8960
+	621077365	Bat Screams	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams		398108
+	623203006	Worm Disappear_1	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Disappear_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Disappear\Worm Disappear_1		165952
+	623979269	Drip_8	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_8		19872
+	634330294	Pig_Scream	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Scream_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Scream\Pig_Scream		174144
+	650715191	Pig_Happy_1	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Happy_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Happy\Pig_Happy_1		59968
+	660614130	Drip_2	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_2		11708
+	730696418	Pig_Scream_1	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Scream_1_3B23204B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Damaged\Pig_Scream_1		40864
+	768912947	Pig_Scream_3	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Scream_3_B51350FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Damaged\Pig_Scream_3		34166
+	773835123	Drip_4	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_4		8448
+	815602960	Drip_6	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_6		9616
+	858874920	Drip_3	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_3		26514
+	883168400	Worm Disappear_3	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Disappear_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Disappear\Worm Disappear_3		130112
+	892763560	Pig Swim_4	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim_4		164964
+	893698022	Pig Swim_6	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim_6		148474
+	895342551	Bat Screams_5	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_5		535736
+	935340393	Bat Screams_12	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_12_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_12		582962
+	961738203	Bat Screams_10	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_10		495258
+	974008332	Pig Swim	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig Swim_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Swim\Pig Swim		203188
+	986183633	Worm Attack_9	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Attack_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Attack\Worm Attack_9		270912
+	994670908	Pig_Scream_2	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Pig_Scream_2_011837EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig_Damaged\Pig_Scream_2		35110
+	1011996570	Worm Attack_6	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Attack_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Attack\Worm Attack_6		250944
+	1025083526	Drip_9	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_9		17920
+	1026328020	Drip_13	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Drip_13_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Drips\Drip_13		30912
+	1049405759	Bat Screams_1	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Bat Screams_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat_Screams\Bat Screams_1		251036
+	1056794682	Worm Attack_5	C:\Users\dadiu\Documents\WwiseProjects\Team 1 - MGP-1\.cache\Windows\SFX\Worm Attack_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worm_Attack\Worm Attack_5		256064
+
