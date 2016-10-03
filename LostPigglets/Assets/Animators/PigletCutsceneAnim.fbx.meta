@@ -225,7 +225,7 @@ ModelImporter:
       name: CutscenePiglet
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 150
+      lastFrame: 160
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -442,7 +442,7 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 1
     - serializedVersion: 16
       name: Idle
       takeName: Take 001

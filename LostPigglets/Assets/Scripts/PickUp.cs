@@ -26,5 +26,6 @@ public class PickUp : MonoBehaviour {
 		pigglet.transform.position = transform.position + new Vector3 (0f, 0f, PlayerStats.instance.pigletsFollowPosZ * PlayerStats.instance.piggletsCollected);
 		pigglet.transform.parent = transform;
         pigglet.GetComponent<PigletScript>().amIPickedUp = true;
+        PickupPigletTexture.instance.SetText();
 	}
 }

@@ -667,9 +667,9 @@ ModelImporter:
       curves: []
       events:
       - time: 1
-        functionName: AM_ResetCharge
+        functionName: AM_ResetChargeEvent
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 8c16151c0fe7d5945b38ae1c4184b1f7,
+        objectReferenceParameter: {fileID: 11500000, guid: e562f5bf716f84440a57445b97d58343,
           type: 3}
         floatParameter: 0
         intParameter: 0
