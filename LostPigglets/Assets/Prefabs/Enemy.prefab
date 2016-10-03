@@ -49,11 +49,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011009055282}
-  - 136: {fileID: 136000012680651104}
   - 54: {fileID: 54000014029620168}
   - 195: {fileID: 195000013283692888}
   - 114: {fileID: 114000014241635790}
   - 114: {fileID: 114000012544832966}
+  - 114: {fileID: 114000010338462606}
+  - 135: {fileID: 135000012706381472}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
@@ -6835,6 +6836,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000010338462606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010112326358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b83101c069d6e4c87ac1affc367b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114000012544832966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6847,12 +6859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSwimming: 0
-  timeToDeath: 8
-  jumpingCooldownTimer: 5
-  deathAnimTime: 8
-  attackRange: 50
-  visibilityRange: 25
-  jumping: 500
   target: {fileID: 0}
 --- !u!114 &114000014241635790
 MonoBehaviour:
@@ -6865,8 +6871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9065c32d73da02f41a9a6453470fadf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &136000012680651104
-CapsuleCollider:
+--- !u!135 &135000012706381472
+SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -6874,9 +6880,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 5.7381797
-  m_Height: 15.046226
-  m_Direction: 1
+  serializedVersion: 2
+  m_Radius: 2.6265295
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &137000011642004350
 SkinnedMeshRenderer:

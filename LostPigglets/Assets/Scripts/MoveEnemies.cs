@@ -26,7 +26,7 @@ public class MoveEnemies : MonoBehaviour
     [Tooltip("This value is excluded as in jumping-1")]
     public int jumping;
 
-    [HideInInspector]
+    
     public Transform target;
 
     void OnEnable()
