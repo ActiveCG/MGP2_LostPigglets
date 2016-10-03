@@ -12,6 +12,7 @@ public class GameManager {
     private GameObject _monster;
 	private GameObject _player;
 	private AudioManager _audioManager;
+    private AnimatorManager _animManager;
 
 	//getters:
 	public static GameManager instance{
@@ -38,8 +39,18 @@ public class GameManager {
 		}
 	}
 
-	//scene management:
-	public void PauseGame() {
+    public AnimatorManager animManager
+    {
+        get
+        {
+            if (_animManager == null)
+                _animManager = Object.FindObjectOfType(typeof(AnimatorManager)) as AnimatorManager;
+            return _animManager;
+        }
+    }
+
+    //scene management:
+    public void PauseGame() {
 		//to be filled later
 	}
 

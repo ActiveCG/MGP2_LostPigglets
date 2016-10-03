@@ -11,11 +11,17 @@ public class Charge : MonoBehaviour {
     private bool startCount = false;
     private bool notCharged = true;
     private bool charged = false;
+    private Rigidbody playerRigidBody;
     
 
     void Awake()
     {
         instance = this;
+    }
+
+    void Start()
+    {
+        playerRigidBody = GetComponent<Rigidbody>();
     }
 
 
@@ -54,20 +60,18 @@ public class Charge : MonoBehaviour {
         {
             if (chargingTimer > PlayerStats.instance.chargeCooldown || notCharged)
             {
-                //PigMovement.current.nav.Stop();
-                PigMovement.current.nav.enabled = false;
+                //PigMovement.current.nav.enabled = false;
                 charged = true;
                 StartCoroutine("SetChargeFalse");
-                //ChargeHit();
                 //Debug.Log("CHARGE!!!!!!");
+                GameManager.instance.chargeHit();
                 notCharged = false;
                 chargingTimer = 0;
                 countTouch = 0;
                 startCount = false;
                 timer = 0;
 
-                PigMovement.current.pigRB.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
-                //ChargedOnMonster.instance.ChargeHit();
+                playerRigidBody.AddForce(transform.forward * PlayerStats.instance.chargeSpeed);
             }
         }
 
