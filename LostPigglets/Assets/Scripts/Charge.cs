@@ -40,7 +40,7 @@ public class Charge : MonoBehaviour {
         //{
         //    //charged = false;
         //}
-        print(charged);
+        //print(charged);
         //print(PigMovement.current.pigRB.velocity.magnitude);
     }
 
@@ -87,7 +87,7 @@ public class Charge : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        print("Impact");
+        //print("Impact");
         if (col.tag == "Enemy" && MonsterStun.current.monsterStunned && charged)
         {
             Debug.Log("Hit the enemy");

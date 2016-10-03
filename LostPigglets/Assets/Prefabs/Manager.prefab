@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011452064528}
+  - 114: {fileID: 114000012462528860}
   - 114: {fileID: 114000013308315508}
   m_Layer: 0
   m_Name: MonsterManager
@@ -242,7 +243,7 @@ MonoBehaviour:
   rotSpeedFinger: 3
   setChargeFalse: 1
   piggletsInGame: 2
-  cameraOffset: {x: 0, y: 20, z: -4}
+  cameraOffset: {x: 0, y: 30, z: -9}
   rotationOffset: {x: 0, y: 7.5, z: 0}
 --- !u!114 &114000011586531204
 MonoBehaviour:
@@ -257,6 +258,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plane: {fileID: 0}
   tapTimeForMoving: 0.1
+--- !u!114 &114000012462528860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011992503328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f53699aac0c87f9448a41d0490c41ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolParent: {fileID: 0}
 --- !u!114 &114000013160568396
 MonoBehaviour:
   m_ObjectHideFlags: 1
