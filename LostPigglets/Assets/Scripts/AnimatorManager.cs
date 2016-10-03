@@ -40,6 +40,8 @@ public class AnimatorManager : MonoBehaviour {
 		GameManager.instance.player.transform.position = pigletMark.position;
 		GameManager.instance.player.transform.rotation = pigletMark.rotation;
 
+		Debug.Log ("playerMarkPos" + GameManager.instance.player.transform.position + "Rot " + GameManager.instance.player.transform.rotation);
+
 		//GameManager.instance.player.transform.Rotate(new Vector3(0f,180f,0f));
 
 		Piglet.transform.position = pigletMark.position;

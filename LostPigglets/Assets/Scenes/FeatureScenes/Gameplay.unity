@@ -274,6 +274,12 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013308315508, guid: 87faded5c5dbd9040a36cbdcc39302bb,
+        type: 2}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1000010112326358, guid: 732e1d8c3d16ed04d841ccb9e9dffaa7,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87faded5c5dbd9040a36cbdcc39302bb, type: 2}
   m_IsPrefabParent: 0
@@ -730,6 +736,12 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013321879382, guid: d27d808d9d6c0404e9f04aa0ea1886ff,
+        type: 2}
+      propertyPath: oinkImg
+      value: 
+      objectReference: {fileID: 1000010208461968, guid: 7db865e5fb1ceb94eaef96ce856b214a,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d27d808d9d6c0404e9f04aa0ea1886ff, type: 2}
   m_IsPrefabParent: 0
