@@ -18,8 +18,6 @@ public class MoveEnemies : MonoBehaviour
     public float timeToDeath = 8f;
     [Tooltip("The frequency of jumps for the monster")]
     public int jumpingCooldownTimer;
-    [Tooltip("The duration of the death animation")]
-    public int deathAnimTime = 3;
     [Tooltip("The range where the monster should be attacking")]
     public int attackRange;
     [Tooltip("The range where the monster should be searching")]

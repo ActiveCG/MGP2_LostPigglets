@@ -58,7 +58,12 @@ public class AnimatorManager : MonoBehaviour
     void AM_Stun(GameObject monster)
     {
         monster.GetComponentInChildren<Animator>().SetTrigger("isStunned");
-        monster.GetComponentInChildren<Animator>().SetTrigger("beingStunned");
+        monster.GetComponentInChildren<Animator>().SetBool("beingStunned", true);
+    }
+
+    void AM_Recoil(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetBool("beingStunned", false);
     }
 
     void OnEnable()
@@ -70,6 +75,7 @@ public class AnimatorManager : MonoBehaviour
         GameManager.instance.OnPlayerNotMoving += AM_PlayerSwimStop;
         GameManager.instance.OnChargeHit += AM_Charge;
         //monster events
+        GameManager.instance.OnMonsterRecoil += AM_Recoil;
         GameManager.instance.OnMonsterOutOfRange += AM_OutRange;
         GameManager.instance.OnMonsterJump += AM_Slink;
         GameManager.instance.OnMonsterAttack += AM_Attack;
@@ -83,6 +89,7 @@ public class AnimatorManager : MonoBehaviour
         GameManager.instance.OnPlayerNotMoving -= AM_PlayerSwimStop;
         GameManager.instance.OnChargeHit -= AM_Charge;
         //monster events
+        GameManager.instance.OnMonsterRecoil -= AM_Recoil;
         GameManager.instance.OnMonsterOutOfRange -= AM_OutRange;
         GameManager.instance.OnMonsterJump -= AM_Slink;
         GameManager.instance.OnMonsterAttack -= AM_Attack;
