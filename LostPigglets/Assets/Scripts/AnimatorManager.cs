@@ -5,7 +5,7 @@ public class AnimatorManager : MonoBehaviour {
 
 	//script variables
 	private bool isPlayerSwimming = false;
-	private Animator playerAnim, cameraAnim;
+	private Animator playerAnim, cameraAnim, pigletAnim;
 
 	//*********** Player ****************
 	void AM_PlayerSwim(Vector3 position){
@@ -31,9 +31,22 @@ public class AnimatorManager : MonoBehaviour {
 		//cameraAnim.SetTrigger ("pickupSequence");
 		Transform pigletMark = Piglet.transform.FindChild("PigletMark");
 		pigletMark.parent = null;
+		pigletAnim = Piglet.GetComponentInChildren<Animator> () as Animator;
+
+		GameManager.instance.player.GetComponent<NavMeshAgent>().Stop();
 		//pigletMark.rotation = Quaternion.identity;
 		cameraAnim.gameObject.transform.parent = pigletMark;
 		cameraAnim.enabled = true;
+		GameManager.instance.player.transform.position = pigletMark.position;
+		GameManager.instance.player.transform.rotation = pigletMark.rotation;
+
+		//GameManager.instance.player.transform.Rotate(new Vector3(0f,180f,0f));
+
+		Piglet.transform.position = pigletMark.position;
+		Piglet.transform.rotation = pigletMark.rotation;
+
+		playerAnim.SetTrigger ("pickupPiglet");
+		pigletAnim.SetTrigger ("pickupPiglet");
 	}
 	void OnEnable () {
 		isPlayerSwimming = false;

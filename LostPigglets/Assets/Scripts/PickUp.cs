@@ -16,7 +16,7 @@ public class PickUp : MonoBehaviour {
 			if (other.gameObject.tag == "Pigglet") {
 				Debug.Log ("Collided");
 				GameManager.instance.pickUpPigglet (other.gameObject);
-				PickUpPigglet (other.gameObject);
+				//PickUpPigglet (other.gameObject);
 
 				//check whther all pigglets collected
 				if (PlayerStats.piggletsCollected == PlayerStats.instance.piggletsInGame) {
