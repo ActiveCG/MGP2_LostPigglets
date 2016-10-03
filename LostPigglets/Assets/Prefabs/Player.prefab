@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013128254954}
   - 95: {fileID: 95000012090908978}
+  - 114: {fileID: 114000012724251240}
   m_Layer: 12
   m_Name: SamanthaDefault
   m_TagString: Untagged
@@ -3331,6 +3332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c5543bd2b771e42a64b2a9f4189e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathTime: 0
 --- !u!114 &114000011663091162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3384,6 +3386,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52c5543bd2b771e42a64b2a9f4189e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathTime: 0
+--- !u!114 &114000012724251240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010024856018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e562f5bf716f84440a57445b97d58343, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114000013399328778
