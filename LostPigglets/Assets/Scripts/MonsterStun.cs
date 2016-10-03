@@ -29,9 +29,11 @@ public class MonsterStun : MonoBehaviour
     {
         if (canStun == true)
         {
+            Debug.Log(obj);
             canStun = false;
             obj.GetComponent<NavMeshAgent>().Stop();
 			GameManager.instance.monsterNotMoving (obj); //monster stops swimming
+            GameManager.instance.MonsterStun(obj);
             monsterStunned = true;
             PlayerStats.instance.spotlight.intensity = 8;
             StartCoroutine("LightCooldown");

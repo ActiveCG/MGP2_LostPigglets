@@ -55,6 +55,12 @@ public class AnimatorManager : MonoBehaviour
         monster.GetComponentInChildren<Animator>().SetBool("isSearching", false);
     }
 
+    void AM_Stun(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetTrigger("isStunned");
+        monster.GetComponentInChildren<Animator>().SetTrigger("beingStunned");
+    }
+
     void OnEnable()
     {
         isPlayerSwimming = false;
@@ -68,6 +74,7 @@ public class AnimatorManager : MonoBehaviour
         GameManager.instance.OnMonsterJump += AM_Slink;
         GameManager.instance.OnMonsterAttack += AM_Attack;
         GameManager.instance.OnMonsterAggro += AM_Search;
+        GameManager.instance.OnMonsterStun += AM_Stun;
     }
     void OnDisable()
     {
@@ -80,5 +87,6 @@ public class AnimatorManager : MonoBehaviour
         GameManager.instance.OnMonsterJump -= AM_Slink;
         GameManager.instance.OnMonsterAttack -= AM_Attack;
         GameManager.instance.OnMonsterAggro -= AM_Search;
+        GameManager.instance.OnMonsterStun -= AM_Stun;
     }
 }

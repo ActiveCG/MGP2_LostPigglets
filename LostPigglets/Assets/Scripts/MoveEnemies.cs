@@ -4,6 +4,7 @@ using System.Collections;
 public class MoveEnemies : MonoBehaviour
 {
     //private GameObject pig;
+    private Animator animEnemy;
     private NavMeshAgent nav;
     private bool canJump = true;
     private bool canAttack = false;
@@ -23,10 +24,10 @@ public class MoveEnemies : MonoBehaviour
     public int attackRange;
     [Tooltip("The range where the monster should be searching")]
     public int visibilityRange;
-    [Tooltip("This value is excluded as in jumping-1")]
+    [Tooltip("How often should the monster jump (This value is excluded as in jumping-1)")]
     public int jumping;
 
-    
+    [HideInInspector]
     public Transform target;
 
     void OnEnable()
@@ -47,6 +48,7 @@ public class MoveEnemies : MonoBehaviour
     {
         //pig = GameObject.FindGameObjectWithTag("Player");
         target = GameManager.instance.player.transform;
+        animEnemy = GetComponent<Animator>();
         nav = GetComponent<NavMeshAgent>();
     }
 
@@ -59,7 +61,7 @@ public class MoveEnemies : MonoBehaviour
             GameManager.instance.MonsterJump(gameObject);
         }
         // If the monster is inside the attackRange and canAttack is true the monster can kill the player
-        if (Vector3.Distance(transform.position, target.transform.position) < attackRange && canAttack == true)
+        if (Vector3.Distance(transform.position, target.transform.position) < attackRange && canAttack == true && MonsterStun.current.monsterStunned == false)
         {
             timer += Time.deltaTime;
             if (timer > timeToDeath)
@@ -81,7 +83,7 @@ public class MoveEnemies : MonoBehaviour
             canSearch = true;
         }
         // If the monster is inside the visibilityRange it starts searching
-        if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange == canSearch == true)
+        if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange == canSearch == true && MonsterStun.current.monsterStunned == false)
         {
             GameManager.instance.MonsterAggro(gameObject);
             canSearch = false;
@@ -113,3 +115,5 @@ public class MoveEnemies : MonoBehaviour
         canJump = true;
     }
 }
+
+

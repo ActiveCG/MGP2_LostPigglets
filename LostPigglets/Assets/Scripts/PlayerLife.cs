@@ -4,6 +4,8 @@ using System.Collections;
 public class PlayerLife : MonoBehaviour
 {
 
+    public int deathTime;
+
     void OnEnable()
     {
 
@@ -33,7 +35,7 @@ public class PlayerLife : MonoBehaviour
 
     IEnumerator DeathAnimation()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(deathTime);
         GameManager.instance.GameOver();
     }
 }
