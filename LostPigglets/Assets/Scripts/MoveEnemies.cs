@@ -32,6 +32,7 @@ public class MoveEnemies : MonoBehaviour
 
     void OnEnable()
     {
+        MonsterDestroying.current.stopHandAnim = false;
         GameManager.instance.OnMonsterJump += Jump;
         GameManager.instance.OnMonsterAttack += Attack;
         GameManager.instance.OnMonsterAggro += Search;
