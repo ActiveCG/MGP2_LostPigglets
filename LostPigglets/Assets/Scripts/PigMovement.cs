@@ -69,5 +69,6 @@ public class PigMovement : MonoBehaviour
 		} else {
 			moved = true;
 		}
+        //Debug.DrawRay(transform.position, transform.forward * 11f);
 	}
 }

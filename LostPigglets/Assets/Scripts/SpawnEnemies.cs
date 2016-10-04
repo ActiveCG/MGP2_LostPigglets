@@ -32,6 +32,7 @@ public class SpawnEnemies : MonoBehaviour {
         for(int i=0; i<MonsterStats.instance.poolAmount; i++)
         {
             GameObject obj = (GameObject)Instantiate(MonsterStats.instance.enemy, MonsterStats.instance.spawnPlaces[spawnPoint].position, MonsterStats.instance.spawnPlaces[spawnPoint].rotation);
+            //obj.GetComponent<EnemyRubberBanding>().enabled = false;
             obj.transform.SetParent(poolParent.transform);
             obj.SetActive(false);
             enemies.Add(obj);
@@ -46,9 +47,9 @@ public class SpawnEnemies : MonoBehaviour {
     //void Spawn()
     //{
     //    spawnPoint = Random.Range(0, MonsterStats.instance.spawnPlaces.Count);
-    //    for (int i=0; i<enemies.Count; i++)
+    //    for (int i = 0; i < enemies.Count; i++)
     //    {
-    //        if(!enemies[i].activeInHierarchy)
+    //        if (!enemies[i].activeInHierarchy)
     //        {
     //            enemies[i].transform.position = MonsterStats.instance.spawnPlaces[spawnPoint].position;
     //            enemies[i].transform.rotation = MonsterStats.instance.spawnPlaces[spawnPoint].rotation;

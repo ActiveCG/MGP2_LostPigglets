@@ -57,6 +57,10 @@ public class AnimatorManager : MonoBehaviour
 		Piglet.transform.position = pigletMark.position;
 		Piglet.transform.rotation = pigletMark.rotation;
 
+		Rigidbody pigRB = GameManager.instance.player.GetComponent<Rigidbody> ();
+		pigRB.velocity = Vector3.zero;
+		pigRB.angularVelocity = Vector3.zero;
+
 		GameManager.instance.player.transform.position = pigMark.position;
 		GameManager.instance.player.transform.rotation = pigMark.rotation;
 
