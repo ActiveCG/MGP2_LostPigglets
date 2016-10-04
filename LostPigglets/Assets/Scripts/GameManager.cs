@@ -66,6 +66,7 @@ public class GameManager {
 	public void StartGame() {
 		_instance = null;
 		SceneManager.LoadScene (GAME_SCENE);
+        Time.timeScale = 1;
 	}
 
 	public void RestartGame() {
