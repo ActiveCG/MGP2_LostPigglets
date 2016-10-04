@@ -16,6 +16,11 @@ TagManager:
   - SubTitle
   - QuitGameMenu
   - PlayGameMenu
+  - ResumeGame
+  - MainMenu
+  - RestartGame
+  - QuitGame
+  - PauseMenu
   layers:
   - Default
   - TransparentFX

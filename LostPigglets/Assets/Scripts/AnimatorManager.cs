@@ -104,6 +104,12 @@ public class AnimatorManager : MonoBehaviour
         monster.GetComponentInChildren<Animator>().SetBool("beingStunned", false);
     }
 
+    void AM_Death(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetTrigger("isDying");
+        //MonsterDestroying.current.Destroy(monster);
+    }
+
     void OnEnable()
     {
         isPlayerSwimming = false;
@@ -116,6 +122,7 @@ public class AnimatorManager : MonoBehaviour
         GameManager.instance.OnChargeHit += AM_Charge;
 	
         //monster events
+        GameManager.instance.OnMonsterDeath += AM_Death;
         GameManager.instance.OnMonsterRecoil += AM_Recoil;
         GameManager.instance.OnMonsterOutOfRange += AM_OutRange;
         GameManager.instance.OnMonsterJump += AM_Slink;
@@ -136,6 +143,7 @@ public class AnimatorManager : MonoBehaviour
         GameManager.instance.OnChargeHit -= AM_Charge;
        
 		//monster events
+        GameManager.instance.OnMonsterDeath -= AM_Death;
         GameManager.instance.OnMonsterRecoil -= AM_Recoil;
         GameManager.instance.OnMonsterOutOfRange -= AM_OutRange;
         GameManager.instance.OnMonsterJump -= AM_Slink;
