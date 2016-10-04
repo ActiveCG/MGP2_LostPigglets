@@ -6,6 +6,7 @@ public class GameManager {
 
 	private static string START_SCENE = "IntroScene";
 	private static string GAME_SCENE = "Development";
+    private static string MENU_SCENE = "MainMenu";
 
 	private static GameManager _instance;
 
@@ -13,6 +14,8 @@ public class GameManager {
 	private GameObject _player;
 	private AudioManager _audioManager;
     private AnimatorManager _animManager;
+
+    public bool isPaused = false;
 
 	//getters:
 	public static GameManager instance{
@@ -52,6 +55,12 @@ public class GameManager {
     //scene management:
     public void PauseGame() {
 		//to be filled later
+        if(isPaused) {
+            Time.timeScale = 0;
+        }
+        if (!isPaused) {
+            Time.timeScale = 1;
+        }
 	}
 
 	public void StartGame() {
@@ -61,8 +70,14 @@ public class GameManager {
 
 	public void RestartGame() {
 		_instance = null;
-		SceneManager.LoadScene (GAME_SCENE);
-	}
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
+    }
+
+    public void LoadMainMenu() {
+        _instance = null;
+        SceneManager.LoadScene(MENU_SCENE);
+    }
 
 	public void Win(){
 		SceneManager.LoadScene ("Win");

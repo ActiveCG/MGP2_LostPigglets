@@ -1,203 +1,319 @@
 fileFormatVersion: 2
-guid: 68f0af02ac692874eb73baae3fb03838
-timeCreated: 1475227770
+guid: 15874225435af124e8d084b1f66f7fd7
+timeCreated: 1475574205
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: Samantha:clst_spine_01
-    100002: Samantha:clst_spine_02
-    100004: Samantha:ctrl_bodyBack_01
-    100006: Samantha:ctrl_bodyFront_01
-    100008: Samantha:ctrl_cod_01
-    100010: Samantha:ctrl_global_01
-    100012: Samantha:ctrl_l_ear_01
-    100014: Samantha:ctrl_l_ear_02
-    100016: Samantha:ctrl_l_elbow_01
-    100018: Samantha:ctrl_l_eye_01
-    100020: Samantha:ctrl_l_foot_01
-    100022: Samantha:ctrl_l_hand_01
-    100024: Samantha:ctrl_l_hip_01
-    100026: Samantha:ctrl_l_lower_01
-    100028: Samantha:ctrl_l_shoulder_01
-    100030: Samantha:ctrl_l_upper_01
-    100032: Samantha:ctrl_r_ear_01
-    100034: Samantha:ctrl_r_ear_02
-    100036: Samantha:ctrl_r_elbow_01
-    100038: Samantha:ctrl_r_eye_01
-    100040: Samantha:ctrl_r_hand_01
-    100042: Samantha:ctrl_r_hip_01
-    100044: Samantha:ctrl_r_lower_01
-    100046: Samantha:ctrl_r_shoulder_01
-    100048: Samantha:ctrl_r_upper_01
-    100050: Samantha:ctrl_snout_01
-    100052: Samantha:ctrl_snoutTip_01
-    100054: Samantha:ctrl_wiggleButt_01
-    100056: Samantha:ctrl_wiggleFront_01
-    100058: Samantha:ctrll_r_foot_01
-    100060: Samantha:flc_spine_01
-    100062: Samantha:flc_spine_02
-    100064: Samantha:flc_spine_03
-    100066: Samantha:flc_spine_04
-    100068: Samantha:flc_spine_05
-    100070: Samantha:grp_clst_spine_01
-    100072: Samantha:grp_ctrl
-    100074: Samantha:grp_ctrls_face_01
-    100076: Samantha:grp_flc_spine
-    100078: Samantha:grp_jnt
-    100080: Samantha:grp_jnt_spine
-    100082: Samantha:grp_l_arm_01
-    100084: Samantha:grp_l_leg_01
-    100086: Samantha:grp_r_arm_01
-    100088: Samantha:grp_r_leg_01
-    100090: Samantha:grp_rig
-    100092: Samantha:jnt_butt_01
-    100094: Samantha:jnt_butt_02
-    100096: Samantha:jnt_codBack_01
-    100098: Samantha:jnt_codFront_01
-    100100: Samantha:jnt_l_ear_01
-    100102: Samantha:jnt_l_ear_02
-    100104: Samantha:jnt_l_ear_End
-    100106: Samantha:jnt_l_eye_01
-    100108: Samantha:jnt_neck_01
-    100110: Samantha:jnt_neck_02
-    100112: Samantha:jnt_neck_03
-    100114: Samantha:jnt_r_ankle_01
-    100116: Samantha:jnt_r_ankle_02
-    100118: Samantha:jnt_r_clavicle_01
-    100120: Samantha:jnt_r_clavicle_02
-    100122: Samantha:jnt_r_ear_01
-    100124: Samantha:jnt_r_ear_02
-    100126: Samantha:jnt_r_ear_End
-    100128: Samantha:jnt_r_elbow_01
-    100130: Samantha:jnt_r_elbow_02
-    100132: Samantha:jnt_r_eye_01
-    100134: Samantha:jnt_r_foot_01
-    100136: Samantha:jnt_r_foot_01 1
-    100138: Samantha:jnt_r_foot_02
-    100140: Samantha:jnt_r_foot_03
-    100142: Samantha:jnt_r_foot_04
-    100144: Samantha:jnt_r_foot_05
-    100146: Samantha:jnt_r_foot_06
-    100148: Samantha:jnt_r_foot_07
-    100150: Samantha:jnt_r_foot_End_01
-    100152: Samantha:jnt_r_foot_End_02
-    100154: Samantha:jnt_r_foot_End_03
-    100156: Samantha:jnt_r_foot_End_04
-    100158: Samantha:jnt_r_hip_01
-    100160: Samantha:jnt_r_hip_02
-    100162: Samantha:jnt_r_knee_01
-    100164: Samantha:jnt_r_knee_02
-    100166: Samantha:jnt_r_shoulder_01
-    100168: Samantha:jnt_r_shoulder_02
-    100170: Samantha:jnt_snout_01
-    100172: Samantha:jnt_snout_02
-    100174: Samantha:jnt_snout_03
-    100176: Samantha:jnt_snout_End
-    100178: Samantha:jnt_spine_01
-    100180: Samantha:jnt_spine_02
-    100182: Samantha:jnt_spine_03
-    100184: Samantha:jnt_spine_04
-    100186: Samantha:jnt_spine_05
-    100188: Samantha:nrb_spine_01
-    100190: //RootNode
+    100002: Samantha:clst_spine_01 1
+    100004: Samantha:clst_spine_02
+    100006: Samantha:clst_spine_03
+    100008: Samantha:clst_spine_03 1
+    100010: Samantha:clst_spine_04
+    100012: Samantha:ctrl_bodyBack_01
+    100014: Samantha:ctrl_bodyFront_01
+    100016: Samantha:ctrl_cod_01
+    100018: Samantha:ctrl_global_01
+    100020: Samantha:ctrl_hair_01
+    100022: Samantha:ctrl_horn_01
+    100024: Samantha:ctrl_jaw_01
+    100026: Samantha:ctrl_l_ear_01
+    100028: Samantha:ctrl_l_ear_02
+    100030: Samantha:ctrl_l_elbow_01
+    100032: Samantha:ctrl_l_eye_01
+    100034: Samantha:ctrl_l_eyeLidTop_01
+    100036: Samantha:ctrl_l_foot_01
+    100038: Samantha:ctrl_l_hand_01
+    100040: Samantha:ctrl_l_hip_01
+    100042: Samantha:ctrl_l_lower_01
+    100044: Samantha:ctrl_l_mouth_02
+    100046: Samantha:ctrl_l_shoulder_01
+    100048: Samantha:ctrl_l_upper_01
+    100050: Samantha:ctrl_r_ear_01
+    100052: Samantha:ctrl_r_ear_02
+    100054: Samantha:ctrl_r_elbow_01
+    100056: Samantha:ctrl_r_eye_01
+    100058: Samantha:ctrl_r_eyeLidBottum_01
+    100060: Samantha:ctrl_r_eyeLidBottum_01 1
+    100062: Samantha:ctrl_r_eyeLidTop_01
+    100064: Samantha:ctrl_r_hand_01
+    100066: Samantha:ctrl_r_hip_01
+    100068: Samantha:ctrl_r_lower_01
+    100070: Samantha:ctrl_r_mouth_01
+    100072: Samantha:ctrl_r_shoulder_01
+    100074: Samantha:ctrl_r_upper_01
+    100076: Samantha:ctrl_root_01
+    100078: Samantha:ctrl_snout_01
+    100080: Samantha:ctrl_snoutTip_01
+    100082: Samantha:ctrl_tail_01
+    100084: Samantha:ctrl_tail_010
+    100086: Samantha:ctrl_tail_011
+    100088: Samantha:ctrl_tail_02
+    100090: Samantha:ctrl_tail_03
+    100092: Samantha:ctrl_tail_04
+    100094: Samantha:ctrl_tail_05
+    100096: Samantha:ctrl_tail_06
+    100098: Samantha:ctrl_tail_07
+    100100: Samantha:ctrl_tail_08
+    100102: Samantha:ctrl_tail_09
+    100104: Samantha:ctrl_wiggleButt_01
+    100106: Samantha:ctrl_wiggleButt_02
+    100108: Samantha:ctrl_wiggleFront_01
+    100110: Samantha:ctrll_r_foot_01
+    100112: Samantha:DO_NOT_TOUCH_ctrl_rootError_01
+    100114: Samantha:flc_spine_01
+    100116: Samantha:flc_spine_02
+    100118: Samantha:flc_spine_03
+    100120: Samantha:flc_spine_04
+    100122: Samantha:flc_spine_05
+    100124: Samantha:grp_clst_01
+    100126: Samantha:grp_clst_spine_01
+    100128: Samantha:grp_codBack_01
+    100130: Samantha:grp_codFront_01
+    100132: Samantha:grp_ctrl
+    100134: Samantha:grp_ctrl_horn_01
+    100136: Samantha:grp_ctrl_jaw_01
+    100138: Samantha:grp_ctrl_l_ear_01
+    100140: Samantha:grp_ctrl_l_ear_02
+    100142: Samantha:grp_ctrl_l_eyeLidTop_01
+    100144: Samantha:grp_ctrl_r_ear_01
+    100146: Samantha:grp_ctrl_r_ear_02
+    100148: Samantha:grp_ctrl_r_eyeLidBottom_01
+    100150: Samantha:grp_ctrl_r_eyeLidBottom_02
+    100152: Samantha:grp_ctrl_r_eyeLidTop_01
+    100154: Samantha:grp_ctrl_snout_01
+    100156: Samantha:grp_ctrls_face_01
+    100158: Samantha:grp_flc_spine
+    100160: Samantha:grp_jnt
+    100162: Samantha:grp_jnt_spine
+    100164: Samantha:grp_l_arm_01
+    100166: Samantha:grp_l_leg_01
+    100168: Samantha:grp_r_arm_01
+    100170: Samantha:grp_r_leg_01
+    100172: Samantha:grp_rig
+    100174: Samantha:jnt_bnd_butt_01
+    100176: Samantha:jnt_bnd_butt_02
+    100178: Samantha:jnt_bnd_hair_01
+    100180: Samantha:jnt_bnd_horn_01
+    100182: Samantha:jnt_bnd_jaw_01
+    100184: Samantha:jnt_bnd_l_ankle_01
+    100186: Samantha:jnt_bnd_l_ear_01
+    100188: Samantha:jnt_bnd_l_ear_02
+    100190: Samantha:jnt_bnd_l_ear_03
+    100192: Samantha:jnt_bnd_l_elbow_01
+    100194: Samantha:jnt_bnd_l_eye_01
+    100196: Samantha:jnt_bnd_l_eyeLidBottom_01
+    100198: Samantha:jnt_bnd_l_eyeLidTop_01
+    100200: Samantha:jnt_bnd_l_foot_01
+    100202: Samantha:jnt_bnd_l_foot_01 1
+    100204: Samantha:jnt_bnd_l_hip_01
+    100206: Samantha:jnt_bnd_l_knee_01
+    100208: Samantha:jnt_bnd_l_mouth_01
+    100210: Samantha:jnt_bnd_l_shoulder_01
+    100212: Samantha:jnt_bnd_neck_01
+    100214: Samantha:jnt_bnd_neck_02
+    100216: Samantha:jnt_bnd_neck_03
+    100218: Samantha:jnt_bnd_r_ankle_01
+    100220: Samantha:jnt_bnd_r_ear_01
+    100222: Samantha:jnt_bnd_r_ear_02
+    100224: Samantha:jnt_bnd_r_ear_03
+    100226: Samantha:jnt_bnd_r_elbow_01
+    100228: Samantha:jnt_bnd_r_eye_01
+    100230: Samantha:jnt_bnd_r_eyeLidBottom_01
+    100232: Samantha:jnt_bnd_r_eyeLidTop_01
+    100234: Samantha:jnt_bnd_r_foot_01
+    100236: Samantha:jnt_bnd_r_foot_01 1
+    100238: Samantha:jnt_bnd_r_hip_01
+    100240: Samantha:jnt_bnd_r_knee_01
+    100242: Samantha:jnt_bnd_r_mouth_1
+    100244: Samantha:jnt_bnd_r_shoulder_01
+    100246: Samantha:jnt_bnd_snout_01
+    100248: Samantha:jnt_bnd_snout_02
+    100250: Samantha:jnt_bnd_snout_03
+    100252: Samantha:jnt_bnd_spine_01
+    100254: Samantha:jnt_bnd_spine_02
+    100256: Samantha:jnt_bnd_spine_03
+    100258: Samantha:jnt_bnd_spine_04
+    100260: Samantha:jnt_bnd_spine_05
+    100262: Samantha:jnt_bnd_tail_01
+    100264: Samantha:jnt_bnd_tail_010
+    100266: Samantha:jnt_bnd_tail_011
+    100268: Samantha:jnt_bnd_tail_02
+    100270: Samantha:jnt_bnd_tail_03
+    100272: Samantha:jnt_bnd_tail_04
+    100274: Samantha:jnt_bnd_tail_05
+    100276: Samantha:jnt_bnd_tail_06
+    100278: Samantha:jnt_bnd_tail_07
+    100280: Samantha:jnt_bnd_tail_08
+    100282: Samantha:jnt_bnd_tail_09
+    100284: Samantha:jnt_codBack_01
+    100286: Samantha:jnt_codFront_01
+    100288: Samantha:jnt_jaw_End
+    100290: Samantha:jnt_l_clavicle_01
+    100292: Samantha:jnt_l_foot_End
+    100294: Samantha:jnt_l_hand_End
+    100296: Samantha:jnt_r_clavicle_01
+    100298: Samantha:jnt_r_foot_End
+    100300: Samantha:jnt_r_hand_End
+    100302: Samantha:jnt_snout_End
+    100304: Samantha:nrb_spine_01
+    100306: //RootNode
     400000: Samantha:clst_spine_01
-    400002: Samantha:clst_spine_02
-    400004: Samantha:ctrl_bodyBack_01
-    400006: Samantha:ctrl_bodyFront_01
-    400008: Samantha:ctrl_cod_01
-    400010: Samantha:ctrl_global_01
-    400012: Samantha:ctrl_l_ear_01
-    400014: Samantha:ctrl_l_ear_02
-    400016: Samantha:ctrl_l_elbow_01
-    400018: Samantha:ctrl_l_eye_01
-    400020: Samantha:ctrl_l_foot_01
-    400022: Samantha:ctrl_l_hand_01
-    400024: Samantha:ctrl_l_hip_01
-    400026: Samantha:ctrl_l_lower_01
-    400028: Samantha:ctrl_l_shoulder_01
-    400030: Samantha:ctrl_l_upper_01
-    400032: Samantha:ctrl_r_ear_01
-    400034: Samantha:ctrl_r_ear_02
-    400036: Samantha:ctrl_r_elbow_01
-    400038: Samantha:ctrl_r_eye_01
-    400040: Samantha:ctrl_r_hand_01
-    400042: Samantha:ctrl_r_hip_01
-    400044: Samantha:ctrl_r_lower_01
-    400046: Samantha:ctrl_r_shoulder_01
-    400048: Samantha:ctrl_r_upper_01
-    400050: Samantha:ctrl_snout_01
-    400052: Samantha:ctrl_snoutTip_01
-    400054: Samantha:ctrl_wiggleButt_01
-    400056: Samantha:ctrl_wiggleFront_01
-    400058: Samantha:ctrll_r_foot_01
-    400060: Samantha:flc_spine_01
-    400062: Samantha:flc_spine_02
-    400064: Samantha:flc_spine_03
-    400066: Samantha:flc_spine_04
-    400068: Samantha:flc_spine_05
-    400070: Samantha:grp_clst_spine_01
-    400072: Samantha:grp_ctrl
-    400074: Samantha:grp_ctrls_face_01
-    400076: Samantha:grp_flc_spine
-    400078: Samantha:grp_jnt
-    400080: Samantha:grp_jnt_spine
-    400082: Samantha:grp_l_arm_01
-    400084: Samantha:grp_l_leg_01
-    400086: Samantha:grp_r_arm_01
-    400088: Samantha:grp_r_leg_01
-    400090: Samantha:grp_rig
-    400092: Samantha:jnt_butt_01
-    400094: Samantha:jnt_butt_02
-    400096: Samantha:jnt_codBack_01
-    400098: Samantha:jnt_codFront_01
-    400100: Samantha:jnt_l_ear_01
-    400102: Samantha:jnt_l_ear_02
-    400104: Samantha:jnt_l_ear_End
-    400106: Samantha:jnt_l_eye_01
-    400108: Samantha:jnt_neck_01
-    400110: Samantha:jnt_neck_02
-    400112: Samantha:jnt_neck_03
-    400114: Samantha:jnt_r_ankle_01
-    400116: Samantha:jnt_r_ankle_02
-    400118: Samantha:jnt_r_clavicle_01
-    400120: Samantha:jnt_r_clavicle_02
-    400122: Samantha:jnt_r_ear_01
-    400124: Samantha:jnt_r_ear_02
-    400126: Samantha:jnt_r_ear_End
-    400128: Samantha:jnt_r_elbow_01
-    400130: Samantha:jnt_r_elbow_02
-    400132: Samantha:jnt_r_eye_01
-    400134: Samantha:jnt_r_foot_01
-    400136: Samantha:jnt_r_foot_01 1
-    400138: Samantha:jnt_r_foot_02
-    400140: Samantha:jnt_r_foot_03
-    400142: Samantha:jnt_r_foot_04
-    400144: Samantha:jnt_r_foot_05
-    400146: Samantha:jnt_r_foot_06
-    400148: Samantha:jnt_r_foot_07
-    400150: Samantha:jnt_r_foot_End_01
-    400152: Samantha:jnt_r_foot_End_02
-    400154: Samantha:jnt_r_foot_End_03
-    400156: Samantha:jnt_r_foot_End_04
-    400158: Samantha:jnt_r_hip_01
-    400160: Samantha:jnt_r_hip_02
-    400162: Samantha:jnt_r_knee_01
-    400164: Samantha:jnt_r_knee_02
-    400166: Samantha:jnt_r_shoulder_01
-    400168: Samantha:jnt_r_shoulder_02
-    400170: Samantha:jnt_snout_01
-    400172: Samantha:jnt_snout_02
-    400174: Samantha:jnt_snout_03
-    400176: Samantha:jnt_snout_End
-    400178: Samantha:jnt_spine_01
-    400180: Samantha:jnt_spine_02
-    400182: Samantha:jnt_spine_03
-    400184: Samantha:jnt_spine_04
-    400186: Samantha:jnt_spine_05
-    400188: Samantha:nrb_spine_01
-    400190: //RootNode
-    7400000: CutscenePiglet
+    400002: Samantha:clst_spine_01 1
+    400004: Samantha:clst_spine_02
+    400006: Samantha:clst_spine_03
+    400008: Samantha:clst_spine_03 1
+    400010: Samantha:clst_spine_04
+    400012: Samantha:ctrl_bodyBack_01
+    400014: Samantha:ctrl_bodyFront_01
+    400016: Samantha:ctrl_cod_01
+    400018: Samantha:ctrl_global_01
+    400020: Samantha:ctrl_hair_01
+    400022: Samantha:ctrl_horn_01
+    400024: Samantha:ctrl_jaw_01
+    400026: Samantha:ctrl_l_ear_01
+    400028: Samantha:ctrl_l_ear_02
+    400030: Samantha:ctrl_l_elbow_01
+    400032: Samantha:ctrl_l_eye_01
+    400034: Samantha:ctrl_l_eyeLidTop_01
+    400036: Samantha:ctrl_l_foot_01
+    400038: Samantha:ctrl_l_hand_01
+    400040: Samantha:ctrl_l_hip_01
+    400042: Samantha:ctrl_l_lower_01
+    400044: Samantha:ctrl_l_mouth_02
+    400046: Samantha:ctrl_l_shoulder_01
+    400048: Samantha:ctrl_l_upper_01
+    400050: Samantha:ctrl_r_ear_01
+    400052: Samantha:ctrl_r_ear_02
+    400054: Samantha:ctrl_r_elbow_01
+    400056: Samantha:ctrl_r_eye_01
+    400058: Samantha:ctrl_r_eyeLidBottum_01
+    400060: Samantha:ctrl_r_eyeLidBottum_01 1
+    400062: Samantha:ctrl_r_eyeLidTop_01
+    400064: Samantha:ctrl_r_hand_01
+    400066: Samantha:ctrl_r_hip_01
+    400068: Samantha:ctrl_r_lower_01
+    400070: Samantha:ctrl_r_mouth_01
+    400072: Samantha:ctrl_r_shoulder_01
+    400074: Samantha:ctrl_r_upper_01
+    400076: Samantha:ctrl_root_01
+    400078: Samantha:ctrl_snout_01
+    400080: Samantha:ctrl_snoutTip_01
+    400082: Samantha:ctrl_tail_01
+    400084: Samantha:ctrl_tail_010
+    400086: Samantha:ctrl_tail_011
+    400088: Samantha:ctrl_tail_02
+    400090: Samantha:ctrl_tail_03
+    400092: Samantha:ctrl_tail_04
+    400094: Samantha:ctrl_tail_05
+    400096: Samantha:ctrl_tail_06
+    400098: Samantha:ctrl_tail_07
+    400100: Samantha:ctrl_tail_08
+    400102: Samantha:ctrl_tail_09
+    400104: Samantha:ctrl_wiggleButt_01
+    400106: Samantha:ctrl_wiggleButt_02
+    400108: Samantha:ctrl_wiggleFront_01
+    400110: Samantha:ctrll_r_foot_01
+    400112: Samantha:DO_NOT_TOUCH_ctrl_rootError_01
+    400114: Samantha:flc_spine_01
+    400116: Samantha:flc_spine_02
+    400118: Samantha:flc_spine_03
+    400120: Samantha:flc_spine_04
+    400122: Samantha:flc_spine_05
+    400124: Samantha:grp_clst_01
+    400126: Samantha:grp_clst_spine_01
+    400128: Samantha:grp_codBack_01
+    400130: Samantha:grp_codFront_01
+    400132: Samantha:grp_ctrl
+    400134: Samantha:grp_ctrl_horn_01
+    400136: Samantha:grp_ctrl_jaw_01
+    400138: Samantha:grp_ctrl_l_ear_01
+    400140: Samantha:grp_ctrl_l_ear_02
+    400142: Samantha:grp_ctrl_l_eyeLidTop_01
+    400144: Samantha:grp_ctrl_r_ear_01
+    400146: Samantha:grp_ctrl_r_ear_02
+    400148: Samantha:grp_ctrl_r_eyeLidBottom_01
+    400150: Samantha:grp_ctrl_r_eyeLidBottom_02
+    400152: Samantha:grp_ctrl_r_eyeLidTop_01
+    400154: Samantha:grp_ctrl_snout_01
+    400156: Samantha:grp_ctrls_face_01
+    400158: Samantha:grp_flc_spine
+    400160: Samantha:grp_jnt
+    400162: Samantha:grp_jnt_spine
+    400164: Samantha:grp_l_arm_01
+    400166: Samantha:grp_l_leg_01
+    400168: Samantha:grp_r_arm_01
+    400170: Samantha:grp_r_leg_01
+    400172: Samantha:grp_rig
+    400174: Samantha:jnt_bnd_butt_01
+    400176: Samantha:jnt_bnd_butt_02
+    400178: Samantha:jnt_bnd_hair_01
+    400180: Samantha:jnt_bnd_horn_01
+    400182: Samantha:jnt_bnd_jaw_01
+    400184: Samantha:jnt_bnd_l_ankle_01
+    400186: Samantha:jnt_bnd_l_ear_01
+    400188: Samantha:jnt_bnd_l_ear_02
+    400190: Samantha:jnt_bnd_l_ear_03
+    400192: Samantha:jnt_bnd_l_elbow_01
+    400194: Samantha:jnt_bnd_l_eye_01
+    400196: Samantha:jnt_bnd_l_eyeLidBottom_01
+    400198: Samantha:jnt_bnd_l_eyeLidTop_01
+    400200: Samantha:jnt_bnd_l_foot_01
+    400202: Samantha:jnt_bnd_l_foot_01 1
+    400204: Samantha:jnt_bnd_l_hip_01
+    400206: Samantha:jnt_bnd_l_knee_01
+    400208: Samantha:jnt_bnd_l_mouth_01
+    400210: Samantha:jnt_bnd_l_shoulder_01
+    400212: Samantha:jnt_bnd_neck_01
+    400214: Samantha:jnt_bnd_neck_02
+    400216: Samantha:jnt_bnd_neck_03
+    400218: Samantha:jnt_bnd_r_ankle_01
+    400220: Samantha:jnt_bnd_r_ear_01
+    400222: Samantha:jnt_bnd_r_ear_02
+    400224: Samantha:jnt_bnd_r_ear_03
+    400226: Samantha:jnt_bnd_r_elbow_01
+    400228: Samantha:jnt_bnd_r_eye_01
+    400230: Samantha:jnt_bnd_r_eyeLidBottom_01
+    400232: Samantha:jnt_bnd_r_eyeLidTop_01
+    400234: Samantha:jnt_bnd_r_foot_01
+    400236: Samantha:jnt_bnd_r_foot_01 1
+    400238: Samantha:jnt_bnd_r_hip_01
+    400240: Samantha:jnt_bnd_r_knee_01
+    400242: Samantha:jnt_bnd_r_mouth_1
+    400244: Samantha:jnt_bnd_r_shoulder_01
+    400246: Samantha:jnt_bnd_snout_01
+    400248: Samantha:jnt_bnd_snout_02
+    400250: Samantha:jnt_bnd_snout_03
+    400252: Samantha:jnt_bnd_spine_01
+    400254: Samantha:jnt_bnd_spine_02
+    400256: Samantha:jnt_bnd_spine_03
+    400258: Samantha:jnt_bnd_spine_04
+    400260: Samantha:jnt_bnd_spine_05
+    400262: Samantha:jnt_bnd_tail_01
+    400264: Samantha:jnt_bnd_tail_010
+    400266: Samantha:jnt_bnd_tail_011
+    400268: Samantha:jnt_bnd_tail_02
+    400270: Samantha:jnt_bnd_tail_03
+    400272: Samantha:jnt_bnd_tail_04
+    400274: Samantha:jnt_bnd_tail_05
+    400276: Samantha:jnt_bnd_tail_06
+    400278: Samantha:jnt_bnd_tail_07
+    400280: Samantha:jnt_bnd_tail_08
+    400282: Samantha:jnt_bnd_tail_09
+    400284: Samantha:jnt_codBack_01
+    400286: Samantha:jnt_codFront_01
+    400288: Samantha:jnt_jaw_End
+    400290: Samantha:jnt_l_clavicle_01
+    400292: Samantha:jnt_l_foot_End
+    400294: Samantha:jnt_l_hand_End
+    400296: Samantha:jnt_r_clavicle_01
+    400298: Samantha:jnt_r_foot_End
+    400300: Samantha:jnt_r_hand_End
+    400302: Samantha:jnt_snout_End
+    400304: Samantha:nrb_spine_01
+    400306: //RootNode
+    7400000: CutsceneSamantha
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -221,7 +337,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: CutscenePiglet
+      name: CutsceneSamantha
       takeName: Take 001
       firstFrame: 1
       lastFrame: 160
@@ -256,6 +372,34 @@ ModelImporter:
       - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01
         weight: 1
       - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:ctrl_root_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03/Samantha:ctrl_tail_04
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03/Samantha:ctrl_tail_04/Samantha:ctrl_tail_05
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03/Samantha:ctrl_tail_04/Samantha:ctrl_tail_05/Samantha:ctrl_tail_06
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03/Samantha:ctrl_tail_04/Samantha:ctrl_tail_05/Samantha:ctrl_tail_06/Samantha:ctrl_tail_07
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03/Samantha:ctrl_tail_04/Samantha:ctrl_tail_05/Samantha:ctrl_tail_06/Samantha:ctrl_tail_07/Samantha:ctrl_tail_08
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03/Samantha:ctrl_tail_04/Samantha:ctrl_tail_05/Samantha:ctrl_tail_06/Samantha:ctrl_tail_07/Samantha:ctrl_tail_08/Samantha:ctrl_tail_09
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03/Samantha:ctrl_tail_04/Samantha:ctrl_tail_05/Samantha:ctrl_tail_06/Samantha:ctrl_tail_07/Samantha:ctrl_tail_08/Samantha:ctrl_tail_09/Samantha:ctrl_tail_010
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:ctrl_wiggleButt_01/Samantha:ctrl_wiggleButt_02/Samantha:DO_NOT_TOUCH_ctrl_rootError_01/Samantha:ctrl_tail_01/Samantha:ctrl_tail_02/Samantha:ctrl_tail_03/Samantha:ctrl_tail_04/Samantha:ctrl_tail_05/Samantha:ctrl_tail_06/Samantha:ctrl_tail_07/Samantha:ctrl_tail_08/Samantha:ctrl_tail_09/Samantha:ctrl_tail_010/Samantha:ctrl_tail_011
         weight: 1
       - path: Samantha:grp_ctrl/Samantha:ctrl_global_01/Samantha:ctrl_cod_01/Samantha:ctrl_bodyBack_01/Samantha:grp_l_leg_01
         weight: 1
@@ -299,131 +443,224 @@ ModelImporter:
         weight: 1
       - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01
         weight: 1
-      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_l_ear_01
-        weight: 1
-      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_l_ear_01/Samantha:ctrl_l_ear_02
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_hair_01
         weight: 1
       - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_l_eye_01
         weight: 1
-      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_r_ear_01
-        weight: 1
-      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_r_ear_01/Samantha:ctrl_r_ear_02
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_l_mouth_02
         weight: 1
       - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_r_eye_01
         weight: 1
-      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_snout_01
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_r_mouth_01
         weight: 1
-      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:ctrl_snout_01/Samantha:ctrl_snoutTip_01
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_horn_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_horn_01/Samantha:ctrl_horn_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_jaw_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_jaw_01/Samantha:ctrl_jaw_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_l_ear_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_l_ear_01/Samantha:ctrl_l_ear_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_l_ear_01/Samantha:ctrl_l_ear_01/Samantha:grp_ctrl_l_ear_02
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_l_ear_01/Samantha:ctrl_l_ear_01/Samantha:grp_ctrl_l_ear_02/Samantha:ctrl_l_ear_02
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_l_eyeLidTop_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_l_eyeLidTop_01/Samantha:ctrl_l_eyeLidTop_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_ear_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_ear_01/Samantha:ctrl_r_ear_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_ear_01/Samantha:ctrl_r_ear_01/Samantha:grp_ctrl_r_ear_02
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_ear_01/Samantha:ctrl_r_ear_01/Samantha:grp_ctrl_r_ear_02/Samantha:ctrl_r_ear_02
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_eyeLidBottom_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_eyeLidBottom_01/Samantha:ctrl_r_eyeLidBottum_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_eyeLidBottom_02
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_eyeLidBottom_02/Samantha:ctrl_r_eyeLidBottum_01
+          1
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_eyeLidTop_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_r_eyeLidTop_01/Samantha:ctrl_r_eyeLidTop_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_snout_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_snout_01/Samantha:ctrl_snout_01
+        weight: 1
+      - path: Samantha:grp_ctrl/Samantha:grp_ctrls_face_01/Samantha:grp_ctrl_snout_01/Samantha:ctrl_snout_01/Samantha:ctrl_snoutTip_01
         weight: 1
       - path: Samantha:grp_jnt
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_spine_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_spine_02
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_spine_03
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_spine_04
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_spine_05
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_butt_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03/Samantha:jnt_bnd_tail_04
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_butt_01/Samantha:jnt_butt_02
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03/Samantha:jnt_bnd_tail_04/Samantha:jnt_bnd_tail_05
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03/Samantha:jnt_bnd_tail_04/Samantha:jnt_bnd_tail_05/Samantha:jnt_bnd_tail_06
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_01/Samantha:jnt_r_knee_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03/Samantha:jnt_bnd_tail_04/Samantha:jnt_bnd_tail_05/Samantha:jnt_bnd_tail_06/Samantha:jnt_bnd_tail_07
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_01/Samantha:jnt_r_knee_01/Samantha:jnt_r_ankle_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03/Samantha:jnt_bnd_tail_04/Samantha:jnt_bnd_tail_05/Samantha:jnt_bnd_tail_06/Samantha:jnt_bnd_tail_07/Samantha:jnt_bnd_tail_08
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_01/Samantha:jnt_r_knee_01/Samantha:jnt_r_ankle_01/Samantha:jnt_r_foot_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03/Samantha:jnt_bnd_tail_04/Samantha:jnt_bnd_tail_05/Samantha:jnt_bnd_tail_06/Samantha:jnt_bnd_tail_07/Samantha:jnt_bnd_tail_08/Samantha:jnt_bnd_tail_09
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_01/Samantha:jnt_r_knee_01/Samantha:jnt_r_ankle_01/Samantha:jnt_r_foot_01/Samantha:jnt_r_foot_End_02
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03/Samantha:jnt_bnd_tail_04/Samantha:jnt_bnd_tail_05/Samantha:jnt_bnd_tail_06/Samantha:jnt_bnd_tail_07/Samantha:jnt_bnd_tail_08/Samantha:jnt_bnd_tail_09/Samantha:jnt_bnd_tail_010
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_01/Samantha:jnt_r_knee_01/Samantha:jnt_r_ankle_01/Samantha:jnt_r_foot_05
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_butt_01/Samantha:jnt_bnd_butt_02/Samantha:jnt_bnd_tail_01/Samantha:jnt_bnd_tail_02/Samantha:jnt_bnd_tail_03/Samantha:jnt_bnd_tail_04/Samantha:jnt_bnd_tail_05/Samantha:jnt_bnd_tail_06/Samantha:jnt_bnd_tail_07/Samantha:jnt_bnd_tail_08/Samantha:jnt_bnd_tail_09/Samantha:jnt_bnd_tail_010/Samantha:jnt_bnd_tail_011
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_02
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_l_hip_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_02/Samantha:jnt_r_knee_02
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_l_hip_01/Samantha:jnt_bnd_l_knee_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_02/Samantha:jnt_r_knee_02/Samantha:jnt_r_ankle_02
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_l_hip_01/Samantha:jnt_bnd_l_knee_01/Samantha:jnt_bnd_l_ankle_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_02/Samantha:jnt_r_knee_02/Samantha:jnt_r_ankle_02/Samantha:jnt_r_foot_02
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_l_hip_01/Samantha:jnt_bnd_l_knee_01/Samantha:jnt_bnd_l_ankle_01/Samantha:jnt_bnd_l_foot_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_02/Samantha:jnt_r_knee_02/Samantha:jnt_r_ankle_02/Samantha:jnt_r_foot_02/Samantha:jnt_r_foot_End_03
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_l_hip_01/Samantha:jnt_bnd_l_knee_01/Samantha:jnt_bnd_l_ankle_01/Samantha:jnt_bnd_l_foot_01/Samantha:jnt_l_foot_End
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codBack_01/Samantha:jnt_r_hip_02/Samantha:jnt_r_knee_02/Samantha:jnt_r_ankle_02/Samantha:jnt_r_foot_04
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_r_hip_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_r_hip_01/Samantha:jnt_bnd_r_knee_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_r_hip_01/Samantha:jnt_bnd_r_knee_01/Samantha:jnt_bnd_r_ankle_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_r_hip_01/Samantha:jnt_bnd_r_knee_01/Samantha:jnt_bnd_r_ankle_01/Samantha:jnt_bnd_r_foot_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03
+      - path: Samantha:grp_jnt/Samantha:grp_codBack_01/Samantha:jnt_codBack_01/Samantha:jnt_bnd_r_hip_01/Samantha:jnt_bnd_r_knee_01/Samantha:jnt_bnd_r_ankle_01/Samantha:jnt_bnd_r_foot_01/Samantha:jnt_r_foot_End
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_l_ear_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_l_ear_01/Samantha:jnt_l_ear_02
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_l_ear_01/Samantha:jnt_l_ear_02/Samantha:jnt_l_ear_End
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_l_eye_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_r_ear_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_r_ear_01/Samantha:jnt_r_ear_02
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_hair_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_r_ear_01/Samantha:jnt_r_ear_02/Samantha:jnt_r_ear_End
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_horn_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_r_eye_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_jaw_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_snout_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_jaw_01/Samantha:jnt_jaw_End
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_snout_01/Samantha:jnt_snout_02
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_l_ear_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_snout_01/Samantha:jnt_snout_02/Samantha:jnt_snout_03
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_l_ear_01/Samantha:jnt_bnd_l_ear_02
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_neck_01/Samantha:jnt_neck_02/Samantha:jnt_neck_03/Samantha:jnt_snout_01/Samantha:jnt_snout_02/Samantha:jnt_snout_03/Samantha:jnt_snout_End
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_l_ear_01/Samantha:jnt_bnd_l_ear_02/Samantha:jnt_bnd_l_ear_03
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_l_eye_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_r_shoulder_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_l_eyeLidBottom_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_r_shoulder_01/Samantha:jnt_r_elbow_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_l_eyeLidTop_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_r_shoulder_01/Samantha:jnt_r_elbow_01/Samantha:jnt_r_foot_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_l_mouth_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_r_ear_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_r_ear_01/Samantha:jnt_bnd_r_ear_02
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_r_ear_01/Samantha:jnt_bnd_r_ear_02/Samantha:jnt_bnd_r_ear_03
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_r_eye_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_r_eyeLidBottom_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_r_eyeLidTop_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_r_mouth_1
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_snout_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_snout_01/Samantha:jnt_bnd_snout_02
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_snout_01/Samantha:jnt_bnd_snout_02/Samantha:jnt_bnd_snout_03
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_bnd_neck_01/Samantha:jnt_bnd_neck_02/Samantha:jnt_bnd_neck_03/Samantha:jnt_bnd_snout_01/Samantha:jnt_bnd_snout_02/Samantha:jnt_bnd_snout_03/Samantha:jnt_snout_End
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_l_clavicle_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_l_clavicle_01/Samantha:jnt_bnd_l_shoulder_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_l_clavicle_01/Samantha:jnt_bnd_l_shoulder_01/Samantha:jnt_bnd_l_elbow_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_l_clavicle_01/Samantha:jnt_bnd_l_shoulder_01/Samantha:jnt_bnd_l_elbow_01/Samantha:jnt_bnd_l_foot_01
           1
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_r_shoulder_01/Samantha:jnt_r_elbow_01/Samantha:jnt_r_foot_01
-          1/Samantha:jnt_r_foot_End_01
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_l_clavicle_01/Samantha:jnt_bnd_l_shoulder_01/Samantha:jnt_bnd_l_elbow_01/Samantha:jnt_bnd_l_foot_01
+          1/Samantha:jnt_l_hand_End
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_r_shoulder_01/Samantha:jnt_r_elbow_01/Samantha:jnt_r_foot_07
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_02
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_bnd_r_shoulder_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_02/Samantha:jnt_r_shoulder_02
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_bnd_r_shoulder_01/Samantha:jnt_bnd_r_elbow_01
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_02/Samantha:jnt_r_shoulder_02/Samantha:jnt_r_elbow_02
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_bnd_r_shoulder_01/Samantha:jnt_bnd_r_elbow_01/Samantha:jnt_bnd_r_foot_01
+          1
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_02/Samantha:jnt_r_shoulder_02/Samantha:jnt_r_elbow_02/Samantha:jnt_r_foot_03
+      - path: Samantha:grp_jnt/Samantha:grp_codFront_01/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_01/Samantha:jnt_bnd_r_shoulder_01/Samantha:jnt_bnd_r_elbow_01/Samantha:jnt_bnd_r_foot_01
+          1/Samantha:jnt_r_hand_End
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_02/Samantha:jnt_r_shoulder_02/Samantha:jnt_r_elbow_02/Samantha:jnt_r_foot_03/Samantha:jnt_r_foot_End_04
+      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine
         weight: 1
-      - path: Samantha:grp_jnt/Samantha:jnt_codFront_01/Samantha:jnt_r_clavicle_02/Samantha:jnt_r_shoulder_02/Samantha:jnt_r_elbow_02/Samantha:jnt_r_foot_06
+      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_bnd_spine_01
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_bnd_spine_02
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_bnd_spine_03
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_bnd_spine_04
+        weight: 1
+      - path: Samantha:grp_jnt/Samantha:grp_jnt_spine/Samantha:jnt_bnd_spine_05
         weight: 1
       - path: Samantha:grp_rig
         weight: 1
       - path: Samantha:grp_rig/Samantha:grp_clst_spine_01
         weight: 1
-      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:clst_spine_01
+      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:grp_clst_01
         weight: 1
-      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:clst_spine_02
+      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:grp_clst_01/Samantha:clst_spine_01
+        weight: 1
+      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:grp_clst_01/Samantha:clst_spine_01/Samantha:clst_spine_01
+          1
+        weight: 1
+      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:grp_clst_01/Samantha:clst_spine_02
+        weight: 1
+      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:grp_clst_01/Samantha:clst_spine_02/Samantha:clst_spine_04
+        weight: 1
+      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:grp_clst_01/Samantha:clst_spine_03
+        weight: 1
+      - path: Samantha:grp_rig/Samantha:grp_clst_spine_01/Samantha:grp_clst_01/Samantha:clst_spine_03/Samantha:clst_spine_03
+          1
         weight: 1
       - path: Samantha:grp_rig/Samantha:grp_flc_spine
         weight: 1
@@ -441,7 +678,7 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
