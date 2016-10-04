@@ -122,12 +122,10 @@ public class PigletManager : MonoBehaviour {
 
 
         if (dist1 < dist2 && pigletPickedUp[0] == false) {
-            Debug.Log("piglet 1 is closest");
             canSpawn[0] = true;
             canSpawn[1] = false;
         }
         if(dist2 < dist1 && pigletPickedUp[1] == false) {
-            Debug.Log("piglet 2 is closest");
             canSpawn[1] = true;
         }
 
