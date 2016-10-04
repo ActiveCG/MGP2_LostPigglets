@@ -1,202 +1,318 @@
 fileFormatVersion: 2
-guid: 35c1479431017c74db15c2560e99e725
-timeCreated: 1475490234
+guid: 5fd7edfa0c84ae8478aaaab3c80fff32
+timeCreated: 1475573511
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: Piglet:clst_spine_01
-    100002: Piglet:clst_spine_02
-    100004: Piglet:ctrl_bodyBack_01
-    100006: Piglet:ctrl_bodyFront_01
-    100008: Piglet:ctrl_cod_01
-    100010: Piglet:ctrl_global_01
-    100012: Piglet:ctrl_l_ear_01
-    100014: Piglet:ctrl_l_ear_02
-    100016: Piglet:ctrl_l_elbow_01
-    100018: Piglet:ctrl_l_eye_01
-    100020: Piglet:ctrl_l_foot_01
-    100022: Piglet:ctrl_l_hand_01
-    100024: Piglet:ctrl_l_hip_01
-    100026: Piglet:ctrl_l_lower_01
-    100028: Piglet:ctrl_l_shoulder_01
-    100030: Piglet:ctrl_l_upper_01
-    100032: Piglet:ctrl_r_ear_01
-    100034: Piglet:ctrl_r_ear_02
-    100036: Piglet:ctrl_r_elbow_01
-    100038: Piglet:ctrl_r_eye_01
-    100040: Piglet:ctrl_r_hand_01
-    100042: Piglet:ctrl_r_hip_01
-    100044: Piglet:ctrl_r_lower_01
-    100046: Piglet:ctrl_r_shoulder_01
-    100048: Piglet:ctrl_r_upper_01
-    100050: Piglet:ctrl_snout_01
-    100052: Piglet:ctrl_snoutTip_01
-    100054: Piglet:ctrl_wiggleButt_01
-    100056: Piglet:ctrl_wiggleFront_01
-    100058: Piglet:ctrll_r_foot_01
-    100060: Piglet:flc_spine_01
-    100062: Piglet:flc_spine_02
-    100064: Piglet:flc_spine_03
-    100066: Piglet:flc_spine_04
-    100068: Piglet:flc_spine_05
-    100070: Piglet:grp_clst_spine_01
-    100072: Piglet:grp_ctrl
-    100074: Piglet:grp_ctrls_face_01
-    100076: Piglet:grp_flc_spine
-    100078: Piglet:grp_jnt
-    100080: Piglet:grp_jnt_spine
-    100082: Piglet:grp_l_arm_01
-    100084: Piglet:grp_l_leg_01
-    100086: Piglet:grp_r_arm_01
-    100088: Piglet:grp_r_leg_01
-    100090: Piglet:grp_rig
-    100092: Piglet:jnt_butt_01
-    100094: Piglet:jnt_butt_02
-    100096: Piglet:jnt_codBack_01
-    100098: Piglet:jnt_codFront_01
-    100100: Piglet:jnt_l_ear_01
-    100102: Piglet:jnt_l_ear_02
-    100104: Piglet:jnt_l_ear_End
-    100106: Piglet:jnt_l_eye_01
-    100108: Piglet:jnt_neck_01
-    100110: Piglet:jnt_neck_02
-    100112: Piglet:jnt_neck_03
-    100114: Piglet:jnt_r_ankle_01
-    100116: Piglet:jnt_r_ankle_02
-    100118: Piglet:jnt_r_clavicle_01
-    100120: Piglet:jnt_r_clavicle_02
-    100122: Piglet:jnt_r_ear_01
-    100124: Piglet:jnt_r_ear_02
-    100126: Piglet:jnt_r_ear_End
-    100128: Piglet:jnt_r_elbow_01
-    100130: Piglet:jnt_r_elbow_02
-    100132: Piglet:jnt_r_eye_01
-    100134: Piglet:jnt_r_foot_01
-    100136: Piglet:jnt_r_foot_01 1
-    100138: Piglet:jnt_r_foot_02
-    100140: Piglet:jnt_r_foot_03
-    100142: Piglet:jnt_r_foot_04
-    100144: Piglet:jnt_r_foot_05
-    100146: Piglet:jnt_r_foot_06
-    100148: Piglet:jnt_r_foot_07
-    100150: Piglet:jnt_r_foot_End_01
-    100152: Piglet:jnt_r_foot_End_02
-    100154: Piglet:jnt_r_foot_End_03
-    100156: Piglet:jnt_r_foot_End_04
-    100158: Piglet:jnt_r_hip_01
-    100160: Piglet:jnt_r_hip_02
-    100162: Piglet:jnt_r_knee_01
-    100164: Piglet:jnt_r_knee_02
-    100166: Piglet:jnt_r_shoulder_01
-    100168: Piglet:jnt_r_shoulder_02
-    100170: Piglet:jnt_snout_01
-    100172: Piglet:jnt_snout_02
-    100174: Piglet:jnt_snout_03
-    100176: Piglet:jnt_snout_End
-    100178: Piglet:jnt_spine_01
-    100180: Piglet:jnt_spine_02
-    100182: Piglet:jnt_spine_03
-    100184: Piglet:jnt_spine_04
-    100186: Piglet:jnt_spine_05
-    100188: Piglet:nrb_spine_01
-    100190: //RootNode
+    100002: Piglet:clst_spine_01 1
+    100004: Piglet:clst_spine_02
+    100006: Piglet:clst_spine_03
+    100008: Piglet:clst_spine_03 1
+    100010: Piglet:clst_spine_04
+    100012: Piglet:ctrl_bodyBack_01
+    100014: Piglet:ctrl_bodyFront_01
+    100016: Piglet:ctrl_cod_01
+    100018: Piglet:ctrl_global_01
+    100020: Piglet:ctrl_hair_01
+    100022: Piglet:ctrl_horn_01
+    100024: Piglet:ctrl_jaw_01
+    100026: Piglet:ctrl_l_ear_01
+    100028: Piglet:ctrl_l_ear_02
+    100030: Piglet:ctrl_l_elbow_01
+    100032: Piglet:ctrl_l_eye_01
+    100034: Piglet:ctrl_l_eyeLidTop_01
+    100036: Piglet:ctrl_l_foot_01
+    100038: Piglet:ctrl_l_hand_01
+    100040: Piglet:ctrl_l_hip_01
+    100042: Piglet:ctrl_l_lower_01
+    100044: Piglet:ctrl_l_mouth_02
+    100046: Piglet:ctrl_l_shoulder_01
+    100048: Piglet:ctrl_l_upper_01
+    100050: Piglet:ctrl_r_ear_01
+    100052: Piglet:ctrl_r_ear_02
+    100054: Piglet:ctrl_r_elbow_01
+    100056: Piglet:ctrl_r_eye_01
+    100058: Piglet:ctrl_r_eyeLidBottum_01
+    100060: Piglet:ctrl_r_eyeLidBottum_01 1
+    100062: Piglet:ctrl_r_eyeLidTop_01
+    100064: Piglet:ctrl_r_hand_01
+    100066: Piglet:ctrl_r_hip_01
+    100068: Piglet:ctrl_r_lower_01
+    100070: Piglet:ctrl_r_mouth_01
+    100072: Piglet:ctrl_r_shoulder_01
+    100074: Piglet:ctrl_r_upper_01
+    100076: Piglet:ctrl_root_01
+    100078: Piglet:ctrl_snout_01
+    100080: Piglet:ctrl_snoutTip_01
+    100082: Piglet:ctrl_tail_01
+    100084: Piglet:ctrl_tail_010
+    100086: Piglet:ctrl_tail_011
+    100088: Piglet:ctrl_tail_02
+    100090: Piglet:ctrl_tail_03
+    100092: Piglet:ctrl_tail_04
+    100094: Piglet:ctrl_tail_05
+    100096: Piglet:ctrl_tail_06
+    100098: Piglet:ctrl_tail_07
+    100100: Piglet:ctrl_tail_08
+    100102: Piglet:ctrl_tail_09
+    100104: Piglet:ctrl_wiggleButt_01
+    100106: Piglet:ctrl_wiggleButt_02
+    100108: Piglet:ctrl_wiggleFront_01
+    100110: Piglet:ctrll_r_foot_01
+    100112: Piglet:DO_NOT_TOUCH_ctrl_rootError_01
+    100114: Piglet:flc_spine_01
+    100116: Piglet:flc_spine_02
+    100118: Piglet:flc_spine_03
+    100120: Piglet:flc_spine_04
+    100122: Piglet:flc_spine_05
+    100124: Piglet:grp_clst_01
+    100126: Piglet:grp_clst_spine_01
+    100128: Piglet:grp_codBack_01
+    100130: Piglet:grp_codFront_01
+    100132: Piglet:grp_ctrl
+    100134: Piglet:grp_ctrl_horn_01
+    100136: Piglet:grp_ctrl_jaw_01
+    100138: Piglet:grp_ctrl_l_ear_01
+    100140: Piglet:grp_ctrl_l_ear_02
+    100142: Piglet:grp_ctrl_l_eyeLidTop_01
+    100144: Piglet:grp_ctrl_r_ear_01
+    100146: Piglet:grp_ctrl_r_ear_02
+    100148: Piglet:grp_ctrl_r_eyeLidBottom_01
+    100150: Piglet:grp_ctrl_r_eyeLidBottom_02
+    100152: Piglet:grp_ctrl_r_eyeLidTop_01
+    100154: Piglet:grp_ctrl_snout_01
+    100156: Piglet:grp_ctrls_face_01
+    100158: Piglet:grp_flc_spine
+    100160: Piglet:grp_jnt
+    100162: Piglet:grp_jnt_spine
+    100164: Piglet:grp_l_arm_01
+    100166: Piglet:grp_l_leg_01
+    100168: Piglet:grp_r_arm_01
+    100170: Piglet:grp_r_leg_01
+    100172: Piglet:grp_rig
+    100174: Piglet:jnt_bnd_butt_01
+    100176: Piglet:jnt_bnd_butt_02
+    100178: Piglet:jnt_bnd_hair_01
+    100180: Piglet:jnt_bnd_horn_01
+    100182: Piglet:jnt_bnd_jaw_01
+    100184: Piglet:jnt_bnd_l_ankle_01
+    100186: Piglet:jnt_bnd_l_ear_01
+    100188: Piglet:jnt_bnd_l_ear_02
+    100190: Piglet:jnt_bnd_l_ear_03
+    100192: Piglet:jnt_bnd_l_elbow_01
+    100194: Piglet:jnt_bnd_l_eye_01
+    100196: Piglet:jnt_bnd_l_eyeLidBottom_01
+    100198: Piglet:jnt_bnd_l_eyeLidTop_01
+    100200: Piglet:jnt_bnd_l_foot_01
+    100202: Piglet:jnt_bnd_l_foot_01 1
+    100204: Piglet:jnt_bnd_l_hip_01
+    100206: Piglet:jnt_bnd_l_knee_01
+    100208: Piglet:jnt_bnd_l_mouth_01
+    100210: Piglet:jnt_bnd_l_shoulder_01
+    100212: Piglet:jnt_bnd_neck_01
+    100214: Piglet:jnt_bnd_neck_02
+    100216: Piglet:jnt_bnd_neck_03
+    100218: Piglet:jnt_bnd_r_ankle_01
+    100220: Piglet:jnt_bnd_r_ear_01
+    100222: Piglet:jnt_bnd_r_ear_02
+    100224: Piglet:jnt_bnd_r_ear_03
+    100226: Piglet:jnt_bnd_r_elbow_01
+    100228: Piglet:jnt_bnd_r_eye_01
+    100230: Piglet:jnt_bnd_r_eyeLidBottom_01
+    100232: Piglet:jnt_bnd_r_eyeLidTop_01
+    100234: Piglet:jnt_bnd_r_foot_01
+    100236: Piglet:jnt_bnd_r_foot_01 1
+    100238: Piglet:jnt_bnd_r_hip_01
+    100240: Piglet:jnt_bnd_r_knee_01
+    100242: Piglet:jnt_bnd_r_mouth_1
+    100244: Piglet:jnt_bnd_r_shoulder_01
+    100246: Piglet:jnt_bnd_snout_01
+    100248: Piglet:jnt_bnd_snout_02
+    100250: Piglet:jnt_bnd_snout_03
+    100252: Piglet:jnt_bnd_spine_01
+    100254: Piglet:jnt_bnd_spine_02
+    100256: Piglet:jnt_bnd_spine_03
+    100258: Piglet:jnt_bnd_spine_04
+    100260: Piglet:jnt_bnd_spine_05
+    100262: Piglet:jnt_bnd_tail_01
+    100264: Piglet:jnt_bnd_tail_010
+    100266: Piglet:jnt_bnd_tail_011
+    100268: Piglet:jnt_bnd_tail_02
+    100270: Piglet:jnt_bnd_tail_03
+    100272: Piglet:jnt_bnd_tail_04
+    100274: Piglet:jnt_bnd_tail_05
+    100276: Piglet:jnt_bnd_tail_06
+    100278: Piglet:jnt_bnd_tail_07
+    100280: Piglet:jnt_bnd_tail_08
+    100282: Piglet:jnt_bnd_tail_09
+    100284: Piglet:jnt_codBack_01
+    100286: Piglet:jnt_codFront_01
+    100288: Piglet:jnt_jaw_End
+    100290: Piglet:jnt_l_clavicle_01
+    100292: Piglet:jnt_l_foot_End
+    100294: Piglet:jnt_l_hand_End
+    100296: Piglet:jnt_r_clavicle_01
+    100298: Piglet:jnt_r_foot_End
+    100300: Piglet:jnt_r_hand_End
+    100302: Piglet:jnt_snout_End
+    100304: Piglet:nrb_spine_01
+    100306: //RootNode
     400000: Piglet:clst_spine_01
-    400002: Piglet:clst_spine_02
-    400004: Piglet:ctrl_bodyBack_01
-    400006: Piglet:ctrl_bodyFront_01
-    400008: Piglet:ctrl_cod_01
-    400010: Piglet:ctrl_global_01
-    400012: Piglet:ctrl_l_ear_01
-    400014: Piglet:ctrl_l_ear_02
-    400016: Piglet:ctrl_l_elbow_01
-    400018: Piglet:ctrl_l_eye_01
-    400020: Piglet:ctrl_l_foot_01
-    400022: Piglet:ctrl_l_hand_01
-    400024: Piglet:ctrl_l_hip_01
-    400026: Piglet:ctrl_l_lower_01
-    400028: Piglet:ctrl_l_shoulder_01
-    400030: Piglet:ctrl_l_upper_01
-    400032: Piglet:ctrl_r_ear_01
-    400034: Piglet:ctrl_r_ear_02
-    400036: Piglet:ctrl_r_elbow_01
-    400038: Piglet:ctrl_r_eye_01
-    400040: Piglet:ctrl_r_hand_01
-    400042: Piglet:ctrl_r_hip_01
-    400044: Piglet:ctrl_r_lower_01
-    400046: Piglet:ctrl_r_shoulder_01
-    400048: Piglet:ctrl_r_upper_01
-    400050: Piglet:ctrl_snout_01
-    400052: Piglet:ctrl_snoutTip_01
-    400054: Piglet:ctrl_wiggleButt_01
-    400056: Piglet:ctrl_wiggleFront_01
-    400058: Piglet:ctrll_r_foot_01
-    400060: Piglet:flc_spine_01
-    400062: Piglet:flc_spine_02
-    400064: Piglet:flc_spine_03
-    400066: Piglet:flc_spine_04
-    400068: Piglet:flc_spine_05
-    400070: Piglet:grp_clst_spine_01
-    400072: Piglet:grp_ctrl
-    400074: Piglet:grp_ctrls_face_01
-    400076: Piglet:grp_flc_spine
-    400078: Piglet:grp_jnt
-    400080: Piglet:grp_jnt_spine
-    400082: Piglet:grp_l_arm_01
-    400084: Piglet:grp_l_leg_01
-    400086: Piglet:grp_r_arm_01
-    400088: Piglet:grp_r_leg_01
-    400090: Piglet:grp_rig
-    400092: Piglet:jnt_butt_01
-    400094: Piglet:jnt_butt_02
-    400096: Piglet:jnt_codBack_01
-    400098: Piglet:jnt_codFront_01
-    400100: Piglet:jnt_l_ear_01
-    400102: Piglet:jnt_l_ear_02
-    400104: Piglet:jnt_l_ear_End
-    400106: Piglet:jnt_l_eye_01
-    400108: Piglet:jnt_neck_01
-    400110: Piglet:jnt_neck_02
-    400112: Piglet:jnt_neck_03
-    400114: Piglet:jnt_r_ankle_01
-    400116: Piglet:jnt_r_ankle_02
-    400118: Piglet:jnt_r_clavicle_01
-    400120: Piglet:jnt_r_clavicle_02
-    400122: Piglet:jnt_r_ear_01
-    400124: Piglet:jnt_r_ear_02
-    400126: Piglet:jnt_r_ear_End
-    400128: Piglet:jnt_r_elbow_01
-    400130: Piglet:jnt_r_elbow_02
-    400132: Piglet:jnt_r_eye_01
-    400134: Piglet:jnt_r_foot_01
-    400136: Piglet:jnt_r_foot_01 1
-    400138: Piglet:jnt_r_foot_02
-    400140: Piglet:jnt_r_foot_03
-    400142: Piglet:jnt_r_foot_04
-    400144: Piglet:jnt_r_foot_05
-    400146: Piglet:jnt_r_foot_06
-    400148: Piglet:jnt_r_foot_07
-    400150: Piglet:jnt_r_foot_End_01
-    400152: Piglet:jnt_r_foot_End_02
-    400154: Piglet:jnt_r_foot_End_03
-    400156: Piglet:jnt_r_foot_End_04
-    400158: Piglet:jnt_r_hip_01
-    400160: Piglet:jnt_r_hip_02
-    400162: Piglet:jnt_r_knee_01
-    400164: Piglet:jnt_r_knee_02
-    400166: Piglet:jnt_r_shoulder_01
-    400168: Piglet:jnt_r_shoulder_02
-    400170: Piglet:jnt_snout_01
-    400172: Piglet:jnt_snout_02
-    400174: Piglet:jnt_snout_03
-    400176: Piglet:jnt_snout_End
-    400178: Piglet:jnt_spine_01
-    400180: Piglet:jnt_spine_02
-    400182: Piglet:jnt_spine_03
-    400184: Piglet:jnt_spine_04
-    400186: Piglet:jnt_spine_05
-    400188: Piglet:nrb_spine_01
-    400190: //RootNode
+    400002: Piglet:clst_spine_01 1
+    400004: Piglet:clst_spine_02
+    400006: Piglet:clst_spine_03
+    400008: Piglet:clst_spine_03 1
+    400010: Piglet:clst_spine_04
+    400012: Piglet:ctrl_bodyBack_01
+    400014: Piglet:ctrl_bodyFront_01
+    400016: Piglet:ctrl_cod_01
+    400018: Piglet:ctrl_global_01
+    400020: Piglet:ctrl_hair_01
+    400022: Piglet:ctrl_horn_01
+    400024: Piglet:ctrl_jaw_01
+    400026: Piglet:ctrl_l_ear_01
+    400028: Piglet:ctrl_l_ear_02
+    400030: Piglet:ctrl_l_elbow_01
+    400032: Piglet:ctrl_l_eye_01
+    400034: Piglet:ctrl_l_eyeLidTop_01
+    400036: Piglet:ctrl_l_foot_01
+    400038: Piglet:ctrl_l_hand_01
+    400040: Piglet:ctrl_l_hip_01
+    400042: Piglet:ctrl_l_lower_01
+    400044: Piglet:ctrl_l_mouth_02
+    400046: Piglet:ctrl_l_shoulder_01
+    400048: Piglet:ctrl_l_upper_01
+    400050: Piglet:ctrl_r_ear_01
+    400052: Piglet:ctrl_r_ear_02
+    400054: Piglet:ctrl_r_elbow_01
+    400056: Piglet:ctrl_r_eye_01
+    400058: Piglet:ctrl_r_eyeLidBottum_01
+    400060: Piglet:ctrl_r_eyeLidBottum_01 1
+    400062: Piglet:ctrl_r_eyeLidTop_01
+    400064: Piglet:ctrl_r_hand_01
+    400066: Piglet:ctrl_r_hip_01
+    400068: Piglet:ctrl_r_lower_01
+    400070: Piglet:ctrl_r_mouth_01
+    400072: Piglet:ctrl_r_shoulder_01
+    400074: Piglet:ctrl_r_upper_01
+    400076: Piglet:ctrl_root_01
+    400078: Piglet:ctrl_snout_01
+    400080: Piglet:ctrl_snoutTip_01
+    400082: Piglet:ctrl_tail_01
+    400084: Piglet:ctrl_tail_010
+    400086: Piglet:ctrl_tail_011
+    400088: Piglet:ctrl_tail_02
+    400090: Piglet:ctrl_tail_03
+    400092: Piglet:ctrl_tail_04
+    400094: Piglet:ctrl_tail_05
+    400096: Piglet:ctrl_tail_06
+    400098: Piglet:ctrl_tail_07
+    400100: Piglet:ctrl_tail_08
+    400102: Piglet:ctrl_tail_09
+    400104: Piglet:ctrl_wiggleButt_01
+    400106: Piglet:ctrl_wiggleButt_02
+    400108: Piglet:ctrl_wiggleFront_01
+    400110: Piglet:ctrll_r_foot_01
+    400112: Piglet:DO_NOT_TOUCH_ctrl_rootError_01
+    400114: Piglet:flc_spine_01
+    400116: Piglet:flc_spine_02
+    400118: Piglet:flc_spine_03
+    400120: Piglet:flc_spine_04
+    400122: Piglet:flc_spine_05
+    400124: Piglet:grp_clst_01
+    400126: Piglet:grp_clst_spine_01
+    400128: Piglet:grp_codBack_01
+    400130: Piglet:grp_codFront_01
+    400132: Piglet:grp_ctrl
+    400134: Piglet:grp_ctrl_horn_01
+    400136: Piglet:grp_ctrl_jaw_01
+    400138: Piglet:grp_ctrl_l_ear_01
+    400140: Piglet:grp_ctrl_l_ear_02
+    400142: Piglet:grp_ctrl_l_eyeLidTop_01
+    400144: Piglet:grp_ctrl_r_ear_01
+    400146: Piglet:grp_ctrl_r_ear_02
+    400148: Piglet:grp_ctrl_r_eyeLidBottom_01
+    400150: Piglet:grp_ctrl_r_eyeLidBottom_02
+    400152: Piglet:grp_ctrl_r_eyeLidTop_01
+    400154: Piglet:grp_ctrl_snout_01
+    400156: Piglet:grp_ctrls_face_01
+    400158: Piglet:grp_flc_spine
+    400160: Piglet:grp_jnt
+    400162: Piglet:grp_jnt_spine
+    400164: Piglet:grp_l_arm_01
+    400166: Piglet:grp_l_leg_01
+    400168: Piglet:grp_r_arm_01
+    400170: Piglet:grp_r_leg_01
+    400172: Piglet:grp_rig
+    400174: Piglet:jnt_bnd_butt_01
+    400176: Piglet:jnt_bnd_butt_02
+    400178: Piglet:jnt_bnd_hair_01
+    400180: Piglet:jnt_bnd_horn_01
+    400182: Piglet:jnt_bnd_jaw_01
+    400184: Piglet:jnt_bnd_l_ankle_01
+    400186: Piglet:jnt_bnd_l_ear_01
+    400188: Piglet:jnt_bnd_l_ear_02
+    400190: Piglet:jnt_bnd_l_ear_03
+    400192: Piglet:jnt_bnd_l_elbow_01
+    400194: Piglet:jnt_bnd_l_eye_01
+    400196: Piglet:jnt_bnd_l_eyeLidBottom_01
+    400198: Piglet:jnt_bnd_l_eyeLidTop_01
+    400200: Piglet:jnt_bnd_l_foot_01
+    400202: Piglet:jnt_bnd_l_foot_01 1
+    400204: Piglet:jnt_bnd_l_hip_01
+    400206: Piglet:jnt_bnd_l_knee_01
+    400208: Piglet:jnt_bnd_l_mouth_01
+    400210: Piglet:jnt_bnd_l_shoulder_01
+    400212: Piglet:jnt_bnd_neck_01
+    400214: Piglet:jnt_bnd_neck_02
+    400216: Piglet:jnt_bnd_neck_03
+    400218: Piglet:jnt_bnd_r_ankle_01
+    400220: Piglet:jnt_bnd_r_ear_01
+    400222: Piglet:jnt_bnd_r_ear_02
+    400224: Piglet:jnt_bnd_r_ear_03
+    400226: Piglet:jnt_bnd_r_elbow_01
+    400228: Piglet:jnt_bnd_r_eye_01
+    400230: Piglet:jnt_bnd_r_eyeLidBottom_01
+    400232: Piglet:jnt_bnd_r_eyeLidTop_01
+    400234: Piglet:jnt_bnd_r_foot_01
+    400236: Piglet:jnt_bnd_r_foot_01 1
+    400238: Piglet:jnt_bnd_r_hip_01
+    400240: Piglet:jnt_bnd_r_knee_01
+    400242: Piglet:jnt_bnd_r_mouth_1
+    400244: Piglet:jnt_bnd_r_shoulder_01
+    400246: Piglet:jnt_bnd_snout_01
+    400248: Piglet:jnt_bnd_snout_02
+    400250: Piglet:jnt_bnd_snout_03
+    400252: Piglet:jnt_bnd_spine_01
+    400254: Piglet:jnt_bnd_spine_02
+    400256: Piglet:jnt_bnd_spine_03
+    400258: Piglet:jnt_bnd_spine_04
+    400260: Piglet:jnt_bnd_spine_05
+    400262: Piglet:jnt_bnd_tail_01
+    400264: Piglet:jnt_bnd_tail_010
+    400266: Piglet:jnt_bnd_tail_011
+    400268: Piglet:jnt_bnd_tail_02
+    400270: Piglet:jnt_bnd_tail_03
+    400272: Piglet:jnt_bnd_tail_04
+    400274: Piglet:jnt_bnd_tail_05
+    400276: Piglet:jnt_bnd_tail_06
+    400278: Piglet:jnt_bnd_tail_07
+    400280: Piglet:jnt_bnd_tail_08
+    400282: Piglet:jnt_bnd_tail_09
+    400284: Piglet:jnt_codBack_01
+    400286: Piglet:jnt_codFront_01
+    400288: Piglet:jnt_jaw_End
+    400290: Piglet:jnt_l_clavicle_01
+    400292: Piglet:jnt_l_foot_End
+    400294: Piglet:jnt_l_hand_End
+    400296: Piglet:jnt_r_clavicle_01
+    400298: Piglet:jnt_r_foot_End
+    400300: Piglet:jnt_r_hand_End
+    400302: Piglet:jnt_snout_End
+    400304: Piglet:nrb_spine_01
+    400306: //RootNode
     7400000: Idle
     7400002: IdleJump
     9500000: //RootNode
@@ -232,7 +348,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -257,6 +373,34 @@ ModelImporter:
       - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01
         weight: 1
       - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:ctrl_root_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07/Piglet:ctrl_tail_08
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07/Piglet:ctrl_tail_08/Piglet:ctrl_tail_09
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07/Piglet:ctrl_tail_08/Piglet:ctrl_tail_09/Piglet:ctrl_tail_010
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07/Piglet:ctrl_tail_08/Piglet:ctrl_tail_09/Piglet:ctrl_tail_010/Piglet:ctrl_tail_011
         weight: 1
       - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:grp_l_leg_01
         weight: 1
@@ -298,133 +442,226 @@ ModelImporter:
         weight: 1
       - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyFront_01/Piglet:grp_r_arm_01/Piglet:ctrl_r_shoulder_01/Piglet:ctrl_r_elbow_01/Piglet:ctrl_r_hand_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_ear_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_hair_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_ear_01/Piglet:ctrl_l_ear_02
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_eye_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_eye_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_mouth_02
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_ear_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_eye_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_ear_01/Piglet:ctrl_r_ear_02
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_mouth_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_eye_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_horn_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_snout_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_horn_01/Piglet:ctrl_horn_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_snout_01/Piglet:ctrl_snoutTip_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_jaw_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_jaw_01/Piglet:ctrl_jaw_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_ear_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_ear_01/Piglet:ctrl_l_ear_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_ear_01/Piglet:ctrl_l_ear_01/Piglet:grp_ctrl_l_ear_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_ear_01/Piglet:ctrl_l_ear_01/Piglet:grp_ctrl_l_ear_02/Piglet:ctrl_l_ear_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_eyeLidTop_01/Piglet:ctrl_l_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_ear_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_ear_01/Piglet:ctrl_r_ear_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_ear_01/Piglet:ctrl_r_ear_01/Piglet:grp_ctrl_r_ear_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_ear_01/Piglet:ctrl_r_ear_01/Piglet:grp_ctrl_r_ear_02/Piglet:ctrl_r_ear_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidBottom_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidBottom_01/Piglet:ctrl_r_eyeLidBottum_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidBottom_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidBottom_02/Piglet:ctrl_r_eyeLidBottum_01
+          1
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidTop_01/Piglet:ctrl_r_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_snout_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_snout_01/Piglet:ctrl_snout_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_snout_01/Piglet:ctrl_snout_01/Piglet:ctrl_snoutTip_01
         weight: 1
       - path: Piglet:grp_jnt
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_03
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_04
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_05
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_butt_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_butt_01/Piglet:jnt_butt_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01/Piglet:jnt_r_ankle_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07/Piglet:jnt_bnd_tail_08
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01/Piglet:jnt_r_ankle_01/Piglet:jnt_r_foot_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07/Piglet:jnt_bnd_tail_08/Piglet:jnt_bnd_tail_09
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01/Piglet:jnt_r_ankle_01/Piglet:jnt_r_foot_01/Piglet:jnt_r_foot_End_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07/Piglet:jnt_bnd_tail_08/Piglet:jnt_bnd_tail_09/Piglet:jnt_bnd_tail_010
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01/Piglet:jnt_r_ankle_01/Piglet:jnt_r_foot_05
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07/Piglet:jnt_bnd_tail_08/Piglet:jnt_bnd_tail_09/Piglet:jnt_bnd_tail_010/Piglet:jnt_bnd_tail_011
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01/Piglet:jnt_bnd_l_knee_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02/Piglet:jnt_r_ankle_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01/Piglet:jnt_bnd_l_knee_01/Piglet:jnt_bnd_l_ankle_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02/Piglet:jnt_r_ankle_02/Piglet:jnt_r_foot_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01/Piglet:jnt_bnd_l_knee_01/Piglet:jnt_bnd_l_ankle_01/Piglet:jnt_bnd_l_foot_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02/Piglet:jnt_r_ankle_02/Piglet:jnt_r_foot_02/Piglet:jnt_r_foot_End_03
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01/Piglet:jnt_bnd_l_knee_01/Piglet:jnt_bnd_l_ankle_01/Piglet:jnt_bnd_l_foot_01/Piglet:jnt_l_foot_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02/Piglet:jnt_r_ankle_02/Piglet:jnt_r_foot_04
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01/Piglet:jnt_bnd_r_knee_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01/Piglet:jnt_bnd_r_knee_01/Piglet:jnt_bnd_r_ankle_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01/Piglet:jnt_bnd_r_knee_01/Piglet:jnt_bnd_r_ankle_01/Piglet:jnt_bnd_r_foot_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01/Piglet:jnt_bnd_r_knee_01/Piglet:jnt_bnd_r_ankle_01/Piglet:jnt_bnd_r_foot_01/Piglet:jnt_r_foot_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_l_ear_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_l_ear_01/Piglet:jnt_l_ear_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_l_ear_01/Piglet:jnt_l_ear_02/Piglet:jnt_l_ear_End
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_l_eye_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_r_ear_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_r_ear_01/Piglet:jnt_r_ear_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_hair_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_r_ear_01/Piglet:jnt_r_ear_02/Piglet:jnt_r_ear_End
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_horn_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_r_eye_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_jaw_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_snout_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_jaw_01/Piglet:jnt_jaw_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_snout_01/Piglet:jnt_snout_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_ear_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_snout_01/Piglet:jnt_snout_02/Piglet:jnt_snout_03
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_ear_01/Piglet:jnt_bnd_l_ear_02
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_snout_01/Piglet:jnt_snout_02/Piglet:jnt_snout_03/Piglet:jnt_snout_End
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_ear_01/Piglet:jnt_bnd_l_ear_02/Piglet:jnt_bnd_l_ear_03
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_eye_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_eyeLidBottom_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01/Piglet:jnt_r_elbow_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_eyeLidTop_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01/Piglet:jnt_r_elbow_01/Piglet:jnt_r_foot_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_mouth_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_ear_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_ear_01/Piglet:jnt_bnd_r_ear_02
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_ear_01/Piglet:jnt_bnd_r_ear_02/Piglet:jnt_bnd_r_ear_03
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_eye_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_eyeLidBottom_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_mouth_1
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_snout_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_snout_01/Piglet:jnt_bnd_snout_02
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_snout_01/Piglet:jnt_bnd_snout_02/Piglet:jnt_bnd_snout_03
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_snout_01/Piglet:jnt_bnd_snout_02/Piglet:jnt_bnd_snout_03/Piglet:jnt_snout_End
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01/Piglet:jnt_bnd_l_shoulder_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01/Piglet:jnt_bnd_l_shoulder_01/Piglet:jnt_bnd_l_elbow_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01/Piglet:jnt_bnd_l_shoulder_01/Piglet:jnt_bnd_l_elbow_01/Piglet:jnt_bnd_l_foot_01
           1
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01/Piglet:jnt_r_elbow_01/Piglet:jnt_r_foot_01
-          1/Piglet:jnt_r_foot_End_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01/Piglet:jnt_bnd_l_shoulder_01/Piglet:jnt_bnd_l_elbow_01/Piglet:jnt_bnd_l_foot_01
+          1/Piglet:jnt_l_hand_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01/Piglet:jnt_r_elbow_01/Piglet:jnt_r_foot_07
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_bnd_r_shoulder_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_bnd_r_shoulder_01/Piglet:jnt_bnd_r_elbow_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02/Piglet:jnt_r_elbow_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_bnd_r_shoulder_01/Piglet:jnt_bnd_r_elbow_01/Piglet:jnt_bnd_r_foot_01
+          1
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02/Piglet:jnt_r_elbow_02/Piglet:jnt_r_foot_03
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_bnd_r_shoulder_01/Piglet:jnt_bnd_r_elbow_01/Piglet:jnt_bnd_r_foot_01
+          1/Piglet:jnt_r_hand_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02/Piglet:jnt_r_elbow_02/Piglet:jnt_r_foot_03/Piglet:jnt_r_foot_End_04
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02/Piglet:jnt_r_elbow_02/Piglet:jnt_r_foot_06
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_02
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_03
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_04
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_05
         weight: 1
       - path: Piglet:grp_rig
         weight: 1
       - path: Piglet:grp_rig/Piglet:grp_clst_spine_01
         weight: 1
-      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:clst_spine_01
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01
         weight: 1
-      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:clst_spine_02
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_01
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_01/Piglet:clst_spine_01
+          1
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_02
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_02/Piglet:clst_spine_04
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_03
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_03/Piglet:clst_spine_03
+          1
         weight: 1
       - path: Piglet:grp_rig/Piglet:grp_flc_spine
         weight: 1
@@ -446,7 +683,7 @@ ModelImporter:
     - serializedVersion: 16
       name: IdleJump
       takeName: Take 001
-      firstFrame: 1
+      firstFrame: 3
       lastFrame: 42
       wrapMode: 0
       orientationOffsetY: 0
@@ -454,7 +691,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -479,6 +716,34 @@ ModelImporter:
       - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01
         weight: 1
       - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:ctrl_root_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07/Piglet:ctrl_tail_08
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07/Piglet:ctrl_tail_08/Piglet:ctrl_tail_09
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07/Piglet:ctrl_tail_08/Piglet:ctrl_tail_09/Piglet:ctrl_tail_010
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:ctrl_wiggleButt_01/Piglet:ctrl_wiggleButt_02/Piglet:DO_NOT_TOUCH_ctrl_rootError_01/Piglet:ctrl_tail_01/Piglet:ctrl_tail_02/Piglet:ctrl_tail_03/Piglet:ctrl_tail_04/Piglet:ctrl_tail_05/Piglet:ctrl_tail_06/Piglet:ctrl_tail_07/Piglet:ctrl_tail_08/Piglet:ctrl_tail_09/Piglet:ctrl_tail_010/Piglet:ctrl_tail_011
         weight: 1
       - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyBack_01/Piglet:grp_l_leg_01
         weight: 1
@@ -520,133 +785,226 @@ ModelImporter:
         weight: 1
       - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:ctrl_cod_01/Piglet:ctrl_bodyFront_01/Piglet:grp_r_arm_01/Piglet:ctrl_r_shoulder_01/Piglet:ctrl_r_elbow_01/Piglet:ctrl_r_hand_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_ear_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_hair_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_ear_01/Piglet:ctrl_l_ear_02
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_eye_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_eye_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_l_mouth_02
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_ear_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_eye_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_ear_01/Piglet:ctrl_r_ear_02
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_mouth_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_r_eye_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_horn_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_snout_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_horn_01/Piglet:ctrl_horn_01
         weight: 1
-      - path: Piglet:grp_ctrl/Piglet:grp_ctrls_face_01/Piglet:ctrl_snout_01/Piglet:ctrl_snoutTip_01
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_jaw_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_jaw_01/Piglet:ctrl_jaw_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_ear_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_ear_01/Piglet:ctrl_l_ear_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_ear_01/Piglet:ctrl_l_ear_01/Piglet:grp_ctrl_l_ear_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_ear_01/Piglet:ctrl_l_ear_01/Piglet:grp_ctrl_l_ear_02/Piglet:ctrl_l_ear_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_l_eyeLidTop_01/Piglet:ctrl_l_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_ear_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_ear_01/Piglet:ctrl_r_ear_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_ear_01/Piglet:ctrl_r_ear_01/Piglet:grp_ctrl_r_ear_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_ear_01/Piglet:ctrl_r_ear_01/Piglet:grp_ctrl_r_ear_02/Piglet:ctrl_r_ear_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidBottom_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidBottom_01/Piglet:ctrl_r_eyeLidBottum_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidBottom_02
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidBottom_02/Piglet:ctrl_r_eyeLidBottum_01
+          1
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_r_eyeLidTop_01/Piglet:ctrl_r_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_snout_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_snout_01/Piglet:ctrl_snout_01
+        weight: 1
+      - path: Piglet:grp_ctrl/Piglet:ctrl_global_01/Piglet:grp_ctrls_face_01/Piglet:grp_ctrl_snout_01/Piglet:ctrl_snout_01/Piglet:ctrl_snoutTip_01
         weight: 1
       - path: Piglet:grp_jnt
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_03
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_04
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_spine_05
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_butt_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_butt_01/Piglet:jnt_butt_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01/Piglet:jnt_r_ankle_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07/Piglet:jnt_bnd_tail_08
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01/Piglet:jnt_r_ankle_01/Piglet:jnt_r_foot_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07/Piglet:jnt_bnd_tail_08/Piglet:jnt_bnd_tail_09
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01/Piglet:jnt_r_ankle_01/Piglet:jnt_r_foot_01/Piglet:jnt_r_foot_End_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07/Piglet:jnt_bnd_tail_08/Piglet:jnt_bnd_tail_09/Piglet:jnt_bnd_tail_010
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_01/Piglet:jnt_r_knee_01/Piglet:jnt_r_ankle_01/Piglet:jnt_r_foot_05
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_butt_01/Piglet:jnt_bnd_butt_02/Piglet:jnt_bnd_tail_01/Piglet:jnt_bnd_tail_02/Piglet:jnt_bnd_tail_03/Piglet:jnt_bnd_tail_04/Piglet:jnt_bnd_tail_05/Piglet:jnt_bnd_tail_06/Piglet:jnt_bnd_tail_07/Piglet:jnt_bnd_tail_08/Piglet:jnt_bnd_tail_09/Piglet:jnt_bnd_tail_010/Piglet:jnt_bnd_tail_011
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01/Piglet:jnt_bnd_l_knee_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02/Piglet:jnt_r_ankle_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01/Piglet:jnt_bnd_l_knee_01/Piglet:jnt_bnd_l_ankle_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02/Piglet:jnt_r_ankle_02/Piglet:jnt_r_foot_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01/Piglet:jnt_bnd_l_knee_01/Piglet:jnt_bnd_l_ankle_01/Piglet:jnt_bnd_l_foot_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02/Piglet:jnt_r_ankle_02/Piglet:jnt_r_foot_02/Piglet:jnt_r_foot_End_03
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_l_hip_01/Piglet:jnt_bnd_l_knee_01/Piglet:jnt_bnd_l_ankle_01/Piglet:jnt_bnd_l_foot_01/Piglet:jnt_l_foot_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codBack_01/Piglet:jnt_r_hip_02/Piglet:jnt_r_knee_02/Piglet:jnt_r_ankle_02/Piglet:jnt_r_foot_04
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01/Piglet:jnt_bnd_r_knee_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01/Piglet:jnt_bnd_r_knee_01/Piglet:jnt_bnd_r_ankle_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01/Piglet:jnt_bnd_r_knee_01/Piglet:jnt_bnd_r_ankle_01/Piglet:jnt_bnd_r_foot_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03
+      - path: Piglet:grp_jnt/Piglet:grp_codBack_01/Piglet:jnt_codBack_01/Piglet:jnt_bnd_r_hip_01/Piglet:jnt_bnd_r_knee_01/Piglet:jnt_bnd_r_ankle_01/Piglet:jnt_bnd_r_foot_01/Piglet:jnt_r_foot_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_l_ear_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_l_ear_01/Piglet:jnt_l_ear_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_l_ear_01/Piglet:jnt_l_ear_02/Piglet:jnt_l_ear_End
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_l_eye_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_r_ear_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_r_ear_01/Piglet:jnt_r_ear_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_hair_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_r_ear_01/Piglet:jnt_r_ear_02/Piglet:jnt_r_ear_End
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_horn_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_r_eye_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_jaw_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_snout_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_jaw_01/Piglet:jnt_jaw_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_snout_01/Piglet:jnt_snout_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_ear_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_snout_01/Piglet:jnt_snout_02/Piglet:jnt_snout_03
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_ear_01/Piglet:jnt_bnd_l_ear_02
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_neck_01/Piglet:jnt_neck_02/Piglet:jnt_neck_03/Piglet:jnt_snout_01/Piglet:jnt_snout_02/Piglet:jnt_snout_03/Piglet:jnt_snout_End
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_ear_01/Piglet:jnt_bnd_l_ear_02/Piglet:jnt_bnd_l_ear_03
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_eye_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_eyeLidBottom_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01/Piglet:jnt_r_elbow_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_eyeLidTop_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01/Piglet:jnt_r_elbow_01/Piglet:jnt_r_foot_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_l_mouth_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_ear_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_ear_01/Piglet:jnt_bnd_r_ear_02
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_ear_01/Piglet:jnt_bnd_r_ear_02/Piglet:jnt_bnd_r_ear_03
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_eye_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_eyeLidBottom_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_eyeLidTop_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_r_mouth_1
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_snout_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_snout_01/Piglet:jnt_bnd_snout_02
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_snout_01/Piglet:jnt_bnd_snout_02/Piglet:jnt_bnd_snout_03
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_bnd_neck_01/Piglet:jnt_bnd_neck_02/Piglet:jnt_bnd_neck_03/Piglet:jnt_bnd_snout_01/Piglet:jnt_bnd_snout_02/Piglet:jnt_bnd_snout_03/Piglet:jnt_snout_End
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01/Piglet:jnt_bnd_l_shoulder_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01/Piglet:jnt_bnd_l_shoulder_01/Piglet:jnt_bnd_l_elbow_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01/Piglet:jnt_bnd_l_shoulder_01/Piglet:jnt_bnd_l_elbow_01/Piglet:jnt_bnd_l_foot_01
           1
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01/Piglet:jnt_r_elbow_01/Piglet:jnt_r_foot_01
-          1/Piglet:jnt_r_foot_End_01
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_l_clavicle_01/Piglet:jnt_bnd_l_shoulder_01/Piglet:jnt_bnd_l_elbow_01/Piglet:jnt_bnd_l_foot_01
+          1/Piglet:jnt_l_hand_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_r_shoulder_01/Piglet:jnt_r_elbow_01/Piglet:jnt_r_foot_07
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_bnd_r_shoulder_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_bnd_r_shoulder_01/Piglet:jnt_bnd_r_elbow_01
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02/Piglet:jnt_r_elbow_02
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_bnd_r_shoulder_01/Piglet:jnt_bnd_r_elbow_01/Piglet:jnt_bnd_r_foot_01
+          1
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02/Piglet:jnt_r_elbow_02/Piglet:jnt_r_foot_03
+      - path: Piglet:grp_jnt/Piglet:grp_codFront_01/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_01/Piglet:jnt_bnd_r_shoulder_01/Piglet:jnt_bnd_r_elbow_01/Piglet:jnt_bnd_r_foot_01
+          1/Piglet:jnt_r_hand_End
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02/Piglet:jnt_r_elbow_02/Piglet:jnt_r_foot_03/Piglet:jnt_r_foot_End_04
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine
         weight: 1
-      - path: Piglet:grp_jnt/Piglet:jnt_codFront_01/Piglet:jnt_r_clavicle_02/Piglet:jnt_r_shoulder_02/Piglet:jnt_r_elbow_02/Piglet:jnt_r_foot_06
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_01
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_02
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_03
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_04
+        weight: 1
+      - path: Piglet:grp_jnt/Piglet:grp_jnt_spine/Piglet:jnt_bnd_spine_05
         weight: 1
       - path: Piglet:grp_rig
         weight: 1
       - path: Piglet:grp_rig/Piglet:grp_clst_spine_01
         weight: 1
-      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:clst_spine_01
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01
         weight: 1
-      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:clst_spine_02
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_01
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_01/Piglet:clst_spine_01
+          1
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_02
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_02/Piglet:clst_spine_04
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_03
+        weight: 1
+      - path: Piglet:grp_rig/Piglet:grp_clst_spine_01/Piglet:grp_clst_01/Piglet:clst_spine_03/Piglet:clst_spine_03
+          1
         weight: 1
       - path: Piglet:grp_rig/Piglet:grp_flc_spine
         weight: 1
