@@ -34,6 +34,8 @@ public class SpawnEnemies : MonoBehaviour {
             GameObject obj = (GameObject)Instantiate(MonsterStats.instance.enemy, MonsterStats.instance.spawnPlaces[spawnPoint].position, MonsterStats.instance.spawnPlaces[spawnPoint].rotation);
             //obj.GetComponent<EnemyRubberBanding>().enabled = false;
             obj.transform.SetParent(poolParent.transform);
+			MonsterStun.current.particleStunned = GameObject.FindGameObjectWithTag ("StunParticle");
+			MonsterStun.current.particleStunned.SetActive (false);
             obj.SetActive(false);
             enemies.Add(obj);
 			obj.GetComponent<MoveEnemies> ().isSwimming = false;

@@ -46,7 +46,8 @@ public class MonsterDestroying : MonoBehaviour {
         MonsterStun.current.monsterStunned = false;
         GameManager.instance.monsterMove(obj); //monster starts swimming
         GameManager.instance.MonsterRecoil(obj);
-        MonsterStun.current.particleStunned.Stop();
+        //MonsterStun.current.particleStunned.Stop();
+		MonsterStun.current.particleStunned.SetActive(false);
     }
 
     //void OnDestroy()

@@ -5,7 +5,8 @@ public class MonsterStun : MonoBehaviour
 {
 
     public static MonsterStun current;
-    public ParticleSystem particleStunned;
+    //public ParticleSystem particleStunned;
+	public GameObject particleStunned;
   
 
     [HideInInspector]
@@ -23,6 +24,8 @@ public class MonsterStun : MonoBehaviour
     void Start()
     {
         canStun = true;
+		//particleStunned = GameObject.FindGameObjectWithTag ("StunParticle");
+		//particleStunned.SetActive (false);
     }
 
 
@@ -37,8 +40,9 @@ public class MonsterStun : MonoBehaviour
                 GameManager.instance.monsterNotMoving(obj); //monster stops swimming
                 GameManager.instance.MonsterStun(obj);
                 monsterStunned = true;
-                particleStunned = GameObject.FindGameObjectWithTag("Enemy").GetComponent<ParticleSystem>();
-                particleStunned.Play();
+                //particleStunned = GameObject.FindGameObjectWithTag("Enemy").GetComponent<ParticleSystem>();
+                //particleStunned.Play();
+				particleStunned.SetActive(true);
                 PlayerStats.instance.spotlight.intensity = 8;
                 StartCoroutine("LightCooldown");
                 StartCoroutine("Cooldown");
@@ -51,8 +55,9 @@ public class MonsterStun : MonoBehaviour
             GameManager.instance.monsterNotMoving(obj); //monster stops swimming
             GameManager.instance.MonsterStun(obj);
             monsterStunned = true;
-            particleStunned = GameObject.FindGameObjectWithTag("Enemy").GetComponent<ParticleSystem>();
-            particleStunned.Play();
+            //particleStunned = GameObject.FindGameObjectWithTag("Enemy").GetComponent<ParticleSystem>();
+            //particleStunned.Play();
+			particleStunned.SetActive(true);
             PlayerStats.instance.spotlight.intensity = 8;
         }
     }
@@ -82,7 +87,8 @@ public class MonsterStun : MonoBehaviour
         yield return new WaitForSeconds(MonsterStats.instance.monsterStunTime);
         obj.GetComponent<NavMeshAgent>().Resume();
         monsterStunned = false;
-        particleStunned.Stop();
+        //particleStunned.Stop();
+		particleStunned.SetActive(false);
         GameManager.instance.monsterMove (obj); //monster starts swimming
         //Debug.Log(monsterStunned);
         GameManager.instance.MonsterRecoil(obj);
