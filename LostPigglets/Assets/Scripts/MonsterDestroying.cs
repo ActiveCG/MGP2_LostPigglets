@@ -5,6 +5,8 @@ public class MonsterDestroying : MonoBehaviour {
 
     public static MonsterDestroying current;
 
+    public bool stopHandAnim = false;
+
     void Awake()
     {
         current = this;
@@ -31,6 +33,7 @@ public class MonsterDestroying : MonoBehaviour {
 		GameManager.instance.monsterNotMoving (obj); //monster stops swimming
         obj.transform.SetParent(SpawnEnemies.current.poolParent.transform);
 		obj.SetActive(false);
+        stopHandAnim = true;
         Intro.instance.stopPlayerMove = false;
         Intro.instance.stopPlayerRotate = false;
         Intro.instance.letPlayerCharge = false;

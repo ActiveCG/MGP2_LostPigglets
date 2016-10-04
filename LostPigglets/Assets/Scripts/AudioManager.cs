@@ -185,7 +185,21 @@ public class AudioManager : MonoBehaviour {
 		//menu events
 		GameManager.instance.OnmenuStates += SetMenuState;
 		GameManager.instance.OnMenuButton += MenuButtonPlay;
-	}
+    }
+
+    void Start()
+    {
+        //INITIATE SOUNDS
+        GameManager.instance.ambience(gameObject);
+        if (GameManager.instance.IsInGameScene() == true)
+        {
+            GameManager.instance.menuStateChanged("In_Game");
+        }
+        else
+        {
+            GameManager.instance.menuStateChanged("In_Menu");
+        }
+    }
 
 	void OnDisable() {
 		//player events
@@ -219,7 +233,10 @@ public class AudioManager : MonoBehaviour {
 		//menu events
 		GameManager.instance.OnmenuStates -= SetMenuState;
 		GameManager.instance.OnMenuButton -= MenuButtonPlay;
-	}
+
+        //DEINITIATE SOUNDS
+        GameManager.instance.ambienceStop(gameObject);
+    }
 
 	private void PlaySound(string eventName, GameObject obj) {
 		if (eventName == null || eventName == "")
