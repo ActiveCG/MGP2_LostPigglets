@@ -73,7 +73,7 @@ MonoBehaviour:
   monsterSearchingSubmerge: Monster_Searching_Submerge
   monsterSearchingTap: Monster_Searching_Tap
   monsterDeath: Monster_Attacked
-  ambienceStart: Ambience_Start
+  ambienceStart: Ambience_Play
   ambienceStop: Ambience_Stop
   lightFlower: 
   caveObject: 

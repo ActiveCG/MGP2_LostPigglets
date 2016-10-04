@@ -66,20 +66,20 @@ public class GameManager {
 
 	public void StartGame() {
 		_instance = null;
-		menuStateChanged("In_Game");
+		//menuStateChanged("In_Game");
 		SceneManager.LoadScene (GAME_SCENE);
 		cinematicCut = false;
         Time.timeScale = 1;
-		ambience (audioManager.gameObject);
+		//ambience (audioManager.gameObject);
 	}
 
 	public void RestartGame() {
 		_instance = null;
 		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
-		menuStateChanged("In_Game");
+		//menuStateChanged("In_Game");
         Time.timeScale = 1;
 		cinematicCut = false;
-		ambience (audioManager.gameObject);
+		//ambience (audioManager.gameObject);
 }
     public void LoadMainMenu() {
         _instance = null;
@@ -87,13 +87,13 @@ public class GameManager {
     }
 
 	public void Win(){
-		menuStateChanged("In_Menu");
+		//menuStateChanged("In_Menu");
 		SceneManager.LoadScene ("Win");
 
 	}
 
 	public void GameOver(){
-		menuStateChanged("In_Menu");
+		//menuStateChanged("In_Menu");
 		SceneManager.LoadScene ("GameOver");
 	}
 
@@ -102,6 +102,13 @@ public class GameManager {
 		ambienceStop (audioManager.gameObject);
 		Application.Quit ();
 	}
+
+    public bool IsInGameScene()
+    {
+        if (SceneManager.GetActiveScene().name == GAME_SCENE)
+            return true;
+        return false;
+    }
 
 	//delegates
 	//**** player ****
