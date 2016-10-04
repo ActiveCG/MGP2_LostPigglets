@@ -34,7 +34,7 @@ public class MenuManager : MonoBehaviour {
     }
 
     IEnumerator Delay() {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
     }
 
     public void QuitGame() {
