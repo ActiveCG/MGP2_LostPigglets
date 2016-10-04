@@ -33,7 +33,9 @@ TagManager:
   - MonsterFightPos
   - MainMenuButton
   - GameOverCanvas
+  - StunParticle
   - Spotlight
+  - ChargeParticle
   layers:
   - Default
   - TransparentFX

@@ -12,6 +12,7 @@ public class Charge : MonoBehaviour {
     private bool notCharged = true;
     private bool charged = false;
     private Rigidbody playerRigidBody;
+	public GameObject particleCharge;
     
 
     void Awake()
@@ -22,6 +23,8 @@ public class Charge : MonoBehaviour {
     void Start()
     {
         playerRigidBody = GetComponent<Rigidbody>();
+		particleCharge = GameObject.FindGameObjectWithTag ("ChargeParticle");
+		particleCharge.SetActive (false);
     }
 
 
@@ -69,6 +72,7 @@ public class Charge : MonoBehaviour {
             {
                 //PigMovement.current.nav.enabled = false;
                 charged = true;
+				particleCharge.SetActive (true);
                 StartCoroutine("SetChargeFalse");
                 //Debug.Log("CHARGE!!!!!!");
                 GameManager.instance.chargeHit();
@@ -115,5 +119,6 @@ public class Charge : MonoBehaviour {
     {
         yield return new WaitForSeconds(PlayerStats.instance.setChargeFalse);
         charged = false;
+		particleCharge.SetActive (false);
     }
 }

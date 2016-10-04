@@ -238,6 +238,8 @@ ModelImporter:
     100460: MonsterSlug:jnt_l_eyeChain_end
     100462: MonsterSlug:jnt_neck_01
     100464: MonsterSlug:jnt_spine_end
+    100466: MonsterSlug:ctrl_l_poleVector_01
+    100468: MonsterSlug:ctrl_r_poleVector_01
     400000: //RootNode
     400002: MonsterSlug:clst_spine_01
     400004: MonsterSlug:clst_spine_02
@@ -471,6 +473,8 @@ ModelImporter:
     400460: MonsterSlug:jnt_l_eyeChain_end
     400462: MonsterSlug:jnt_neck_01
     400464: MonsterSlug:jnt_spine_end
+    400466: MonsterSlug:ctrl_l_poleVector_01
+    400468: MonsterSlug:ctrl_r_poleVector_01
     4300000: MonsterSlug:geo_monsterSlug_01
     7400000: Take 001
     9500000: //RootNode
