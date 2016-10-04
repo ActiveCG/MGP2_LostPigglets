@@ -52,6 +52,8 @@ public class MonsterStun : MonoBehaviour
         else
         {
             print("I am on this fucking stun");
+            particleStunned = GameObject.FindGameObjectWithTag("Enemy").GetComponent<ParticleSystem>();
+            particleStunned.Play();
             GameManager.instance.monsterNotMoving(obj); //monster stops swimming
             GameManager.instance.MonsterStun(obj);
             monsterStunned = true;
@@ -59,6 +61,7 @@ public class MonsterStun : MonoBehaviour
             //particleStunned.Play();
 			particleStunned.SetActive(true);
             PlayerStats.instance.spotlight.intensity = 8;
+            print(PlayerStats.instance.spotlight.intensity);
         }
     }
 

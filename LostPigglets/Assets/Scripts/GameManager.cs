@@ -70,6 +70,7 @@ public class GameManager {
 		SceneManager.LoadScene (GAME_SCENE);
 		cinematicCut = false;
         Time.timeScale = 1;
+		ambience (audioManager.gameObject);
 	}
 
 	public void RestartGame() {
@@ -78,6 +79,7 @@ public class GameManager {
 		menuStateChanged("In_Game");
         Time.timeScale = 1;
 		cinematicCut = false;
+		ambience (audioManager.gameObject);
 }
     public void LoadMainMenu() {
         _instance = null;
@@ -107,6 +109,7 @@ public class GameManager {
 	public event MovementInput OnPlayerMove;
 	public event MovementInput OnPlayerRotate;
 	public event MovementInput OnPlayerNotMoving;
+	public event MovementInput OnPlayerSwim;
 	public void move(Vector3 position) {
 		if(OnPlayerMove != null)
 			OnPlayerMove (position);
@@ -118,6 +121,10 @@ public class GameManager {
 	public void notMoving(Vector3 position) {
 		if(OnPlayerNotMoving != null)
 			OnPlayerNotMoving (position);
+	}
+	public void swimPull(Vector3 position) {
+		if(OnPlayerSwim != null)
+			OnPlayerSwim (position);
 	}
 
 	public delegate void HealthAction(int amount);
@@ -177,14 +184,14 @@ public class GameManager {
 	public delegate void MonsterAction(GameObject monster);
 	public event MonsterAction OnMonsterMove;
 	public event MonsterAction OnMonsterNotMoving;
-    public event MonsterAction OnMonsterOutOfRange;
+    public event MonsterAction OnMonsterOutOfRange; //submerge
     public event MonsterAction OnMonsterJump;
     public event MonsterAction OnMonsterAttack;
-	public event MonsterAction OnMonsterAggro;
-	public event MonsterAction OnMonsterGrowlAmb;
-	public event MonsterAction OnMonsterGrowlAmbStop;
+	public event MonsterAction OnMonsterAggro; //searching
 	public event MonsterAction OnMonsterStun;
-    public event MonsterAction OnMonsterRecoil;
+    public event MonsterAction OnMonsterRecoil; //no longer stunned, goes to idle
+	public event MonsterAction OnMonsterSubmerge;
+	public event MonsterAction OnMonsterWaterTap;
 	public event MonsterAction OnMonsterDeath;
 	public void monsterMove(GameObject monster) {
 		if(OnMonsterMove != null)
@@ -216,19 +223,19 @@ public class GameManager {
 		if(OnMonsterAggro != null)
 			OnMonsterAggro (monster);
 	}
-	public void MonsterGrowlAmb(GameObject monster) {
-		if(OnMonsterGrowlAmb != null)
-			OnMonsterGrowlAmb (monster);
-	}
-	public void MonsterGrowlAmbStop(GameObject monster) {
-		if(OnMonsterGrowlAmbStop != null)
-			OnMonsterGrowlAmbStop (monster);
-	}
 	public void MonsterStun(GameObject monster) {
 		if(OnMonsterStun != null)
         {
 			OnMonsterStun (monster);
         }
+	}
+	public void MonsterSubmerge(GameObject monster) {
+		if(OnMonsterSubmerge != null)
+			OnMonsterSubmerge (monster);
+	}
+	public void MonsterWaterTap(GameObject monster) {
+		if(OnMonsterWaterTap != null)
+			OnMonsterWaterTap (monster);
 	}
 	public void MonsterDies(GameObject monster) {
 		if(OnMonsterDeath != null)

@@ -52,8 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 743857ff1a514fb4e898313ab9273ac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSwimStart: Player_Swim
-  playerSwimStop: 
+  playerSwim: Player_Swim
   playerChargeHit: Player_Charge
   playerPickUp: Piglet_Grunt
   playerDeath: Player_Death
@@ -63,11 +62,16 @@ MonoBehaviour:
   oink: Piglet_Oink
   monsterSwimStart: Monster_Bubbles_Start
   monsterSwimStop: Monster_Bubbles_Stop
+  monsterSlinky: Monster_Slinky
   monsterAttack: Monster_Attack
-  monsterAggro: 
-  monsterGrowlAmbStart: 
-  monsterGrowlAmbStop: 
   monsterStun: Monster_Stun
+  monsterStunnedStart: Monster_Stunned
+  monsterStunnedStop: Monster_Stunned_Stop
+  monsterSearchingEmerge: Monster_Searching_Emerge
+  monsterSearchingStart: Monster_Searching_Growl_Start
+  monsterSearchingStop: Monster_Searching_Growl_Stop
+  monsterSearchingSubmerge: Monster_Searching_Submerge
+  monsterSearchingTap: Monster_Searching_Tap
   monsterDeath: Monster_Attacked
   ambienceStart: Ambience_Start
   ambienceStop: Ambience_Stop

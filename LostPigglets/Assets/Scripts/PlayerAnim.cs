@@ -7,4 +7,9 @@ public void AM_ResetChargeEvent()
     {
         GameManager.instance.animManager.AM_ResetCharge();
     }
+
+	public void PlayerSwimEvent()
+	{
+		GameManager.instance.swimPull (Vector3.zero);
+	}
 }

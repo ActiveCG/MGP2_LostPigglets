@@ -244,7 +244,7 @@ MonoBehaviour:
   radiusForRotation: 9
   playerSpeed: 6.8
   acceleration: 150
-  rotateRadius: 10
+  rotateRadius: 4.5
   speedMaxDist: 20
   piggletsInGame: 2
   cameraOffset: {x: 0, y: 30, z: -9}
@@ -356,7 +356,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minDelay: 10
   maxDelay: 15
+  counter: 0
   pigletList: []
   pigletActiveOink: 
   pigletPickedUp: 
   delayList: []
+  canSpawn: 
