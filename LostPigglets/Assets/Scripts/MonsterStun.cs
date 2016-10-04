@@ -28,14 +28,13 @@ public class MonsterStun : MonoBehaviour
 
     public void Stun(GameObject obj)
     {
-        if (canStun == true)
+        if (canStun == true && MoveEnemies.isSearching == true)
         {
             canStun = false;
             obj.GetComponent<NavMeshAgent>().Stop();
 			GameManager.instance.monsterNotMoving (obj); //monster stops swimming
             GameManager.instance.MonsterStun(obj);
             monsterStunned = true;
-            //Debug.Log(monsterStunned);
             particleStunned = GameObject.FindGameObjectWithTag("Enemy").GetComponent<ParticleSystem>();
             particleStunned.Play();
             PlayerStats.instance.spotlight.intensity = 8;
@@ -66,7 +65,7 @@ public class MonsterStun : MonoBehaviour
         monsterStunned = false;
         particleStunned.Stop();
         GameManager.instance.monsterMove (obj); //monster starts swimming
-        //Debug.Log(monsterStunned);
+        Debug.Log(monsterStunned);
         GameManager.instance.MonsterRecoil(obj);
     }
 }

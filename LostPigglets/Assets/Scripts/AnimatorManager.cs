@@ -47,6 +47,7 @@ public class AnimatorManager : MonoBehaviour
 
     void AM_Attack(GameObject monster)
     {
+        monster.GetComponentInChildren<Animator>().SetTrigger("disappear");
         monster.GetComponentInChildren<Animator>().SetTrigger("isAttacking");
     }
 

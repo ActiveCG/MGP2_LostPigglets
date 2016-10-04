@@ -10,6 +10,7 @@ public class MoveEnemies : MonoBehaviour
     private bool canAttack = false;
     private bool canResume = false;
     private bool canSearch = true;
+    public static bool isSearching = false;
     private float timer;
     private ParticleSystem particles;
 
@@ -70,6 +71,8 @@ public class MoveEnemies : MonoBehaviour
         if (Vector3.Distance(transform.position, target.transform.position) < attackRange && canAttack == true && MonsterStun.current.monsterStunned == false && !Intro.instance.stopPlayerMove)
         {
             timer += Time.deltaTime;
+            Debug.Log(timer);
+            isSearching = true;
             if (timer > timeToDeath)
             {
                 GameManager.instance.MonsterAttacks(gameObject);
@@ -82,8 +85,10 @@ public class MoveEnemies : MonoBehaviour
         // If the monster is outside the attackRange it resumes chasing
         if (Vector3.Distance(transform.position, target.transform.position) > attackRange && canResume == true)
         {
+            GameManager.instance.MonsterRecoil(gameObject);
             GameManager.instance.MonsterOutRange(gameObject);
             nav.Resume();
+            isSearching = false;
             canAttack = false;
             canResume = false;
             canSearch = true;
@@ -94,6 +99,7 @@ public class MoveEnemies : MonoBehaviour
         if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange == canSearch == true && MonsterStun.current.monsterStunned == false)
         {
             GameManager.instance.MonsterAggro(gameObject);
+            isSearching = false;
             canSearch = false;
             canAttack = true;
             canResume = true;
@@ -102,6 +108,7 @@ public class MoveEnemies : MonoBehaviour
         if (MonsterStun.current.monsterStunned == true)
         {
             timer = 0;
+            canJump = false;
         }
     }
 

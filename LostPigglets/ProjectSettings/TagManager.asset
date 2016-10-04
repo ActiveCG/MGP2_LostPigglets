@@ -21,6 +21,11 @@ TagManager:
   - MonsterFight
   - StartGame
   - MonsterIntroPos
+  - ResumeGame
+  - MainMenu
+  - RestartGame
+  - QuitGame
+  - PauseMenu
   - MonsterFightPos
   layers:
   - Default

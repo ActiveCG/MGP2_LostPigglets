@@ -53,7 +53,6 @@ GameObject:
   - 195: {fileID: 195000013283692888}
   - 114: {fileID: 114000014241635790}
   - 114: {fileID: 114000012544832966}
-  - 114: {fileID: 114000010338462606}
   - 135: {fileID: 135000012706381472}
   - 198: {fileID: 198000010566324862}
   - 199: {fileID: 199000012645341982}
@@ -6870,17 +6869,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114000010338462606
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010112326358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16b83101c069d6e4c87ac1affc367b8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000012544832966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7400,7 +7388,7 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       minMaxState: 0
     startSize:
-      scalar: 1
+      scalar: 0.2
       maxCurve:
         serializedVersion: 2
         m_Curve:
