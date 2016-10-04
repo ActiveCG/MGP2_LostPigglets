@@ -8,7 +8,7 @@ public class AnimatorManager : MonoBehaviour
     private bool isMonsterSearching = false;
     private bool isPlayerSwimming = false;
     private bool canJump = true;
-    private Animator playerAnim, pigletAnim, cameraAnim, monsterAnim;
+    private Animator playerAnim, pigletAnim, cameraAnim, monsterAnim, panelTopAnim, panelBtnAnim;
 
     //*********** Player ****************
     void AM_PlayerSwim(Vector3 position)
@@ -42,6 +42,9 @@ public class AnimatorManager : MonoBehaviour
 		// find pigmark
 		Transform pigMark = pigletMark.FindChild ("PigMark");
 
+		panelTopAnim.enabled = true;
+		panelBtnAnim.enabled = true;
+
 		cameraAnim.gameObject.transform.parent = pigletMark;
 		cameraAnim.enabled = true;
 
@@ -63,6 +66,8 @@ public class AnimatorManager : MonoBehaviour
 
 	public void AM_PickUpCameraReset(){
 		cameraAnim.enabled = false;
+		panelTopAnim.enabled = false;
+		panelBtnAnim.enabled = false;
 		StartCoroutine (UnparentCam());
 
 	}
@@ -115,6 +120,8 @@ public class AnimatorManager : MonoBehaviour
         isPlayerSwimming = false;
         playerAnim = GameManager.instance.player.GetComponentInChildren<Animator>() as Animator;
 		cameraAnim = Camera.main.gameObject.GetComponent<Animator> ();
+		panelTopAnim = GameObject.FindGameObjectWithTag("panelTop").GetComponent<Animator>();
+		panelBtnAnim = GameObject.FindGameObjectWithTag("panelBtn").GetComponent<Animator>();
 
         //player events
         GameManager.instance.OnPlayerMove += AM_PlayerSwim;

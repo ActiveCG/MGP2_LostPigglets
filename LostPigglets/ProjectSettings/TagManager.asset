@@ -21,6 +21,9 @@ TagManager:
   - RestartGame
   - QuitGame
   - PauseMenu
+  - PigletMark
+  - panelTop
+  - panelBtn
   layers:
   - Default
   - TransparentFX
