@@ -96,10 +96,10 @@ public class Charge : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        print("Impact");
+        //print("Impact");
         if (col.tag == "Enemy" && MonsterStun.current.monsterStunned && charged)
         {
-            Debug.Log("Hit the enemy");
+            //Debug.Log("Hit the enemy");
             ///////PLAY ANIMATION/////////
             GameManager.instance.MonsterDies(col.gameObject); 
         }

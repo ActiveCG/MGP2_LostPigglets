@@ -6880,6 +6880,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9335576201778754db6e4c05c22cedaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canJump: 1
+  canAttack: 0
+  canResume: 0
+  canSearch: 1
+  isSearching: 0
+  timer: 0
   isSwimming: 0
   timeToDeath: 8
   jumpingCooldownTimer: 8
@@ -7160,8 +7166,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1000010112326358}
   m_Enabled: 1
   m_Radius: 0.5
-  m_Speed: 5
-  m_Acceleration: 8
+  m_Speed: 7
+  m_Acceleration: 15
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0

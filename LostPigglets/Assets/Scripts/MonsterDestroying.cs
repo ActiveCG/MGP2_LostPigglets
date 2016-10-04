@@ -34,9 +34,19 @@ public class MonsterDestroying : MonoBehaviour {
         Intro.instance.stopPlayerMove = false;
         Intro.instance.stopPlayerRotate = false;
         Intro.instance.letPlayerCharge = false;
+        Intro.instance.introRotationMonster = false;
+        Intro.instance.makeTheMonsterStatic = false;
+        Intro.instance.makeMonsterJump = false;
+        MoveEnemies.instance.isSearching = false;
+        MoveEnemies.instance.canJump = true;
+        //PlayerStats.instance.spotlight.intensity = 2;
         PlayerStats.instance.playerSpeed = Intro.instance.initialSpeed;
         PlayerStats.instance.acceleration = Intro.instance.initialAcc;
         PlayerStats.instance.spotlight.intensity = Intro.instance.initialIntensity;
+        MonsterStun.current.monsterStunned = false;
+        GameManager.instance.monsterMove(obj); //monster starts swimming
+        GameManager.instance.MonsterRecoil(obj);
+        MonsterStun.current.particleStunned.Stop();
     }
 
     //void OnDestroy()

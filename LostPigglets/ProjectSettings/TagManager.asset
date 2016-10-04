@@ -33,6 +33,7 @@ TagManager:
   - MonsterFightPos
   - MainMenuButton
   - GameOverCanvas
+  - Spotlight
   layers:
   - Default
   - TransparentFX
