@@ -39,7 +39,7 @@ public class MonsterDestroying : MonoBehaviour {
         Intro.instance.makeMonsterJump = false;
         MoveEnemies.instance.isSearching = false;
         MoveEnemies.instance.canJump = true;
-        PlayerStats.instance.spotlight.intensity = 2;
+        //PlayerStats.instance.spotlight.intensity = 2;
         PlayerStats.instance.playerSpeed = Intro.instance.initialSpeed;
         PlayerStats.instance.acceleration = Intro.instance.initialAcc;
         PlayerStats.instance.spotlight.intensity = Intro.instance.initialIntensity;
