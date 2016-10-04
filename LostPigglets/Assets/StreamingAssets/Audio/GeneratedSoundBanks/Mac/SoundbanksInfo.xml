@@ -24,22 +24,37 @@
 				<Event Id="1496310610" Name="Ambience_Play" ObjectPath="\Events\Default Work Unit\Ambience_Play"/>
 				<Event Id="3166394572" Name="Ambience_Stop" ObjectPath="\Events\Default Work Unit\Ambience_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="938529747" Name="Menu_Button" ObjectPath="\Events\Default Work Unit\Menu_Button"/>
-				<Event Id="1632505953" Name="Monster_Swim_Start" ObjectPath="\Events\Default Work Unit\Monster_Swim_Start" MaxAttenuation="60.000000"/>
-				<Event Id="3461698459" Name="Monster_Swim_Stop" ObjectPath="\Events\Default Work Unit\Monster_Swim_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="2522003227" Name="Pig_Squeal" ObjectPath="\Events\Default Work Unit\Pig_Squeal"/>
-				<Event Id="1548288955" Name="Pig_Swim_Start" ObjectPath="\Events\Default Work Unit\Pig_Swim_Start"/>
-				<Event Id="1750874649" Name="Pig_Swim_Stop" ObjectPath="\Events\Default Work Unit\Pig_Swim_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="3456914341" Name="Piglet_Grunt" ObjectPath="\Events\Default Work Unit\Piglet_Grunt" MaxAttenuation="100.000000"/>
-				<Event Id="4036007832" Name="Piglet_Oink" ObjectPath="\Events\Default Work Unit\Piglet_Oink" MaxAttenuation="100.000000"/>
+				<Event Id="3422627564" Name="Monster_Attack" ObjectPath="\Events\Default Work Unit\Monster_Attack" MaxAttenuation="60.000000"/>
+				<Event Id="3957195095" Name="Monster_Attacked" ObjectPath="\Events\Default Work Unit\Monster_Attacked" MaxAttenuation="60.000000"/>
+				<Event Id="1440359892" Name="Monster_Bubbles_Start" ObjectPath="\Events\Default Work Unit\Monster_Bubbles_Start" MaxAttenuation="60.000000"/>
+				<Event Id="4237511368" Name="Monster_Bubbles_Stop" ObjectPath="\Events\Default Work Unit\Monster_Bubbles_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="4243420992" Name="Monster_Searching_Emerge" ObjectPath="\Events\Default Work Unit\Monster_Searching_Emerge" MaxAttenuation="60.000000"/>
+				<Event Id="3941269507" Name="Monster_Searching_Growl_Start" ObjectPath="\Events\Default Work Unit\Monster_Searching_Growl_Start" MaxAttenuation="60.000000"/>
+				<Event Id="2582441345" Name="Monster_Searching_Growl_Stop" ObjectPath="\Events\Default Work Unit\Monster_Searching_Growl_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="4276977801" Name="Monster_Searching_Submerge" ObjectPath="\Events\Default Work Unit\Monster_Searching_Submerge" MaxAttenuation="60.000000"/>
+				<Event Id="2568790474" Name="Monster_Searching_Tap" ObjectPath="\Events\Default Work Unit\Monster_Searching_Tap" MaxAttenuation="60.000000"/>
+				<Event Id="1503423228" Name="Monster_Slinky" ObjectPath="\Events\Default Work Unit\Monster_Slinky" MaxAttenuation="60.000000"/>
+				<Event Id="1657072816" Name="Monster_Stun" ObjectPath="\Events\Default Work Unit\Monster_Stun" MaxAttenuation="60.000000"/>
+				<Event Id="559994441" Name="Monster_Stunned" ObjectPath="\Events\Default Work Unit\Monster_Stunned" MaxAttenuation="60.000000"/>
+				<Event Id="2678200316" Name="Monster_Stunned_Stop" ObjectPath="\Events\Default Work Unit\Monster_Stunned_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="3456914341" Name="Piglet_Grunt" ObjectPath="\Events\Default Work Unit\Piglet_Grunt"/>
+				<Event Id="4036007832" Name="Piglet_Oink" ObjectPath="\Events\Default Work Unit\Piglet_Oink"/>
+				<Event Id="2781338193" Name="Player_Charge" ObjectPath="\Events\Default Work Unit\Player_Charge"/>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player_Death"/>
+				<Event Id="3395270329" Name="Player_Swim" ObjectPath="\Events\Default Work Unit\Player_Swim"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="1220199" Language="SFX">
+					<ShortName>Monster Attack_2.wav</ShortName>
+					<Path>SFX\Monster Attack_2_9E69E797.wem</Path>
+				</File>
+				<File Id="3038082" Language="SFX">
+					<ShortName>Stunned.wav</ShortName>
+					<Path>SFX\Stunned_9E69E797.wem</Path>
+				</File>
 				<File Id="4148850" Language="SFX">
 					<ShortName>Water Drop_11.wav</ShortName>
 					<Path>SFX\Water Drop_11_9E69E797.wem</Path>
-				</File>
-				<File Id="24194782" Language="SFX">
-					<ShortName>Pig Squeal_10.wav</ShortName>
-					<Path>SFX\Pig Squeal_10_9E69E797.wem</Path>
 				</File>
 				<File Id="26525294" Language="SFX">
 					<ShortName>Piglet Oink Bubble_3.wav</ShortName>
@@ -61,25 +76,45 @@
 					<ShortName>Water Drop.wav</ShortName>
 					<Path>SFX\Water Drop_9E69E797.wem</Path>
 				</File>
+				<File Id="74166226" Language="SFX">
+					<ShortName>Monster Attack.wav</ShortName>
+					<Path>SFX\Monster Attack_9E69E797.wem</Path>
+				</File>
+				<File Id="78286810" Language="SFX">
+					<ShortName>Monster Attack_7.wav</ShortName>
+					<Path>SFX\Monster Attack_7_9E69E797.wem</Path>
+				</File>
 				<File Id="86857199" Language="SFX">
 					<ShortName>Water Drop_28.wav</ShortName>
 					<Path>SFX\Water Drop_28_9E69E797.wem</Path>
 				</File>
-				<File Id="91881920" Language="SFX">
-					<ShortName>Pig Squeal_1.wav</ShortName>
-					<Path>SFX\Pig Squeal_1_9E69E797.wem</Path>
+				<File Id="90791886" Language="SFX">
+					<ShortName>Swim.wav</ShortName>
+					<Path>SFX\Swim_9E69E797.wem</Path>
 				</File>
-				<File Id="98314906" Language="SFX">
-					<ShortName>Pig Squeal_12.wav</ShortName>
-					<Path>SFX\Pig Squeal_12_9E69E797.wem</Path>
+				<File Id="95659411" Language="SFX">
+					<ShortName>Swim_3.wav</ShortName>
+					<Path>SFX\Swim_3_9E69E797.wem</Path>
 				</File>
-				<File Id="117339204" Language="SFX">
-					<ShortName>Pig Squeal_8.wav</ShortName>
-					<Path>SFX\Pig Squeal_8_9E69E797.wem</Path>
+				<File Id="108447278" Language="SFX">
+					<ShortName>Bubbles_8.wav</ShortName>
+					<Path>SFX\Bubbles_8_9E69E797.wem</Path>
+				</File>
+				<File Id="115574418" Language="SFX">
+					<ShortName>Slinky.wav</ShortName>
+					<Path>SFX\Slinky_9E69E797.wem</Path>
+				</File>
+				<File Id="117855118" Language="SFX">
+					<ShortName>Stun_1.wav</ShortName>
+					<Path>SFX\Stun_1_9E69E797.wem</Path>
 				</File>
 				<File Id="145541140" Language="SFX">
 					<ShortName>Piglet Grunt_3.wav</ShortName>
 					<Path>SFX\Piglet Grunt_3_9E69E797.wem</Path>
+				</File>
+				<File Id="152836018" Language="SFX">
+					<ShortName>Searching Tap_3.wav</ShortName>
+					<Path>SFX\Searching Tap_3_9E69E797.wem</Path>
 				</File>
 				<File Id="167772588" Language="SFX">
 					<ShortName>Water Drop_16.wav</ShortName>
@@ -93,17 +128,25 @@
 					<ShortName>Piglet Grunt_1.wav</ShortName>
 					<Path>SFX\Piglet Grunt_1_9E69E797.wem</Path>
 				</File>
-				<File Id="201720044" Language="SFX">
-					<ShortName>Pig Squeal_2.wav</ShortName>
-					<Path>SFX\Pig Squeal_2_9E69E797.wem</Path>
+				<File Id="183822779" Language="SFX">
+					<ShortName>Player Attack_3.wav</ShortName>
+					<Path>SFX\Player Attack_3_9E69E797.wem</Path>
+				</File>
+				<File Id="184034711" Language="SFX">
+					<ShortName>Bubbles_3.wav</ShortName>
+					<Path>SFX\Bubbles_3_9E69E797.wem</Path>
+				</File>
+				<File Id="213428258" Language="SFX">
+					<ShortName>Searching Growl_5.wav</ShortName>
+					<Path>SFX\Searching Growl_5_9E69E797.wem</Path>
 				</File>
 				<File Id="254182227" Language="SFX">
 					<ShortName>Water Drop_2.wav</ShortName>
 					<Path>SFX\Water Drop_2_9E69E797.wem</Path>
 				</File>
-				<File Id="258290485" Language="SFX">
-					<ShortName>Pig Squeal_9.wav</ShortName>
-					<Path>SFX\Pig Squeal_9_9E69E797.wem</Path>
+				<File Id="266389491" Language="SFX">
+					<ShortName>Searching Tap_4.wav</ShortName>
+					<Path>SFX\Searching Tap_4_9E69E797.wem</Path>
 				</File>
 				<File Id="266652559" Language="SFX">
 					<ShortName>Bats_2.wav</ShortName>
@@ -117,29 +160,45 @@
 					<ShortName>Water Drop_10.wav</ShortName>
 					<Path>SFX\Water Drop_10_9E69E797.wem</Path>
 				</File>
-				<File Id="280780108" Language="SFX">
-					<ShortName>Pig Squeal_4.wav</ShortName>
-					<Path>SFX\Pig Squeal_4_9E69E797.wem</Path>
+				<File Id="276074690" Language="SFX">
+					<ShortName>Searching Tap_6.wav</ShortName>
+					<Path>SFX\Searching Tap_6_9E69E797.wem</Path>
 				</File>
 				<File Id="285799403" Language="SFX">
 					<ShortName>Bats_5.wav</ShortName>
 					<Path>SFX\Bats_5_9E69E797.wem</Path>
 				</File>
+				<File Id="298247791" Language="SFX">
+					<ShortName>Player Death_4.wav</ShortName>
+					<Path>SFX\Player Death_4_9E69E797.wem</Path>
+				</File>
 				<File Id="299204162" Language="SFX">
 					<ShortName>Water Drop_24.wav</ShortName>
 					<Path>SFX\Water Drop_24_9E69E797.wem</Path>
 				</File>
-				<File Id="300654096" Language="SFX">
-					<ShortName>Pig Squeal_6.wav</ShortName>
-					<Path>SFX\Pig Squeal_6_9E69E797.wem</Path>
+				<File Id="299474740" Language="SFX">
+					<ShortName>Swim_5.wav</ShortName>
+					<Path>SFX\Swim_5_9E69E797.wem</Path>
 				</File>
 				<File Id="311725679" Language="SFX">
 					<ShortName>Water Drop_23.wav</ShortName>
 					<Path>SFX\Water Drop_23_9E69E797.wem</Path>
 				</File>
+				<File Id="312172016" Language="SFX">
+					<ShortName>Monster Attack_3.wav</ShortName>
+					<Path>SFX\Monster Attack_3_9E69E797.wem</Path>
+				</File>
+				<File Id="318588024" Language="SFX">
+					<ShortName>Searching Growl_4.wav</ShortName>
+					<Path>SFX\Searching Growl_4_9E69E797.wem</Path>
+				</File>
 				<File Id="335742970" Language="SFX">
 					<ShortName>Bats_13.wav</ShortName>
 					<Path>SFX\Bats_13_9E69E797.wem</Path>
+				</File>
+				<File Id="337685413" Language="SFX">
+					<ShortName>Stunned_1.wav</ShortName>
+					<Path>SFX\Stunned_1_9E69E797.wem</Path>
 				</File>
 				<File Id="340566772" Language="SFX">
 					<ShortName>Piglet Oink Bubble.wav</ShortName>
@@ -161,10 +220,6 @@
 					<ShortName>Bats_12.wav</ShortName>
 					<Path>SFX\Bats_12_9E69E797.wem</Path>
 				</File>
-				<File Id="372074762" Language="SFX">
-					<ShortName>Pig Squeal_5.wav</ShortName>
-					<Path>SFX\Pig Squeal_5_9E69E797.wem</Path>
-				</File>
 				<File Id="382917414" Language="SFX">
 					<ShortName>Water Drop_26.wav</ShortName>
 					<Path>SFX\Water Drop_26_9E69E797.wem</Path>
@@ -173,17 +228,33 @@
 					<ShortName>Piglet Oink Bubble_8.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_8_9E69E797.wem</Path>
 				</File>
-				<File Id="389814778" Language="SFX">
-					<ShortName>Pig Squeal_11.wav</ShortName>
-					<Path>SFX\Pig Squeal_11_9E69E797.wem</Path>
+				<File Id="388939193" Language="SFX">
+					<ShortName>Searching Growl_2.wav</ShortName>
+					<Path>SFX\Searching Growl_2_9E69E797.wem</Path>
 				</File>
 				<File Id="398911237" Language="SFX">
 					<ShortName>Water Drop_5.wav</ShortName>
 					<Path>SFX\Water Drop_5_9E69E797.wem</Path>
 				</File>
+				<File Id="415396239" Language="SFX">
+					<ShortName>Bubbles_4.wav</ShortName>
+					<Path>SFX\Bubbles_4_9E69E797.wem</Path>
+				</File>
 				<File Id="423135228" Language="SFX">
 					<ShortName>Water Drop_21.wav</ShortName>
 					<Path>SFX\Water Drop_21_9E69E797.wem</Path>
+				</File>
+				<File Id="430652961" Language="SFX">
+					<ShortName>Player Death_2.wav</ShortName>
+					<Path>SFX\Player Death_2_9E69E797.wem</Path>
+				</File>
+				<File Id="436275892" Language="SFX">
+					<ShortName>Bubbles_1.wav</ShortName>
+					<Path>SFX\Bubbles_1_9E69E797.wem</Path>
+				</File>
+				<File Id="442739713" Language="SFX">
+					<ShortName>Searching Submerge.wav</ShortName>
+					<Path>SFX\Searching Submerge_9E69E797.wem</Path>
 				</File>
 				<File Id="443091155" Language="SFX">
 					<ShortName>Water Drop_20.wav</ShortName>
@@ -197,6 +268,10 @@
 					<ShortName>Bats_7.wav</ShortName>
 					<Path>SFX\Bats_7_9E69E797.wem</Path>
 				</File>
+				<File Id="467940347" Language="SFX">
+					<ShortName>Monster Attack_4.wav</ShortName>
+					<Path>SFX\Monster Attack_4_9E69E797.wem</Path>
+				</File>
 				<File Id="480976643" Language="SFX">
 					<ShortName>Bats.wav</ShortName>
 					<Path>SFX\Bats_9E69E797.wem</Path>
@@ -205,13 +280,21 @@
 					<ShortName>Bats_15.wav</ShortName>
 					<Path>SFX\Bats_15_9E69E797.wem</Path>
 				</File>
-				<File Id="490274137" Language="SFX">
-					<ShortName>Pig Squeal_7.wav</ShortName>
-					<Path>SFX\Pig Squeal_7_9E69E797.wem</Path>
-				</File>
 				<File Id="493937495" Language="SFX">
 					<ShortName>Piglet Oink Bubble_5.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_5_9E69E797.wem</Path>
+				</File>
+				<File Id="497421276" Language="SFX">
+					<ShortName>Searching Tap_1.wav</ShortName>
+					<Path>SFX\Searching Tap_1_9E69E797.wem</Path>
+				</File>
+				<File Id="513777565" Language="SFX">
+					<ShortName>Bubbles_2.wav</ShortName>
+					<Path>SFX\Bubbles_2_9E69E797.wem</Path>
+				</File>
+				<File Id="515395280" Language="SFX">
+					<ShortName>Player Attack.wav</ShortName>
+					<Path>SFX\Player Attack_9E69E797.wem</Path>
 				</File>
 				<File Id="526843189" Language="SFX">
 					<ShortName>Bats_8.wav</ShortName>
@@ -233,6 +316,10 @@
 					<ShortName>Piglet Oink Bubble_1.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_1_9E69E797.wem</Path>
 				</File>
+				<File Id="557364102" Language="SFX">
+					<ShortName>Stun_3.wav</ShortName>
+					<Path>SFX\Stun_3_9E69E797.wem</Path>
+				</File>
 				<File Id="557499383" Language="SFX">
 					<ShortName>Water Drop_12.wav</ShortName>
 					<Path>SFX\Water Drop_12_9E69E797.wem</Path>
@@ -245,13 +332,25 @@
 					<ShortName>Water Drop_4.wav</ShortName>
 					<Path>SFX\Water Drop_4_9E69E797.wem</Path>
 				</File>
+				<File Id="565168598" Language="SFX">
+					<ShortName>Searching Growl_3.wav</ShortName>
+					<Path>SFX\Searching Growl_3_9E69E797.wem</Path>
+				</File>
+				<File Id="569017072" Language="SFX">
+					<ShortName>Searching Tap.wav</ShortName>
+					<Path>SFX\Searching Tap_9E69E797.wem</Path>
+				</File>
 				<File Id="581616497" Language="SFX">
 					<ShortName>Piglet Grunt_5.wav</ShortName>
 					<Path>SFX\Piglet Grunt_5_9E69E797.wem</Path>
 				</File>
-				<File Id="618103567" Language="SFX">
-					<ShortName>Pig Squeal_3.wav</ShortName>
-					<Path>SFX\Pig Squeal_3_9E69E797.wem</Path>
+				<File Id="584585978" Language="SFX">
+					<ShortName>Monster Attack_6.wav</ShortName>
+					<Path>SFX\Monster Attack_6_9E69E797.wem</Path>
+				</File>
+				<File Id="589121898" Language="SFX">
+					<ShortName>Bubbles.wav</ShortName>
+					<Path>SFX\Bubbles_9E69E797.wem</Path>
 				</File>
 				<File Id="623803512" Language="SFX">
 					<ShortName>Piglet Oink Bubble_2.wav</ShortName>
@@ -265,6 +364,26 @@
 					<ShortName>Water Drop_18.wav</ShortName>
 					<Path>SFX\Water Drop_18_9E69E797.wem</Path>
 				</File>
+				<File Id="633776793" Language="SFX">
+					<ShortName>Stun.wav</ShortName>
+					<Path>SFX\Stun_9E69E797.wem</Path>
+				</File>
+				<File Id="645229852" Language="SFX">
+					<ShortName>Stunned_2.wav</ShortName>
+					<Path>SFX\Stunned_2_9E69E797.wem</Path>
+				</File>
+				<File Id="658114054" Language="SFX">
+					<ShortName>Swim_2.wav</ShortName>
+					<Path>SFX\Swim_2_9E69E797.wem</Path>
+				</File>
+				<File Id="673493123" Language="SFX">
+					<ShortName>Swim_7.wav</ShortName>
+					<Path>SFX\Swim_7_9E69E797.wem</Path>
+				</File>
+				<File Id="690391000" Language="SFX">
+					<ShortName>Monster Attack_5.wav</ShortName>
+					<Path>SFX\Monster Attack_5_9E69E797.wem</Path>
+				</File>
 				<File Id="703208946" Language="SFX">
 					<ShortName>Bats_6.wav</ShortName>
 					<Path>SFX\Bats_6_9E69E797.wem</Path>
@@ -273,9 +392,29 @@
 					<ShortName>Water Drop_17.wav</ShortName>
 					<Path>SFX\Water Drop_17_9E69E797.wem</Path>
 				</File>
+				<File Id="707296852" Language="SFX">
+					<ShortName>Player Attack_2.wav</ShortName>
+					<Path>SFX\Player Attack_2_9E69E797.wem</Path>
+				</File>
 				<File Id="725028944" Language="SFX">
 					<ShortName>Piglet Oink Bubble_6.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_6_9E69E797.wem</Path>
+				</File>
+				<File Id="746614126" Language="SFX">
+					<ShortName>Player Death.wav</ShortName>
+					<Path>SFX\Player Death_9E69E797.wem</Path>
+				</File>
+				<File Id="752690004" Language="SFX">
+					<ShortName>Monster Attack_1.wav</ShortName>
+					<Path>SFX\Monster Attack_1_9E69E797.wem</Path>
+				</File>
+				<File Id="757442581" Language="SFX">
+					<ShortName>Swim_1.wav</ShortName>
+					<Path>SFX\Swim_1_9E69E797.wem</Path>
+				</File>
+				<File Id="774027584" Language="SFX">
+					<ShortName>Player Death_3.wav</ShortName>
+					<Path>SFX\Player Death_3_9E69E797.wem</Path>
 				</File>
 				<File Id="777465957" Language="SFX">
 					<ShortName>Piglet Grunt_7.wav</ShortName>
@@ -285,17 +424,53 @@
 					<ShortName>Piglet Grunt_4.wav</ShortName>
 					<Path>SFX\Piglet Grunt_4_9E69E797.wem</Path>
 				</File>
+				<File Id="783199735" Language="SFX">
+					<ShortName>Searching Tap_5.wav</ShortName>
+					<Path>SFX\Searching Tap_5_9E69E797.wem</Path>
+				</File>
+				<File Id="791264335" Language="SFX">
+					<ShortName>Bubbles_7.wav</ShortName>
+					<Path>SFX\Bubbles_7_9E69E797.wem</Path>
+				</File>
 				<File Id="803060998" Language="SFX">
 					<ShortName>Bats_11.wav</ShortName>
 					<Path>SFX\Bats_11_9E69E797.wem</Path>
+				</File>
+				<File Id="815887095" Language="SFX">
+					<ShortName>Stun_2.wav</ShortName>
+					<Path>SFX\Stun_2_9E69E797.wem</Path>
+				</File>
+				<File Id="818087616" Language="SFX">
+					<ShortName>Stunned_3.wav</ShortName>
+					<Path>SFX\Stunned_3_9E69E797.wem</Path>
+				</File>
+				<File Id="837662451" Language="SFX">
+					<ShortName>Player Death_1.wav</ShortName>
+					<Path>SFX\Player Death_1_9E69E797.wem</Path>
+				</File>
+				<File Id="863092807" Language="SFX">
+					<ShortName>Swim_4.wav</ShortName>
+					<Path>SFX\Swim_4_9E69E797.wem</Path>
 				</File>
 				<File Id="866445184" Language="SFX">
 					<ShortName>Water Drop_3.wav</ShortName>
 					<Path>SFX\Water Drop_3_9E69E797.wem</Path>
 				</File>
+				<File Id="870967350" Language="SFX">
+					<ShortName>Bubbles_6.wav</ShortName>
+					<Path>SFX\Bubbles_6_9E69E797.wem</Path>
+				</File>
+				<File Id="871413286" Language="SFX">
+					<ShortName>Player Attack_5.wav</ShortName>
+					<Path>SFX\Player Attack_5_9E69E797.wem</Path>
+				</File>
 				<File Id="871776220" Language="SFX">
 					<ShortName>Water Drop_19.wav</ShortName>
 					<Path>SFX\Water Drop_19_9E69E797.wem</Path>
+				</File>
+				<File Id="875027826" Language="SFX">
+					<ShortName>Searching Tap_2.wav</ShortName>
+					<Path>SFX\Searching Tap_2_9E69E797.wem</Path>
 				</File>
 				<File Id="883036533" Language="SFX">
 					<ShortName>Water Drop_1.wav</ShortName>
@@ -313,37 +488,69 @@
 					<ShortName>Piglet Grunt_8.wav</ShortName>
 					<Path>SFX\Piglet Grunt_8_9E69E797.wem</Path>
 				</File>
+				<File Id="889576657" Language="SFX">
+					<ShortName>Charge.wav</ShortName>
+					<Path>SFX\Charge_9E69E797.wem</Path>
+				</File>
 				<File Id="892557359" Language="SFX">
 					<ShortName>Water Drop_8.wav</ShortName>
 					<Path>SFX\Water Drop_8_9E69E797.wem</Path>
+				</File>
+				<File Id="892935705" Language="SFX">
+					<ShortName>Swim_8.wav</ShortName>
+					<Path>SFX\Swim_8_9E69E797.wem</Path>
+				</File>
+				<File Id="907641454" Language="SFX">
+					<ShortName>Searching Emerge.wav</ShortName>
+					<Path>SFX\Searching Emerge_9E69E797.wem</Path>
 				</File>
 				<File Id="911605113" Language="SFX">
 					<ShortName>Water Drop_27.wav</ShortName>
 					<Path>SFX\Water Drop_27_9E69E797.wem</Path>
 				</File>
+				<File Id="915500639" Language="SFX">
+					<ShortName>Player Attack_1.wav</ShortName>
+					<Path>SFX\Player Attack_1_9E69E797.wem</Path>
+				</File>
+				<File Id="915622935" Language="SFX">
+					<ShortName>Swim_9.wav</ShortName>
+					<Path>SFX\Swim_9_9E69E797.wem</Path>
+				</File>
+				<File Id="926402534" Language="SFX">
+					<ShortName>Bubbles_5.wav</ShortName>
+					<Path>SFX\Bubbles_5_9E69E797.wem</Path>
+				</File>
 				<File Id="944902428" Language="SFX">
 					<ShortName>Bats_16.wav</ShortName>
 					<Path>SFX\Bats_16_9E69E797.wem</Path>
+				</File>
+				<File Id="961528907" Language="SFX">
+					<ShortName>Searching Growl_1.wav</ShortName>
+					<Path>SFX\Searching Growl_1_9E69E797.wem</Path>
+				</File>
+				<File Id="1010191646" Language="SFX">
+					<ShortName>Searching Growl.wav</ShortName>
+					<Path>SFX\Searching Growl_9E69E797.wem</Path>
 				</File>
 				<File Id="1011490869" Language="SFX">
 					<ShortName>Bats_14.wav</ShortName>
 					<Path>SFX\Bats_14_9E69E797.wem</Path>
 				</File>
-				<File Id="1019371492" Language="SFX">
-					<ShortName>Pig Squeal_13.wav</ShortName>
-					<Path>SFX\Pig Squeal_13_9E69E797.wem</Path>
+				<File Id="1045108044" Language="SFX">
+					<ShortName>Player Attack_4.wav</ShortName>
+					<Path>SFX\Player Attack_4_9E69E797.wem</Path>
 				</File>
 				<File Id="1050011013" Language="SFX">
 					<ShortName>Piglet Oink Bubble_7.wav</ShortName>
 					<Path>SFX\Piglet Oink Bubble_7_9E69E797.wem</Path>
 				</File>
-				<File Id="1052571594" Language="SFX">
-					<ShortName>Pig Squeal.wav</ShortName>
-					<Path>SFX\Pig Squeal_9E69E797.wem</Path>
-				</File>
 				<File Id="1058630686" Language="SFX">
 					<ShortName>Bats_1.wav</ShortName>
 					<Path>SFX\Bats_1_9E69E797.wem</Path>
+				</File>
+				<File Id="1072434669" Language="SFX">
+					<ShortName>Swim_6.wav</ShortName>
+					<Path>SFX\Swim_6_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
