@@ -52,23 +52,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 743857ff1a514fb4e898313ab9273ac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSwimStart: Pig_Swim_Start
-  playerSwimStop: Pig_Swim_Stop
-  playerChargeHit: 
+  playerSwimStart: Player_Swim
+  playerSwimStop: 
+  playerChargeHit: Player_Charge
   playerPickUp: Piglet_Grunt
-  playerDeath: Pig_Squeal
+  playerDeath: Player_Death
   playerLightStart: 
   playerLightStop: 
   playerSpawn: 
   oink: Piglet_Oink
-  monsterSwimStart: Monster_Swim_Start
-  monsterSwimStop: Monster_Swim_Stop
-  monsterAttack: 
+  monsterSwimStart: Monster_Bubbles_Start
+  monsterSwimStop: Monster_Bubbles_Stop
+  monsterAttack: Monster_Attack
   monsterAggro: 
   monsterGrowlAmbStart: 
   monsterGrowlAmbStop: 
-  monsterStun: 
-  monsterDeath: 
+  monsterStun: Monster_Stun
+  monsterDeath: Monster_Attacked
   ambienceStart: Ambience_Start
   ambienceStop: Ambience_Stop
   lightFlower: 

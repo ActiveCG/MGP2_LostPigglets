@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Pig_Swim_Start" ID="{9A5C4BCD-3B03-44BE-9BE2-CB1CDC9F23A4}">
+				<Event Name="Player_Swim" ID="{9A5C4BCD-3B03-44BE-9BE2-CB1CDC9F23A4}">
 					<ChildrenList>
 						<Action Name="Play" ID="{9229CC1B-B242-484B-A7CE-981EA571E135}" ShortID="705179833" Type="Play" Scope="One" Global="false">
 							<PropertyList>
@@ -22,27 +22,13 @@
 							</PropertyList>
 							<ElementList>
 								<Element ID="{E67390AF-CC43-440D-844C-1799F0E01F86}" Global="false">
-									<ObjectRef Name="Pig Swim Temp" ID="{29FEC2A8-F8A9-49B4-B41A-D372FA6CDD76}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+									<ObjectRef Name="Player Swim" ID="{EB96872A-B586-46E2-BD91-1AC98643CF75}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Pig_Swim_Stop" ID="{E7B2A334-62AB-41D1-A5A2-6B06D170037E}">
-					<ChildrenList>
-						<Action Name="Stop" ID="{E30ADA1F-0A46-4FEB-8610-0271E9C478DF}" ShortID="763443102" Type="Stop" Scope="One" Global="false">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
-							</PropertyList>
-							<ElementList>
-								<Element ID="{62C63AEF-3FE9-4C84-A8FD-A11F4E8B3142}" Global="false">
-									<ObjectRef Name="Pig Swim Temp" ID="{29FEC2A8-F8A9-49B4-B41A-D372FA6CDD76}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Monster_Swim_Start" ID="{C6CB0F19-CC79-4B34-86A7-7525E103AD14}">
+				<Event Name="Monster_Bubbles_Start" ID="{C6CB0F19-CC79-4B34-86A7-7525E103AD14}">
 					<ChildrenList>
 						<Action Name="Play" ID="{FFCA592E-CBF6-4745-B433-C1C83369EDD5}" ShortID="350719355" Type="Play" Scope="One" Global="false">
 							<PropertyList>
@@ -50,21 +36,21 @@
 							</PropertyList>
 							<ElementList>
 								<Element ID="{E79925B8-FA22-45B7-8A68-4C9B53DAF35F}" Global="false">
-									<ObjectRef Name="Monster Swim Temp" ID="{54AB0E46-7E94-44EE-BEBE-C204E7BEAB04}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+									<ObjectRef Name="Monster Bubbles" ID="{A773CC92-1371-44FE-859D-4494D5976792}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Monster_Swim_Stop" ID="{D2888101-41D3-470A-BAE0-2FBA16FE86D6}">
+				<Event Name="Monster_Bubbles_Stop" ID="{D2888101-41D3-470A-BAE0-2FBA16FE86D6}">
 					<ChildrenList>
 						<Action Name="Stop" ID="{1A77BF4C-C993-4DD8-90CC-DE2B10015BAA}" ShortID="359782148" Type="Stop" Scope="One" Global="false">
 							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ElementList>
 								<Element ID="{E58A50D6-AE8B-4C6A-ADBA-915F09935878}" Global="false">
-									<ObjectRef Name="Monster Swim Temp" ID="{54AB0E46-7E94-44EE-BEBE-C204E7BEAB04}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+									<ObjectRef Name="Monster Bubbles" ID="{A773CC92-1371-44FE-859D-4494D5976792}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -81,12 +67,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Pig_Squeal" ID="{F5BF2B30-9B66-4F27-AF34-E48F45459CC3}">
+				<Event Name="Player_Death" ID="{F5BF2B30-9B66-4F27-AF34-E48F45459CC3}">
 					<ChildrenList>
 						<Action Name="Play" ID="{138056E2-CF99-4BCE-A533-ABF33D2BA526}" ShortID="657683526" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{B257ADDE-5C23-456A-A0F2-4BDB6FB04691}" Global="false">
-									<ObjectRef Name="Pig Squeal" ID="{D965B1B1-F61C-49E6-97CA-F288778099FA}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+									<ObjectRef Name="Player Death" ID="{738D1DD6-EC9B-47D1-85E3-14BD28FBD9BA}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -140,6 +126,144 @@
 							<ElementList>
 								<Element ID="{43575B02-87C1-426C-8CEC-02626B9A7C54}" Global="false">
 									<ObjectRef Name="Water Drop_20" ID="{FCF502B9-B263-4940-AC07-E83FE2F50BCF}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Charge" ID="{FD46439A-D40B-46B9-9052-0F533823F0C0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D1F10B7A-BA91-4359-AE73-9A8190E7837D}" ShortID="86422543" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F98094DC-5995-4DDB-8ED9-32AC802212A4}" Global="false">
+									<ObjectRef Name="Player Charge" ID="{E88AC40F-8C2F-471D-883F-8857380F2F56}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Attack" ID="{D0757A8D-9292-48DA-B909-CC712F5242C9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E991F61A-6FF0-405C-B7F8-C267825BDA40}" ShortID="279861090" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{91A00530-F207-4CBC-B30A-F1E659C6A3A7}" Global="false">
+									<ObjectRef Name="Monster Attack" ID="{B8929D8C-789A-4FAD-9F3F-D5FF7D80863B}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Searching_Growl_Start" ID="{D2D739EF-5A63-40BA-9C61-90EB1AE1436E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FCC1875C-550B-455D-A309-626EBC0D0BD0}" ShortID="1014034128" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{22C6CFE7-BA2E-4796-A92A-079351C87559}" Global="false">
+									<ObjectRef Name="Monster Searching Growl" ID="{0CBD3066-11AE-49FD-B750-913428E82C1A}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Searching_Growl_Stop" ID="{FE356573-1D53-4335-B19F-1DA1C713F740}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{623A7D4D-AF47-4EC1-B37C-3557544ED143}" ShortID="984435446" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D163197B-9378-445D-BBBD-A3F4F4440077}" Global="false">
+									<ObjectRef Name="Monster Searching Growl" ID="{0CBD3066-11AE-49FD-B750-913428E82C1A}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Searching_Tap" ID="{8D4F8EF4-4A3B-4C4C-A599-018EDE81740B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C119220E-8C6A-468E-B318-27F48B23841A}" ShortID="979048452" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{658E9FE8-D4AD-400B-A2A1-B91573A7235B}" Global="false">
+									<ObjectRef Name="Monster Searching Tap" ID="{3A87738C-BBDF-429D-88A2-45E5C3956C91}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Stun" ID="{9F89185B-35E5-4689-903D-5346CA61E375}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2D69C07E-341D-47D0-BB75-37315D29BB3B}" ShortID="980732976" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C477857D-7F23-4AFA-81F6-4D90F48428D1}" Global="false">
+									<ObjectRef Name="Monster Stun" ID="{08F2DD94-9795-4055-874B-F43D0D94BE70}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Stunned" ID="{E6E2FFF9-7645-4F32-9F77-21FE79D29AF6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D314D4E4-4ADC-4ABF-938F-D79B7823E167}" ShortID="148417891" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D5AB058E-F2AC-46AD-872D-CEA85D983CC2}" Global="false">
+									<ObjectRef Name="Monster Stunned" ID="{67A460F8-6113-414F-8684-33D94BFAA90E}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Stunned_Stop" ID="{A9C0C286-8F2F-4E4C-80A2-83B293E22F5B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{CC576E0E-28E5-4C6B-92E0-CB8B656F67C0}" ShortID="600080794" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{5D71DBB5-7A55-426D-A974-ED1096C50E19}" Global="false">
+									<ObjectRef Name="Monster Stunned" ID="{67A460F8-6113-414F-8684-33D94BFAA90E}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Attacked" ID="{1D73807B-7D64-48FC-8D75-231F519E050F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DC1B1EFB-FC0F-4C8D-87E0-6FDAFF3C85C7}" ShortID="708330930" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2AFF91F6-271D-412C-B509-2A28A75A14DD}" Global="false">
+									<ObjectRef Name="Player Attack" ID="{7AA40053-C174-4B61-A5A0-3B7B591A47B1}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Searching_Emerge" ID="{B148C3C7-9063-4314-A2D4-52E138CEE452}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6ACB6315-964D-446E-B8BA-DA535ABFF59F}" ShortID="720771088" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5A2E943E-C9D5-4A54-A680-1F5FEF9CF79F}" Global="false">
+									<ObjectRef Name="Monster Searching Emerge" ID="{FCA089BF-9531-4E1C-B0FF-EC6C2D429CFC}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Searching_Submerge" ID="{B8E48598-DA8E-4E5E-B4B9-C957C6A97B91}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D7E38DD9-9481-4C36-B358-4398D65B65ED}" ShortID="735463694" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9B6E4C61-3383-40DD-A34F-31321BFCCB29}" Global="false">
+									<ObjectRef Name="Monster Searching Submerge" ID="{5C6AEF7E-C179-4797-98CB-0E025A81CB52}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monster_Slinky" ID="{4485BEE0-DC31-4E1F-BFB8-29399D30AD65}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2676B6D3-CDDF-437A-AA8E-89B19D291A03}" ShortID="116021027" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7C804748-86F6-42C2-A59E-870902100650}" Global="false">
+									<ObjectRef Name="Monster Slinky" ID="{B0E1617D-CF51-403C-9A65-A0AB868CCDE0}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>

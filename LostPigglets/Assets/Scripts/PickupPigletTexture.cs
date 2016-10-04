@@ -24,7 +24,7 @@ public class PickupPigletTexture : MonoBehaviour {
 
     public void SetText() {
         gameObject.SetActive(true);
-        transform.GetComponentInChildren<Text>().text = PlayerStats.instance.piggletsCollected.ToString() + "/" + PlayerStats.instance.piggletsInGame.ToString();
+        transform.GetComponentInChildren<Text>().text = PlayerStats.piggletsCollected.ToString() + "/" + PlayerStats.instance.piggletsInGame.ToString();
         StartCoroutine(SetFalse());
     }
 
