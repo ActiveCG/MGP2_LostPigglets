@@ -33,7 +33,10 @@ public class Fighting : MonoBehaviour
             {
                 print("Stunned");
                 // MonsterDestroying.current.Destroy(col[i].gameObject);
-                MonsterStun.current.Stun(col[i].gameObject);
+                if (!Intro.instance.makeMonsterJump)
+                {
+                    MonsterStun.current.Stun(col[i].gameObject);
+                }
                 if (Intro.instance.stopPlayerMove)
                 {
                     Intro.instance.letPlayerCharge = true;

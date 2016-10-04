@@ -35,6 +35,7 @@ public class MonsterStun : MonoBehaviour
         {
             if (canStun == true && MoveEnemies.instance.isSearching == true)
             {
+                print("I am on Nicolaj's Stun");
                 canStun = false;
                 obj.GetComponent<NavMeshAgent>().Stop();
                 GameManager.instance.monsterNotMoving(obj); //monster stops swimming
