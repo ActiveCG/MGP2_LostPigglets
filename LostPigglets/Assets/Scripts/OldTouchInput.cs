@@ -46,8 +46,10 @@ public class OldTouchInput : MonoBehaviour
         {
             if (coll.Raycast(ray, out hit, Mathf.Infinity) && sphereRadius(player.position, hit.point, PlayerStats.instance.rotateRadius))
             {
+                //print("Hitted water");
                 if (!Intro.instance.stopPlayerMove)
                 {
+                    //print("Inside here");
                     //Debug.Log("I am in");
                     rotateChar();
                     rBody.AddRelativeForce(Vector3.forward * PlayerStats.instance.acceleration);

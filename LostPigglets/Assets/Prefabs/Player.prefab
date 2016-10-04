@@ -2397,6 +2397,7 @@ GameObject:
   - 114: {fileID: 114000011618759922}
   - 114: {fileID: 114000010224320942}
   - 114: {fileID: 114000010352223046}
+  - 114: {fileID: 114000013577389232}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3294,7 +3295,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011688755938}
   m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: 0, y: 0.139, z: 0.39}
+  m_LocalPosition: {x: 0, y: 0.185, z: 0.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
   m_Children: []
@@ -5457,6 +5458,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7fa9145c6c4194c8c2eb4773938bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114000013577389232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013944407680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea817d8c0542af34c8488923b659da1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  identity: 0
+  stopPlayerMove: 0
+  letPlayerCharge: 0
+  stopPlayerRotate: 0
+  initialSpeed: 0
+  initialAcc: 0
+  initialBlindTime: 0
+  initialStunTime: 0
+  initialIntensity: 0
 --- !u!114 &114000014140716284
 MonoBehaviour:
   m_ObjectHideFlags: 1
