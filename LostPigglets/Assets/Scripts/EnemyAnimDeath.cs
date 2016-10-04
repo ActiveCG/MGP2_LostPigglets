@@ -8,4 +8,12 @@ public class EnemyAnimDeath : MonoBehaviour
     {
         MonsterDestroying.current.Destroy(transform.parent.gameObject);
     }
+	public void SubmergeEvent()
+	{
+		GameManager.instance.MonsterSubmerge (transform.parent.gameObject);
+	}
+	public void TapWaterEvent()
+	{
+		GameManager.instance.MonsterWaterTap (transform.parent.gameObject);
+	}
 }
