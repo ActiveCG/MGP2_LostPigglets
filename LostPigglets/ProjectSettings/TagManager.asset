@@ -21,6 +21,9 @@ TagManager:
   - RestartGame
   - QuitGame
   - PauseMenu
+  - RetryButton
+  - MainMenuButton
+  - GameOverCanvas
   layers:
   - Default
   - TransparentFX
