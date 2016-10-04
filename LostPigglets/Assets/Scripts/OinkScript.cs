@@ -66,6 +66,10 @@ public class OinkScript : MonoBehaviour {
 
         }
 
+        if(PigletManager.current.pigletPickedUp[id] == true) {
+            DestroyOink();
+        }
+
     }
 	
     void DestroyOink()
@@ -73,6 +77,7 @@ public class OinkScript : MonoBehaviour {
         gameObject.SetActive(false);
         PigletManager.current.pigletActiveOink[id] = false;
         counter = 0f;
+        PigletManager.current.counter = 0f;
     
     }
 

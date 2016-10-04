@@ -16,7 +16,7 @@ public class PigletManager : MonoBehaviour {
     public float maxDelay;
 
     float delay;
-    float counter;
+    public float counter;
     //[HideInInspector]
     public List<GameObject> pigletList = new List<GameObject>(); //List for the piglets
     GameObject[] tempArray;
@@ -26,6 +26,9 @@ public class PigletManager : MonoBehaviour {
     public List<bool> pigletPickedUp = new List<bool>();
     [HideInInspector]
     public List<float> delayList = new List<float>();
+    [HideInInspector]
+    public List<bool> canSpawn = new List<bool>();
+
     bool preventReset = false;
 
     void Awake() {
@@ -50,6 +53,7 @@ public class PigletManager : MonoBehaviour {
             pigletPickedUp.Add(tempArray[i].GetComponent<PigletScript>().amIPickedUp);
             tempArray[i].GetComponent<PigletScript>().id = i;
             delayList.Add(delay);
+            canSpawn.Add(true);
 
         }
 
@@ -62,21 +66,22 @@ public class PigletManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        DistanceCanSpawn();
         SpawnOink();
         counter += Time.deltaTime;
 
         //Reset the counter and create new delay if both oinks have been fired.
-        if((pigletActiveOink.All(c => c == true) && preventReset == false) ||
+       /* if((pigletActiveOink.All(c => c == true) && preventReset == false) ||
             (pigletActiveOink.Any(c => c == true) && preventReset == false && pigletPickedUp.Any(c => c == true))) {
             counter = 0f;
             CreateNewDelay();
         }
 
-        //Reset the prevent reset boolean, so we can reset again.
+        //Reset the prevent reset boolean, so we can reset again. Wtf ?
         if (pigletActiveOink.All(c => c == false) && pigletPickedUp.All(c => c == false) ||
             pigletActiveOink.All(c => c == false) && pigletPickedUp.Any(c => c == true)) {
             preventReset = false;
-        }
+        }*/
 
     }
 
@@ -87,7 +92,8 @@ public class PigletManager : MonoBehaviour {
         {         
             if (pigletActiveOink[i] == false
                 && counter > delayList[i]
-                && pigletPickedUp[i] == false)
+                && pigletPickedUp[i] == false
+                && canSpawn[i] == true)
             {  
                 pigletActiveOink[i] = true;
                 OinkPool.current.SpawnOink(i, pigletList[i]);
@@ -108,5 +114,25 @@ public class PigletManager : MonoBehaviour {
     // Prevent pickedup piglets from making oinks
     public void SetMeFalse (int id) {
         pigletPickedUp[id] = true;
+    }
+
+    void DistanceCanSpawn() {
+        float dist1 = Vector3.Distance(player.transform.position, pigletList[0].transform.position);
+        float dist2 = Vector3.Distance(player.transform.position, pigletList[1].transform.position); ;
+
+
+        if (dist1 < dist2 && pigletPickedUp[0] == false) {
+            Debug.Log("piglet 1 is closest");
+            canSpawn[0] = true;
+            canSpawn[1] = false;
+        }
+        if(dist2 < dist1 && pigletPickedUp[1] == false) {
+            Debug.Log("piglet 2 is closest");
+            canSpawn[1] = true;
+        }
+
+        if (pigletPickedUp[0] == true) {
+            canSpawn[1] = true;
+        }
     }
 }
