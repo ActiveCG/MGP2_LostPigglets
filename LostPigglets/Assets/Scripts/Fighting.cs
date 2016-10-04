@@ -31,8 +31,14 @@ public class Fighting : MonoBehaviour
             //Debug.Log(angle);
             if (angle < PlayerStats.instance.spotlight.spotAngle / 2f)
             {
+                print("Stunned");
                 // MonsterDestroying.current.Destroy(col[i].gameObject);
                 MonsterStun.current.Stun(col[i].gameObject);
+                if (Intro.instance.stopPlayerMove)
+                {
+                    Intro.instance.letPlayerCharge = true;
+                    Intro.instance.stopPlayerRotate = true;
+                }
             }
         }
     }

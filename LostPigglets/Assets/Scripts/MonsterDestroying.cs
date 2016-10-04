@@ -16,11 +16,27 @@ public class MonsterDestroying : MonoBehaviour {
  //       Invoke("Destroy", 100f);
  //   }
 
+    void OnEnable()
+    {
+        GameManager.instance.OnMonsterDeath += Destroy;
+    }
+
+    void OnDisable()
+    {
+        GameManager.instance.OnMonsterDeath -= Destroy;
+    }
+
     public void Destroy(GameObject obj)
     {
 		GameManager.instance.monsterNotMoving (obj); //monster stops swimming
         obj.transform.SetParent(SpawnEnemies.current.poolParent.transform);
 		obj.SetActive(false);
+        Intro.instance.stopPlayerMove = false;
+        Intro.instance.stopPlayerRotate = false;
+        Intro.instance.letPlayerCharge = false;
+        PlayerStats.instance.playerSpeed = Intro.instance.initialSpeed;
+        PlayerStats.instance.acceleration = Intro.instance.initialAcc;
+        PlayerStats.instance.spotlight.intensity = Intro.instance.initialIntensity;
     }
 
     //void OnDestroy()

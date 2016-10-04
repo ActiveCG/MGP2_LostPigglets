@@ -3,6 +3,8 @@ using System.Collections;
 
 public class OldTouchInput : MonoBehaviour
 {
+    public static OldTouchInput instance;
+
 
     private float lockPos = 0f; // Variable to lock the rotation on certain axes
     private int touch; // A counter for amoun of touches
@@ -13,7 +15,7 @@ public class OldTouchInput : MonoBehaviour
 
     private Transform player;
     Ray ray; // A ray from the camera
-    RaycastHit hit; // What did the ray hit
+    public RaycastHit hit; // What did the ray hit
 
     private Rigidbody rBody; // A variable for the rigidbody
 
@@ -26,11 +28,19 @@ public class OldTouchInput : MonoBehaviour
     Animator anim;   // for animation
     Animator rippleAnim;	// animator component
 
+
+    void Awake()
+    {
+        instance = this;
+    }
+
+
     void Start()
     {
         coll = GameObject.FindGameObjectWithTag("Plane").GetComponent<Collider>();
         rBody = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
 
 
         /////////////////NEEDS TO FIND THE CORRECT OBJECT THAT HAS THE ANIMATIONS FIRST///////////////////
@@ -41,42 +51,70 @@ public class OldTouchInput : MonoBehaviour
     // Use fixedupdate for physics
     void FixedUpdate()
     {
-        // if you go through this then character is moving
-        if (checkCanMove(counter))
-        {
-            if (coll.Raycast(ray, out hit, Mathf.Infinity) && sphereRadius(player.position, hit.point, PlayerStats.instance.rotateRadius))
-            {
-                //Debug.Log("I am in");
-                rotateChar();
-                rBody.AddRelativeForce(Vector3.forward * PlayerStats.instance.acceleration);
-                GameManager.instance.move(hit.point);
+		if (GameManager.instance.cinematicCut == false) {
+			/*#if UNITY_EDITOR
+			if(Input.GetAxis("Horizontal")!= 0 || Input.GetAxis("Vertical") != 0){
+				GameManager.instance.player.transform.Translate (-10f * Input.GetAxis ("Horizontal") * Time.deltaTime, 0f, -10f * Input.GetAxis ("Vertical") * Time.deltaTime);
+				GameManager.instance.move(GameManager.instance.player.transform.position);
+			}
+			else {
+				GameManager.instance.notMoving(new Vector3(0,0,0));
+			}
+			#else*/
 
-            }
-            else
-            {
-                rotateChar();
-            }
+		        // if you go through this then character is moving
+		        if (checkCanMove(counter))
+		        {
+		            if (coll.Raycast(ray, out hit, Mathf.Infinity) && sphereRadius(player.position, hit.point, PlayerStats.instance.rotateRadius))
+		            {
+                //print("Hitted water");
+                if (!Intro.instance.stopPlayerMove)
+                {
+                    //print("Inside here");
+		                //Debug.Log("I am in");
+		                rotateChar();
+		                rBody.AddRelativeForce(Vector3.forward * PlayerStats.instance.acceleration);
+		                GameManager.instance.move(hit.point);
+                }
 
-            //Animating(true); // pig swimming animation
-        }
-        else
-        {
-            //Animating(false); // pig idle animation
-        }
+		            }
+		            else
+		            {
+                if (!Intro.instance.stopPlayerRotate)
+                {
+                    rotateChar();
+                    //print("I am here");
+                }
+		            }
 
-        scaleSpeed();
-        rBody.velocity = rBody.velocity.normalized * (PlayerStats.instance.playerSpeed * speedScale);
-        if (rBody.velocity.magnitude < 3f)
-        {
-            rBody.velocity = rBody.velocity.normalized * 0f;
-        }
+		            //Animating(true); // pig swimming animation
+		        }
+		        else
+		        {
+		            //Animating(false); // pig idle animation
+		        }
 
+		        scaleSpeed();
+		        rBody.velocity = rBody.velocity.normalized * (PlayerStats.instance.playerSpeed * speedScale);
+		        if (rBody.velocity.magnitude < 3f)
+		        {
+		            rBody.velocity = rBody.velocity.normalized * 0f;
+		        }
+			//#endif
+		}
     }
 
-    void Update()
-    {
+	/*void MouseRotate(){
+		Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
+		Vector3 lookPos = Camera.main.ScreenToWorldPoint(mousePos);
+		lookPos = lookPos - transform.position;
+		float angle = Mathf.Atan2(lookPos.y, lookPos.x) * Mathf.Rad2Deg;
+		transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+	}*/
 
-        // Set the amount of touches to the variable "touch"
+    void Update() {
+
+		// Set the amount of touches to the variable "touch"
         touch = Input.touchCount;
 
         // Limit the touches to only register 1 finger
@@ -110,7 +148,7 @@ public class OldTouchInput : MonoBehaviour
                 counter = 0f;
             }
         }
-    }
+	}
 
 
 
@@ -146,6 +184,7 @@ public class OldTouchInput : MonoBehaviour
     // Function to smoothly rotate the character.
     void rotateChar()
     {
+        coll.Raycast(ray, out hit, Mathf.Infinity);
         direction = (hit.point - player.position).normalized;
         lookRotation = Quaternion.LookRotation(direction);
 

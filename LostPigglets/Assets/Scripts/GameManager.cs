@@ -15,6 +15,7 @@ public class GameManager {
 	private AudioManager _audioManager;
     private AnimatorManager _animManager;
 
+	public bool cinematicCut = false;
     public bool isPaused = false;
 
 	//getters:
@@ -65,26 +66,39 @@ public class GameManager {
 
 	public void StartGame() {
 		_instance = null;
+		menuStateChanged("In_Game");
 		SceneManager.LoadScene (GAME_SCENE);
+		cinematicCut = false;
+        Time.timeScale = 1;
 	}
 
 	public void RestartGame() {
 		_instance = null;
 		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+		menuStateChanged("In_Game");
         Time.timeScale = 1;
-    }
-
+		cinematicCut = false;
+}
     public void LoadMainMenu() {
         _instance = null;
         SceneManager.LoadScene(MENU_SCENE);
     }
 
 	public void Win(){
+		menuStateChanged("In_Menu");
 		SceneManager.LoadScene ("Win");
+
 	}
 
 	public void GameOver(){
+		menuStateChanged("In_Menu");
 		SceneManager.LoadScene ("GameOver");
+	}
+
+	public void QuitGame() {
+		_instance = null;
+		ambienceStop (audioManager.gameObject);
+		Application.Quit ();
 	}
 
 	//delegates
@@ -125,9 +139,18 @@ public class GameManager {
 
 	public delegate void PickUpAction(GameObject pickedObj);
 	public event PickUpAction OnPickUp;
+	public event PickUpAction OnPickUpEnd;
 	public void pickUpPigglet(GameObject pickedObj) {
+		cinematicCut = true;
+		Debug.Log ("cinematicCut " + cinematicCut);
 		if(OnPickUp != null)
 			OnPickUp (pickedObj);
+	}
+	public void pickUpPiggletEnd(GameObject pickedObj) {
+		cinematicCut = false;
+		Debug.Log ("cinematicCut " + cinematicCut);
+		if(OnPickUpEnd != null)
+			OnPickUpEnd (pickedObj);
 	}
 
 	public delegate void FightingAction();
@@ -248,9 +271,9 @@ public class GameManager {
 		if(OnMenuButton != null)
 			OnMenuButton (element);
 	}
-	public void menuStateChanged(string element) {
+	public void menuStateChanged(string state) {
 		if(OnmenuStates != null)
-			OnmenuStates (element);
+			OnmenuStates (state);
 	}
 
     //**** charging ****

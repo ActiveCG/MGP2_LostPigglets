@@ -36,7 +36,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000010000717646}
-  - 114: {fileID: 114000013160568396}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -246,7 +245,7 @@ MonoBehaviour:
   radiusForRotation: 9
   playerSpeed: 15
   acceleration: 150
-  rotateRadius: 6
+  rotateRadius: 10
   speedMaxDist: 20
   piggletsInGame: 2
   cameraOffset: {x: 0, y: 30, z: -9}
@@ -287,18 +286,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f53699aac0c87f9448a41d0490c41ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemies: []
+  spawnPoint: 0
   poolParent: {fileID: 0}
---- !u!114 &114000013160568396
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012174415878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3697fb42e22128f41845ec9cc32d1885, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114000013308315508
 MonoBehaviour:
   m_ObjectHideFlags: 1
