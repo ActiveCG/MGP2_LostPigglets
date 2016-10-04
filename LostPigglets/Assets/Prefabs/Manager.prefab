@@ -247,7 +247,7 @@ MonoBehaviour:
   rotateRadius: 4.5
   speedMaxDist: 20
   piggletsInGame: 2
-  cameraOffset: {x: 0, y: 30, z: -9}
+  cameraOffset: {x: 0, y: 30, z: -21}
   rotationOffset: {x: 0, y: 7.5, z: 0}
 --- !u!114 &114000011448874788
 MonoBehaviour:
