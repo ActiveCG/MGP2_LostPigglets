@@ -1064,7 +1064,7 @@ GameObject:
   - 108: {fileID: 108000010734428034}
   m_Layer: 0
   m_Name: Spotlight
-  m_TagString: Untagged
+  m_TagString: Spotlight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5531,6 +5531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df1b6d06fb774a749b398063d3ec3b11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleStunned: {fileID: 0}
   monsterStunned: 0
 --- !u!114 &114000010352223046
 MonoBehaviour:
@@ -5657,7 +5658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c5543bd2b771e42a64b2a9f4189e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathTime: 3
+  deathTime: 2
 --- !u!114 &114000013399328778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5685,6 +5686,8 @@ MonoBehaviour:
   letPlayerCharge: 0
   stopPlayerRotate: 0
   introRotationMonster: 0
+  makeMonsterJump: 0
+  makeTheMonsterStatic: 0
   initialSpeed: 0
   initialAcc: 0
   initialBlindTime: 0

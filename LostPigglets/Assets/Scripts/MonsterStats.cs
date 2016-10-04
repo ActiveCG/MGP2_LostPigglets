@@ -13,7 +13,7 @@ public class MonsterStats : MonoBehaviour {
     public float BlindingTimer = 1f;
     public float cooldownTimer = 8f;
     public float monsterStunTime = 2f;
-    public float destroyTimeAfterHit = 0;
+    //public float destroyTimeAfterHit = 0;
     public int poolAmount;
     public GameObject enemy;
     private Transform spawnList;

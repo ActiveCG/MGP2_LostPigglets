@@ -10,7 +10,7 @@ public class Fighting : MonoBehaviour
 
     void Start()
     {
-        PlayerStats.instance.spotlight = GetComponentInChildren<Light>();
+        PlayerStats.instance.spotlight = GameObject.FindGameObjectWithTag("Spotlight").GetComponent<Light>();
     }
 
 

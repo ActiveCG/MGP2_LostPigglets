@@ -233,17 +233,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c886b08668c90f7479f0ab4c1bee7a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piggletsCollected: 0
   spotlight: {fileID: 0}
   pigletsFollowPosZ: -1.5
   chargeSpeed: 800
   chargeCooldown: 3
-  doubleTapTime: 0.5
+  doubleTapTime: 0.8
   collisionRadiusMonster: 10
   rotSpeedFinger: 3
   setChargeFalse: 1
   radiusForRotation: 9
-  playerSpeed: 15
+  playerSpeed: 6.8
   acceleration: 150
   rotateRadius: 10
   speedMaxDist: 20
@@ -301,12 +300,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPlaces: []
-  Time1stSpawnMonster: 2
-  repeatTimeSpawn: 0.5
+  Time1stSpawnMonster: 4
+  repeatTimeSpawn: 1
   BlindingTimer: 1
   cooldownTimer: 8
   monsterStunTime: 5
-  destroyTimeAfterHit: 0.5
   poolAmount: 1
   enemy: {fileID: 1000010112326358, guid: 732e1d8c3d16ed04d841ccb9e9dffaa7, type: 2}
 --- !u!114 &114000013885245646
