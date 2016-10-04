@@ -14,6 +14,9 @@ public class Intro : MonoBehaviour {
     public bool letPlayerCharge = false;
     [HideInInspector]
     public bool stopPlayerRotate = false;
+    [HideInInspector]
+    public bool introRotationMonster = false;
+
 
     private GameObject introEnemy;
     private bool monsterIntroTriggered = false;
@@ -43,6 +46,7 @@ public class Intro : MonoBehaviour {
         //print("Impact");
         if(col.tag == "MonsterIntro")
         {
+            introRotationMonster = true;
             initialIntensity = PlayerStats.instance.spotlight.intensity;
             //print("Into MonsterIntro");
 
@@ -109,6 +113,7 @@ public class Intro : MonoBehaviour {
             {
                 MonsterStats.instance.BlindingTimer = initialBlindTime;
                 MonsterStats.instance.monsterStunTime = initialStunTime;
+                introRotationMonster = false;
                 InvokeRepeating("Spawn", MonsterStats.instance.Time1stSpawnMonster, MonsterStats.instance.repeatTimeSpawn);
             }
             startGameTriggered = true;
