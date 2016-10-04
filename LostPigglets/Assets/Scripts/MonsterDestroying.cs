@@ -33,6 +33,7 @@ public class MonsterDestroying : MonoBehaviour {
 		obj.SetActive(false);
         Intro.instance.stopPlayerMove = false;
         Intro.instance.stopPlayerRotate = false;
+        Intro.instance.letPlayerCharge = false;
         PlayerStats.instance.playerSpeed = Intro.instance.initialSpeed;
         PlayerStats.instance.acceleration = Intro.instance.initialAcc;
         PlayerStats.instance.spotlight.intensity = Intro.instance.initialIntensity;

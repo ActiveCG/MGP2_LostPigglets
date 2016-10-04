@@ -28,6 +28,7 @@ public class MonsterStun : MonoBehaviour
 
     public void Stun(GameObject obj)
     {
+            print("I am in");
         if (canStun == true && MoveEnemies.isSearching == true)
         {
             canStun = false;
