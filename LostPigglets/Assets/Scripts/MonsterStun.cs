@@ -5,6 +5,7 @@ public class MonsterStun : MonoBehaviour
 {
 
     public static MonsterStun current;
+    private ParticleSystem particleStunned;
   
 
     [HideInInspector]
@@ -32,14 +33,17 @@ public class MonsterStun : MonoBehaviour
             canStun = false;
             obj.GetComponent<NavMeshAgent>().Stop();
 			GameManager.instance.monsterNotMoving (obj); //monster stops swimming
+            GameManager.instance.MonsterStun(obj);
             monsterStunned = true;
+            Debug.Log(monsterStunned);
+            particleStunned = GameObject.FindGameObjectWithTag("Enemy").GetComponent<ParticleSystem>();
+            particleStunned.Play();
             PlayerStats.instance.spotlight.intensity = 8;
             StartCoroutine("LightCooldown");
             StartCoroutine("Cooldown");
             StartCoroutine(MonsterCooldown(obj));
         }
     }
-
 
     IEnumerator LightCooldown()
     {
@@ -60,7 +64,10 @@ public class MonsterStun : MonoBehaviour
         yield return new WaitForSeconds(MonsterStats.instance.monsterStunTime);
         obj.GetComponent<NavMeshAgent>().Resume();
         monsterStunned = false;
-		GameManager.instance.monsterMove (obj); //monster starts swimming
+        particleStunned.Stop();
+        GameManager.instance.monsterMove (obj); //monster starts swimming
+        Debug.Log(monsterStunned);
+        GameManager.instance.MonsterRecoil(obj);
     }
 }
 

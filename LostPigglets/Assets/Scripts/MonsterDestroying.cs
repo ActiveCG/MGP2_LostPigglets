@@ -23,13 +23,13 @@ public class MonsterDestroying : MonoBehaviour {
 		obj.SetActive(false);
     }
 
-    void OnDestroy()
-    {
-        print("Destroyed");
-    }
+    //void OnDestroy()
+    //{
+    //    print("Destroyed");
+    //}
 
-    void OnDisable()
-    {
-        print("Disabled");
-    }
+    //void OnDisable()
+    //{
+    //    print("Disabled");
+    //}
 }

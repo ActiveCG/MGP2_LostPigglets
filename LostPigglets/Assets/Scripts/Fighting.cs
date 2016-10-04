@@ -16,7 +16,7 @@ public class Fighting : MonoBehaviour
 
     void Update()
     {
-        Collider[] hitColliders = Physics.OverlapSphere(transform.position, PlayerStats.instance.collisionRadius, 1 << LayerMask.NameToLayer("Enemy"));
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, PlayerStats.instance.collisionRadiusMonster, 1 << LayerMask.NameToLayer("Enemy"));
         Fight(hitColliders);
     }
 

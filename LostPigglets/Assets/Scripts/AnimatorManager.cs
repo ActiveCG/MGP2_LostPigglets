@@ -1,74 +1,99 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AnimatorManager : MonoBehaviour {
+public class AnimatorManager : MonoBehaviour
+{
 
-	//script variables
-	private bool isPlayerSwimming = false;
-	private Animator playerAnim, cameraAnim, pigletAnim;
+    //script variables
+    private bool isMonsterSearching = false;
+    private bool isPlayerSwimming = false;
+    private bool canJump = true;
+    private Animator playerAnim;
+    private Animator monsterAnim;
 
-	//*********** Player ****************
-	void AM_PlayerSwim(Vector3 position){
-		if (isPlayerSwimming == true)
-			return;
-		playerAnim.SetBool ("isPigSwimming", true);
-		isPlayerSwimming = true;
-	}
-	void AM_PlayerSwimStop(Vector3 position){
-		if (isPlayerSwimming == false)
-			return;
-		playerAnim.SetBool ("isPigSwimming", false);
-		isPlayerSwimming = false;
-	}
+    //*********** Player ****************
+    void AM_PlayerSwim(Vector3 position)
+    {
+        if (isPlayerSwimming == true)
+            return;
+        playerAnim.SetBool("isPigSwimming", true);
+        isPlayerSwimming = true;
+    }
+    void AM_PlayerSwimStop(Vector3 position)
+    {
+        if (isPlayerSwimming == false)
+            return;
+        playerAnim.SetBool("isPigSwimming", false);
+        isPlayerSwimming = false;
+    }
+    void AM_Charge()
+    {
+        playerAnim.SetTrigger("pigAttackTrig");
+    }
+    public void AM_ResetCharge()
+    {
+        playerAnim.ResetTrigger("pigAttackTrig");
+    }
+    //*********** Monster ****************
+    void AM_Slink(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetTrigger("isSlinking");
+    }
 
-	void AM_Charge(){
-		playerAnim.SetTrigger ("pigAttackTrig");
-	}
-	public void AM_ResetCharge(){
-		playerAnim.ResetTrigger ("pigAttackTrig");
-	}
-	public void AM_PickUpSequence(GameObject Piglet){
-		//cameraAnim.SetTrigger ("pickupSequence");
-		Transform pigletMark = Piglet.transform.FindChild("PigletMark");
-		pigletMark.parent = null;
-		pigletAnim = Piglet.GetComponentInChildren<Animator> () as Animator;
+    void AM_Search(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetBool("isSearching", true);
+    }
 
-		GameManager.instance.player.GetComponent<NavMeshAgent>().Stop();
-		//pigletMark.rotation = Quaternion.identity;
-		cameraAnim.gameObject.transform.parent = pigletMark;
-		cameraAnim.enabled = true;
-		GameManager.instance.player.transform.position = pigletMark.position;
-		GameManager.instance.player.transform.rotation = pigletMark.rotation;
+    void AM_Attack(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetTrigger("isAttacking");
+    }
 
-		Debug.Log ("playerMarkPos" + GameManager.instance.player.transform.position + "Rot " + GameManager.instance.player.transform.rotation);
+    void AM_OutRange(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetBool("isSearching", false);
+    }
 
-		//GameManager.instance.player.transform.Rotate(new Vector3(0f,180f,0f));
+    void AM_Stun(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetTrigger("isStunned");
+        monster.GetComponentInChildren<Animator>().SetBool("beingStunned", true);
+    }
 
-		Piglet.transform.position = pigletMark.position;
-		Piglet.transform.rotation = pigletMark.rotation;
+    void AM_Recoil(GameObject monster)
+    {
+        monster.GetComponentInChildren<Animator>().SetBool("beingStunned", false);
+    }
 
-		playerAnim.SetTrigger ("pickupPiglet");
-		pigletAnim.SetTrigger ("pickupPiglet");
-	}
-	void OnEnable () {
-		isPlayerSwimming = false;
-		playerAnim = GameManager.instance.player.GetComponentInChildren<Animator> () as Animator;
-		cameraAnim = Camera.main.gameObject.GetComponent<Animator>();
-		//player events
-		GameManager.instance.OnPlayerMove += AM_PlayerSwim;
-		GameManager.instance.OnPlayerNotMoving += AM_PlayerSwimStop;
-		GameManager.instance.OnChargeHit += AM_Charge;
-
-		//key cinematic moments
-		GameManager.instance.OnPickUp += AM_PickUpSequence;
-	}
-	void OnDisable () {
-		//player events
-		GameManager.instance.OnPlayerMove -= AM_PlayerSwim;
-		GameManager.instance.OnPlayerNotMoving -= AM_PlayerSwimStop;
-		GameManager.instance.OnChargeHit -= AM_Charge;
-
-		//key cinematic moments
-		GameManager.instance.OnPickUp -= AM_PickUpSequence;
-	}
+    void OnEnable()
+    {
+        isPlayerSwimming = false;
+        playerAnim = GameManager.instance.player.GetComponentInChildren<Animator>() as Animator;
+        //player events
+        GameManager.instance.OnPlayerMove += AM_PlayerSwim;
+        GameManager.instance.OnPlayerNotMoving += AM_PlayerSwimStop;
+        GameManager.instance.OnChargeHit += AM_Charge;
+        //monster events
+        GameManager.instance.OnMonsterRecoil += AM_Recoil;
+        GameManager.instance.OnMonsterOutOfRange += AM_OutRange;
+        GameManager.instance.OnMonsterJump += AM_Slink;
+        GameManager.instance.OnMonsterAttack += AM_Attack;
+        GameManager.instance.OnMonsterAggro += AM_Search;
+        GameManager.instance.OnMonsterStun += AM_Stun;
+    }
+    void OnDisable()
+    {
+        //player events
+        GameManager.instance.OnPlayerMove -= AM_PlayerSwim;
+        GameManager.instance.OnPlayerNotMoving -= AM_PlayerSwimStop;
+        GameManager.instance.OnChargeHit -= AM_Charge;
+        //monster events
+        GameManager.instance.OnMonsterRecoil -= AM_Recoil;
+        GameManager.instance.OnMonsterOutOfRange -= AM_OutRange;
+        GameManager.instance.OnMonsterJump -= AM_Slink;
+        GameManager.instance.OnMonsterAttack -= AM_Attack;
+        GameManager.instance.OnMonsterAggro -= AM_Search;
+        GameManager.instance.OnMonsterStun -= AM_Stun;
+    }
 }
