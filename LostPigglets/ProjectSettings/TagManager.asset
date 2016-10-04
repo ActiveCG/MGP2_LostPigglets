@@ -16,6 +16,11 @@ TagManager:
   - SubTitle
   - QuitGameMenu
   - PlayGameMenu
+  - MonsterIntro
+  - PigletIntro
+  - MonsterFight
+  - StartGame
+  - MonsterIntroPos
   - ResumeGame
   - MainMenu
   - RestartGame
@@ -24,6 +29,10 @@ TagManager:
   - PigletMark
   - panelTop
   - panelBtn
+  - RetryButton
+  - MonsterFightPos
+  - MainMenuButton
+  - GameOverCanvas
   layers:
   - Default
   - TransparentFX

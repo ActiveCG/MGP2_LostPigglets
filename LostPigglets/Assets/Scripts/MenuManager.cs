@@ -36,7 +36,7 @@ public class MenuManager : MonoBehaviour {
 
         playGame.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
         StartCoroutine(Delay());
-        SceneManager.LoadScene("Development");
+        GameManager.instance.StartGame();
     }
 
     IEnumerator Delay() {

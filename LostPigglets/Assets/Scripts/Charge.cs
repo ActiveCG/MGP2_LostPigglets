@@ -63,7 +63,7 @@ public class Charge : MonoBehaviour {
 
         countTouch++;
         startCount = true;
-        if (countTouch == 2 && timer < PlayerStats.instance.doubleTapTime)
+        if (countTouch == 2 && timer < PlayerStats.instance.doubleTapTime && (!Intro.instance.stopPlayerMove || Intro.instance.letPlayerCharge))
         {
             if (chargingTimer > PlayerStats.instance.chargeCooldown || notCharged)
             {
@@ -96,7 +96,7 @@ public class Charge : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        //print("Impact");
+        print("Impact");
         if (col.tag == "Enemy" && MonsterStun.current.monsterStunned && charged)
         {
             Debug.Log("Hit the enemy");

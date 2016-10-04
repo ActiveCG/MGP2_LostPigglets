@@ -6,8 +6,12 @@ public class SpawnEnemies : MonoBehaviour {
 
     public static SpawnEnemies current;
 
-    private int spawnPoint;
-    private List<GameObject> enemies;
+
+
+    [HideInInspector]
+    public List<GameObject> enemies;
+    [HideInInspector]
+    public int spawnPoint;
     [HideInInspector]
     public GameObject poolParent;
 
@@ -35,25 +39,25 @@ public class SpawnEnemies : MonoBehaviour {
 			GameManager.instance.monsterMove (obj); //monster starts swimming
         }
 
-        InvokeRepeating("Spawn", MonsterStats.instance.Time1stSpawnMonster, MonsterStats.instance.repeatTimeSpawn);
+        //InvokeRepeating("Spawn", MonsterStats.instance.Time1stSpawnMonster, MonsterStats.instance.repeatTimeSpawn);
     }
 
 
-    void Spawn()
-    {
-        spawnPoint = Random.Range(0, MonsterStats.instance.spawnPlaces.Count);
-        for (int i=0; i<enemies.Count; i++)
-        {
-            if(!enemies[i].activeInHierarchy)
-            {
-                enemies[i].transform.position = MonsterStats.instance.spawnPlaces[spawnPoint].position;
-                enemies[i].transform.rotation = MonsterStats.instance.spawnPlaces[spawnPoint].rotation;
-                enemies[i].SetActive(true);
-                enemies[i].transform.SetParent(null);
-                break;
+    //void Spawn()
+    //{
+    //    spawnPoint = Random.Range(0, MonsterStats.instance.spawnPlaces.Count);
+    //    for (int i=0; i<enemies.Count; i++)
+    //    {
+    //        if(!enemies[i].activeInHierarchy)
+    //        {
+    //            enemies[i].transform.position = MonsterStats.instance.spawnPlaces[spawnPoint].position;
+    //            enemies[i].transform.rotation = MonsterStats.instance.spawnPlaces[spawnPoint].rotation;
+    //            enemies[i].SetActive(true);
+    //            enemies[i].transform.SetParent(null);
+    //            break;
 
-            }
-        }
-    }
+    //        }
+    //    }
+    //}
 
 }

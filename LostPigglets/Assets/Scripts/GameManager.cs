@@ -69,6 +69,7 @@ public class GameManager {
 		menuStateChanged("In_Game");
 		SceneManager.LoadScene (GAME_SCENE);
 		cinematicCut = false;
+        Time.timeScale = 1;
 	}
 
 	public void RestartGame() {
