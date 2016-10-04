@@ -16,6 +16,12 @@ TagManager:
   - SubTitle
   - QuitGameMenu
   - PlayGameMenu
+  - MonsterIntro
+  - PigletIntro
+  - MonsterFight
+  - StartGame
+  - MonsterIntroPos
+  - MonsterFightPos
   layers:
   - Default
   - TransparentFX

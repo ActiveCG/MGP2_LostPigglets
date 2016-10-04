@@ -1680,6 +1680,7 @@ GameObject:
   - 114: {fileID: 114000011618759922}
   - 114: {fileID: 114000010224320942}
   - 114: {fileID: 114000010352223046}
+  - 114: {fileID: 114000014177654302}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2073,7 +2074,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011688755938}
   m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: 0, y: -0.142, z: 0.515}
+  m_LocalPosition: {x: 0, y: 0.139, z: 0.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
   m_Children: []
@@ -2406,7 +2407,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013944407680}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 1500, y: 8.6, z: 2900}
+  m_LocalPosition: {x: 1500, y: 7.5, z: 2900}
   m_LocalScale: {x: 2.6, y: 2.6, z: 2.6}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_Children:
@@ -3809,6 +3810,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114000014177654302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013944407680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea817d8c0542af34c8488923b659da1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  identity: 0
+  introEnemy: {fileID: 1000010112326358, guid: 818c74e320f405a4aa45bea0a1a2db35, type: 2}
 --- !u!114 &114000014215944228
 MonoBehaviour:
   m_ObjectHideFlags: 1

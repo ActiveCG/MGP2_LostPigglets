@@ -46,15 +46,22 @@ public class OldTouchInput : MonoBehaviour
         {
             if (coll.Raycast(ray, out hit, Mathf.Infinity) && sphereRadius(player.position, hit.point, PlayerStats.instance.rotateRadius))
             {
-                //Debug.Log("I am in");
-                rotateChar();
-                rBody.AddRelativeForce(Vector3.forward * PlayerStats.instance.acceleration);
-                GameManager.instance.move(hit.point);
+                if (!Intro.instance.stopPlayerMove)
+                {
+                    //Debug.Log("I am in");
+                    rotateChar();
+                    rBody.AddRelativeForce(Vector3.forward * PlayerStats.instance.acceleration);
+                    GameManager.instance.move(hit.point);
+                }
 
             }
             else
             {
-                rotateChar();
+                if (!Intro.instance.stopPlayerRotate)
+                {
+                    rotateChar();
+                    //print("I am here");
+                }
             }
 
             //Animating(true); // pig swimming animation
@@ -146,6 +153,7 @@ public class OldTouchInput : MonoBehaviour
     // Function to smoothly rotate the character.
     void rotateChar()
     {
+        coll.Raycast(ray, out hit, Mathf.Infinity);
         direction = (hit.point - player.position).normalized;
         lookRotation = Quaternion.LookRotation(direction);
 

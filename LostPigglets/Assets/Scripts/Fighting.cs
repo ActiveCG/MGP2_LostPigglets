@@ -33,6 +33,11 @@ public class Fighting : MonoBehaviour
             {
                 // MonsterDestroying.current.Destroy(col[i].gameObject);
                 MonsterStun.current.Stun(col[i].gameObject);
+                if (Intro.instance.stopPlayerMove)
+                {
+                    Intro.instance.letPlayerCharge = true;
+                    Intro.instance.stopPlayerRotate = true;
+                }
             }
         }
     }
