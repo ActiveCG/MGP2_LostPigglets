@@ -16,6 +16,10 @@ public class Intro : MonoBehaviour {
     public bool stopPlayerRotate = false;
     [HideInInspector]
     public bool introRotationMonster = false;
+    [HideInInspector]
+    public bool makeMonsterJump = false;
+    [HideInInspector]
+    public bool makeTheMonsterStatic = false;
 
 
     private GameObject introEnemy;
@@ -47,6 +51,7 @@ public class Intro : MonoBehaviour {
         if(col.tag == "MonsterIntro")
         {
             introRotationMonster = true;
+            makeMonsterJump = true;
             initialIntensity = PlayerStats.instance.spotlight.intensity;
             //print("Into MonsterIntro");
 
@@ -79,6 +84,9 @@ public class Intro : MonoBehaviour {
         }
         else if (col.tag == "MonsterFight")
         {
+            introRotationMonster = false;
+            makeMonsterJump = false;
+            makeTheMonsterStatic = true;
             //print("Into MonsterFight");
             if (!monsterFightTriggered)
             {
@@ -89,9 +97,10 @@ public class Intro : MonoBehaviour {
                     {
                         SpawnEnemies.current.enemies[i].transform.position = GameObject.FindGameObjectWithTag("MonsterFightPos").transform.position;
                         SpawnEnemies.current.enemies[i].transform.rotation = GameObject.FindGameObjectWithTag("MonsterFightPos").transform.rotation;
+                        SpawnEnemies.current.enemies[i].transform.LookAt(transform.position);
                         SpawnEnemies.current.enemies[i].SetActive(true);
                         SpawnEnemies.current.enemies[i].transform.SetParent(null);
-                        introEnemy = SpawnEnemies.current.enemies[i];
+                        //introEnemy = SpawnEnemies.current.enemies[i];
                         break;
                     }
                 }
@@ -99,8 +108,8 @@ public class Intro : MonoBehaviour {
                 stopPlayerMove = true;
                 PlayerStats.instance.playerSpeed = 0f;
                 PlayerStats.instance.acceleration = 0f;
-                MonsterStats.instance.BlindingTimer = 100f;
-                MonsterStats.instance.monsterStunTime = 100f;
+                //MonsterStats.instance.BlindingTimer = 100f;
+                //MonsterStats.instance.monsterStunTime = 100f;
                 //Debug.Log(stopPlayerMove);
             }
             monsterFightTriggered = true;
@@ -113,7 +122,12 @@ public class Intro : MonoBehaviour {
             {
                 MonsterStats.instance.BlindingTimer = initialBlindTime;
                 MonsterStats.instance.monsterStunTime = initialStunTime;
+                stopPlayerMove = false;
                 introRotationMonster = false;
+                letPlayerCharge = false;
+                stopPlayerRotate = false;
+                makeMonsterJump = false;
+                makeTheMonsterStatic = false;
                 InvokeRepeating("Spawn", MonsterStats.instance.Time1stSpawnMonster, MonsterStats.instance.repeatTimeSpawn);
             }
             startGameTriggered = true;

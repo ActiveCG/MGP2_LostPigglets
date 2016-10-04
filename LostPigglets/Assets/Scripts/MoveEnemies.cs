@@ -3,15 +3,17 @@ using System.Collections;
 
 public class MoveEnemies : MonoBehaviour
 {
+    public static MoveEnemies instance;
+
     //private GameObject pig;
     private Animator animEnemy;
     private NavMeshAgent nav;
-    private bool canJump = true;
-    private bool canAttack = false;
-    private bool canResume = false;
-    private bool canSearch = true;
-    public static bool isSearching = false;
-    private float timer;
+    public bool canJump = true;
+    public bool canAttack = false;
+    public bool canResume = false;
+    public bool canSearch = true;
+    public bool isSearching = false;
+    public float timer;
     private ParticleSystem particles;
 
     [HideInInspector]
@@ -30,11 +32,18 @@ public class MoveEnemies : MonoBehaviour
     [HideInInspector]
     public Transform target;
 
+
+    void Awake()
+    {
+        instance = this;
+    }
+
     void OnEnable()
     {
         GameManager.instance.OnMonsterJump += Jump;
         GameManager.instance.OnMonsterAttack += Attack;
         GameManager.instance.OnMonsterAggro += Search;
+        //GetComponent<EnemyRubberBanding>().enabled = true;
         //particles.Play();
     }
 
@@ -68,10 +77,26 @@ public class MoveEnemies : MonoBehaviour
                 nav.SetDestination(target.position); //move towards target
             }
         }
+
         // If the monster can jump and the value between 1 and jumping-1 it will jump
-        if (Random.Range(1, jumping) == 1 && canJump == true)
+        if(!Intro.instance.makeMonsterJump)
         {
-            print("Jump");
+            if (!Intro.instance.makeTheMonsterStatic)
+            {
+                if (Random.Range(1, jumping) == 1 && canJump == true)
+                {
+                    print("Jump");
+                    GameManager.instance.MonsterJump(gameObject);
+                }
+            }
+            else
+            {
+                GameManager.instance.MonsterAggro(gameObject);
+            }
+            
+        }
+        else if(Intro.instance.makeMonsterJump)
+        {
             GameManager.instance.MonsterJump(gameObject);
         }
 
@@ -80,7 +105,7 @@ public class MoveEnemies : MonoBehaviour
         {
             timer += Time.deltaTime;
             //Debug.Log(timer);
-            isSearching = false;
+            isSearching = true;
             if (timer > timeToDeath)
             {
                 GameManager.instance.MonsterAttacks(gameObject);
@@ -90,6 +115,7 @@ public class MoveEnemies : MonoBehaviour
                 timer = 0;
             }
         }
+
         // If the monster is outside the attackRange it resumes chasing
         if (Vector3.Distance(transform.position, target.transform.position) > attackRange && canResume == true)
         {
@@ -104,15 +130,28 @@ public class MoveEnemies : MonoBehaviour
             particles.Play();
         }
         // If the monster is inside the visibilityRange it starts searching
-        if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange && canSearch == true && MonsterStun.current.monsterStunned == false)
+        if (!Intro.instance.stopPlayerMove)
         {
-            GameManager.instance.MonsterAggro(gameObject);
-            isSearching = true;
-            canSearch = false;
-            canAttack = true;
-            canResume = true;
-            particles.Stop();
+            if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange && canSearch == true && MonsterStun.current.monsterStunned == false)
+            {
+                GameManager.instance.MonsterAggro(gameObject);
+                isSearching = false;
+                canSearch = false;
+                canAttack = true;
+                canResume = true;
+                particles.Stop();
+            }
         }
+        else
+        {
+            if(Vector3.Distance(transform.position, target.transform.position) < visibilityRange)
+            {
+                print("I am inside new");
+                isSearching = true;
+            }
+        }
+
+
         if (MonsterStun.current.monsterStunned == true)
         {
             timer = 0;
@@ -122,6 +161,7 @@ public class MoveEnemies : MonoBehaviour
 
     void Jump(GameObject monster)
     {
+            //print("CAME INTO THAT");
         canJump = false;
         StartCoroutine("AnimationCD");
     }
