@@ -5,20 +5,23 @@ public class CameraScript : MonoBehaviour
 {
 
     private Transform player;
-	private bool cinematics;
+	//private bool cinematics;
 
+	public void ResetCameraEvent(){
+		GameManager.instance.animManager.AM_PickUpCameraReset();
+	}
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-		cinematics = false;
+		//cinematics = false;
     }
 
 
     void Update()
     {
         
-		if (player != null && cinematics == false)
+		if (player != null && GameManager.instance.cinematicCut == false)
         {
             //Set the position of the camera according to the player.
             transform.position = player.position + PlayerStats.instance.cameraOffset;
@@ -27,7 +30,7 @@ public class CameraScript : MonoBehaviour
         }
     }
 
-	void OnEnable () {
+	/*void OnEnable () {
 		GameManager.instance.OnPickUp += CinematicPickUp;
 	}
 
@@ -41,5 +44,5 @@ public class CameraScript : MonoBehaviour
 		//Quaternion cinematicOffsetRot = new 
 
 		//transform.position = piglet.transform.position + cinematicOffsetPos;
-	}
+	}*/
 }

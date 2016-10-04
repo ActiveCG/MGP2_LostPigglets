@@ -6,6 +6,14 @@ public class PickUp : MonoBehaviour {
 	private bool isColliding;
 	private int timer;
 
+	void OnEnable(){
+		GameManager.instance.OnPickUpEnd += PickUpPigglet;
+	}
+	void OnDisable(){
+		GameManager.instance.OnPickUpEnd -= PickUpPigglet;
+	}
+
+
 	//when player picks up something
 	void OnTriggerEnter(Collider other){
 		//picking up pigglets
@@ -29,10 +37,14 @@ public class PickUp : MonoBehaviour {
 	private void PickUpPigglet(GameObject pigglet) {
         PlayerStats.piggletsCollected++;
 		Debug.Log ("win not yet" + PlayerStats.piggletsCollected);
+
 		//make pigglets follow pig
-		pigglet.transform.rotation = transform.rotation;
-		pigglet.transform.position = transform.position + new Vector3 (0f, 0f, PlayerStats.instance.pigletsFollowPosZ * PlayerStats.piggletsCollected);
-		pigglet.transform.parent = transform;
+		Transform pickups = transform.FindChild("PickUps");
+		Transform place = pickups.GetChild (PlayerStats.piggletsCollected - 1);
+		pigglet.transform.rotation = place.rotation;
+		pigglet.transform.position = place.position;
+		pigglet.transform.parent = pickups;
+
         pigglet.GetComponent<PigletScript>().amIPickedUp = true;
         PickupPigletTexture.instance.SetText();
 	}

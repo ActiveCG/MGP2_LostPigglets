@@ -14,6 +14,8 @@ public class GameManager {
 	private AudioManager _audioManager;
     private AnimatorManager _animManager;
 
+	public bool cinematicCut = false;
+
 	//getters:
 	public static GameManager instance{
 		get {
@@ -58,12 +60,14 @@ public class GameManager {
 		_instance = null;
 		menuStateChanged("In_Game");
 		SceneManager.LoadScene (GAME_SCENE);
+		cinematicCut = false;
 	}
 
 	public void RestartGame() {
 		_instance = null;
 		menuStateChanged("In_Game");
 		SceneManager.LoadScene (GAME_SCENE);
+		cinematicCut = false;
 	}
 
 	public void Win(){
@@ -121,9 +125,16 @@ public class GameManager {
 
 	public delegate void PickUpAction(GameObject pickedObj);
 	public event PickUpAction OnPickUp;
+	public event PickUpAction OnPickUpEnd;
 	public void pickUpPigglet(GameObject pickedObj) {
+		cinematicCut = true;
 		if(OnPickUp != null)
 			OnPickUp (pickedObj);
+	}
+	public void pickUpPiggletEnd(GameObject pickedObj) {
+		cinematicCut = false;
+		if(OnPickUpEnd != null)
+			OnPickUpEnd (pickedObj);
 	}
 
 	public delegate void FightingAction();
