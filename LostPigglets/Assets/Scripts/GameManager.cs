@@ -141,11 +141,13 @@ public class GameManager {
 	public event PickUpAction OnPickUpEnd;
 	public void pickUpPigglet(GameObject pickedObj) {
 		cinematicCut = true;
+		Debug.Log ("cinematicCut " + cinematicCut);
 		if(OnPickUp != null)
 			OnPickUp (pickedObj);
 	}
 	public void pickUpPiggletEnd(GameObject pickedObj) {
 		cinematicCut = false;
+		Debug.Log ("cinematicCut " + cinematicCut);
 		if(OnPickUpEnd != null)
 			OnPickUpEnd (pickedObj);
 	}

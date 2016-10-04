@@ -23,6 +23,7 @@ public class PickUp : MonoBehaviour {
 
 			if (other.gameObject.tag == "Pigglet") {
 				Debug.Log ("Collided");
+				other.gameObject.GetComponent<Collider> ().enabled = false;
 				GameManager.instance.pickUpPigglet (other.gameObject);
 				//PickUpPigglet (other.gameObject);
 
