@@ -43,7 +43,7 @@ public class OldTouchInput : MonoBehaviour
     void FixedUpdate()
     {
 		if (GameManager.instance.cinematicCut == false) {
-			#if UNITY_EDITOR
+			/*#if UNITY_EDITOR
 			if(Input.GetAxis("Horizontal")!= 0 || Input.GetAxis("Vertical") != 0){
 				GameManager.instance.player.transform.Translate (-10f * Input.GetAxis ("Horizontal") * Time.deltaTime, 0f, -10f * Input.GetAxis ("Vertical") * Time.deltaTime);
 				GameManager.instance.move(GameManager.instance.player.transform.position);
@@ -51,7 +51,7 @@ public class OldTouchInput : MonoBehaviour
 			else {
 				GameManager.instance.notMoving(new Vector3(0,0,0));
 			}
-			#else
+			#else*/
 
 		        // if you go through this then character is moving
 		        if (checkCanMove(counter))
@@ -91,7 +91,7 @@ public class OldTouchInput : MonoBehaviour
 		        {
 		            rBody.velocity = rBody.velocity.normalized * 0f;
 		        }
-			#endif
+			//#endif
 		}
     }
 

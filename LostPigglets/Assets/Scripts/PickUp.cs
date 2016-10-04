@@ -28,9 +28,7 @@ public class PickUp : MonoBehaviour {
 				//PickUpPigglet (other.gameObject);
 
 				//check whther all pigglets collected
-				if (PlayerStats.piggletsCollected == PlayerStats.instance.piggletsInGame) {
-					GameManager.instance.Win ();
-				}
+
 			}
 		}
 	}
@@ -48,6 +46,10 @@ public class PickUp : MonoBehaviour {
 
         pigglet.GetComponent<PigletScript>().amIPickedUp = true;
         PickupPigletTexture.instance.SetText();
+
+		if (PlayerStats.piggletsCollected == PlayerStats.instance.piggletsInGame) {
+			GameManager.instance.Win ();
+		}
 	}
 
 	void Update (){
