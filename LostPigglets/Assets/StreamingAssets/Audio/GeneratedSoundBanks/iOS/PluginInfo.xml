@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PluginInfo Project="Team 1 - MGP-1" Platform="iOS" BasePlatform="iOS">
+<PluginInfo Project="Team 1 - MGP-2" Platform="iOS" BasePlatform="iOS">
 	<Plugins>
 		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb"/>
+		<Plugin Name="SoundSeed Air/SoundSeed Wind" ID="7798786" DLL="AkSoundSeedAir"/>
 	</Plugins>
 </PluginInfo>
