@@ -313,7 +313,7 @@ ModelImporter:
     400302: Piglet:jnt_snout_End
     400304: Piglet:nrb_spine_01
     400306: //RootNode
-    7400000: PigletCutscene
+    7400000: CutscenePiglet
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -337,7 +337,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: PigletCutscene
+      name: CutscenePiglet
       takeName: Take 001
       firstFrame: 1
       lastFrame: 160

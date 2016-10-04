@@ -97,7 +97,7 @@ Material:
       second: {r: 1, g: 1, b: -1, a: -1}
     - first:
         name: WaveSpeed
-      second: {r: 9.6877, g: 4.8189816, b: -7.913228, a: 2.8702974}
+      second: {r: 26, g: 51.7, b: -7.913228, a: 2.8702974}
     - first:
         name: _BumpMap_ST
       second: {r: 1, g: 1, b: 0, a: 0}

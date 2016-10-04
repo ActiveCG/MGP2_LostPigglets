@@ -313,7 +313,7 @@ ModelImporter:
     400302: Samantha:jnt_snout_End
     400304: Samantha:nrb_spine_01
     400306: //RootNode
-    7400000: SamanthaCutscene
+    7400000: CutsceneSamantha
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -337,7 +337,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: SamanthaCutscene
+      name: CutsceneSamantha
       takeName: Take 001
       firstFrame: 1
       lastFrame: 160
