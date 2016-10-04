@@ -35,7 +35,7 @@ public class MoveEnemies : MonoBehaviour
         GameManager.instance.OnMonsterJump += Jump;
         GameManager.instance.OnMonsterAttack += Attack;
         GameManager.instance.OnMonsterAggro += Search;
-        particles.Play();
+        //particles.Play();
     }
 
     void OnDisable()
@@ -43,7 +43,7 @@ public class MoveEnemies : MonoBehaviour
         GameManager.instance.OnMonsterJump -= Jump;
         GameManager.instance.OnMonsterAttack -= Attack;
         GameManager.instance.OnMonsterAggro -= Search;
-        particles.Stop();
+        //particles.Stop();
     }
 
     void Start()
@@ -59,11 +59,19 @@ public class MoveEnemies : MonoBehaviour
     {
         if (!Intro.instance.stopPlayerMove)
         {
-            nav.SetDestination(target.position); //move towards target
+            if (Intro.instance.introRotationMonster)
+            {
+                nav.SetDestination(OldTouchInput.instance.hit.point);
+            }
+            else
+            {
+                nav.SetDestination(target.position); //move towards target
+            }
         }
         // If the monster can jump and the value between 1 and jumping-1 it will jump
         if (Random.Range(1, jumping) == 1 && canJump == true)
         {
+            print("Jump");
             GameManager.instance.MonsterJump(gameObject);
         }
 
@@ -71,8 +79,8 @@ public class MoveEnemies : MonoBehaviour
         if (Vector3.Distance(transform.position, target.transform.position) < attackRange && canAttack == true && MonsterStun.current.monsterStunned == false && !Intro.instance.stopPlayerMove)
         {
             timer += Time.deltaTime;
-            Debug.Log(timer);
-            isSearching = true;
+            //Debug.Log(timer);
+            isSearching = false;
             if (timer > timeToDeath)
             {
                 GameManager.instance.MonsterAttacks(gameObject);
@@ -96,10 +104,10 @@ public class MoveEnemies : MonoBehaviour
             particles.Play();
         }
         // If the monster is inside the visibilityRange it starts searching
-        if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange == canSearch == true && MonsterStun.current.monsterStunned == false)
+        if (Vector3.Distance(transform.position, target.transform.position) < visibilityRange && canSearch == true && MonsterStun.current.monsterStunned == false)
         {
             GameManager.instance.MonsterAggro(gameObject);
-            isSearching = false;
+            isSearching = true;
             canSearch = false;
             canAttack = true;
             canResume = true;

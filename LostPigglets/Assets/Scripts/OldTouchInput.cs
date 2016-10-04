@@ -3,6 +3,8 @@ using System.Collections;
 
 public class OldTouchInput : MonoBehaviour
 {
+    public static OldTouchInput instance;
+
 
     private float lockPos = 0f; // Variable to lock the rotation on certain axes
     private int touch; // A counter for amoun of touches
@@ -13,7 +15,7 @@ public class OldTouchInput : MonoBehaviour
 
     private Transform player;
     Ray ray; // A ray from the camera
-    RaycastHit hit; // What did the ray hit
+    public RaycastHit hit; // What did the ray hit
 
     private Rigidbody rBody; // A variable for the rigidbody
 
@@ -25,6 +27,13 @@ public class OldTouchInput : MonoBehaviour
 
     Animator anim;   // for animation
     Animator rippleAnim;	// animator component
+
+
+    void Awake()
+    {
+        instance = this;
+    }
+
 
     void Start()
     {
