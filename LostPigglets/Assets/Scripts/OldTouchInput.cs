@@ -23,9 +23,6 @@ public class OldTouchInput : MonoBehaviour
     Quaternion lookRotation; // A variable to rotate to what we want to look at
     Vector3 direction; // A variable to know the direction we look at
 
-    Animator anim;   // for animation
-    Animator rippleAnim;	// animator component
-
     void Start()
     {
         coll = GameObject.FindGameObjectWithTag("Plane").GetComponent<Collider>();
@@ -54,36 +51,26 @@ public class OldTouchInput : MonoBehaviour
 			#else*/
 
 		        // if you go through this then character is moving
-		        if (checkCanMove(counter))
-		        {
-		            if (coll.Raycast(ray, out hit, Mathf.Infinity) && sphereRadius(player.position, hit.point, PlayerStats.instance.rotateRadius))
-		            {
-                //print("Hitted water");
-                if (!Intro.instance.stopPlayerMove)
-                {
-                    //print("Inside here");
-		                //Debug.Log("I am in");
-		                rotateChar();
-		                rBody.AddRelativeForce(Vector3.forward * PlayerStats.instance.acceleration);
-		                GameManager.instance.move(hit.point);
-                }
+			if (checkCanMove (counter)) {
+				if (coll.Raycast (ray, out hit, Mathf.Infinity) && sphereRadius (player.position, hit.point, PlayerStats.instance.rotateRadius)) {
+					//print("Hitted water");
+					if (!Intro.instance.stopPlayerMove) {
+						//print("Inside here");
+						//Debug.Log("I am in");
+						rotateChar ();
+						rBody.AddRelativeForce (Vector3.forward * PlayerStats.instance.acceleration);
+					}
 
-		            }
-		            else
-		            {
-                if (!Intro.instance.stopPlayerRotate)
-                {
-                    rotateChar();
-                    //print("I am here");
-                }
-		            }
-
-		            //Animating(true); // pig swimming animation
-		        }
-		        else
-		        {
-		            //Animating(false); // pig idle animation
-		        }
+				} else {
+					if (!Intro.instance.stopPlayerRotate) {
+						rotateChar ();
+						//print("I am here");
+					}
+				}
+				GameManager.instance.move (new Vector3(0,0,0));
+			} else {
+				GameManager.instance.notMoving(new Vector3(0,0,0));
+			}
 
 		        scaleSpeed();
 		        rBody.velocity = rBody.velocity.normalized * (PlayerStats.instance.playerSpeed * speedScale);
@@ -192,21 +179,6 @@ public class OldTouchInput : MonoBehaviour
             return false;
         }
         else return true;
-    }
-
-    private void Animating(bool swimming)
-    {
-
-        if (anim.GetBool("IsSwimming") != swimming)
-        {
-            if (swimming == true)
-                AkSoundEngine.PostEvent("Pig_Swim", gameObject);
-            else
-                AkSoundEngine.PostEvent("Pig_Swim_Stop", gameObject);
-        }
-        // tell the animator that the pig is swim
-        anim.SetBool("IsSwimming", swimming);
-        rippleAnim.SetBool("IsSwimRipple", swimming);
     }
 
 

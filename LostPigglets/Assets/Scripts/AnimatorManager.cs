@@ -8,7 +8,7 @@ public class AnimatorManager : MonoBehaviour
     private bool isMonsterSearching = false;
     private bool isPlayerSwimming = false;
     private bool canJump = true;
-    private Animator playerAnim, pigletAnim, cameraAnim, monsterAnim, panelTopAnim, panelBtnAnim;
+    private Animator playerAnim, pigletAnim, cameraAnim, monsterAnim, panelTopAnim, panelBtnAnim, pigRippleAnim;
 
     //*********** Player ****************
     void AM_PlayerSwim(Vector3 position)
@@ -16,6 +16,10 @@ public class AnimatorManager : MonoBehaviour
         if (isPlayerSwimming == true)
             return;
         playerAnim.SetBool("isPigSwimming", true);
+		Debug.Log (pigRippleAnim + " RIPPLESa");
+		pigRippleAnim.SetBool("swim", true);
+		//pigRippleAnim.SetTrigger("swimTrig");
+		Debug.Log (pigRippleAnim.GetBool("swim") + " RIPPLES");
         isPlayerSwimming = true;
     }
     void AM_PlayerSwimStop(Vector3 position)
@@ -23,6 +27,8 @@ public class AnimatorManager : MonoBehaviour
         if (isPlayerSwimming == false)
             return;
         playerAnim.SetBool("isPigSwimming", false);
+		pigRippleAnim.SetBool("swim", false);
+		Debug.Log (pigRippleAnim.GetBool("swim") + " RIPPLES");
         isPlayerSwimming = false;
     }
     void AM_Charge()
@@ -123,6 +129,12 @@ public class AnimatorManager : MonoBehaviour
 		cameraAnim = Camera.main.gameObject.GetComponent<Animator> ();
 		panelTopAnim = GameObject.FindGameObjectWithTag("panelTop").GetComponent<Animator>();
 		panelBtnAnim = GameObject.FindGameObjectWithTag("panelBtn").GetComponent<Animator>();
+
+		//ripples
+		//pigRippleAnim = GameManager.instance.player.GetComponentInChildren<Animator>();
+		GameObject ripple = GameObject.Find("RipplesSamantha");
+		pigRippleAnim = ripple.GetComponent<Animator> ();
+		//pigRippleAnim.SetBool ("swim", true);
 
         //player events
         GameManager.instance.OnPlayerMove += AM_PlayerSwim;
