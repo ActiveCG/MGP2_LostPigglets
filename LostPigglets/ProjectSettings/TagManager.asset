@@ -26,6 +26,9 @@ TagManager:
   - RestartGame
   - QuitGame
   - PauseMenu
+  - PigletMark
+  - panelTop
+  - panelBtn
   - RetryButton
   - MonsterFightPos
   - MainMenuButton

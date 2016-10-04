@@ -16,13 +16,24 @@ namespace AK
         static const AkUniqueID AMBIENCE_PLAY = 1496310610U;
         static const AkUniqueID AMBIENCE_STOP = 3166394572U;
         static const AkUniqueID MENU_BUTTON = 938529747U;
-        static const AkUniqueID MONSTER_SWIM_START = 1632505953U;
-        static const AkUniqueID MONSTER_SWIM_STOP = 3461698459U;
-        static const AkUniqueID PIG_SQUEAL = 2522003227U;
-        static const AkUniqueID PIG_SWIM_START = 1548288955U;
-        static const AkUniqueID PIG_SWIM_STOP = 1750874649U;
+        static const AkUniqueID MONSTER_ATTACK = 3422627564U;
+        static const AkUniqueID MONSTER_ATTACKED = 3957195095U;
+        static const AkUniqueID MONSTER_BUBBLES_START = 1440359892U;
+        static const AkUniqueID MONSTER_BUBBLES_STOP = 4237511368U;
+        static const AkUniqueID MONSTER_SEARCHING_EMERGE = 4243420992U;
+        static const AkUniqueID MONSTER_SEARCHING_GROWL_START = 3941269507U;
+        static const AkUniqueID MONSTER_SEARCHING_GROWL_STOP = 2582441345U;
+        static const AkUniqueID MONSTER_SEARCHING_SUBMERGE = 4276977801U;
+        static const AkUniqueID MONSTER_SEARCHING_TAP = 2568790474U;
+        static const AkUniqueID MONSTER_SLINKY = 1503423228U;
+        static const AkUniqueID MONSTER_STUN = 1657072816U;
+        static const AkUniqueID MONSTER_STUNNED = 559994441U;
+        static const AkUniqueID MONSTER_STUNNED_STOP = 2678200316U;
         static const AkUniqueID PIGLET_GRUNT = 3456914341U;
         static const AkUniqueID PIGLET_OINK = 4036007832U;
+        static const AkUniqueID PLAYER_CHARGE = 2781338193U;
+        static const AkUniqueID PLAYER_DEATH = 3083087645U;
+        static const AkUniqueID PLAYER_SWIM = 3395270329U;
     } // namespace EVENTS
 
     namespace STATES

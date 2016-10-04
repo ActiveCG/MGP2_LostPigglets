@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{53322282-77AD-42F1-8931-FC8894552C64}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\DADIU\MGP-2\Team 1"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\DADIU\MGP-2\Team 1\Sounds"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Android"></Value>
@@ -53,7 +53,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_19_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ80DkAIS06+JKjU0zIsMNMUWkLkOW60AJT5Bk0uQEBPIZ"/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="J+sFHlMkNUGKjASFCukD2DEJ+F+s3+tFjZf7zyHTzf0="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="lN3yCJWXVUCHS/Q9DZS+cCfrBR5TJDVBiowEhQrpA9j4YKRnE2FPQYaEM9lL+qkOFmDk8bFrY0GeQJ9pSN3qbIxzhzrfu51CiKJF5cOVbJGSzHOncRP+RIWdRJTVl2eSKoeW64a14ka9kRrJhkPPddYdjXOb7NFHheMUvSj72boEITOXJEoxSbxw4/hVxsWdZjC9DK4R/Um3UJE0KOgsGlMApHp0wWFLpaA7e1kaR7FG63PIhXNyS7mh/owiFuCgjJ2SuJp4rU+fP9X/fYCGOw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="uG6Trs9P4kKkm2C7blBGIg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="0QwjakBTwECo/Ixq2vJyqA=="/>

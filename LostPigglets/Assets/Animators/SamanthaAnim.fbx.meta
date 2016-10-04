@@ -1047,7 +1047,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 1
+        functionName: AM_ResetChargeEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: e562f5bf716f84440a57445b97d58343,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1

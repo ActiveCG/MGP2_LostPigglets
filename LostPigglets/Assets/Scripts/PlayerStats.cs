@@ -5,8 +5,8 @@ public class PlayerStats : MonoBehaviour {
 
 	public static PlayerStats instance;
 
-    [HideInInspector]
-    public int piggletsCollected = 0;
+   // [HideInInspector]
+	public static int piggletsCollected = 0;
     [HideInInspector]
     public Light spotlight;
     [HideInInspector]
@@ -33,6 +33,7 @@ public class PlayerStats : MonoBehaviour {
     void Awake()
     {
 		instance = this;
+		piggletsCollected = 0;
 	}
 
 }
