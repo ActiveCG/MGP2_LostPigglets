@@ -89,6 +89,10 @@ public class MoveEnemies : MonoBehaviour
             canAttack = true;
             canResume = true;
         }
+        if (MonsterStun.current.monsterStunned == true)
+        {
+            timer = 0;
+        }
     }
 
     void Jump(GameObject monster)

@@ -101,15 +101,15 @@ public class Charge : MonoBehaviour {
         {
             Debug.Log("Hit the enemy");
             ///////PLAY ANIMATION/////////
-            StartCoroutine(MonsterPushedBack(MonsterStats.instance.destroyTimeAfterHit, col));
+            GameManager.instance.MonsterDies(col.gameObject); 
         }
     }
 
-    IEnumerator MonsterPushedBack(float time, Collider enemyCol)
-    {
-        yield return new WaitForSeconds(time);
-        MonsterDestroying.current.Destroy(enemyCol.gameObject);
-    }
+    //IEnumerator MonsterPushedBack(float time, Collider enemyCol)
+    //{
+    //    yield return new WaitForSeconds(time);
+    //    MonsterDestroying.current.Destroy(enemyCol.gameObject);
+    //}
 
     IEnumerator SetChargeFalse()
     {
