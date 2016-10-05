@@ -51,4 +51,20 @@ public class MenuManager : MonoBehaviour {
 	public void ButtonClickSound(){
 		GameManager.instance.buttonPressed ("button");
 	}
+
+    public void setDanish () {
+        LanguageManager.instance.language = 1;
+        playGame.GetComponentInChildren<Text>().text = LanguageManager.instance.danishNewGame;
+        quitGame.GetComponentInChildren<Text>().text = LanguageManager.instance.danishQuitGame;
+        title.GetComponentInChildren<Text>().text = LanguageManager.instance.danishTitle;
+        subTitle.GetComponentInChildren<Text>().text = LanguageManager.instance.danishSubTitle;
+    }
+
+    public void setEnglish () {
+        LanguageManager.instance.language = 0;
+        playGame.GetComponentInChildren<Text>().text = LanguageManager.instance.englishNewGame;
+        quitGame.GetComponentInChildren<Text>().text = LanguageManager.instance.englishQuitGame;
+        title.GetComponentInChildren<Text>().text = LanguageManager.instance.englishTitle;
+        subTitle.GetComponentInChildren<Text>().text = LanguageManager.instance.englishSubTitle;
+    }
 }

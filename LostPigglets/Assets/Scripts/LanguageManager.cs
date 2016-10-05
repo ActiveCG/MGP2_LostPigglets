@@ -9,7 +9,7 @@ public class LanguageManager {
     public string danishNewGame = "START SPIL";
     public string danishQuitGame = "AFSLUT SPIL";
     public string danishTitle = "TUREN GENNEM MIDNATSSKOVEN";
-    public string danishSubTitle = "DE FORSVUNDNE GRISLINGE";
+    public string danishSubTitle = "FORSVUNDNE GRISLINGER";
 
     //English Main Menu
     public string englishNewGame = "PLAY GAME";
