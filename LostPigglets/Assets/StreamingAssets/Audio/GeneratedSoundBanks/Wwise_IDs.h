@@ -31,6 +31,9 @@ namespace AK
         static const AkUniqueID MONSTER_STUNNED_STOP = 2678200316U;
         static const AkUniqueID PIGLET_GRUNT = 3456914341U;
         static const AkUniqueID PIGLET_OINK = 4036007832U;
+        static const AkUniqueID PIGSKULL_LIGHT_START = 368597322U;
+        static const AkUniqueID PIGSKULL_LIGHT_STOP = 2061139362U;
+        static const AkUniqueID PIGSKULL_LIGHTUP = 3085335040U;
         static const AkUniqueID PLAYER_CHARGE = 2781338193U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID PLAYER_SWIM = 3395270329U;

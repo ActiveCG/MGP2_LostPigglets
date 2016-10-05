@@ -37,8 +37,11 @@
 				<Event Id="1657072816" Name="Monster_Stun" ObjectPath="\Events\Default Work Unit\Monster_Stun" MaxAttenuation="60.000000"/>
 				<Event Id="559994441" Name="Monster_Stunned" ObjectPath="\Events\Default Work Unit\Monster_Stunned" MaxAttenuation="60.000000"/>
 				<Event Id="2678200316" Name="Monster_Stunned_Stop" ObjectPath="\Events\Default Work Unit\Monster_Stunned_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="3456914341" Name="Piglet_Grunt" ObjectPath="\Events\Default Work Unit\Piglet_Grunt"/>
-				<Event Id="4036007832" Name="Piglet_Oink" ObjectPath="\Events\Default Work Unit\Piglet_Oink"/>
+				<Event Id="3456914341" Name="Piglet_Grunt" ObjectPath="\Events\Default Work Unit\Piglet_Grunt" MaxAttenuation="100.000000"/>
+				<Event Id="4036007832" Name="Piglet_Oink" ObjectPath="\Events\Default Work Unit\Piglet_Oink" MaxAttenuation="100.000000"/>
+				<Event Id="368597322" Name="PigSkull_Light_Start" ObjectPath="\Events\Default Work Unit\PigSkull_Light_Start" MaxAttenuation="20.000000"/>
+				<Event Id="2061139362" Name="PigSkull_Light_Stop" ObjectPath="\Events\Default Work Unit\PigSkull_Light_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="3085335040" Name="PigSkull_Lightup" ObjectPath="\Events\Default Work Unit\PigSkull_Lightup" MaxAttenuation="20.000000"/>
 				<Event Id="2781338193" Name="Player_Charge" ObjectPath="\Events\Default Work Unit\Player_Charge"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player_Death"/>
 				<Event Id="3395270329" Name="Player_Swim" ObjectPath="\Events\Default Work Unit\Player_Swim"/>
@@ -272,6 +275,10 @@
 					<ShortName>Monster Attack_4.wav</ShortName>
 					<Path>SFX\Monster Attack_4_9E69E797.wem</Path>
 				</File>
+				<File Id="469486855" Language="SFX">
+					<ShortName>Pig Skull Lightup.wav</ShortName>
+					<Path>SFX\Pig Skull Lightup_9E69E797.wem</Path>
+				</File>
 				<File Id="480976643" Language="SFX">
 					<ShortName>Bats.wav</ShortName>
 					<Path>SFX\Bats_9E69E797.wem</Path>
@@ -291,6 +298,10 @@
 				<File Id="513777565" Language="SFX">
 					<ShortName>Bubbles_2.wav</ShortName>
 					<Path>SFX\Bubbles_2_9E69E797.wem</Path>
+				</File>
+				<File Id="515240654" Language="SFX">
+					<ShortName>Pig Skull Light.wav</ShortName>
+					<Path>SFX\Pig Skull Light_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="515395280" Language="SFX">
 					<ShortName>Player Attack.wav</ShortName>
@@ -384,6 +395,10 @@
 					<ShortName>Monster Attack_5.wav</ShortName>
 					<Path>SFX\Monster Attack_5_9E69E797.wem</Path>
 				</File>
+				<File Id="700100398" Language="SFX">
+					<ShortName>Pig Skull Lightup_1.wav</ShortName>
+					<Path>SFX\Pig Skull Lightup_1_9E69E797.wem</Path>
+				</File>
 				<File Id="703208946" Language="SFX">
 					<ShortName>Bats_6.wav</ShortName>
 					<Path>SFX\Bats_6_9E69E797.wem</Path>
@@ -415,6 +430,10 @@
 				<File Id="774027584" Language="SFX">
 					<ShortName>Player Death_3.wav</ShortName>
 					<Path>SFX\Player Death_3_9E69E797.wem</Path>
+				</File>
+				<File Id="774515755" Language="SFX">
+					<ShortName>Ambient Drone.wav</ShortName>
+					<Path>SFX\Ambient Drone_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="777465957" Language="SFX">
 					<ShortName>Piglet Grunt_7.wav</ShortName>

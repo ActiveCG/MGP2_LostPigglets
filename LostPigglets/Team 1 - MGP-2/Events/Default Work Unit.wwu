@@ -94,6 +94,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{BC515D67-B6BF-4A14-9215-9566670C30CE}" ShortID="252700254" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CABD59B7-B36B-42CB-850C-793EABA9C2BC}" Global="false">
+									<ObjectRef Name="Ambient Drone" ID="{35711125-0332-47EE-9801-F775B7D69698}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Ambience_Stop" ID="{563B3210-A472-4605-A2ED-2E2562E8C0C5}">
@@ -264,6 +271,42 @@
 							<ElementList>
 								<Element ID="{7C804748-86F6-42C2-A59E-870902100650}" Global="false">
 									<ObjectRef Name="Monster Slinky" ID="{B0E1617D-CF51-403C-9A65-A0AB868CCDE0}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PigSkull_Lightup" ID="{7AC12C7A-E680-4B42-87E9-F71E06F79FC8}">
+					<ChildrenList>
+						<Action Name="Play" ID="{F2A8D7F7-87E1-4B97-A652-C0E0AE826159}" ShortID="202195986" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E90A64DD-30EA-42A8-9DC7-02DF3F26E809}" Global="false">
+									<ObjectRef Name="Pig Skull Lightup" ID="{FA6960E0-D430-41A2-8A95-83DDC8CCF01F}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PigSkull_Light_Start" ID="{ECEDE851-F6B3-44B8-B212-4062ACBCEC6C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1B85EEBD-EF8A-4F5A-8BF7-C7F93EE90A4B}" ShortID="429539613" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{16E045F8-69FB-4E7B-B44E-1F87B889F11D}" Global="false">
+									<ObjectRef Name="Pig Skull Light" ID="{3415AB1E-AA42-472A-B12C-F0B9E40ECC6B}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PigSkull_Light_Stop" ID="{257AA668-6E34-4C12-9B41-D029EA5D43B7}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{A0D9ACB2-F4B2-4AFE-8DD1-BB69BC70669B}" ShortID="109975620" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{CA2A557C-D4E8-4BD1-9D49-FEDD222F74ED}" Global="false">
+									<ObjectRef Name="Pig Skull Light" ID="{3415AB1E-AA42-472A-B12C-F0B9E40ECC6B}" WorkUnitID="{1E05EB27-2453-4135-8A8C-04850AE903D8}"/>
 								</Element>
 							</ElementList>
 						</Action>

@@ -8,6 +8,7 @@
 						<ObjectRef Name="Monster_Searching_Growl_Start" ID="{D2D739EF-5A63-40BA-9C61-90EB1AE1436E}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Searching_Emerge" ID="{B148C3C7-9063-4314-A2D4-52E138CEE452}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Searching_Growl_Stop" ID="{FE356573-1D53-4335-B19F-1DA1C713F740}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PigSkull_Light_Start" ID="{ECEDE851-F6B3-44B8-B212-4062ACBCEC6C}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Player_Swim" ID="{9A5C4BCD-3B03-44BE-9BE2-CB1CDC9F23A4}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambience_Stop" ID="{563B3210-A472-4605-A2ED-2E2562E8C0C5}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Stun" ID="{9F89185B-35E5-4689-903D-5346CA61E375}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
@@ -20,6 +21,8 @@
 						<ObjectRef Name="Ambience_Play" ID="{92372A29-DEE8-4903-9375-ACAA93DE2070}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Piglet_Oink" ID="{9DCF468F-6C8D-4A79-A2A5-E57EB45EC2D4}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Bubbles_Start" ID="{C6CB0F19-CC79-4B34-86A7-7525E103AD14}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PigSkull_Lightup" ID="{7AC12C7A-E680-4B42-87E9-F71E06F79FC8}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PigSkull_Light_Stop" ID="{257AA668-6E34-4C12-9B41-D029EA5D43B7}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Searching_Tap" ID="{8D4F8EF4-4A3B-4C4C-A599-018EDE81740B}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Slinky" ID="{4485BEE0-DC31-4E1F-BFB8-29399D30AD65}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Monster_Stunned_Stop" ID="{A9C0C286-8F2F-4E4C-80A2-83B293E22F5B}" WorkUnitID="{AE936EB8-4FCF-42E2-A49B-60BB6E504622}" Filter="7" Origin="Manual"/>
