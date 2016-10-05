@@ -54,11 +54,19 @@ public class AudioManager : MonoBehaviour {
 
 	//script variables
 	private bool isPlayerSwimming = false;
+	private bool isMonsterSwimming = false;
+	private bool isMonsterSearching = false;
+	private bool isMonsterStunned = false;
+
 
 	//*********** Player ****************
 	void PlayerSwim(Vector3 position){
 		PlaySound (playerSwim, GameManager.instance.player);
 	}
+	void PlayerCharge(){
+		PlaySound (playerChargeHit, GameManager.instance.player);
+	}
+
 	/*void PlayerSwimPlay(Vector3 position){
 		if (isPlayerSwimming == true)
 			return;
@@ -88,16 +96,16 @@ public class AudioManager : MonoBehaviour {
 
 	//*********** Monster ****************
 	void MonsterSwimPlay(GameObject monster){
-		if (monster.GetComponent<MoveEnemies>().isSwimming == true)
-			return;
+	if (isMonsterSwimming == false)
+		return;
 		PlaySound (monsterSwimStart, monster);
-		monster.GetComponent<MoveEnemies> ().isSwimming = true;
+		isMonsterSwimming = true;
 	}
 	void MonsterSwimStop(GameObject monster){
-		if (monster.GetComponent<MoveEnemies>().isSwimming == false)
+		if (isMonsterSwimming == true)
 			return;
 		PlaySound (monsterSwimStop, monster);
-		monster.GetComponent<MoveEnemies> ().isSwimming = false;
+		isMonsterSwimming = false;
 	}
 	void MonsterSlinkyPlay(GameObject monster){
 		PlaySound (monsterSlinky, monster);
@@ -109,19 +117,31 @@ public class AudioManager : MonoBehaviour {
 		PlaySound (monsterStun, monster);
 	}
 	void MonsterStunnedPlay(GameObject monster){
+		if (isMonsterStunned == false)
+			return;
 		PlaySound (monsterStunnedStart, monster);
+		isMonsterSearching = true;
 	}
 	void MonsterStunnedStop(GameObject monster){
+		if (isMonsterStunned == true)
+			return;
 		PlaySound (monsterStunnedStop, monster);
+		isMonsterSearching = false;
 	}
 	void MonsterSearchingEmergePlay(GameObject monster){
 		PlaySound (monsterSearchingEmerge, monster);
 	}
 	void MonsterSearchingStartPlay(GameObject monster){
+		if (isMonsterSearching == false)
+			return;
 		PlaySound (monsterSearchingStart, monster);
+		isMonsterSearching = true;
 	}
 	void MonsterSearchingStop(GameObject monster){
+		if (isMonsterSearching == true)
+			return;
 		PlaySound (monsterSearchingStop, monster);
+		isMonsterSearching = false;
 	}
 	void MonsterSearchingSubmergePlay(GameObject monster){
 		PlaySound (monsterSearchingSubmerge, monster);
@@ -154,6 +174,10 @@ public class AudioManager : MonoBehaviour {
 	//Subscribing and unsubscribing to delegate events
 	void OnEnable () {
 		isPlayerSwimming = false;
+		isMonsterSwimming = false;
+		isMonsterSearching = false;
+		isMonsterStunned = false;
+
 		//player events
 		GameManager.instance.OnPlayerSwim += PlayerSwim;
 		//GameManager.instance.OnPlayerMove += PlayerSwimPlay;
@@ -161,6 +185,7 @@ public class AudioManager : MonoBehaviour {
 		//GameManager.instance.OnPlayerDamage += PlayerDamagedPlay;
 		GameManager.instance.OnPlayerDeath += PlayerDeathPlay;
 		GameManager.instance.OnPickUp += PickUpObjectPlay;
+		GameManager.instance.OnChargeHit += PlayerCharge;
 
 		//piglet events
 		GameManager.instance.OnPigletOink += PiggletOinkPlay;
@@ -171,8 +196,10 @@ public class AudioManager : MonoBehaviour {
 		GameManager.instance.OnMonsterJump += MonsterSlinkyPlay;
 		GameManager.instance.OnMonsterAttack += MonsterAttackPlay;
 		GameManager.instance.OnMonsterStun += MonsterStunPlay;
+		GameManager.instance.OnMonsterStunned += MonsterStunnedPlay;
+		GameManager.instance.OnMonsterRecoil += MonsterStunnedStop;
 		GameManager.instance.OnMonsterAggro += MonsterSearchingEmergePlay;
-		GameManager.instance.OnMonsterAggro += MonsterSearchingStartPlay;
+		GameManager.instance.OnMonsterSearching += MonsterSearchingStartPlay;
 		GameManager.instance.OnMonsterSubmerge += MonsterSearchingSubmergePlay;
 		GameManager.instance.OnMonsterSubmerge += MonsterSearchingStop;
 		GameManager.instance.OnMonsterWaterTap += MonsterSearchingTapPlay;
@@ -209,6 +236,7 @@ public class AudioManager : MonoBehaviour {
 		//GameManager.instance.OnPlayerDamage -= PlayerDamagedPlay;
 		GameManager.instance.OnPlayerDeath -= PlayerDeathPlay;
 		GameManager.instance.OnPickUp -= PickUpObjectPlay;
+		GameManager.instance.OnChargeHit -= PlayerCharge;
 
 		//piglet events
 		GameManager.instance.OnPigletOink -= PiggletOinkPlay;
@@ -219,8 +247,10 @@ public class AudioManager : MonoBehaviour {
 		GameManager.instance.OnMonsterJump -= MonsterSlinkyPlay;
 		GameManager.instance.OnMonsterAttack -= MonsterAttackPlay;
 		GameManager.instance.OnMonsterStun -= MonsterStunPlay;
+		GameManager.instance.OnMonsterStunned -= MonsterStunnedPlay;
+		GameManager.instance.OnMonsterRecoil += MonsterStunnedStop;
 		GameManager.instance.OnMonsterAggro -= MonsterSearchingEmergePlay;
-		GameManager.instance.OnMonsterAggro -= MonsterSearchingStartPlay;
+		GameManager.instance.OnMonsterSearching -= MonsterSearchingStartPlay;
 		GameManager.instance.OnMonsterSubmerge -= MonsterSearchingSubmergePlay;
 		GameManager.instance.OnMonsterSubmerge -= MonsterSearchingStop;
 		GameManager.instance.OnMonsterWaterTap -= MonsterSearchingTapPlay;
@@ -243,5 +273,9 @@ public class AudioManager : MonoBehaviour {
 			return;
 		AkSoundEngine.PostEvent (eventName, obj);
 		AkSoundEngine.RenderAudio ();
+	}
+
+	public void UnloadSoundBank(){
+		Destroy (gameObject);
 	}
 }

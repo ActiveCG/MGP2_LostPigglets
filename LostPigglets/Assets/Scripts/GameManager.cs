@@ -67,6 +67,8 @@ public class GameManager {
 	public void StartGame() {
 		_instance = null;
 		//menuStateChanged("In_Game");
+		if(audioManager != null)
+			audioManager.UnloadSoundBank();
 		SceneManager.LoadScene (GAME_SCENE);
 		cinematicCut = false;
         Time.timeScale = 1;
@@ -75,6 +77,8 @@ public class GameManager {
 
 	public void RestartGame() {
 		_instance = null;
+		if(audioManager != null)
+			audioManager.UnloadSoundBank();
 		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
 		//menuStateChanged("In_Game");
         Time.timeScale = 1;
@@ -83,29 +87,42 @@ public class GameManager {
 }
     public void LoadMainMenu() {
         _instance = null;
+		if(audioManager != null)
+			audioManager.UnloadSoundBank();
         SceneManager.LoadScene(MENU_SCENE);
     }
 
 	public void Win(){
 		//menuStateChanged("In_Menu");
+
+		if(audioManager != null)
+			audioManager.UnloadSoundBank();
+		_instance = null;
 		SceneManager.LoadScene ("Win");
 
 	}
 
 	public void GameOver(){
 		//menuStateChanged("In_Menu");
+
+		if(audioManager != null)
+			audioManager.UnloadSoundBank();
+		_instance = null;
 		SceneManager.LoadScene ("GameOver");
 	}
 
 	public void QuitGame() {
 		_instance = null;
 		ambienceStop (audioManager.gameObject);
+		if(audioManager != null)
+			audioManager.UnloadSoundBank();
 		Application.Quit ();
 	}
 
     public bool IsInGameScene()
     {
-        if (SceneManager.GetActiveScene().name == GAME_SCENE)
+		Debug.Log (SceneManager.GetActiveScene().name);
+		if (SceneManager.GetActiveScene().name == GAME_SCENE)
             return true;
         return false;
     }
@@ -195,7 +212,9 @@ public class GameManager {
     public event MonsterAction OnMonsterJump;
     public event MonsterAction OnMonsterAttack;
 	public event MonsterAction OnMonsterAggro; //searching
+	public event MonsterAction OnMonsterSearching; //searching
 	public event MonsterAction OnMonsterStun;
+	public event MonsterAction OnMonsterStunned; //while stunned
     public event MonsterAction OnMonsterRecoil; //no longer stunned, goes to idle
 	public event MonsterAction OnMonsterSubmerge;
 	public event MonsterAction OnMonsterWaterTap;
@@ -230,11 +249,21 @@ public class GameManager {
 		if(OnMonsterAggro != null)
 			OnMonsterAggro (monster);
 	}
+	public void MonsterSearching(GameObject monster) {
+		if(OnMonsterSearching != null)
+			OnMonsterSearching (monster);
+	}
 	public void MonsterStun(GameObject monster) {
 		if(OnMonsterStun != null)
         {
 			OnMonsterStun (monster);
         }
+	}
+	public void MonsterStunned(GameObject monster) {
+		if(OnMonsterStunned != null)
+		{
+			OnMonsterStunned (monster);
+		}
 	}
 	public void MonsterSubmerge(GameObject monster) {
 		if(OnMonsterSubmerge != null)

@@ -49,4 +49,8 @@ public class GameOverScene : MonoBehaviour {
         yield return new WaitForSeconds(fadeTime);
     }
 
+	public void ButtonClickSound(){
+		GameManager.instance.buttonPressed ("button");
+	}
+
 }
