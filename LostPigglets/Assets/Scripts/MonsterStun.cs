@@ -35,7 +35,7 @@ public class MonsterStun : MonoBehaviour
         {
             if (canStun == true && MoveEnemies.instance.isSearching == true)
             {
-                print("I am on Nicolaj's Stun");
+                //print("I am on Nicolaj's Stun");
                 canStun = false;
                 obj.GetComponent<NavMeshAgent>().Stop();
                 GameManager.instance.monsterNotMoving(obj); //monster stops swimming
@@ -52,7 +52,7 @@ public class MonsterStun : MonoBehaviour
         }
         else
         {
-            print("I am on this fucking stun");
+            //print("I am on this fucking stun");
             //particleStunned = GameObject.FindGameObjectWithTag("Enemy").GetComponent<ParticleSystem>();
             //particleStunned.Play();
             GameManager.instance.monsterNotMoving(obj); //monster stops swimming

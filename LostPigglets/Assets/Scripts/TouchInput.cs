@@ -89,7 +89,7 @@ public class TouchInput : MonoBehaviour
             ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
             Physics.Raycast(ray.origin, ray.direction, out hitInfo, Mathf.Infinity);
             //Debug.Log(hitInfo.collider);
-            Debug.Log(Vector3.Distance(player.position, hitInfo.point));
+            //Debug.Log(Vector3.Distance(player.position, hitInfo.point));
 
             if (Input.GetTouch(0).phase == TouchPhase.Moved)
             {
