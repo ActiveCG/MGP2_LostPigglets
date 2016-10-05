@@ -14,7 +14,8 @@ public class MoveEnemies : MonoBehaviour
     public bool canSearch = true;
     public bool isSearching = false;
     public float timer;
-    private ParticleSystem particles;
+    [HideInInspector]
+    public GameObject particles;
 
     [HideInInspector]
     public bool isSwimming;
@@ -45,7 +46,7 @@ public class MoveEnemies : MonoBehaviour
         GameManager.instance.OnMonsterAttack += Attack;
         GameManager.instance.OnMonsterAggro += Search;
         //GetComponent<EnemyRubberBanding>().enabled = true;
-        //particles.Play();
+        //particles.SetActive(true);
     }
 
     void OnDisable()
@@ -53,13 +54,12 @@ public class MoveEnemies : MonoBehaviour
         GameManager.instance.OnMonsterJump -= Jump;
         GameManager.instance.OnMonsterAttack -= Attack;
         GameManager.instance.OnMonsterAggro -= Search;
-        //particles.Stop();
+        //particles.SetActive(false);
     }
 
     void Start()
     {
         //pig = GameObject.FindGameObjectWithTag("Player");
-        particles = GetComponentInChildren<ParticleSystem>();
         target = GameManager.instance.player.transform;
         animEnemy = GetComponent<Animator>();
         nav = GetComponent<NavMeshAgent>();
@@ -99,6 +99,7 @@ public class MoveEnemies : MonoBehaviour
         else if(Intro.instance.makeMonsterJump)
         {
             GameManager.instance.MonsterJump(gameObject);
+            particles.SetActive(false);
         }
 
         // If the monster is inside the attackRange and canAttack is true the monster can kill the player
@@ -107,14 +108,17 @@ public class MoveEnemies : MonoBehaviour
             timer += Time.deltaTime;
             //Debug.Log(timer);
             isSearching = true;
+            nav.Stop();
             if (timer > timeToDeath)
             {
+                transform.LookAt(target);
                 GameManager.instance.MonsterAttacks(gameObject);
                 canSearch = true;
                 canResume = false;
                 canAttack = false;
                 timer = 0;
             }
+            particles.SetActive(false);
         }
 
         // If the monster is outside the attackRange it resumes chasing
@@ -128,7 +132,7 @@ public class MoveEnemies : MonoBehaviour
             canResume = false;
             canSearch = true;
             timer = 0;
-            particles.Play();
+            particles.SetActive(true);
         }
         // If the monster is inside the visibilityRange it starts searching
         if (!Intro.instance.stopPlayerMove)
@@ -140,7 +144,7 @@ public class MoveEnemies : MonoBehaviour
                 canSearch = false;
                 canAttack = true;
                 canResume = true;
-                particles.Stop();
+                particles.SetActive(false);
             }
         }
         else

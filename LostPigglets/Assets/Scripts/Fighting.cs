@@ -37,6 +37,7 @@ public class Fighting : MonoBehaviour
                 {
                     MonsterStun.current.Stun(col[i].gameObject);
                 }
+
                 if (Intro.instance.stopPlayerMove)
                 {
                     Intro.instance.letPlayerCharge = true;

@@ -98,6 +98,7 @@ public class Intro : MonoBehaviour {
                         SpawnEnemies.current.enemies[i].transform.position = GameObject.FindGameObjectWithTag("MonsterFightPos").transform.position;
                         SpawnEnemies.current.enemies[i].transform.rotation = GameObject.FindGameObjectWithTag("MonsterFightPos").transform.rotation;
                         SpawnEnemies.current.enemies[i].transform.LookAt(transform.position);
+                        MoveEnemies.instance.particles.SetActive(false);
                         SpawnEnemies.current.enemies[i].SetActive(true);
                         SpawnEnemies.current.enemies[i].transform.SetParent(null);
                         //introEnemy = SpawnEnemies.current.enemies[i];
@@ -116,6 +117,8 @@ public class Intro : MonoBehaviour {
         }
         else if (col.tag == "StartGame")
         {
+            MoveEnemies.instance.particles.SetActive(true);
+            col.isTrigger = false;
             //print("Into StartGame");
             //stopPlayerMove = false;
             if (!startGameTriggered)

@@ -2206,7 +2206,7 @@ GameObject:
   - 199: {fileID: 199000010136945244}
   m_Layer: 0
   m_Name: MonsterBubblesParticleSystem
-  m_TagString: Untagged
+  m_TagString: Bubbles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3877,7 +3877,7 @@ Transform:
   - {fileID: 4000010225903426}
   - {fileID: 4000012304595982}
   m_Father: {fileID: 4000011009055282}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!4 &4000010300926278
 Transform:
   m_ObjectHideFlags: 1
@@ -4370,8 +4370,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000014160618252}
-  - {fileID: 4000010254162036}
   - {fileID: 4000012292336540}
+  - {fileID: 4000010254162036}
   - {fileID: 4000011339272800}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -5470,7 +5470,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000011009055282}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!4 &4000012304595982
 Transform:
   m_ObjectHideFlags: 1
@@ -7099,11 +7099,12 @@ MonoBehaviour:
   canSearch: 1
   isSearching: 0
   timer: 0
+  particles: {fileID: 0}
   isSwimming: 0
   timeToDeath: 8
   jumpingCooldownTimer: 8
-  attackRange: 30
-  visibilityRange: 15
+  attackRange: 25
+  visibilityRange: 10
   jumping: 10
   target: {fileID: 0}
 --- !u!114 &114000013081101790
@@ -7128,6 +7129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9065c32d73da02f41a9a6453470fadf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopHandAnim: 0
 --- !u!135 &135000012706381472
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -7446,7 +7448,7 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -1010921304
+  randomSeed: -804548011
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -7612,7 +7614,7 @@ ParticleSystem:
       maxColor: {r: 0.9647059, g: 0.827451, b: 0.5803922, a: 1}
       minMaxState: 0
     startSize:
-      scalar: 4.44
+      scalar: 1.38
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -9191,11 +9193,11 @@ ParticleSystem:
   speed: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -1943462617
+  randomSeed: -919247918
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -10939,12 +10941,12 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: 1441416937
+  randomSeed: -1167313740
   InitialModule:
     serializedVersion: 2
     enabled: 1
     startLifetime:
-      scalar: 1.21
+      scalar: 0.7
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -10979,7 +10981,7 @@ ParticleSystem:
         m_RotationOrder: 4
       minMaxState: 0
     startSpeed:
-      scalar: 5.42
+      scalar: 3.12
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -11105,7 +11107,7 @@ ParticleSystem:
       maxColor: {r: 0.8392157, g: 0.58431375, b: 0.41960785, a: 1}
       minMaxState: 0
     startSize:
-      scalar: 0.44
+      scalar: 0.18
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -11323,7 +11325,7 @@ ParticleSystem:
     serializedVersion: 2
     enabled: 1
     type: 4
-    radius: 1.47
+    radius: 0.71
     angle: 12.06
     length: 5
     boxX: 1
@@ -11344,7 +11346,7 @@ ParticleSystem:
     serializedVersion: 2
     m_Type: 0
     rate:
-      scalar: 80
+      scalar: 25
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -11775,7 +11777,7 @@ ParticleSystem:
     uvChannelMask: -1
     randomRow: 1
   VelocityModule:
-    enabled: 1
+    enabled: 0
     x:
       scalar: 0
       maxCurve:
@@ -11993,7 +11995,7 @@ ParticleSystem:
         m_RotationOrder: 4
       minMaxState: 0
     z:
-      scalar: 1.05
+      scalar: 0.45
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -12688,12 +12690,12 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -1251810002
+  randomSeed: 1090829867
   InitialModule:
     serializedVersion: 2
     enabled: 1
     startLifetime:
-      scalar: 3.98
+      scalar: 3.21
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -12854,7 +12856,7 @@ ParticleSystem:
       maxColor: {r: 0.9647059, g: 0.827451, b: 0.5803922, a: 1}
       minMaxState: 0
     startSize:
-      scalar: 0.96
+      scalar: 0.27
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -13072,7 +13074,7 @@ ParticleSystem:
     serializedVersion: 2
     enabled: 1
     type: 4
-    radius: 1
+    radius: 0.58
     angle: 25
     length: 5
     boxX: 1
@@ -13093,7 +13095,7 @@ ParticleSystem:
     serializedVersion: 2
     m_Type: 0
     rate:
-      scalar: 10
+      scalar: 4.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
