@@ -20,12 +20,12 @@ public class MonsterDestroying : MonoBehaviour {
 
     void OnEnable()
     {
-        GameManager.instance.OnMonsterDeath += Destroy;
+        //GameManager.instance.OnMonsterDeath += Destroy;
     }
 
     void OnDisable()
     {
-        GameManager.instance.OnMonsterDeath -= Destroy;
+        //GameManager.instance.OnMonsterDeath -= Destroy;
     }
 
     public void Destroy(GameObject obj)
