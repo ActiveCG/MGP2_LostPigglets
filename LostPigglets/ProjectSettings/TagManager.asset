@@ -36,6 +36,7 @@ TagManager:
   - StunParticle
   - Spotlight
   - ChargeParticle
+  - Bubbles
   layers:
   - Default
   - TransparentFX

@@ -60,7 +60,8 @@ public class MonsterStun : MonoBehaviour
             monsterStunned = true;
 			particleStunned.SetActive(true);
             PlayerStats.instance.spotlight.intensity = 8;
-            print(PlayerStats.instance.spotlight.intensity);
+            //print(PlayerStats.instance.spotlight.intensity);
+            GameManager.instance.player.transform.LookAt(obj.transform.position);
         }
     }
 

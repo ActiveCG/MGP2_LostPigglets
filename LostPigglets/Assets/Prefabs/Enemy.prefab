@@ -2206,7 +2206,7 @@ GameObject:
   - 199: {fileID: 199000010136945244}
   m_Layer: 0
   m_Name: MonsterBubblesParticleSystem
-  m_TagString: Untagged
+  m_TagString: Bubbles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3877,7 +3877,7 @@ Transform:
   - {fileID: 4000010225903426}
   - {fileID: 4000012304595982}
   m_Father: {fileID: 4000011009055282}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!4 &4000010300926278
 Transform:
   m_ObjectHideFlags: 1
@@ -4370,8 +4370,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000014160618252}
-  - {fileID: 4000010254162036}
   - {fileID: 4000012292336540}
+  - {fileID: 4000010254162036}
   - {fileID: 4000011339272800}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -5470,7 +5470,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000011009055282}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!4 &4000012304595982
 Transform:
   m_ObjectHideFlags: 1
@@ -7099,11 +7099,12 @@ MonoBehaviour:
   canSearch: 1
   isSearching: 0
   timer: 0
+  particles: {fileID: 0}
   isSwimming: 0
   timeToDeath: 8
   jumpingCooldownTimer: 8
-  attackRange: 30
-  visibilityRange: 15
+  attackRange: 25
+  visibilityRange: 10
   jumping: 10
   target: {fileID: 0}
 --- !u!114 &114000013081101790
@@ -7128,6 +7129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9065c32d73da02f41a9a6453470fadf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopHandAnim: 0
 --- !u!135 &135000012706381472
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -7446,7 +7448,7 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -1010921304
+  randomSeed: 1122993753
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -9191,11 +9193,11 @@ ParticleSystem:
   speed: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -1943462617
+  randomSeed: -493956505
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -10939,7 +10941,7 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: 1441416937
+  randomSeed: -461478349
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -12688,7 +12690,7 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -1251810002
+  randomSeed: 1951538941
   InitialModule:
     serializedVersion: 2
     enabled: 1

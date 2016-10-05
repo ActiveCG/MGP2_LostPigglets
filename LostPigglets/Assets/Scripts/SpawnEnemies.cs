@@ -36,6 +36,8 @@ public class SpawnEnemies : MonoBehaviour {
             obj.transform.SetParent(poolParent.transform);
 			MonsterStun.current.particleStunned = GameObject.FindGameObjectWithTag ("StunParticle");
 			MonsterStun.current.particleStunned.SetActive (false);
+            MoveEnemies.instance.particles = GameObject.FindGameObjectWithTag("Bubbles");
+            //MoveEnemies.instance.particles.SetActive(false);
             obj.SetActive(false);
             enemies.Add(obj);
 			obj.GetComponent<MoveEnemies> ().isSwimming = false;
