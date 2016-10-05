@@ -3,8 +3,10 @@ using System.Collections;
 
 public class PlayerLife : MonoBehaviour
 {
+    public static PlayerLife instance;
 
     public int deathTime;
+    public bool died = false;
 
     void OnEnable()
     {
@@ -18,6 +20,11 @@ public class PlayerLife : MonoBehaviour
     {
         GameManager.instance.OnMonsterAttack -= TakeDamage;
         GameManager.instance.OnPlayerDeath -= Die;
+    }
+
+    void Awake()
+    {
+        instance = this;
     }
 
     //recieve damage from monsters
@@ -35,6 +42,9 @@ public class PlayerLife : MonoBehaviour
 
     IEnumerator DeathAnimation()
     {
+        PlayerStats.instance.playerSpeed = 0;
+        PlayerStats.instance.acceleration = 0;
+        died = true;
         yield return new WaitForSeconds(deathTime);
         GameManager.instance.GameOver();
     }

@@ -66,7 +66,7 @@ public class Charge : MonoBehaviour {
 
         countTouch++;
         startCount = true;
-        if (countTouch == 2 && timer < PlayerStats.instance.doubleTapTime && (!Intro.instance.stopPlayerMove || Intro.instance.letPlayerCharge))
+        if (countTouch == 2 && timer < PlayerStats.instance.doubleTapTime && (!Intro.instance.stopPlayerMove || Intro.instance.letPlayerCharge) && !PlayerLife.instance.died)
         {
             if (chargingTimer > PlayerStats.instance.chargeCooldown || notCharged)
             {

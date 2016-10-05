@@ -301,7 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPlaces: []
   Time1stSpawnMonster: 4
-  repeatTimeSpawn: 1
+  repeatTimeSpawn: 0.5
   BlindingTimer: 1
   cooldownTimer: 8
   monsterStunTime: 5
