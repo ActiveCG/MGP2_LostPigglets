@@ -95,7 +95,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.DADIU16T1.LostPiglets
-  bundleVersion: 14
+  bundleVersion: 15
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   xboxOneDisableKinectGpuReservation: 0
@@ -180,7 +180,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 1cd3d67660197af4c9688627ca03ba1d, type: 3}
+      m_Icon: {fileID: 2800000, guid: 9fd0673675be478459caee7764c97488, type: 3}
       m_Width: 128
       m_Height: 128
   m_BuildTargetBatching: []
