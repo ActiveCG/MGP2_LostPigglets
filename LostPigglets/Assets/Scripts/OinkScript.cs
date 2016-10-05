@@ -56,7 +56,7 @@ public class OinkScript : MonoBehaviour {
 
             counter += Time.deltaTime;
 
-            //Debug.Log(AngleBetweenVector(playerPos.transform.position, pigletPos.transform.position) + " " + pigletPos);
+
             if (counter > timeActive) {
                 DestroyOink();
             }

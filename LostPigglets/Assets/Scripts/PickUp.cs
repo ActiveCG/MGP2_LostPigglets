@@ -22,7 +22,7 @@ public class PickUp : MonoBehaviour {
 			timer = 0;
 
 			if (other.gameObject.tag == "Pigglet") {
-				Debug.Log ("Collided");
+				//Debug.Log ("Collided");
 				other.gameObject.GetComponent<Collider> ().enabled = false;
 				GameManager.instance.pickUpPigglet (other.gameObject);
 				//PickUpPigglet (other.gameObject);
@@ -35,7 +35,7 @@ public class PickUp : MonoBehaviour {
 
 	private void PickUpPigglet(GameObject pigglet) {
         PlayerStats.piggletsCollected++;
-		Debug.Log ("win not yet" + PlayerStats.piggletsCollected);
+		//Debug.Log ("win not yet" + PlayerStats.piggletsCollected);
 
 		//make pigglets follow pig
 		Transform pickups = transform.FindChild("PickUps");

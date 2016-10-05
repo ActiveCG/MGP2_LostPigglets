@@ -16,10 +16,10 @@ public class AnimatorManager : MonoBehaviour
         if (isPlayerSwimming == true)
             return;
         playerAnim.SetBool("isPigSwimming", true);
-		Debug.Log (pigRippleAnim + " RIPPLESa");
+		//Debug.Log (pigRippleAnim + " RIPPLESa");
 		pigRippleAnim.SetBool("swim", true);
 		//pigRippleAnim.SetTrigger("swimTrig");
-		Debug.Log (pigRippleAnim.GetBool("swim") + " RIPPLES");
+		//Debug.Log (pigRippleAnim.GetBool("swim") + " RIPPLES");
         isPlayerSwimming = true;
     }
     void AM_PlayerSwimStop(Vector3 position)
@@ -28,7 +28,7 @@ public class AnimatorManager : MonoBehaviour
             return;
         playerAnim.SetBool("isPigSwimming", false);
 		pigRippleAnim.SetBool("swim", false);
-		Debug.Log (pigRippleAnim.GetBool("swim") + " RIPPLES");
+		//Debug.Log (pigRippleAnim.GetBool("swim") + " RIPPLES");
         isPlayerSwimming = false;
     }
     void AM_Charge()
@@ -41,7 +41,7 @@ public class AnimatorManager : MonoBehaviour
     }
 	void AM_PickUpSequence(GameObject Piglet){
 		Transform pigletMark = Piglet.transform.FindChild ("PigletMark");
-		Debug.Log ("pigletMark" + pigletMark);
+		//Debug.Log ("pigletMark" + pigletMark);
 		pigletMark.parent = null;
 		pigletAnim = Piglet.GetComponentInChildren<Animator> ();
 

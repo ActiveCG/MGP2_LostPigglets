@@ -31,7 +31,7 @@ public class Fighting : MonoBehaviour
             //Debug.Log(angle);
             if (angle < PlayerStats.instance.spotlight.spotAngle / 2f)
             {
-                print("Stunned");
+                //print("Stunned");
                 // MonsterDestroying.current.Destroy(col[i].gameObject);
                 if (!Intro.instance.makeMonsterJump)
                 {

@@ -121,7 +121,7 @@ public class GameManager {
 
     public bool IsInGameScene()
     {
-		Debug.Log (SceneManager.GetActiveScene().name);
+		//Debug.Log (SceneManager.GetActiveScene().name);
 		if (SceneManager.GetActiveScene().name == GAME_SCENE)
             return true;
         return false;
@@ -173,13 +173,13 @@ public class GameManager {
 	public event PickUpAction OnPickUpEnd;
 	public void pickUpPigglet(GameObject pickedObj) {
 		cinematicCut = true;
-		Debug.Log ("cinematicCut " + cinematicCut);
+		//Debug.Log ("cinematicCut " + cinematicCut);
 		if(OnPickUp != null)
 			OnPickUp (pickedObj);
 	}
 	public void pickUpPiggletEnd(GameObject pickedObj) {
 		cinematicCut = false;
-		Debug.Log ("cinematicCut " + cinematicCut);
+		//Debug.Log ("cinematicCut " + cinematicCut);
 		if(OnPickUpEnd != null)
 			OnPickUpEnd (pickedObj);
 	}

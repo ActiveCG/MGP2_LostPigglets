@@ -86,7 +86,7 @@ public class MoveEnemies : MonoBehaviour
             {
                 if (Random.Range(1, jumping) == 1 && canJump == true)
                 {
-                    print("Jump");
+                    //print("Jump");
                     GameManager.instance.MonsterJump(gameObject);
                 }
             }
@@ -151,7 +151,7 @@ public class MoveEnemies : MonoBehaviour
         {
             if(Vector3.Distance(transform.position, target.transform.position) < visibilityRange)
             {
-                print("I am inside new");
+                //print("I am inside new");
                 isSearching = true;
             }
         }
