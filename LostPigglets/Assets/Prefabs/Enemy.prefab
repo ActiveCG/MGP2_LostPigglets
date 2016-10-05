@@ -7448,7 +7448,7 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: 1122993753
+  randomSeed: -804548011
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -7614,7 +7614,7 @@ ParticleSystem:
       maxColor: {r: 0.9647059, g: 0.827451, b: 0.5803922, a: 1}
       minMaxState: 0
     startSize:
-      scalar: 4.44
+      scalar: 1.38
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -9197,7 +9197,7 @@ ParticleSystem:
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -493956505
+  randomSeed: -919247918
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -10941,12 +10941,12 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -461478349
+  randomSeed: -1167313740
   InitialModule:
     serializedVersion: 2
     enabled: 1
     startLifetime:
-      scalar: 1.21
+      scalar: 0.7
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -10981,7 +10981,7 @@ ParticleSystem:
         m_RotationOrder: 4
       minMaxState: 0
     startSpeed:
-      scalar: 5.42
+      scalar: 3.12
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -11107,7 +11107,7 @@ ParticleSystem:
       maxColor: {r: 0.8392157, g: 0.58431375, b: 0.41960785, a: 1}
       minMaxState: 0
     startSize:
-      scalar: 0.44
+      scalar: 0.18
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -11325,7 +11325,7 @@ ParticleSystem:
     serializedVersion: 2
     enabled: 1
     type: 4
-    radius: 1.47
+    radius: 0.71
     angle: 12.06
     length: 5
     boxX: 1
@@ -11346,7 +11346,7 @@ ParticleSystem:
     serializedVersion: 2
     m_Type: 0
     rate:
-      scalar: 80
+      scalar: 25
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -11777,7 +11777,7 @@ ParticleSystem:
     uvChannelMask: -1
     randomRow: 1
   VelocityModule:
-    enabled: 1
+    enabled: 0
     x:
       scalar: 0
       maxCurve:
@@ -11995,7 +11995,7 @@ ParticleSystem:
         m_RotationOrder: 4
       minMaxState: 0
     z:
-      scalar: 1.05
+      scalar: 0.45
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -12690,12 +12690,12 @@ ParticleSystem:
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: 1951538941
+  randomSeed: 1090829867
   InitialModule:
     serializedVersion: 2
     enabled: 1
     startLifetime:
-      scalar: 3.98
+      scalar: 3.21
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -12856,7 +12856,7 @@ ParticleSystem:
       maxColor: {r: 0.9647059, g: 0.827451, b: 0.5803922, a: 1}
       minMaxState: 0
     startSize:
-      scalar: 0.96
+      scalar: 0.27
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -13074,7 +13074,7 @@ ParticleSystem:
     serializedVersion: 2
     enabled: 1
     type: 4
-    radius: 1
+    radius: 0.58
     angle: 25
     length: 5
     boxX: 1
@@ -13095,7 +13095,7 @@ ParticleSystem:
     serializedVersion: 2
     m_Type: 0
     rate:
-      scalar: 10
+      scalar: 4.5
       maxCurve:
         serializedVersion: 2
         m_Curve:

@@ -108,8 +108,10 @@ public class MoveEnemies : MonoBehaviour
             timer += Time.deltaTime;
             //Debug.Log(timer);
             isSearching = true;
+            nav.Stop();
             if (timer > timeToDeath)
             {
+                transform.LookAt(target);
                 GameManager.instance.MonsterAttacks(gameObject);
                 canSearch = true;
                 canResume = false;
