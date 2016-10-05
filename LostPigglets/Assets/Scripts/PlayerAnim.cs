@@ -12,4 +12,8 @@ public void AM_ResetChargeEvent()
 	{
 		GameManager.instance.swimPull (Vector3.zero);
 	}
+	public void PlayerChargeEvent()
+	{
+		GameManager.instance.chargeHit ();
+	}
 }

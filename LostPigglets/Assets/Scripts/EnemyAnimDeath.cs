@@ -16,4 +16,12 @@ public class EnemyAnimDeath : MonoBehaviour
 	{
 		GameManager.instance.MonsterWaterTap (transform.parent.gameObject);
 	}
+	public void SearchingEvent()
+	{
+		GameManager.instance.MonsterSearching (transform.parent.gameObject);
+	}
+	public void StunnedEvent()
+	{
+		GameManager.instance.MonsterStunned (transform.parent.gameObject);
+	}
 }

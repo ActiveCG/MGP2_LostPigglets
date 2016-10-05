@@ -48,4 +48,7 @@ public class MenuManager : MonoBehaviour {
         StartCoroutine(Delay());
         Application.Quit();
     }
+	public void ButtonClickSound(){
+		GameManager.instance.buttonPressed ("button");
+	}
 }

@@ -948,6 +948,14 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+      - time: 0.24444443
+        functionName: SearchingEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -3193,7 +3201,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.01234436
+        functionName: StunnedEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -4085,7 +4101,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.019753022
+        functionName: TapWaterEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.35555562
+        functionName: TapWaterEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1

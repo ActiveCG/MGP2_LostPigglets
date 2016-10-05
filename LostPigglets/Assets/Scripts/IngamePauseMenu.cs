@@ -90,4 +90,8 @@ public class IngamePauseMenu : MonoBehaviour {
         StartCoroutine(Delay(quitGame));
         Application.Quit();
     }
+
+	public void ButtonClickSound(){
+		GameManager.instance.buttonPressed ("button");
+	}
 }
