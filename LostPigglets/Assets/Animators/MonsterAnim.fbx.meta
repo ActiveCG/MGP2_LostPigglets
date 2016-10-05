@@ -3210,6 +3210,14 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
+      - time: 1
+        functionName: DeathAnim
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
