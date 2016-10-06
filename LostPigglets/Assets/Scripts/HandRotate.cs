@@ -12,7 +12,7 @@ public class HandRotate : MonoBehaviour {
 
 	void Update ()
     {
-	    if(Intro.instance.stopPlayerMove == true)
+	    if(Intro.instance.playHand == true)
         {
             RotationHand.SetActive(true);
         }

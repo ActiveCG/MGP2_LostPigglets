@@ -15,6 +15,8 @@ public class SpawnEnemies : MonoBehaviour {
     [HideInInspector]
     public GameObject poolParent;
 
+    public GameObject monsterMesh;
+
 
 
     void Awake()
@@ -37,6 +39,7 @@ public class SpawnEnemies : MonoBehaviour {
 			MonsterStun.current.particleStunned = GameObject.FindGameObjectWithTag ("StunParticle");
 			MonsterStun.current.particleStunned.SetActive (false);
             MoveEnemies.instance.particles = GameObject.FindGameObjectWithTag("Bubbles");
+            monsterMesh = GameObject.FindGameObjectWithTag("MonsterMesh");
             //MoveEnemies.instance.particles.SetActive(false);
             obj.SetActive(false);
             enemies.Add(obj);
