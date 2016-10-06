@@ -62,7 +62,7 @@ public class OldTouchInput : MonoBehaviour
 		        // if you go through this then character is moving
 			if (checkCanMove (counter)) {
 				if (coll.Raycast (ray, out hit, Mathf.Infinity) && sphereRadius (player.position, hit.point, PlayerStats.instance.rotateRadius)) {
-					print("I am gonna move");
+					//print("I am gonna move");
 					if (!Intro.instance.stopPlayerMove) {
 						//print("Inside here");
 						//Debug.Log("I am in");
