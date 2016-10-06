@@ -5691,6 +5691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathTime: 2
+  died: 0
 --- !u!114 &114000013399328778
 MonoBehaviour:
   m_ObjectHideFlags: 1
