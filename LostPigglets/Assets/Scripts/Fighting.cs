@@ -42,6 +42,7 @@ public class Fighting : MonoBehaviour
                 {
                     Intro.instance.letPlayerCharge = true;
                     Intro.instance.stopPlayerRotate = true;
+                    Intro.instance.playHand = false;
                 }
             }
         }
