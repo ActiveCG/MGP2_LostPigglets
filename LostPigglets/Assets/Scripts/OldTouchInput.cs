@@ -62,7 +62,7 @@ public class OldTouchInput : MonoBehaviour
 		        // if you go through this then character is moving
 			if (checkCanMove (counter)) {
 				if (coll.Raycast (ray, out hit, Mathf.Infinity) && sphereRadius (player.position, hit.point, PlayerStats.instance.rotateRadius)) {
-					//print("Hitted water");
+					print("I am gonna move");
 					if (!Intro.instance.stopPlayerMove) {
 						//print("Inside here");
 						//Debug.Log("I am in");
@@ -103,6 +103,7 @@ public class OldTouchInput : MonoBehaviour
 
 		// Set the amount of touches to the variable "touch"
         touch = Input.touchCount;
+        //Debug.DrawRay(player.position, player.forward * 10f);
 
         // Limit the touches to only register 1 finger
         if (touch > 1)
