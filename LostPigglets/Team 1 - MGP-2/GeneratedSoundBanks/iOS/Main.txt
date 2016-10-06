@@ -54,8 +54,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	74166226	Monster Attack	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Monster Attack_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Attack\Monster Attack		243320
 	78286810	Monster Attack_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Monster Attack_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Attack\Monster Attack_7		243320
 	86857199	Water Drop_28	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Water Drop_28_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_28		13336
-	90791886	Swim	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim		66628
-	95659411	Swim_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_3		58300
+	90791886	Swim	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_D612AC15.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim		52810
+	95659411	Swim_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_3_0E79989A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_3		52906
 	108447278	Bubbles_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Bubbles_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Bubbles\Bubbles_8		177450
 	115574418	Monster Slinky	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Slinky_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Slinky		136894
 	117855118	Stun_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Stun_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Stun\Stun_1		131806
@@ -76,7 +76,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	285799403	Bats_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Bats_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_5		729400
 	298247791	Player Death_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Player Death_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Death\Player Death_4		70862
 	299204162	Water Drop_24	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Water Drop_24_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_24		18216
-	299474740	Swim_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_5		60084
+	299474740	Swim_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_5_E06C2B34.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_5		52850
 	311725679	Water Drop_23	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Water Drop_23_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_23		11658
 	312172016	Monster Attack_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Monster Attack_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Attack\Monster Attack_3		243320
 	318588024	Searching Growl_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Searching Growl_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Searching Growl\Searching Growl_4		112096
@@ -127,8 +127,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	630539066	Water Drop_18	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Water Drop_18_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_18		23710
 	633776793	Stun	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Stun_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Stun\Stun		131806
 	645229852	Stunned_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Stunned_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Stunned\Stunned_2		504210
-	658114054	Swim_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_2		57876
-	673493123	Swim_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_7		67056
+	658114054	Swim_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_2_5CD6BDEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_2		52844
+	673493123	Swim_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_7_E17625F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_7		52850
 	690391000	Monster Attack_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Monster Attack_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Attack\Monster Attack_5		243320
 	700100398	Pig Skull Lightup_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Pig Skull Lightup_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pig Skull Lightup\Pig Skull Lightup_1		151616
 	703208946	Bats_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Bats_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_6		816916
@@ -137,7 +137,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	725028944	Piglet Oink Bubble_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Piglet Oink Bubble_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet\Piglet Oink\Piglet Oink Bubble_6		54216
 	746614126	Player Death	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Player Death_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Death\Player Death		70742
 	752690004	Monster Attack_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Monster Attack_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Attack\Monster Attack_1		243320
-	757442581	Swim_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_1		62122
+	757442581	Swim_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_1_D4752CE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_1		52634
 	774027584	Player Death_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Player Death_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Death\Player Death_3		71120
 	774515755	Ambient Drone	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Ambient Drone_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambient Drone		4292672
 	777465957	Piglet Grunt_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Piglet Grunt_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet\Piglet Grunt\Piglet Grunt_7		44520
@@ -148,7 +148,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	815887095	Stun_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Stun_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Stun\Stun_2		131806
 	818087616	Stunned_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Stunned_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Stunned\Stunned_3		512510
 	837662451	Player Death_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Player Death_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Death\Player Death_1		70862
-	863092807	Swim_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_4		67480
+	863092807	Swim_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_4_8A659E27.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_4		52884
 	866445184	Water Drop_3	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Water Drop_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_3		15472
 	870967350	Bubbles_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Bubbles_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Bubbles\Bubbles_6		210644
 	871413286	Player Attack_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Player Attack_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Player Attack\Player Attack_5		202346
@@ -160,11 +160,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	889288471	Piglet Grunt_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Piglet Grunt_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet\Piglet Grunt\Piglet Grunt_8		38062
 	889576657	Player Charge	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Charge_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Charge		227222
 	892557359	Water Drop_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Water Drop_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_8		14708
-	892935705	Swim_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_8		66884
+	892935705	Swim_8	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_8_2D4700F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_8		52790
 	907641454	Monster Searching Emerge	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Searching Emerge_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Searching Emerge		80848
 	911605113	Water Drop_27	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Water Drop_27_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Water Drops\Water Drop_27		11352
 	915500639	Player Attack_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Player Attack_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Player Attack\Player Attack_1		202346
-	915622935	Swim_9	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_9		76578
+	915622935	Swim_9	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_9_D557911F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_9		52838
 	926402534	Bubbles_5	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Bubbles_5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Bubbles\Bubbles_5		241246
 	944902428	Bats_16	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Bats_16_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_16		797468
 	961528907	Searching Growl_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Searching Growl_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Searching Growl\Searching Growl_1		75270
@@ -173,5 +173,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1045108044	Player Attack_4	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Player Attack_4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Player Attack\Player Attack_4		202346
 	1050011013	Piglet Oink Bubble_7	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Piglet Oink Bubble_7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piglet\Piglet Oink\Piglet Oink Bubble_7		51030
 	1058630686	Bats_1	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Bats_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Bats\Bats_1		770064
-	1072434669	Swim_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_6		68242
+	1072434669	Swim_6	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Swim_6_44F8F57A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Swim\Swim_6		52872
 

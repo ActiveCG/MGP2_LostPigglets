@@ -3584,7 +3584,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3608,6 +3608,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim" ID="{BFA07167-DF74-4C9A-BB16-22144E42C0E4}" ShortID="90791886">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.304125418526785"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.549437779017857"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim.wav</AudioFile>
 										</AudioFileSource>
@@ -3627,6 +3632,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_1" ID="{A6D98371-545A-4613-BABD-35A29336F2DE}" ShortID="757442581">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.334762276785714"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.547596051897322"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_1.wav</AudioFile>
 										</AudioFileSource>
@@ -3646,6 +3655,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_2" ID="{D0FC48FE-9801-47D2-8226-284A9BF536AB}" ShortID="658114054">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.3387421875"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.549783947172619"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_2.wav</AudioFile>
 										</AudioFileSource>
@@ -3665,6 +3678,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_3" ID="{FEB94BE6-8817-42DC-B9C4-5F10C45106D1}" ShortID="95659411">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.341903599330357"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.550430943080357"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_3.wav</AudioFile>
 										</AudioFileSource>
@@ -3684,6 +3701,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_4" ID="{D4F0CE8E-87E9-4A71-AC70-996B539D581B}" ShortID="863092807">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.418528459821428"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.550200334821429"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_4.wav</AudioFile>
 										</AudioFileSource>
@@ -3703,6 +3724,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_5" ID="{97ADB2E9-E56C-4C5C-A465-C159A3927A4B}" ShortID="299474740">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.391452985491072"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.549848400297619"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_5.wav</AudioFile>
 										</AudioFileSource>
@@ -3722,6 +3747,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_6" ID="{20466851-CE48-4AAA-A552-7BDE9EFEDD7F}" ShortID="1072434669">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.404236188616071"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.550078264508928"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_6.wav</AudioFile>
 										</AudioFileSource>
@@ -3741,6 +3770,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_7" ID="{21D9FB1F-A146-4E5B-A2E2-1B49BADCB263}" ShortID="673493123">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.372281622023809"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.549855282738095"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_7.wav</AudioFile>
 										</AudioFileSource>
@@ -3760,6 +3793,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_8" ID="{5992701F-A232-42CD-B1C1-9425BA83AA19}" ShortID="892935705">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.397738095238095"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.549220377604167"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_8.wav</AudioFile>
 										</AudioFileSource>
@@ -3779,6 +3816,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Swim_9" ID="{DAC2483B-3A42-473F-9288-DC005D172A3F}" ShortID="915622935">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.41007433500744"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.549730887276786"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Swim_9.wav</AudioFile>
 										</AudioFileSource>

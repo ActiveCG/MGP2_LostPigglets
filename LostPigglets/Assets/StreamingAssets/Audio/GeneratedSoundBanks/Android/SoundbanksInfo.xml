@@ -89,11 +89,11 @@
 				</File>
 				<File Id="90791886" Language="SFX">
 					<ShortName>Swim.wav</ShortName>
-					<Path>SFX\Swim_9E69E797.wem</Path>
+					<Path>SFX\Swim_80A82C7B.wem</Path>
 				</File>
 				<File Id="95659411" Language="SFX">
 					<ShortName>Swim_3.wav</ShortName>
-					<Path>SFX\Swim_3_9E69E797.wem</Path>
+					<Path>SFX\Swim_3_4D80D802.wem</Path>
 				</File>
 				<File Id="108447278" Language="SFX">
 					<ShortName>Bubbles_8.wav</ShortName>
@@ -177,7 +177,7 @@
 				</File>
 				<File Id="299474740" Language="SFX">
 					<ShortName>Swim_5.wav</ShortName>
-					<Path>SFX\Swim_5_9E69E797.wem</Path>
+					<Path>SFX\Swim_5_A34EAE5C.wem</Path>
 				</File>
 				<File Id="311725679" Language="SFX">
 					<ShortName>Water Drop_23.wav</ShortName>
@@ -381,11 +381,11 @@
 				</File>
 				<File Id="658114054" Language="SFX">
 					<ShortName>Swim_2.wav</ShortName>
-					<Path>SFX\Swim_2_9E69E797.wem</Path>
+					<Path>SFX\Swim_2_61DB7C89.wem</Path>
 				</File>
 				<File Id="673493123" Language="SFX">
 					<ShortName>Swim_7.wav</ShortName>
-					<Path>SFX\Swim_7_9E69E797.wem</Path>
+					<Path>SFX\Swim_7_705D9EAD.wem</Path>
 				</File>
 				<File Id="690391000" Language="SFX">
 					<ShortName>Monster Attack_5.wav</ShortName>
@@ -421,7 +421,7 @@
 				</File>
 				<File Id="757442581" Language="SFX">
 					<ShortName>Swim_1.wav</ShortName>
-					<Path>SFX\Swim_1_9E69E797.wem</Path>
+					<Path>SFX\Swim_1_5E02A085.wem</Path>
 				</File>
 				<File Id="774027584" Language="SFX">
 					<ShortName>Player Death_3.wav</ShortName>
@@ -465,7 +465,7 @@
 				</File>
 				<File Id="863092807" Language="SFX">
 					<ShortName>Swim_4.wav</ShortName>
-					<Path>SFX\Swim_4_9E69E797.wem</Path>
+					<Path>SFX\Swim_4_443EB04C.wem</Path>
 				</File>
 				<File Id="866445184" Language="SFX">
 					<ShortName>Water Drop_3.wav</ShortName>
@@ -513,7 +513,7 @@
 				</File>
 				<File Id="892935705" Language="SFX">
 					<ShortName>Swim_8.wav</ShortName>
-					<Path>SFX\Swim_8_9E69E797.wem</Path>
+					<Path>SFX\Swim_8_4C514930.wem</Path>
 				</File>
 				<File Id="907641454" Language="SFX">
 					<ShortName>Searching Emerge.wav</ShortName>
@@ -529,7 +529,7 @@
 				</File>
 				<File Id="915622935" Language="SFX">
 					<ShortName>Swim_9.wav</ShortName>
-					<Path>SFX\Swim_9_9E69E797.wem</Path>
+					<Path>SFX\Swim_9_C1077444.wem</Path>
 				</File>
 				<File Id="926402534" Language="SFX">
 					<ShortName>Bubbles_5.wav</ShortName>
@@ -565,7 +565,7 @@
 				</File>
 				<File Id="1072434669" Language="SFX">
 					<ShortName>Swim_6.wav</ShortName>
-					<Path>SFX\Swim_6_9E69E797.wem</Path>
+					<Path>SFX\Swim_6_2108C6B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
