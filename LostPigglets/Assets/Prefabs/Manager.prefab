@@ -244,7 +244,7 @@ MonoBehaviour:
   radiusForRotation: 9
   playerSpeed: 6.8
   acceleration: 150
-  rotateRadius: 5.5
+  rotateRadius: 10
   speedMaxDist: 20
   piggletsInGame: 2
   cameraOffset: {x: 0, y: 30, z: -21}
