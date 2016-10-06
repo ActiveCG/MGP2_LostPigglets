@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 0.025
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.7647059, g: 0.50194484, b: 0.3317474, a: 1}
+  m_AmbientSkyColor: {r: 0.08823532, g: 0.05124091, b: 0.03762977, a: 1}
   m_AmbientEquatorColor: {r: 0.19852942, g: 0.12566148, b: 0.08612674, a: 1}
-  m_AmbientGroundColor: {r: 0.44117647, g: 0.3230969, b: 0.14597751, a: 1}
+  m_AmbientGroundColor: {r: 0.9632353, g: 0.82607687, b: 0.58077425, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 1
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: f70e4f825d127964b9623d798f774889, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37356418, g: 0.3811201, b: 0.3588767, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -186,6 +186,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013676344540, guid: d27d808d9d6c0404e9f04aa0ea1886ff, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d27d808d9d6c0404e9f04aa0ea1886ff, type: 2}
