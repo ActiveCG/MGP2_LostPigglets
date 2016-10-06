@@ -477,7 +477,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: SlinkyEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -950,6 +958,14 @@ ModelImporter:
         messageOptions: 0
       - time: 0.24444443
         functionName: SearchingEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.04938273
+        functionName: EmergeEvent
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
           type: 3}
@@ -1847,7 +1863,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: StunSoundEvent
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 794f2ebde6e4b9441bcae3d038d0caa5,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1

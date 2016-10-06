@@ -210,13 +210,16 @@ public class GameManager {
 	public event MonsterAction OnMonsterNotMoving;
     public event MonsterAction OnMonsterOutOfRange; //submerge
     public event MonsterAction OnMonsterJump;
+	public event MonsterAction OnMonsterSlinky;
     public event MonsterAction OnMonsterAttack;
 	public event MonsterAction OnMonsterAggro; //searching
 	public event MonsterAction OnMonsterSearching; //searching
 	public event MonsterAction OnMonsterStun;
+	public event MonsterAction OnMonsterStunSound;
 	public event MonsterAction OnMonsterStunned; //while stunned
     public event MonsterAction OnMonsterRecoil; //no longer stunned, goes to idle
 	public event MonsterAction OnMonsterSubmerge;
+	public event MonsterAction OnMonsterEmerge;
 	public event MonsterAction OnMonsterWaterTap;
 	public event MonsterAction OnMonsterDeath;
 	public void monsterMove(GameObject monster) {
@@ -241,6 +244,10 @@ public class GameManager {
         if (OnMonsterJump != null)
             OnMonsterJump(monster);
     }
+	public void MonsterSlinky(GameObject monster) {
+		if (OnMonsterSlinky != null)
+			OnMonsterSlinky(monster);
+	}
 	public void MonsterAttacks(GameObject monster) {
 		if(OnMonsterAttack != null)
 			OnMonsterAttack (monster);
@@ -265,9 +272,19 @@ public class GameManager {
 			OnMonsterStunned (monster);
 		}
 	}
+	public void MonsterStunSound(GameObject monster) {
+		if(OnMonsterStunSound != null)
+		{
+			OnMonsterStunSound (monster);
+		}
+	}
 	public void MonsterSubmerge(GameObject monster) {
 		if(OnMonsterSubmerge != null)
 			OnMonsterSubmerge (monster);
+	}
+	public void MonsterEmerge(GameObject monster) {
+		if(OnMonsterEmerge != null)
+			OnMonsterEmerge (monster);
 	}
 	public void MonsterWaterTap(GameObject monster) {
 		if(OnMonsterWaterTap != null)

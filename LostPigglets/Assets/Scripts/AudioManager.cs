@@ -41,7 +41,9 @@ public class AudioManager : MonoBehaviour {
 	private string ambienceStart;
 	[SerializeField]
 	private string ambienceStop,
-		lightFlower,
+		lightPigSkull,
+		lightingPigSkullStart,
+		lightingPigSkullStop,
 		caveObject,
 		collision,
 		ambienceBuildUp;
@@ -160,6 +162,10 @@ public class AudioManager : MonoBehaviour {
 	void AmbienceStop(GameObject obj) {
 		PlaySound (ambienceStop, transform.gameObject);
 	}
+	void LightPigSkull(GameObject obj) {
+		PlaySound (lightPigSkull, obj);
+		PlaySound (lightingPigSkullStart, obj);
+	}
 
 	//*********** Menu ****************
 	void MenuButtonPlay(string element) {
@@ -193,12 +199,12 @@ public class AudioManager : MonoBehaviour {
 		//monster events
 		GameManager.instance.OnMonsterMove += MonsterSwimPlay;
 		GameManager.instance.OnMonsterNotMoving += MonsterSwimStop;
-		GameManager.instance.OnMonsterJump += MonsterSlinkyPlay;
+		GameManager.instance.OnMonsterSlinky += MonsterSlinkyPlay;
 		GameManager.instance.OnMonsterAttack += MonsterAttackPlay;
-		GameManager.instance.OnMonsterStun += MonsterStunPlay;
+		GameManager.instance.OnMonsterStunSound += MonsterStunPlay;
 		GameManager.instance.OnMonsterStunned += MonsterStunnedPlay;
 		GameManager.instance.OnMonsterRecoil += MonsterStunnedStop;
-		GameManager.instance.OnMonsterAggro += MonsterSearchingEmergePlay;
+		GameManager.instance.OnMonsterEmerge += MonsterSearchingEmergePlay;
 		GameManager.instance.OnMonsterSearching += MonsterSearchingStartPlay;
 		GameManager.instance.OnMonsterSubmerge += MonsterSearchingSubmergePlay;
 		GameManager.instance.OnMonsterSubmerge += MonsterSearchingStop;
@@ -208,6 +214,7 @@ public class AudioManager : MonoBehaviour {
 		//environment events
 		GameManager.instance.OnAmbience += AmbiencePlay;
 		GameManager.instance.OnAmbienceStop += AmbienceStop;
+		GameManager.instance.OnLightPigSkull += LightPigSkull;
 
 		//menu events
 		GameManager.instance.OnmenuStates += SetMenuState;
@@ -244,12 +251,12 @@ public class AudioManager : MonoBehaviour {
 		//monster events
 		GameManager.instance.OnMonsterMove -= MonsterSwimPlay;
 		GameManager.instance.OnMonsterNotMoving -= MonsterSwimStop;
-		GameManager.instance.OnMonsterJump -= MonsterSlinkyPlay;
+		GameManager.instance.OnMonsterSlinky -= MonsterSlinkyPlay;
 		GameManager.instance.OnMonsterAttack -= MonsterAttackPlay;
-		GameManager.instance.OnMonsterStun -= MonsterStunPlay;
+		GameManager.instance.OnMonsterStunSound -= MonsterStunPlay;
 		GameManager.instance.OnMonsterStunned -= MonsterStunnedPlay;
 		GameManager.instance.OnMonsterRecoil += MonsterStunnedStop;
-		GameManager.instance.OnMonsterAggro -= MonsterSearchingEmergePlay;
+		GameManager.instance.OnMonsterEmerge -= MonsterSearchingEmergePlay;
 		GameManager.instance.OnMonsterSearching -= MonsterSearchingStartPlay;
 		GameManager.instance.OnMonsterSubmerge -= MonsterSearchingSubmergePlay;
 		GameManager.instance.OnMonsterSubmerge -= MonsterSearchingStop;
@@ -259,6 +266,7 @@ public class AudioManager : MonoBehaviour {
 		//environment events
 		GameManager.instance.OnAmbience -= AmbiencePlay;
 		GameManager.instance.OnAmbienceStop -= AmbienceStop;
+		GameManager.instance.OnLightPigSkull -= LightPigSkull;
 
 		//menu events
 		GameManager.instance.OnmenuStates -= SetMenuState;
@@ -273,6 +281,7 @@ public class AudioManager : MonoBehaviour {
 			return;
 		AkSoundEngine.PostEvent (eventName, obj);
 		AkSoundEngine.RenderAudio ();
+		Debug.Log ("playing sound" + eventName);
 	}
 
 	public void UnloadSoundBank(){

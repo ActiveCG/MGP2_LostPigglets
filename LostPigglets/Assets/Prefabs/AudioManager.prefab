@@ -91,7 +91,9 @@ MonoBehaviour:
   monsterDeath: Monster_Attacked
   ambienceStart: Ambience_Play
   ambienceStop: Ambience_Stop
-  lightFlower: PigSkull_Lightup
+  lightPigSkull: Piglet_Grunt
+  lightingPigSkullStart: PigSkull_Light_Start
+  lightingPigSkullStop: PigSkull_Light_Stop
   caveObject: 
   collision: 
   ambienceBuildUp: 
