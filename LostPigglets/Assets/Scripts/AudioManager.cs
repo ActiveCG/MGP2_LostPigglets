@@ -164,7 +164,7 @@ public class AudioManager : MonoBehaviour {
 	}
 	void LightPigSkull(GameObject obj) {
 		PlaySound (lightPigSkull, obj);
-		PlaySound (lightingPigSkullStart, obj);
+		//PlaySound (lightingPigSkullStart, obj);
 	}
 
 	//*********** Menu ****************
@@ -281,7 +281,6 @@ public class AudioManager : MonoBehaviour {
 			return;
 		AkSoundEngine.PostEvent (eventName, obj);
 		AkSoundEngine.RenderAudio ();
-		Debug.Log ("playing sound" + eventName);
 	}
 
 	public void UnloadSoundBank(){
