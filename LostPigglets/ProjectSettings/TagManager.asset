@@ -37,6 +37,7 @@ TagManager:
   - Spotlight
   - ChargeParticle
   - Bubbles
+  - MonsterMesh
   layers:
   - Default
   - TransparentFX

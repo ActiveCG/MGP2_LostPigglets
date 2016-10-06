@@ -152,6 +152,7 @@ public class MoveEnemies : MonoBehaviour
             if(Vector3.Distance(transform.position, target.transform.position) < visibilityRange)
             {
                 //print("I am inside new");
+                //StartCoroutine("PlayBubbles");
                 isSearching = true;
             }
         }
@@ -187,6 +188,15 @@ public class MoveEnemies : MonoBehaviour
         yield return new WaitForSeconds(jumpingCooldownTimer);
         canJump = true;
     }
+
+    //IEnumerator PlayBubbles()
+    //{
+    //    MoveEnemies.instance.particles.SetActive(true);
+    //    yield return new WaitForSeconds(1f);
+    //    isSearching = true;
+    //    MoveEnemies.instance.particles.SetActive(false);
+
+    //}
 }
 
 

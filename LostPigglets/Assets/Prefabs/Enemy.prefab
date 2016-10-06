@@ -3201,7 +3201,7 @@ GameObject:
   - 4: {fileID: 4000013056839338}
   m_Layer: 0
   m_Name: MonsterSlug:grp_geo
-  m_TagString: Untagged
+  m_TagString: MonsterMesh
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9197,7 +9197,7 @@ ParticleSystem:
   moveWithTransform: 0
   autoRandomSeed: 1
   scalingMode: 1
-  randomSeed: -919247918
+  randomSeed: -148862486
   InitialModule:
     serializedVersion: 2
     enabled: 1

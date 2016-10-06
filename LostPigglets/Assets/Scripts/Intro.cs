@@ -27,6 +27,7 @@ public class Intro : MonoBehaviour {
     private bool pigletIntroTriggered = false;
     private bool monsterFightTriggered = false;
     private bool startGameTriggered = false;
+    public bool playHand = false;
 
     [HideInInspector]
     public float initialSpeed, initialAcc, initialBlindTime, initialStunTime, initialIntensity;
@@ -98,8 +99,10 @@ public class Intro : MonoBehaviour {
                         SpawnEnemies.current.enemies[i].transform.position = GameObject.FindGameObjectWithTag("MonsterFightPos").transform.position;
                         SpawnEnemies.current.enemies[i].transform.rotation = GameObject.FindGameObjectWithTag("MonsterFightPos").transform.rotation;
                         SpawnEnemies.current.enemies[i].transform.LookAt(transform.position);
-                        MoveEnemies.instance.particles.SetActive(false);
+                        MoveEnemies.instance.particles.SetActive(true);
                         SpawnEnemies.current.enemies[i].SetActive(true);
+                        SpawnEnemies.current.monsterMesh.SetActive(false);
+                        StartCoroutine("WaitForSpawn");
                         SpawnEnemies.current.enemies[i].transform.SetParent(null);
                         //introEnemy = SpawnEnemies.current.enemies[i];
                         break;
@@ -131,6 +134,7 @@ public class Intro : MonoBehaviour {
                 stopPlayerRotate = false;
                 makeMonsterJump = false;
                 makeTheMonsterStatic = false;
+                playHand = false;
                 InvokeRepeating("Spawn", MonsterStats.instance.Time1stSpawnMonster, MonsterStats.instance.repeatTimeSpawn);
             }
             startGameTriggered = true;
@@ -160,6 +164,14 @@ public class Intro : MonoBehaviour {
     {
         yield return new WaitForSeconds(1f);
         MonsterDestroying.current.Destroy(obj);
+    }
+
+    IEnumerator WaitForSpawn()
+    {
+        yield return new WaitForSeconds(1f);
+        SpawnEnemies.current.monsterMesh.SetActive(true);
+        MoveEnemies.instance.particles.SetActive(false);
+        playHand = true;
     }
 
 }
