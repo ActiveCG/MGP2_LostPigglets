@@ -283,7 +283,7 @@ public class GameManager {
 	public event EnvironmentAction OnAmbience;
 	public event EnvironmentAction OnAmbienceStop;
 	public event EnvironmentAction OnCollision;
-	public event EnvironmentAction OnLightFlower;
+	public event EnvironmentAction OnLightPigSkull;
 	public event EnvironmentAction OnCaveObject;
 	public void ambience(GameObject obj) {
 		if(OnAmbience != null)
@@ -297,9 +297,9 @@ public class GameManager {
 		if(OnCollision != null)
 			OnCollision (obj);
 	}
-	public void lightFlower(GameObject obj) {
-		if(OnLightFlower != null)
-			OnLightFlower (obj);
+	public void lightPigSkull(GameObject obj) {
+		if(OnLightPigSkull != null)
+			OnLightPigSkull (obj);
 	}
 	public void caveObjectHit(GameObject obj) {
 		if(OnCaveObject != null)
