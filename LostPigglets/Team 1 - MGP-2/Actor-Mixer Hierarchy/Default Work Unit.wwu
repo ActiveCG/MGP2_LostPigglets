@@ -69,7 +69,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-33</Value>
+										<Value>-37</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3887,6 +3887,11 @@
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -3932,6 +3937,11 @@
 				<RandomSequenceContainer Name="Pig Skull Lightup" ID="{FA6960E0-D430-41A2-8A95-83DDC8CCF01F}" ShortID="866575498">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -3963,6 +3973,23 @@
 									<AudioFile>Pig Skull Lightup.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menus" ID="{D6A4B7B3-5853-4778-805A-F4C533080DB1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="In_Menu" ID="{88A3D2BA-BCB7-4570-B2BC-90E99BF940DB}"/>
+										<State Name="Custom State" ID="{0B3086A8-C1F4-49D6-8E04-95BEBFE95023}" ShortID="546393376">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-200"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Pig Skull Lightup" ID="{45A2B67B-8C0E-4700-A3E1-A17676160DBC}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -3982,28 +4009,28 @@
 									<AudioFile>Pig Skull Lightup_1.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Menus" ID="{D6A4B7B3-5853-4778-805A-F4C533080DB1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="In_Menu" ID="{88A3D2BA-BCB7-4570-B2BC-90E99BF940DB}"/>
+										<State Name="Custom State" ID="{1E148199-241B-4A99-81B6-6E009D4C6F37}" ShortID="1042499579">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-200"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Pig Skull Lightup_1" ID="{86542B5C-7625-4622-A042-49A5E5E3131D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<StateInfo>
-						<StateGroupList>
-							<StateGroupInfo>
-								<StateGroupRef Name="Menus" ID="{D6A4B7B3-5853-4778-805A-F4C533080DB1}"/>
-							</StateGroupInfo>
-						</StateGroupList>
-						<CustomStateList>
-							<CustomState>
-								<StateRef Name="In_Menu" ID="{88A3D2BA-BCB7-4570-B2BC-90E99BF940DB}"/>
-								<State Name="Custom State" ID="{38C39638-2161-45F3-A04F-B544366096A3}" ShortID="326866952">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64" Value="-200"/>
-									</PropertyList>
-								</State>
-							</CustomState>
-						</CustomStateList>
-					</StateInfo>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

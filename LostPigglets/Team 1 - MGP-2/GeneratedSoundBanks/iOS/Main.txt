@@ -36,11 +36,12 @@ Custom State	ID	Name	State Group	Owner		Notes
 	73780802	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Player		
 	123789667	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Piglet\Piglet Oink		
 	193346643	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Pig Skull Light		
-	326866952	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Pig Skull Lightup		
 	341225379	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Piglet		
 	530433745	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Ambience		
+	546393376	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Pig Skull Lightup\Pig Skull Lightup		
 	668992129	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Monster		
 	1007119524	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Piglet\Piglet Grunt		
+	1042499579	In_Menu	Menus	\Actor-Mixer Hierarchy\Default Work Unit\Pig Skull Lightup\Pig Skull Lightup_1		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1220199	Monster Attack_2	C:\Users\MGP2_LostPigglets\LostPigglets\Team 1 - MGP-2\.cache\iOS\SFX\Monster Attack_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Monster\Monster Attack\Monster Attack_2		243320
